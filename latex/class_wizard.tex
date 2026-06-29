@@ -1,0 +1,151 @@
+\doxysection{Wizard Class Reference}
+\hypertarget{class_wizard}{}\label{class_wizard}\index{Wizard@{Wizard}}
+
+
+The initialization wizard to select the diagram configuration.  
+
+
+
+
+{\ttfamily \+\#include $<$wizard.\+h$>$}
+
+
+
+Inheritance diagram for Wizard:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{class_wizard__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Wizard:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{class_wizard__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \doxymbox{\hyperlink{struct_wizard_1_1_configuration}{Configuration}}
+\begin{DoxyCompactList}\small\item\em The data of a selected configuration. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_wizard_a7962cc5ebc46df40d5672d0a63e22148}{Wizard}} (const QVariant\+Hash \&diagram\+Groups, const QVariant\+Hash \&diagram\+Types, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\doxymbox{\hyperlink{class_wizard_a0bc4e70d0ceb16ab9169037b13e86fae}{\texorpdfstring{$\sim$}{\string~}\+Wizard}} () override
+\item 
+\doxymbox{\hyperlink{struct_wizard_1_1_configuration}{Configuration}} \doxymbox{\hyperlink{class_wizard_a5306b76546580960b49ca45c30c1d9f1}{selected\+Configuration}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_wizard_ab2b84070f68e08ab477d95c18d7d29c2}\label{class_wizard_ab2b84070f68e08ab477d95c18d7d29c2} 
+static const int {\bfseries DIAGRAM\+\_\+\+GROUPS\+\_\+\+GRID\+\_\+\+SIZE} = 2
+\begin{DoxyCompactList}\small\item\em The number of columns of the diagram type group selector. \end{DoxyCompactList}\item 
+\Hypertarget{class_wizard_af188f89075f844b228b0e32b8f9f34c3}\label{class_wizard_af188f89075f844b228b0e32b8f9f34c3} 
+static const int {\bfseries DIAGRAM\+\_\+\+TYPES\+\_\+\+GRID\+\_\+\+SIZE} = 1
+\begin{DoxyCompactList}\small\item\em The number of columns of the diagram type selector. \end{DoxyCompactList}\item 
+\Hypertarget{class_wizard_a4b7b5fc0d7c06c8df9ad9f1e72b7bb47}\label{class_wizard_a4b7b5fc0d7c06c8df9ad9f1e72b7bb47} 
+static const int {\bfseries DIAGRAM\+\_\+\+GROUP\+\_\+\+ICON\+\_\+\+SIZE} = 200
+\begin{DoxyCompactList}\small\item\em The size of the diagram type group icons. \end{DoxyCompactList}\item 
+\Hypertarget{class_wizard_af497a23258dd279f855879f9766eb29c}\label{class_wizard_af497a23258dd279f855879f9766eb29c} 
+static const int {\bfseries DIAGRAM\+\_\+\+TYPE\+\_\+\+ICON\+\_\+\+SIZE} = 75
+\begin{DoxyCompactList}\small\item\em The size of the diagram type icons. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The initialization wizard to select the diagram configuration. 
+
+\label{class_wizard_doc-constructors}
+\Hypertarget{class_wizard_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_wizard_a7962cc5ebc46df40d5672d0a63e22148}\index{Wizard@{Wizard}!Wizard@{Wizard}}
+\index{Wizard@{Wizard}!Wizard@{Wizard}}
+\doxysubsubsection{\texorpdfstring{Wizard()}{Wizard()}}
+{\footnotesize\ttfamily \label{class_wizard_a7962cc5ebc46df40d5672d0a63e22148} 
+Wizard::\+\+Wizard (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{diagram\+Groups}{, }\item[{const QVariant\+Hash \&}]{diagram\+Types}{, }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagram\+Groups} & The data of the diagram type groups to choose. \\
+\hline
+{\em diagram\+Types} & The data of the diagram types to choose. \\
+\hline
+{\em parent} & The container of the wizard. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The wizard is contained by parent and has the diagram type groups loaded from diagram\+Groups and the diagram types loaded from diagram\+Types to choose. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_wizard_a7962cc5ebc46df40d5672d0a63e22148_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_wizard_a7962cc5ebc46df40d5672d0a63e22148_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_wizard_a0bc4e70d0ceb16ab9169037b13e86fae}\index{Wizard@{Wizard}!````~Wizard@{\texorpdfstring{$\sim$}{\string~}Wizard}}
+\index{````~Wizard@{\texorpdfstring{$\sim$}{\string~}Wizard}!Wizard@{Wizard}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Wizard()}{\string~Wizard()}}
+{\footnotesize\ttfamily \label{class_wizard_a0bc4e70d0ceb16ab9169037b13e86fae} 
+Wizard::\+\texorpdfstring{$\sim$}{\string~}\+Wizard (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The wizard has been destroyed. 
+\end{DoxyPostcond}
+
+
+\label{class_wizard_doc-func-members}
+\Hypertarget{class_wizard_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_wizard_a5306b76546580960b49ca45c30c1d9f1}\index{Wizard@{Wizard}!selectedConfiguration@{selectedConfiguration}}
+\index{selectedConfiguration@{selectedConfiguration}!Wizard@{Wizard}}
+\doxysubsubsection{\texorpdfstring{selectedConfiguration()}{selectedConfiguration()}}
+{\footnotesize\ttfamily \label{class_wizard_a5306b76546580960b49ca45c30c1d9f1} 
+\doxymbox{\hyperlink{struct_wizard_1_1_configuration}{Wizard::\+\+Configuration}} Wizard::\+selected\+Configuration (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The data of the selected configuration. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The data of the selected configuration has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_wizard_a5306b76546580960b49ca45c30c1d9f1_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{wizard_8h}{wizard.\+h}}\item 
+\doxymbox{\hyperlink{wizard_8cpp}{wizard.\+cpp}}\end{DoxyCompactItemize}

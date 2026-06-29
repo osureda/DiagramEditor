@@ -1,0 +1,25 @@
+<map id="connectableresizer.h" name="connectableresizer.h">
+<area shape="rect" id="Node000001" title="Declaration of ConnectableResizer class." alt="" coords="437,5,578,32"/>
+<area shape="rect" id="Node000002" href="$diagramresizer_8h.html" title="Declaration of DiagramResizer class." alt="" coords="302,80,419,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,32,401,75,399,70,479,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="422,155,491,181"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="505,31,468,142,464,138,501,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="516,155,587,181"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="513,30,546,141,541,139,509,35"/>
+<area shape="rect" id="Node000009" href="$jsonserializable_8h.html" title="Declaration of JsonSerializable class." alt="" coords="545,80,667,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="525,30,580,71,574,70,524,35"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="636,155,722,181"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="578,23,607,30,635,41,661,57,682,78,689,93,692,109,689,141,685,138,686,109,684,95,677,82,657,61,633,46,606,35,578,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="336,155,398,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,105,367,141,363,138,360,109"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,155,143,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="311,110,140,153,138,148,310,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="166,155,219,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="334,107,234,152,232,147,329,108"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="378,105,431,145,425,145,377,110"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="243,155,313,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="349,106,305,147,302,142,344,108"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="394,105,507,149,501,149,393,110"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="599,106,571,144,569,140,594,108"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="620,105,658,144,653,143,618,110"/>
+</map>

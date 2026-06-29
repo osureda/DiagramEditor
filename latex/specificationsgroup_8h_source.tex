@@ -1,0 +1,48 @@
+\doxysection{specificationsgroup.\+h}
+\hypertarget{specificationsgroup_8h_source}{}\label{specificationsgroup_8h_source}\doxymbox{\hyperlink{specificationsgroup_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ SPECIFICATIONSGROUP\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ SPECIFICATIONSGROUP\_H}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{jsonserializable_8h}{jsonserializable.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QVariant>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QVector>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}};}
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_specification}{DiagramSpecification}};}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_specifications_form}{SpecificationsForm}};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_specifications_group_ab0600c95e2e5c8306674df08febb6d1a}{SpecificationsGroup}}\ :\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_json_serializable}{JsonSerializable}}}
+\DoxyCodeLine{00025\ \{}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_specifications_group_ab0600c95e2e5c8306674df08febb6d1a}{SpecificationsGroup}}(\doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}}\ *parent);}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_specifications_group_aed1ee8efe19ccb669a1b2d3bf0d8161a}{\string~SpecificationsGroup}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_specifications_group_a16923513c2cf6df59d80acaddf4a867c}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QVariantHash\ \doxymbox{\hyperlink{class_specifications_group_ab03a4577fbd06fa5432db592411a86d2}{toHash}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_specifications_form}{SpecificationsForm}}\ *\doxymbox{\hyperlink{class_specifications_group_a18afddbe1e455f3619d55d73697a9c59}{form}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_specifications_group_ad6f2cc1d7895f401a80afa857ffaf88f}{applyFormResults}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_specifications_form}{SpecificationsForm}}\ *formResults,\ \textcolor{keywordtype}{int}\ formIndex);}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}}\ *\doxymbox{\hyperlink{class_specifications_group_a053a7fb0380b80ad3607a43a784f1f7a}{diagramComponent}};\ }
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ QVector<QString>\ \doxymbox{\hyperlink{class_specifications_group_a74e1ab1ab7284b10f34131eae25b3bf0}{specificationsIds}};\ }
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ QVector<DiagramSpecification*>\ \doxymbox{\hyperlink{class_specifications_group_a97ad1507842cd9fe458b962eb739ac91}{specifications}};\ }
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_specifications_group_ae0cea86c5907bd1add68082df86eb042}{clear}}();}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \doxymbox{\hyperlink{class_diagram_specification}{DiagramSpecification}}\ *\doxymbox{\hyperlink{class_specifications_group_afc5f5ed37dd40b7fa47c7e76bb34404d}{specificationFromTypeName}}(\textcolor{keyword}{const}\ QString\ \&typeName);}
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QString\ \doxymbox{\hyperlink{class_specifications_group_a2b9c921f07ed68038f1d3922e5a1b69a}{typeNameFromSpecification}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_diagram_specification}{DiagramSpecification}}\ *specification);}
+\DoxyCodeLine{00105\ \};}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00107\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SPECIFICATIONSGROUP\_H}}
+
+\end{DoxyCode}

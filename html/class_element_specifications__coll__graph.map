@@ -1,0 +1,19 @@
+<map id="ElementSpecifications" name="ElementSpecifications">
+<area shape="rect" id="Node000001" title="The specifications of a diagram element." alt="" coords="56,355,208,381"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="174,5,243,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,41,131,63,122,77,119,94,119,293,123,326,130,355,125,354,118,327,114,293,114,93,117,75,128,59,161,36"/>
+<area shape="rect" id="Node000005" href="$class_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="206,180,344,207"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="234,40,251,59,264,80,273,107,277,135,278,180,273,178,272,135,268,108,259,82,247,62,234,45"/>
+<area shape="rect" id="Node000006" href="$class_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="153,81,250,108"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="207,45,205,82,200,80,205,50"/>
+<area shape="rect" id="Node000003" href="$class_specifications_group.html" title="A group of diagram specifications belonging to a diagram component." alt="" coords="194,279,332,305"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,313,156,357,153,352,225,313"/>
+<area shape="rect" id="Node000004" href="$class_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="295,5,412,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="368,43,390,88,406,143,410,173,409,202,402,230,388,256,363,277,333,288,332,283,360,272,383,253,397,229,403,202,404,173,401,144,385,90,367,48"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="344,45,296,157,284,181,280,178,291,155,340,49"/>
+<area shape="poly" id="edge10_Node000006_Node000004" title=" " alt="" coords="312,41,229,83,226,79,315,37"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="268,220,267,231,265,279,260,277,262,230,265,224"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="169,121,164,133,160,144,163,155,182,172,208,184,203,185,179,176,159,157,155,144,159,131,172,116"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,5,150,32"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="111,37,183,80,178,82,112,43"/>
+</map>

@@ -1,0 +1,1456 @@
+{
+
+	"diagramGroups": {
+
+		"er": {
+			"icon": ":/images/erDiagram.png",
+			"name": "E/R",
+			"description": "Models entities, attributes, and relationships\nto design the conceptual structure of a database.",
+			"diagrams": [
+				"entrel",
+				"entrelSimplified"
+			]
+		},
+
+		"uml": {
+			"icon": ":/images/umlDiagram.png",
+			"name": "UML",
+			"description": "Models the structure, behavior, and interactions\nof a system using standardized visual diagrams.",
+			"diagrams": [
+				"classes",
+				"objects",
+				"deployment"
+			]
+		}
+
+	},
+
+	"diagramTypes": {
+
+		"entrel": {
+			"icon": ":/images/entityRelationship.png",
+			"name": "Entity-relationship diagram",
+			"description": "Visually defines the main data elements of a system through entities, attributes, keys, and\nrelationships. Recommended for the conceptual design of databases.",
+			"items": {
+				"Entities": [
+					"entity",
+					"weakEntity",
+					"associativeEntity",
+					"note"
+				],
+				"Attributes": [
+					"attribute",
+					"keyAttribute",
+					"weakKeyAttribute",
+					"multivaluedAttribute",
+					"derivedAttribute"
+				],
+				"Relationships": [
+					"relationship",
+					"identifyingRelationship",
+					"participation"
+				]
+			}
+		},
+
+		"entrelSimplified": {
+			"icon": ":/images/simplifiedEntityRelationship.png",
+			"name": "Simplified Entity-relationship diagram",
+			"description": "Models basic entities and relationships to represent the core data structure of a system in a\nsimple and intuitive way.",
+			"items": {
+				"Entity": [
+					"entity"
+				],
+				"Relationship": [
+					"relationship"
+				]
+			}
+		},
+
+		"classes": {
+			"icon": ":/images/classesDiagram.png",
+			"name": "Class diagram",
+			"description": "Visually defines the static structure of a system through classes, attributes, operations, inheritance,\nassociations, and dependencies. Recommended for designing object-oriented software models.",
+			"items": {
+				"Objects": [
+					"class",
+					"enumeration",
+					"typedClass",
+					"associationClass",
+					"note"
+				],
+				"Relationships": [
+					"association",
+					"generalization",
+					"dependency",
+					"typedDependency"
+				]
+			}
+		},
+
+		"objects": {
+			"icon": ":/images/objectsDiagram.png",
+			"name": "Object diagram",
+			"description": "Visually represents instances of classes, their attribute values, and the links between them at a particular\npoint in time. Recommendedfor illustrating concrete examples of a class model or validating the structure\nof an object-oriented system.",
+			"items": {
+				"Class": [
+					"class"
+				],
+				"Association": [
+					"association"
+				]
+			}
+		},
+
+		"deployment": {
+			"icon": ":/images/deploymentDiagram.png",
+			"name": "Deployment diagram",
+			"description": "Visually represents how software components or artifacts are distributedacross hardware devices,\nservers, execution environments, and network connections. Recommended for documenting the\nphysical architecture and deployment infrastructure of a system.",
+			"items": {
+				"Note": [
+					"note"
+				]
+			}
+		}
+
+	},
+
+	"diagramItems": {
+
+		"note": {
+			"icon": ":/icons/paper.svg",
+			"name": "Note",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "blue",
+						"externalShape": "paper",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"note": {
+								"order": 0,
+								"position": "topLeft",
+								"type": "longText",
+								"textData": {
+									"name": "Note",
+									"color": "white",
+									"styles": [],
+									"value": "Note",
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"entity": {
+			"icon": ":/icons/square.svg",
+			"name": "Entity",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "blue",
+						"externalShape": "square",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Entity",
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"weakEntity": {
+			"icon": ":/icons/doubleSquare.svg",
+			"name": "Weak Entity",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "red",
+						"externalShape": "square",
+						"internalShape": "square",
+						"innerShapePadding": 15,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Weak Entity",
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"associativeEntity": {
+			"icon": ":/icons/squaredDiamond.svg",
+			"name": "Associative Entity",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "navy",
+						"externalShape": "square",
+						"internalShape": "diamond",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Associative Entity",
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"relationship": {
+			"icon": ":/icons/diamond.svg",
+			"name": "Relationship",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 200, "y": 0,
+					"features": {
+						"color": "green",
+						"externalShape": "diamond",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Relationship",
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 0, "y": 50,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 200, "y": 0,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {
+							"cardinality": {
+								"order": 0,
+								"horizontalPos": "center",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "Cardinality",
+									"color": "white",
+									"styles": [],
+									"value": "1",
+									"fixed": false,
+									"choices": [ "0..1", "1", "0..n", "1..n", "n" ]
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 2,
+					"type": "connection",
+					"x": 250, "y": 100,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {
+							"cardinality": {
+								"order": 0,
+								"horizontalPos": "center",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "Cardinality",
+									"color": "white",
+									"styles": [],
+									"value": "m",
+									"fixed": false,
+									"choices": [ "0..1", "1", "0..m", "1..m", "m" ]
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"identifyingRelationship": {
+			"icon": ":/icons/halfDiamond.svg",
+			"name": "Identifying Relationship",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 200, "y": 0,
+					"features": {
+						"color": "teal",
+						"externalShape": "diamond",
+						"internalShape": "diamond",
+						"innerShapePadding": 15,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Identifying Relationship",
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 0, "y": 50,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 200, "y": 0,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {
+							"cardinality": {
+								"order": 0,
+								"horizontalPos": "center",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "Cardinality",
+									"color": "white",
+									"styles": [],
+									"value": "1",
+									"fixed": false,
+									"choices": [ "0..1", "1", "0..n", "1..n", "n" ]
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 2,
+					"type": "connection",
+					"x": 250, "y": 100,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {
+							"cardinality": {
+								"order": 0,
+								"horizontalPos": "center",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "Cardinality",
+									"color": "white",
+									"styles": [],
+									"value": "m",
+									"fixed": false,
+									"choices": [ "0..1", "1", "0..m", "1..m", "m" ]
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"participation": {
+			"icon": ":/icons/line.svg",
+			"name": "Relationship Praticipation",
+			"components": [
+				{
+					"id": 0,
+					"type": "connection",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 200, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {
+							"cardinality": {
+								"order": 0,
+								"horizontalPos": "center",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "Cardinality",
+									"color": "white",
+									"styles": [],
+									"value": "m",
+									"fixed": false,
+									"choices": [ "0..1", "1", "0..m", "1..m", "m" ]
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"attribute": {
+			"icon": ":/icons/circle.svg",
+			"name": "Attribute",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 200,
+					"features": {
+						"color": "olive",
+						"externalShape": "circle",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Attribute",
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 50, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+		},
+
+		"keyAttribute": {
+			"icon": ":/icons/circledLine.svg",
+			"name": "Key Attribute",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 200,
+					"features": {
+						"color": "brown",
+						"externalShape": "circle",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [ "U" ],
+									"value": "Key Attribute",
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 50, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+		},
+
+		"weakKeyAttribute": {
+			"icon": ":/icons/circledDots.svg",
+			"name": "Weak Key Attribute",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 200,
+					"features": {
+						"color": "maroon",
+						"externalShape": "circle",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [ "DU" ],
+									"value": "Weak Key Attribute",
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 50, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+		},
+
+		"multivaluedAttribute": {
+			"icon": ":/icons/doubleCircle.svg",
+			"name": "Multi-valued Attribute",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 200,
+					"features": {
+						"color": "magenta",
+						"externalShape": "circle",
+						"internalShape": "circle",
+						"innerShapePadding": 15,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Multi-valued Attribute",
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 50, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+		},
+
+		"derivedAttribute": {
+			"icon": ":/icons/dashedCircle.svg",
+			"name": "Derived Attribute",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 200,
+					"features": {
+						"color": "purple",
+						"externalShape": "circle",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "dashed",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "center",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Derived Attribute",
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 50, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+		},
+
+		"class": {
+			"icon": ":/icons/objectDescriptionLight.svg",
+			"name": "Class",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "blue",
+						"externalShape": "square",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "vertical",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [ "B" ],
+									"value": "Class",
+									"fixed": false
+								}
+							},
+							"attributes": {
+								"order": 1,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Attributes",
+									"color": "white",
+									"styles": [],
+									"bullet": "+",
+									"value": [
+										"attribute"
+									],
+									"fixed": false
+								}
+							},
+							"functions": {
+								"order": 2,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Functions",
+									"color": "white",
+									"styles": [],
+									"bullet": "-",
+									"value": [
+										"function() : void"
+									],
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"enumeration": {
+			"icon": ":/icons/enumeratedList.svg",
+			"name": "Enumeration",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "blue",
+						"externalShape": "square",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"classType": {
+								"order": 0,
+								"position": "vertical",
+								"type": "shortText",
+								"textData": {
+									"name": "Class Type",
+									"color": "white",
+									"styles": [],
+									"value": "<<enumeration>>",
+									"fixed": true
+								}
+							},
+							"name": {
+								"order": 1,
+								"position": "vertical",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [ "B" ],
+									"value": "Class",
+									"fixed": false
+								}
+							},
+							"attributes": {
+								"order": 2,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Attributes",
+									"color": "white",
+									"styles": [],
+									"bullet": "+",
+									"value": [
+										"attribute"
+									],
+									"fixed": false
+								}
+							},
+							"functions": {
+								"order": 3,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Functions",
+									"color": "white",
+									"styles": [],
+									"bullet": "-",
+									"value": [
+										"function() : void"
+									],
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"typedClass": {
+			"icon": ":/icons/objectDescriptionDark.svg",
+			"name": "Typed Class",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "blue",
+						"externalShape": "square",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"classType": {
+								"order": 0,
+								"position": "vertical",
+								"type": "choice",
+								"textData": {
+									"name": "Class Type",
+									"color": "white",
+									"styles": [],
+									"value": "<<Interface>>",
+									"fixed": false,
+									"choices": [
+										"<<Interface>>",
+										"<<primitive>>",
+										"<<Persistable>>",
+										"<<Abstract Persistable>>",
+										"<<User Type>>",
+										"<<Parameterized Type>>",
+										"<<Entity Bean>>"
+									]
+								}
+							},
+							"name": {
+								"order": 1,
+								"position": "vertical",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [ "B" ],
+									"value": "Class",
+									"fixed": false
+								}
+							},
+							"attributes": {
+								"order": 2,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Attributes",
+									"color": "white",
+									"styles": [],
+									"bullet": "+",
+									"value": [
+										"attribute"
+									],
+									"fixed": false
+								}
+							},
+							"functions": {
+								"order": 3,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Functions",
+									"color": "white",
+									"styles": [],
+									"bullet": "-",
+									"value": [
+										"function() : void"
+									],
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+        "associationClass": {
+			"icon": ":/icons/union.svg",
+			"name": "Association Class",
+			"components": [
+				{
+					"id": 0,
+					"type": "element",
+					"x": 0, "y": 200,
+					"features": {
+						"color": "blue",
+						"externalShape": "square",
+						"internalShape": "none",
+						"innerShapePadding": 0,
+						"width": 100,
+						"height": 100,
+						"stroke": "solid",
+						"specifications": {
+							"name": {
+								"order": 0,
+								"position": "vertical",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [ "B" ],
+									"value": "Class",
+									"fixed": false
+								}
+							},
+							"attributes": {
+								"order": 1,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Attributes",
+									"color": "white",
+									"styles": [],
+									"bullet": "+",
+									"value": [
+										"attribute"
+									],
+									"fixed": false
+								}
+							},
+							"functions": {
+								"order": 2,
+								"position": "verticalSeparated",
+								"type": "list",
+								"textData": {
+									"name": "Functions",
+									"color": "white",
+									"styles": [],
+									"bullet": "-",
+									"value": [
+										"function() : void"
+									],
+									"fixed": false
+								}
+							}
+						}
+					}
+				},
+				{
+					"id": 1,
+					"type": "connection",
+					"x": 50, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "dashed",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+								  "connection"
+							    ]
+							},
+							{
+								"x": 0, "y": 200,
+								"defaultConnect": 0,
+								"fixed": true,
+								"connectableTypes": [
+								  "element"
+							    ]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+        },
+
+		"association": {
+			"icon": ":/icons/connectionLine.svg",
+			"name": "Association",
+			"components": [
+				{
+					"id": 0,
+					"type": "connection",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "none",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 200, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {
+							"name": {
+								"order": 0,
+								"horizontalPos": "center",
+								"verticalPos": "above",
+								"type": "shortText",
+								"textData": {
+									"name": "Name",
+									"color": "white",
+									"styles": [],
+									"value": "Association",
+									"fixed": false
+								}
+							},
+							"cardinality1": {
+								"order": 1,
+								"horizontalPos": "begin",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "Start cardinality",
+									"color": "white",
+									"styles": [],
+									"value": "1",
+									"fixed": false,
+									"choices": [ "0..1", "1", "0..n", "1..n", "n" ]
+								}
+							},
+							"cardinality2": {
+								"order": 2,
+								"horizontalPos": "end",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "End cardinality",
+									"color": "white",
+									"styles": [],
+									"value": "n",
+									"fixed": false,
+									"choices": [ "0..1", "1", "0..n", "1..n", "n" ]
+								}
+							},
+							"role1": {
+								"order": 3,
+								"horizontalPos": "begin",
+								"verticalPos": "below",
+								"type": "shortText",
+								"textData": {
+									"name": "Start role",
+									"color": "white",
+									"styles": [],
+									"value": "role",
+									"fixed": false
+								}
+							},
+							"role2": {
+								"order": 4,
+								"horizontalPos": "end",
+								"verticalPos": "below",
+								"type": "shortText",
+								"textData": {
+									"name": "End role",
+									"color": "white",
+									"styles": [],
+									"value": "role",
+									"fixed": false
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+
+		"generalization": {
+			"icon": ":/icons/closedArrow.svg",
+			"name": "Generalization",
+			"components": [
+				{
+					"id": 0,
+					"type": "connection",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "solid",
+						"startMarker": "closedArrow",
+						"endMarker": "none",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 200, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+		},
+
+		"dependency": {
+			"icon": ":/icons/openedArrow.svg",
+			"name": "Dependency",
+			"components": [
+				{
+					"id": 0,
+					"type": "connection",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "dashed",
+						"startMarker": "none",
+						"endMarker": "openedArrow",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 200, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {}
+					}
+				}
+			]
+		},
+
+		"typedDependency": {
+			"icon": ":/icons/descriptiveArrow.svg",
+			"name": "Typed Dependency",
+			"components": [
+				{
+					"id": 0,
+					"type": "connection",
+					"x": 0, "y": 0,
+					"features": {
+						"color": "black",
+						"stroke": "dashed",
+						"startMarker": "none",
+						"endMarker": "openedArrow",
+						"path": [
+							{
+								"x": 0, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							},
+							{
+								"x": 200, "y": 0,
+								"defaultConnect": -1,
+								"fixed": false,
+								"connectableTypes": [
+									"element"
+								]
+							}
+						],
+						"specifications": {
+							"dependencyType": {
+								"order": 0,
+								"horizontalPos": "center",
+								"verticalPos": "above",
+								"type": "choice",
+								"textData": {
+									"name": "Dependency Type",
+									"color": "white",
+									"styles": [],
+									"value": "<<use>>",
+									"fixed": false,
+									"choices": [
+										"<<bind>>",
+										"<<permit>>",
+										"<<access>>",
+										"<<import>>",
+										"<<merge>>",
+										"<<instantiate>>",
+										"<<substitute>>",
+										"<<use>>",
+										"<<derive>>",
+										"<<abstraction>>",
+										"<<refine>>",
+										"<<trace>>"
+									]
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+
+	}
+
+}

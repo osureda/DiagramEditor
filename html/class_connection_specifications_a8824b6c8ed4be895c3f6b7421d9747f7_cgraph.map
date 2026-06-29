@@ -1,0 +1,9 @@
+<map id="ConnectionSpecifications::applyFormResults" name="ConnectionSpecifications::applyFormResults">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,175,81"/>
+<area shape="rect" id="Node000002" href="$class_specifications_group.html#ad6f2cc1d7895f401a80afa857ffaf88f" title=" " alt="" coords="240,5,378,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,45,227,39,222,40,176,50"/>
+<area shape="rect" id="Node000004" href="$class_connection_specifications.html#a9ce073ce78cf470f096c3f515faffd63" title=" " alt="" coords="223,72,396,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,70,210,78,205,78,175,76"/>
+<area shape="rect" id="Node000003" href="$class_specifications_form.html#a67b0d678217739885030e2b1b5beb1eb" title=" " alt="" coords="444,5,577,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,24,431,26,426,27,379,29"/>
+</map>

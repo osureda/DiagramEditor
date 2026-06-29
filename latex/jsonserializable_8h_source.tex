@@ -1,0 +1,25 @@
+\doxysection{jsonserializable.\+h}
+\hypertarget{jsonserializable_8h_source}{}\label{jsonserializable_8h_source}\doxymbox{\hyperlink{jsonserializable_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ JSONSERIALIZABLE\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ JSONSERIALIZABLE\_H}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QStringList>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <QVariant>}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_json_serializable}{JsonSerializable}}}
+\DoxyCodeLine{00019\ \{}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \doxymbox{\hyperlink{class_json_serializable_a194264cba8c2b23e4f5a9f9980cff1a1}{\string~JsonSerializable}}();}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_json_serializable_a12dc785a9d7211b1e5a8c26cd5e3bd45}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QVariantHash\ \doxymbox{\hyperlink{class_json_serializable_a688bbf991d7ff227e01f7f2294c7cae8}{toHash}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QVariantHash\ \doxymbox{\hyperlink{class_json_serializable_aec63456fa3e67355a80bc60f61643c99}{filteredHashByKeys}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash,\ \textcolor{keyword}{const}\ QStringList\ \&keys);}
+\DoxyCodeLine{00051\ \};}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ JSONSERIALIZABLE\_H}}
+
+\end{DoxyCode}

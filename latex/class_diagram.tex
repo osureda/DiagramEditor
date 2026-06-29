@@ -1,0 +1,519 @@
+\doxysection{Diagram Class Reference}
+\hypertarget{class_diagram}{}\label{class_diagram}\index{Diagram@{Diagram}}
+
+
+A diagram that contains and manages diagram items.  
+
+
+
+
+{\ttfamily \+\#include $<$diagram.\+h$>$}
+
+
+
+Inheritance diagram for Diagram:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{class_diagram__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{class_diagram__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum class \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}{Edition\+Mode}} \{ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0ae9e604e885141fce3e5708da964193bf}{Add\+Item\+Mode}}
+, \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a6299674ebedde7114677fe458e36cc15}{Selection\+Mode}}
+, \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a4106b8d61e42f0e804b06c98d49d3dd0}{Add\+Resizer\+Mode}}
+, \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a48a3239590a535fb95a2f269be70df12}{Remove\+Resizer\+Mode}}
+ \}
+\begin{DoxyCompactList}\small\item\em The possible edition modes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_a689252558b07ef75be2b337e2047e0cd}{select\+Next\+Item}} ()
+\item 
+void \doxymbox{\hyperlink{class_diagram_a22081499a55b7a35980bcb0cdaae93a1}{move\+Selected\+Items}} (const QPointF \&move\+Step)
+\item 
+void \doxymbox{\hyperlink{class_diagram_a52244162286fdd7f0c24388a02636b2c}{delete\+Selected\+Items}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_a22509aaeea41732a8d3fbeccdb212bdf}{item\+Requested}} (const QPointF \&pos)
+\item 
+void \doxymbox{\hyperlink{class_diagram_a64c788c53fa7fb1d4b68537c69f8b745}{selected\+Item\+Changed}} (QWidget \texorpdfstring{$\ast$}{*}specifications\+Form)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_a56688a9f6a357683304f75e52a67f908}{Diagram}} (int scene\+Size=1000, QObject \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+void \doxymbox{\hyperlink{class_diagram_a95932dafe57417fd63d5bf4bcbd26f68}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_a164376c43eddee6b8d1eb6befc4c83d9}{to\+Hash}} () const override
+\item 
+void \doxymbox{\hyperlink{class_diagram_aabb39c65909f86a08a293ad69d65242c}{set\+Edition\+Mode}} (const \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}{Edition\+Mode}} \&mode)
+\item 
+void \doxymbox{\hyperlink{class_diagram_af0df1a1efae0a304a00bd0ef92dd8b8b}{set\+Dragging\+Resizer}} (bool dragging)
+\item 
+void \doxymbox{\hyperlink{class_diagram_a5638e0d65cb65b2554b630ff7d920281}{set\+Specifications}} (const QWidget \texorpdfstring{$\ast$}{*}form\+Results)
+\item 
+\doxymbox{\hyperlink{class_diagram_item}{Diagram\+Item}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_a61599e31735f69ebb2c0785c024c4248}{diagram\+Item\+At}} (const QPointF \&pos) const
+\item 
+int \doxymbox{\hyperlink{class_diagram_a3b79b68d7f75ed9237d08abe53b46b11}{new\+Diagram\+Item\+Id}} () const
+\item 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_a45924c27707d1f56c1424e676bfac653}{diagram\+Component\+At}} (const QPointF \&pos, \doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}exception=nullptr) const
+\item 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_abd611188c2d9a95bf46e9c40d02af029}{component\+By\+Ids}} (int item\+Id, int component\+Id) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_json_serializable_a194264cba8c2b23e4f5a9f9980cff1a1}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_ae2b0631628ba8ac6b3fdd8595af0bdcd}{mouse\+Move\+Event}} (QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}event) override
+\item 
+void \doxymbox{\hyperlink{class_diagram_a677b52039b3596304edae4017b679836}{mouse\+Press\+Event}} (QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}event) override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_json_serializable_aec63456fa3e67355a80bc60f61643c99}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A diagram that contains and manages diagram items. 
+
+\label{class_diagram_doc-enum-members}
+\Hypertarget{class_diagram_doc-enum-members}
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}\index{Diagram@{Diagram}!EditionMode@{EditionMode}}
+\index{EditionMode@{EditionMode}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{EditionMode}{EditionMode}}
+{\footnotesize\ttfamily \label{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0} 
+enum class \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}{Diagram::\+\+Edition\+Mode}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+The possible edition modes. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AddItemMode@{AddItemMode}!Diagram@{Diagram}}
+\index{Diagram@{Diagram}!AddItemMode@{AddItemMode}}
+}\Hypertarget{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0ae9e604e885141fce3e5708da964193bf}\label{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0ae9e604e885141fce3e5708da964193bf} 
+Add\+Item\+Mode&A mouse press draws an item. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SelectionMode@{SelectionMode}!Diagram@{Diagram}}
+\index{Diagram@{Diagram}!SelectionMode@{SelectionMode}}
+}\Hypertarget{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a6299674ebedde7114677fe458e36cc15}\label{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a6299674ebedde7114677fe458e36cc15} 
+Selection\+Mode&Rubber band selection is enabled. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AddResizerMode@{AddResizerMode}!Diagram@{Diagram}}
+\index{Diagram@{Diagram}!AddResizerMode@{AddResizerMode}}
+}\Hypertarget{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a4106b8d61e42f0e804b06c98d49d3dd0}\label{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a4106b8d61e42f0e804b06c98d49d3dd0} 
+Add\+Resizer\+Mode&A mouse press adds a resizer to an item. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{RemoveResizerMode@{RemoveResizerMode}!Diagram@{Diagram}}
+\index{Diagram@{Diagram}!RemoveResizerMode@{RemoveResizerMode}}
+}\Hypertarget{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a48a3239590a535fb95a2f269be70df12}\label{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a48a3239590a535fb95a2f269be70df12} 
+Remove\+Resizer\+Mode&A mouse press removes a resizer from an item. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\label{class_diagram_doc-constructors}
+\Hypertarget{class_diagram_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_a56688a9f6a357683304f75e52a67f908}\index{Diagram@{Diagram}!Diagram@{Diagram}}
+\index{Diagram@{Diagram}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{Diagram()}{Diagram()}}
+{\footnotesize\ttfamily \label{class_diagram_a56688a9f6a357683304f75e52a67f908} 
+Diagram::\+\+Diagram (\begin{DoxyParamCaption}\item[{int}]{scene\+Size}{ = {\ttfamily 1000}, }\item[{QObject \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene\+Size} & The size of the diagram canvas. \\
+\hline
+{\em parent} & The container of the diagram. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+scene\+Size \texorpdfstring{$>$}{>} 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram is contained by parent and its canvas is of size scene\+Size. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_doc-func-members}
+\Hypertarget{class_diagram_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_abd611188c2d9a95bf46e9c40d02af029}\index{Diagram@{Diagram}!componentByIds@{componentByIds}}
+\index{componentByIds@{componentByIds}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{componentByIds()}{componentByIds()}}
+{\footnotesize\ttfamily \label{class_diagram_abd611188c2d9a95bf46e9c40d02af029} 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} Diagram::\+component\+By\+Ids (\begin{DoxyParamCaption}\item[{int}]{item\+Id}{, }\item[{int}]{component\+Id}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The diagram component with the component id from the diagram item with the item id. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Id} & The id of the diagram item of the diagram component we want to obtain. \\
+\hline
+{\em component\+Id} & The id of the diagram component we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram component with the id component\+Id in the diagram item with the id item\+Id has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_abd611188c2d9a95bf46e9c40d02af029_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_a52244162286fdd7f0c24388a02636b2c}\index{Diagram@{Diagram}!deleteSelectedItems@{deleteSelectedItems}}
+\index{deleteSelectedItems@{deleteSelectedItems}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{deleteSelectedItems}{deleteSelectedItems}}
+{\footnotesize\ttfamily \label{class_diagram_a52244162286fdd7f0c24388a02636b2c} 
+void Diagram::\+delete\+Selected\+Items (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The selected items have been deleted. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_a45924c27707d1f56c1424e676bfac653}\index{Diagram@{Diagram}!diagramComponentAt@{diagramComponentAt}}
+\index{diagramComponentAt@{diagramComponentAt}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{diagramComponentAt()}{diagramComponentAt()}}
+{\footnotesize\ttfamily \label{class_diagram_a45924c27707d1f56c1424e676bfac653} 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} Diagram::\+diagram\+Component\+At (\begin{DoxyParamCaption}\item[{const QPointF \&}]{pos}{, }\item[{\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}}]{exception}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The diagram component at the position that is not the component. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & The position whose diagram item we want to obtain. \\
+\hline
+{\em exception} & The component that we don\textquotesingle{}t want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram component at the position pos that is not exception. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_a45924c27707d1f56c1424e676bfac653_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_a61599e31735f69ebb2c0785c024c4248}\index{Diagram@{Diagram}!diagramItemAt@{diagramItemAt}}
+\index{diagramItemAt@{diagramItemAt}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{diagramItemAt()}{diagramItemAt()}}
+{\footnotesize\ttfamily \label{class_diagram_a61599e31735f69ebb2c0785c024c4248} 
+\doxymbox{\hyperlink{class_diagram_item}{Diagram\+Item}} \texorpdfstring{$\ast$}{*} Diagram::\+diagram\+Item\+At (\begin{DoxyParamCaption}\item[{const QPointF \&}]{pos}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The diagram item at the position. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & The position whose diagram item we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram item at the position pos. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_a61599e31735f69ebb2c0785c024c4248_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_a22509aaeea41732a8d3fbeccdb212bdf}\index{Diagram@{Diagram}!itemRequested@{itemRequested}}
+\index{itemRequested@{itemRequested}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{itemRequested}{itemRequested}}
+{\footnotesize\ttfamily \label{class_diagram_a22509aaeea41732a8d3fbeccdb212bdf} 
+void Diagram::\+item\+Requested (\begin{DoxyParamCaption}\item[{const QPointF \&}]{pos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & The position of the requested diagram item. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The diagram edition mode allows to add an item. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The signal has been emited with the position of the requested item. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_a22509aaeea41732a8d3fbeccdb212bdf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_a95932dafe57417fd63d5bf4bcbd26f68}\index{Diagram@{Diagram}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_a95932dafe57417fd63d5bf4bcbd26f68} 
+void Diagram::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_json_serializable_a12dc785a9d7211b1e5a8c26cd5e3bd45}{Json\+Serializable}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_a95932dafe57417fd63d5bf4bcbd26f68_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_ae2b0631628ba8ac6b3fdd8595af0bdcd}\index{Diagram@{Diagram}!mouseMoveEvent@{mouseMoveEvent}}
+\index{mouseMoveEvent@{mouseMoveEvent}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{mouseMoveEvent()}{mouseMoveEvent()}}
+{\footnotesize\ttfamily \label{class_diagram_ae2b0631628ba8ac6b3fdd8595af0bdcd} 
+void Diagram::\+mouse\+Move\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The mouse event we want to handle. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram has handled the given mouse move event. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_ae2b0631628ba8ac6b3fdd8595af0bdcd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_a677b52039b3596304edae4017b679836}\index{Diagram@{Diagram}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily \label{class_diagram_a677b52039b3596304edae4017b679836} 
+void Diagram::\+mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The mouse event we want to handle. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram has handled the given mouse press event. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_a677b52039b3596304edae4017b679836_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_a22081499a55b7a35980bcb0cdaae93a1}\index{Diagram@{Diagram}!moveSelectedItems@{moveSelectedItems}}
+\index{moveSelectedItems@{moveSelectedItems}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{moveSelectedItems}{moveSelectedItems}}
+{\footnotesize\ttfamily \label{class_diagram_a22081499a55b7a35980bcb0cdaae93a1} 
+void Diagram::\+move\+Selected\+Items (\begin{DoxyParamCaption}\item[{const QPointF \&}]{move\+Step}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em move\+Step} & The move step we want to apply to the selected items. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The selected items have been moved by move\+Step. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_a3b79b68d7f75ed9237d08abe53b46b11}\index{Diagram@{Diagram}!newDiagramItemId@{newDiagramItemId}}
+\index{newDiagramItemId@{newDiagramItemId}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{newDiagramItemId()}{newDiagramItemId()}}
+{\footnotesize\ttfamily \label{class_diagram_a3b79b68d7f75ed9237d08abe53b46b11} 
+int Diagram::\+new\+Diagram\+Item\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The id of a new diagram item. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The id of a new diagram item has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_a64c788c53fa7fb1d4b68537c69f8b745}\index{Diagram@{Diagram}!selectedItemChanged@{selectedItemChanged}}
+\index{selectedItemChanged@{selectedItemChanged}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{selectedItemChanged}{selectedItemChanged}}
+{\footnotesize\ttfamily \label{class_diagram_a64c788c53fa7fb1d4b68537c69f8b745} 
+void Diagram::\+selected\+Item\+Changed (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{specifications\+Form}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em specifications\+Form} & The specifications form of the single selected diagram item. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The selected items have changed. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The signal has been emited with the specifications form of the single selected diagram item. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_a689252558b07ef75be2b337e2047e0cd}\index{Diagram@{Diagram}!selectNextItem@{selectNextItem}}
+\index{selectNextItem@{selectNextItem}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{selectNextItem}{selectNextItem}}
+{\footnotesize\ttfamily \label{class_diagram_a689252558b07ef75be2b337e2047e0cd} 
+void Diagram::\+select\+Next\+Item (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+\begin{DoxyPrecond}{Precondition}
+item\+Selected is the currently selected item. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The item after item\+Selected is the single selected diagram item. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_af0df1a1efae0a304a00bd0ef92dd8b8b}\index{Diagram@{Diagram}!setDraggingResizer@{setDraggingResizer}}
+\index{setDraggingResizer@{setDraggingResizer}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{setDraggingResizer()}{setDraggingResizer()}}
+{\footnotesize\ttfamily \label{class_diagram_af0df1a1efae0a304a00bd0ef92dd8b8b} 
+void Diagram::\+set\+Dragging\+Resizer (\begin{DoxyParamCaption}\item[{bool}]{dragging}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dragging} & Whether a diagram resizer is being dragged. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If dragging is true, the diagram is prepared to a resizer drag; otherwise, the diagram is not prepared to a resizer drag. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_aabb39c65909f86a08a293ad69d65242c}\index{Diagram@{Diagram}!setEditionMode@{setEditionMode}}
+\index{setEditionMode@{setEditionMode}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{setEditionMode()}{setEditionMode()}}
+{\footnotesize\ttfamily \label{class_diagram_aabb39c65909f86a08a293ad69d65242c} 
+void Diagram::\+set\+Edition\+Mode (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}{Edition\+Mode}} \&}]{mode}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mode} & The edition mode we want to set. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram has the given edition mode. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_a5638e0d65cb65b2554b630ff7d920281}\index{Diagram@{Diagram}!setSpecifications@{setSpecifications}}
+\index{setSpecifications@{setSpecifications}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{setSpecifications()}{setSpecifications()}}
+{\footnotesize\ttfamily \label{class_diagram_a5638e0d65cb65b2554b630ff7d920281} 
+void Diagram::\+set\+Specifications (\begin{DoxyParamCaption}\item[{const QWidget \texorpdfstring{$\ast$}{*}}]{form\+Results}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Results} & The specifications form containing the results to apply. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The results in the specifications form form\+Results have been applied to the single selected diagram item. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_a5638e0d65cb65b2554b630ff7d920281_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_a164376c43eddee6b8d1eb6befc4c83d9}\index{Diagram@{Diagram}!toHash@{toHash}}
+\index{toHash@{toHash}!Diagram@{Diagram}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_a164376c43eddee6b8d1eb6befc4c83d9} 
+QVariant\+Hash Diagram::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the diagram\textquotesingle{}s data. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the diagram\textquotesingle{}s data has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_json_serializable_a688bbf991d7ff227e01f7f2294c7cae8}{Json\+Serializable}}.
+
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{diagram_8h}{diagram.\+h}}\item 
+\doxymbox{\hyperlink{diagram_8cpp}{diagram.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="DiagramResizer::DiagramResizer" name="DiagramResizer::DiagramResizer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,223,73"/>
+<area shape="rect" id="Node000002" href="$class_diagram_component.html#a90e92e0290ab8d43b2b25e4c5d8874c3" title=" " alt="" coords="276,5,466,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,43,263,40,257,42,223,49"/>
+<area shape="rect" id="Node000003" href="$class_diagram_resizer.html#a3ef8c43d1ac108509a452f655aa7bb12" title=" " alt="" coords="271,72,471,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,71,258,78,253,79,222,77"/>
+</map>

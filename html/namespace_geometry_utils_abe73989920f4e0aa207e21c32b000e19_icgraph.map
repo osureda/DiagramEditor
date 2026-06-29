@@ -1,0 +1,11 @@
+<map id="GeometryUtils::strokeName" name="GeometryUtils::strokeName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="481,43,665,69"/>
+<area shape="rect" id="Node000002" href="$class_diagram_connection.html#a16cb45f3db2c535d157f2b15d8735417" title=" " alt="" coords="277,5,421,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="463,42,421,39,421,33,468,42"/>
+<area shape="rect" id="Node000004" href="$class_diagram_element.html#a957416453e3b8ac12e1b9691be6ac41d" title=" " alt="" coords="265,72,433,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="468,70,434,77,433,72,463,70"/>
+<area shape="rect" id="Node000003" href="$class_diagram_connection.html#ad18fd1041d476a9f6d5aefe373233f6f" title=" " alt="" coords="39,5,183,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,27,184,29,183,24,264,26"/>
+<area shape="rect" id="Node000005" href="$class_diagram_element.html#aba04323982146461a8a972374af6ec88" title=" " alt="" coords="5,72,217,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="247,85,217,88,217,83,252,85"/>
+</map>

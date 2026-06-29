@@ -1,0 +1,58 @@
+\doxysection{selectabledatabutton.\+h}
+\hypertarget{selectabledatabutton_8h_source}{}\label{selectabledatabutton_8h_source}\doxymbox{\hyperlink{selectabledatabutton_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ SELECTABLEDATABUTTON\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ SELECTABLEDATABUTTON\_H}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{jsonserializable_8h}{jsonserializable.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QIcon>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QObject>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QPair>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QPushButton>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <QVariant>}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }QWidget;}
+\DoxyCodeLine{00021\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}\ :\ \textcolor{keyword}{public}\ QPushButton,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_json_serializable}{JsonSerializable}}}
+\DoxyCodeLine{00028\ \{}
+\DoxyCodeLine{00029\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_selectable_data_button_a293438785ae55cad0680c0d7821cd529}{ICON\_TEXT\_SPACING}}\ =\ 2;}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ QString\ \doxymbox{\hyperlink{class_selectable_data_button_a62e6dfb51f2567bdadf5fc813890e516}{STYLE\_SHEET}};}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}(\textcolor{keywordtype}{int}\ iconSize\ =\ 0,\ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_selectable_data_button_a9d3d5663c7d9c917e11bf8ab7dfd0026}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_selectable_data_button_a389b4c85bd9877b146952215be10f2ea}{data}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}\ *\doxymbox{\hyperlink{class_selectable_data_button_a05e4cf709119fb88182aa78d22b37a2f}{leftIconButton}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ QPair<QWidget*,\ SelectableDataButton*>\ \doxymbox{\hyperlink{class_selectable_data_button_acc1a45976517d71e9c272088c23279c8}{upperIconButton}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ storedIconSize;\ }
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ QIcon\ storedIcon;\ }
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ QString\ storedText;\ }
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ spacingApplied;\ }
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ QVariantHash\ storedData;\ }
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00094\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadLeftIconFromVariant(\textcolor{keyword}{const}\ QVariant\ \&variant);}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadTextFromVariants(\textcolor{keyword}{const}\ QVariant\ \&nameVariant,\ \textcolor{keyword}{const}\ QVariant\ \&descriptionVariant);}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ applyIconTextSpacing();}
+\DoxyCodeLine{00112\ }
+\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}\ *textButton()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00119\ \};}
+\DoxyCodeLine{00120\ }
+\DoxyCodeLine{00121\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SELECTABLEDATABUTTON\_H}}
+
+\end{DoxyCode}

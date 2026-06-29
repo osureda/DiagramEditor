@@ -1,0 +1,348 @@
+\doxysection{Element\+Specifications Class Reference}
+\hypertarget{class_element_specifications}{}\label{class_element_specifications}\index{ElementSpecifications@{ElementSpecifications}}
+
+
+The specifications of a diagram element.  
+
+
+
+
+{\ttfamily \+\#include $<$elementspecifications.\+h$>$}
+
+
+
+Inheritance diagram for Element\+Specifications:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{class_element_specifications__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Element\+Specifications:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_element_specifications__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum class \doxymbox{\hyperlink{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3}{Specification\+Pos}} \{ \doxymbox{\hyperlink{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3ab32beb056fbfe36afbabc6c88c81ab36}{Top\+Left}}
+, \doxymbox{\hyperlink{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a4f1f6016fc9f3f2353c0cc7c67b292bd}{Center}}
+, \doxymbox{\hyperlink{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a06ce2a25e5d12c166a36f654dbea6012}{Vertical}}
+, \doxymbox{\hyperlink{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a9239a169eda71fe4a28795bd2266e957}{Vertical\+Separated}}
+ \}
+\begin{DoxyCompactList}\small\item\em The types of specification positions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_element_specifications_a2cb23d765d2341ce79bc173d7bca2145}{size\+Changed}} (const QPointF \&size\+Change)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_element_specifications_a293b54c8935bdb6a5fb816d97063a163}{Element\+Specifications}} (\doxymbox{\hyperlink{class_diagram_element}{Diagram\+Element}} \texorpdfstring{$\ast$}{*}parent)
+\item 
+void \doxymbox{\hyperlink{class_element_specifications_ad3ef736741c87d1816d9bd9f0d0cf229}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_element_specifications_abaa831a7f87c668099d4318db808aacf}{to\+Hash}} () const override
+\item 
+void \doxymbox{\hyperlink{class_element_specifications_ad359e57485280cc65b5839ca82329e40}{apply\+Form\+Results}} (const \doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}form\+Results, int form\+Index) override
+\item 
+void \doxymbox{\hyperlink{class_element_specifications_a51dda71c68d88965136c71a4f111c7fb}{update\+Specifications\+Pos}} ()
+\item 
+QPointF \doxymbox{\hyperlink{class_element_specifications_a6480cd6af3605b9a438f83550eb20f22}{size}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_specifications_group}{Specifications\+Group}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_specifications_group_ab0600c95e2e5c8306674df08febb6d1a}{Specifications\+Group}} (\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}parent)
+\item 
+\doxymbox{\hyperlink{class_specifications_group_aed1ee8efe19ccb669a1b2d3bf0d8161a}{\texorpdfstring{$\sim$}{\string~}\+Specifications\+Group}} () override
+\item 
+\doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_specifications_group_a18afddbe1e455f3619d55d73697a9c59}{form}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_json_serializable_a194264cba8c2b23e4f5a9f9980cff1a1}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_element_specifications_ae0578feb98ebfe1684b48e041ba4c528}\label{class_element_specifications_ae0578feb98ebfe1684b48e041ba4c528} 
+static const int {\bfseries MARGINS} = 1
+\begin{DoxyCompactList}\small\item\em The internal margin of the diagram element. \end{DoxyCompactList}\item 
+\Hypertarget{class_element_specifications_a9296c7769010a12f5e41146a5f38336c}\label{class_element_specifications_a9296c7769010a12f5e41146a5f38336c} 
+static const QColor {\bfseries SEPARATOR\+\_\+\+PATH\+\_\+\+COLOR} = Qt::\+black
+\begin{DoxyCompactList}\small\item\em The color of a specification separator. \end{DoxyCompactList}\item 
+\Hypertarget{class_element_specifications_aef13f486f87f28aea412382eb92a81b8}\label{class_element_specifications_aef13f486f87f28aea412382eb92a81b8} 
+static const int {\bfseries SEPARATOR\+\_\+\+PATH\+\_\+\+WIDTH} = 2
+\begin{DoxyCompactList}\small\item\em The width of a specification separator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_json_serializable_aec63456fa3e67355a80bc60f61643c99}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions inherited from \doxymbox{\hyperlink{class_specifications_group}{Specifications\+Group}}}
+\begin{DoxyCompactItemize}
+\item 
+static \doxymbox{\hyperlink{class_diagram_specification}{Diagram\+Specification}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_specifications_group_afc5f5ed37dd40b7fa47c7e76bb34404d}{specification\+From\+Type\+Name}} (const QString \&type\+Name)
+\item 
+static QString \doxymbox{\hyperlink{class_specifications_group_a2b9c921f07ed68038f1d3922e5a1b69a}{type\+Name\+From\+Specification}} (const \doxymbox{\hyperlink{class_diagram_specification}{Diagram\+Specification}} \texorpdfstring{$\ast$}{*}specification)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_specifications_group}{Specifications\+Group}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_specifications_group_a053a7fb0380b80ad3607a43a784f1f7a}{diagram\+Component}}
+\begin{DoxyCompactList}\small\item\em The diagram component to which the specifications belong. \end{DoxyCompactList}\item 
+QVector$<$ QString $>$ {\bfseries specifications\+Ids}
+\begin{DoxyCompactList}\small\item\em The IDs of the specifications. \end{DoxyCompactList}\item 
+QVector$<$ \doxymbox{\hyperlink{class_diagram_specification}{Diagram\+Specification}} \texorpdfstring{$\ast$}{*} $>$ {\bfseries specifications}
+\begin{DoxyCompactList}\small\item\em The group specifications. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The specifications of a diagram element. 
+
+\label{class_element_specifications_doc-enum-members}
+\Hypertarget{class_element_specifications_doc-enum-members}
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3}\index{ElementSpecifications@{ElementSpecifications}!SpecificationPos@{SpecificationPos}}
+\index{SpecificationPos@{SpecificationPos}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{SpecificationPos}{SpecificationPos}}
+{\footnotesize\ttfamily \label{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3} 
+enum class \doxymbox{\hyperlink{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3}{Element\+Specifications::\+\+Specification\+Pos}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+The types of specification positions. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TopLeft@{TopLeft}!ElementSpecifications@{ElementSpecifications}}
+\index{ElementSpecifications@{ElementSpecifications}!TopLeft@{TopLeft}}
+}\Hypertarget{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3ab32beb056fbfe36afbabc6c88c81ab36}\label{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3ab32beb056fbfe36afbabc6c88c81ab36} 
+Top\+Left&A top left position. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Center@{Center}!ElementSpecifications@{ElementSpecifications}}
+\index{ElementSpecifications@{ElementSpecifications}!Center@{Center}}
+}\Hypertarget{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a4f1f6016fc9f3f2353c0cc7c67b292bd}\label{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a4f1f6016fc9f3f2353c0cc7c67b292bd} 
+Center&A centered position. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Vertical@{Vertical}!ElementSpecifications@{ElementSpecifications}}
+\index{ElementSpecifications@{ElementSpecifications}!Vertical@{Vertical}}
+}\Hypertarget{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a06ce2a25e5d12c166a36f654dbea6012}\label{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a06ce2a25e5d12c166a36f654dbea6012} 
+Vertical&A top center position below the previous vertial specifications. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{VerticalSeparated@{VerticalSeparated}!ElementSpecifications@{ElementSpecifications}}
+\index{ElementSpecifications@{ElementSpecifications}!VerticalSeparated@{VerticalSeparated}}
+}\Hypertarget{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a9239a169eda71fe4a28795bd2266e957}\label{class_element_specifications_ad8cb6755af1a5bc4110580b68a1e43d3a9239a169eda71fe4a28795bd2266e957} 
+Vertical\+Separated&A top center position with a separator below the previous vertial specifications. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\label{class_element_specifications_doc-constructors}
+\Hypertarget{class_element_specifications_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_element_specifications_a293b54c8935bdb6a5fb816d97063a163}\index{ElementSpecifications@{ElementSpecifications}!ElementSpecifications@{ElementSpecifications}}
+\index{ElementSpecifications@{ElementSpecifications}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{ElementSpecifications()}{ElementSpecifications()}}
+{\footnotesize\ttfamily \label{class_element_specifications_a293b54c8935bdb6a5fb816d97063a163} 
+Element\+Specifications::\+\+Element\+Specifications (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_diagram_element}{Diagram\+Element}} \texorpdfstring{$\ast$}{*}}]{parent}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The diagram element to which the specifications belong. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specifications group belongs to parent. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{class_element_specifications_a293b54c8935bdb6a5fb816d97063a163_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_element_specifications_doc-func-members}
+\Hypertarget{class_element_specifications_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_element_specifications_ad359e57485280cc65b5839ca82329e40}\index{ElementSpecifications@{ElementSpecifications}!applyFormResults@{applyFormResults}}
+\index{applyFormResults@{applyFormResults}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{applyFormResults()}{applyFormResults()}}
+{\footnotesize\ttfamily \label{class_element_specifications_ad359e57485280cc65b5839ca82329e40} 
+void Element\+Specifications::\+apply\+Form\+Results (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}}]{form\+Results}{, }\item[{int}]{form\+Index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Results} & The specifications form containing the results to apply. \\
+\hline
+{\em form\+Index} & The index of the component form in form\+Results. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The results in the specifications form with index form\+Index in form\+Results have been applied to the specifications. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_specifications_group_ad6f2cc1d7895f401a80afa857ffaf88f}{Specifications\+Group}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_element_specifications_ad359e57485280cc65b5839ca82329e40_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_element_specifications_ad3ef736741c87d1816d9bd9f0d0cf229}\index{ElementSpecifications@{ElementSpecifications}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_element_specifications_ad3ef736741c87d1816d9bd9f0d0cf229} 
+void Element\+Specifications::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The specifications diagram component belongs to a scene. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specifications group has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_specifications_group_a16923513c2cf6df59d80acaddf4a867c}{Specifications\+Group}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_element_specifications_ad3ef736741c87d1816d9bd9f0d0cf229_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_element_specifications_a6480cd6af3605b9a438f83550eb20f22}\index{ElementSpecifications@{ElementSpecifications}!size@{size}}
+\index{size@{size}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily \label{class_element_specifications_a6480cd6af3605b9a438f83550eb20f22} 
+QPointF Element\+Specifications::\+size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The size of the specifications group. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The size of the specifications group has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{class_element_specifications_a6480cd6af3605b9a438f83550eb20f22_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_element_specifications_a2cb23d765d2341ce79bc173d7bca2145}\index{ElementSpecifications@{ElementSpecifications}!sizeChanged@{sizeChanged}}
+\index{sizeChanged@{sizeChanged}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{sizeChanged}{sizeChanged}}
+{\footnotesize\ttfamily \label{class_element_specifications_a2cb23d765d2341ce79bc173d7bca2145} 
+void Element\+Specifications::\+size\+Changed (\begin{DoxyParamCaption}\item[{const QPointF \&}]{size\+Change}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em size\+Change} & The difference between the old and the new size. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The specifications group size has changed. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The signal has been emited with the difference between the old and the new size. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_element_specifications_a2cb23d765d2341ce79bc173d7bca2145_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_element_specifications_abaa831a7f87c668099d4318db808aacf}\index{ElementSpecifications@{ElementSpecifications}!toHash@{toHash}}
+\index{toHash@{toHash}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_element_specifications_abaa831a7f87c668099d4318db808aacf} 
+QVariant\+Hash Element\+Specifications::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the specifications data. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the specifications data has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_specifications_group_ab03a4577fbd06fa5432db592411a86d2}{Specifications\+Group}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_element_specifications_abaa831a7f87c668099d4318db808aacf_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_element_specifications_a51dda71c68d88965136c71a4f111c7fb}\index{ElementSpecifications@{ElementSpecifications}!updateSpecificationsPos@{updateSpecificationsPos}}
+\index{updateSpecificationsPos@{updateSpecificationsPos}!ElementSpecifications@{ElementSpecifications}}
+\doxysubsubsection{\texorpdfstring{updateSpecificationsPos()}{updateSpecificationsPos()}}
+{\footnotesize\ttfamily \label{class_element_specifications_a51dda71c68d88965136c71a4f111c7fb} 
+void Element\+Specifications::\+update\+Specifications\+Pos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification positions have been updated. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_element_specifications_a51dda71c68d88965136c71a4f111c7fb_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{elementspecifications_8h}{elementspecifications.\+h}}\item 
+\doxymbox{\hyperlink{elementspecifications_8cpp}{elementspecifications.\+cpp}}\end{DoxyCompactItemize}

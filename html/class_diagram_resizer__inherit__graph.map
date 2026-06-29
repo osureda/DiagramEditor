@@ -1,0 +1,9 @@
+<map id="DiagramResizer" name="DiagramResizer">
+<area shape="rect" id="Node000001" title="An item to resize a diagram component." alt="" coords="46,80,162,107"/>
+<area shape="rect" id="Node000004" href="$class_connectable_resizer.html" title="A diagram resizer that can be connected to a diagram component." alt="" coords="34,155,174,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="106,121,106,155,102,153,102,124"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,41,96,79,90,80,61,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="99,5,237,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,42,117,81,113,78,145,46"/>
+</map>

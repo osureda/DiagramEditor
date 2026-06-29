@@ -1,0 +1,115 @@
+\doxysection{Main\+Window Class Reference}
+\hypertarget{class_main_window}{}\label{class_main_window}\index{MainWindow@{MainWindow}}
+
+
+The main window of the diagram editor application.  
+
+
+
+
+{\ttfamily \+\#include $<$mainwindow.\+h$>$}
+
+
+
+Inheritance diagram for Main\+Window:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_main_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Main\+Window:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_main_window__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_main_window_a7c3a1b82e141837b6f3ee009514cbdc6}{Main\+Window}} (const QVariant\+Hash \&diagram\+Groups, const QVariant\+Hash \&diagram\+Types, const QVariant\+Hash \&diagram\+Items, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\doxymbox{\hyperlink{class_main_window_a1f7d2c56410fc1bfa135bb907d43313f}{\texorpdfstring{$\sim$}{\string~}\+Main\+Window}} () override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_main_window_a919c0ea004db239d32720ecfbfc2b15b}\label{class_main_window_a919c0ea004db239d32720ecfbfc2b15b} 
+static const int {\bfseries CANVAS\+\_\+\+SIZE} = 2000
+\begin{DoxyCompactList}\small\item\em The size of the diagram canvas. \end{DoxyCompactList}\item 
+\Hypertarget{class_main_window_a15053a08531fc762f013707aecd01f1a}\label{class_main_window_a15053a08531fc762f013707aecd01f1a} 
+static const int {\bfseries ITEM\+\_\+\+ICON\+\_\+\+SIZE} = 25
+\begin{DoxyCompactList}\small\item\em The size of the diagram item icons. \end{DoxyCompactList}\item 
+\Hypertarget{class_main_window_aae0d2b9d7c65134f9ce630a6968af0fb}\label{class_main_window_aae0d2b9d7c65134f9ce630a6968af0fb} 
+static const int {\bfseries ITEM\+\_\+\+MOVE\+\_\+\+STEP} = 10
+\begin{DoxyCompactList}\small\item\em The length of a diagram item move step. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The main window of the diagram editor application. 
+
+\label{class_main_window_doc-constructors}
+\Hypertarget{class_main_window_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_main_window_a7c3a1b82e141837b6f3ee009514cbdc6}\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{MainWindow()}{MainWindow()}}
+{\footnotesize\ttfamily \label{class_main_window_a7c3a1b82e141837b6f3ee009514cbdc6} 
+Main\+Window::\+\+Main\+Window (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{diagram\+Groups}{, }\item[{const QVariant\+Hash \&}]{diagram\+Types}{, }\item[{const QVariant\+Hash \&}]{diagram\+Items}{, }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagram\+Groups} & The data of the diagram type groups to choose. \\
+\hline
+{\em diagram\+Types} & The data of the diagram types to choose. \\
+\hline
+{\em diagram\+Items} & The data of all the diagram items. \\
+\hline
+{\em parent} & The container of the window. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The window is contained by parent and contains a wizard to choose a group of diagram items from diagram\+Items associated to a diagram type group from diagram\+Groups and to a diagram type from diagram\+Types. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{class_main_window_a7c3a1b82e141837b6f3ee009514cbdc6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{class_main_window_a7c3a1b82e141837b6f3ee009514cbdc6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_main_window_a1f7d2c56410fc1bfa135bb907d43313f}\index{MainWindow@{MainWindow}!````~MainWindow@{\texorpdfstring{$\sim$}{\string~}MainWindow}}
+\index{````~MainWindow@{\texorpdfstring{$\sim$}{\string~}MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}MainWindow()}{\string~MainWindow()}}
+{\footnotesize\ttfamily \label{class_main_window_a1f7d2c56410fc1bfa135bb907d43313f} 
+Main\+Window::\+\texorpdfstring{$\sim$}{\string~}\+Main\+Window (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The window has been destroyed. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{mainwindow_8h}{mainwindow.\+h}}\item 
+\doxymbox{\hyperlink{mainwindow_8cpp}{mainwindow.\+cpp}}\end{DoxyCompactItemize}

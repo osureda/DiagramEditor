@@ -1,0 +1,9 @@
+<map id="diagramelement.h" name="diagramelement.h">
+<area shape="rect" id="Node000001" title="Declaration of DiagramElement class." alt="" coords="164,5,289,32"/>
+<area shape="rect" id="Node000002" href="$diagramelement_8cpp.html" title="Implementation of DiagramElement class." alt="" coords="5,80,144,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,40,102,82,100,77,184,38"/>
+<area shape="rect" id="Node000003" href="$diagramitem_8cpp.html" title="Implementation of DiagramItem class." alt="" coords="168,80,285,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,46,229,81,224,78,225,50"/>
+<area shape="rect" id="Node000004" href="$elementspecifications_8cpp.html" title="Implementation of ElementSpecifications class." alt="" coords="310,80,482,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="271,36,369,79,363,80,269,41"/>
+</map>

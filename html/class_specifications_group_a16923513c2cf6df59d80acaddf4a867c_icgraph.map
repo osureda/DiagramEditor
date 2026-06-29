@@ -1,0 +1,7 @@
+<map id="SpecificationsGroup::loadFromHash" name="SpecificationsGroup::loadFromHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="223,39,361,81"/>
+<area shape="rect" id="Node000002" href="$class_connection_specifications.html#ac387dc096a8cd5b018d09e5138eccf12" title=" " alt="" coords="5,5,175,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,47,175,43,175,38,210,46"/>
+<area shape="rect" id="Node000003" href="$class_element_specifications.html#ad3ef736741c87d1816d9bd9f0d0cf229" title=" " alt="" coords="14,72,166,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,74,167,83,166,78,210,73"/>
+</map>

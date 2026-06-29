@@ -1,0 +1,75 @@
+\doxysection{geometryutils.\+cpp File Reference}
+\hypertarget{geometryutils_8cpp}{}\label{geometryutils_8cpp}\index{geometryutils.cpp@{geometryutils.cpp}}
+
+
+Implementation of \doxylink{namespace_geometry_utils}{Geometry\+Utils} class.  
+
+
+{\ttfamily \+\#include "{}geometryutils.\+h"{}}\newline
+{\ttfamily \+\#include $<$cmath$>$}\newline
+{\ttfamily \+\#include $<$QColor$>$}\newline
+{\ttfamily \+\#include $<$QDebug$>$}\newline
+{\ttfamily \+\#include $<$QLineF$>$}\newline
+{\ttfamily \+\#include $<$Qt\+Global$>$}\newline
+{\ttfamily \+\#include $<$QTransform$>$}\newline
+Include dependency graph for geometryutils.\+cpp:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{geometryutils_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \doxymbox{\hyperlink{namespace_geometry_utils}{Geometry\+Utils}}
+\begin{DoxyCompactList}\small\item\em Contains helper functions and constants for geometry. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \doxymbox{\hyperlink{namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28}{Geometry\+Utils::\+stroke\+From\+String}} (const QString \&string)
+\item 
+\doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \doxymbox{\hyperlink{namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4}{Geometry\+Utils::\+shape\+From\+String}} (const QString \&string)
+\item 
+\doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \doxymbox{\hyperlink{namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b}{Geometry\+Utils::\+marker\+From\+String}} (const QString \&string)
+\item 
+QString \doxymbox{\hyperlink{namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19}{Geometry\+Utils::\+stroke\+Name}} (const \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \&stroke)
+\item 
+QString \doxymbox{\hyperlink{namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13}{Geometry\+Utils::\+shape\+Name}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \&shape)
+\item 
+QString \doxymbox{\hyperlink{namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80}{Geometry\+Utils::\+marker\+Name}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \&marker)
+\item 
+QPen \doxymbox{\hyperlink{namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca}{Geometry\+Utils::\+make\+Pen}} (const QColor \&color, qreal width, const \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \&style)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad}{Geometry\+Utils::\+make\+Polygon}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \&shape, const QPointF \&size)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af}{Geometry\+Utils::\+unitary\+Square}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a090df0d8f29cbd283318881f201699be}{Geometry\+Utils::\+unitary\+Circle}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f}{Geometry\+Utils::\+unitary\+Diamond}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151}{Geometry\+Utils::\+unitary\+Paper}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4}{Geometry\+Utils::\+make\+Marker\+Polygon}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \&marker\+Shape, const QLineF \&line, const QPointF \&size)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173}{Geometry\+Utils::\+opened\+Arrow\+Head}} (const QLineF \&tail, const QPointF \&head\+Size)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90}{Geometry\+Utils::\+closed\+Arrow\+Head}} (const QLineF \&tail, const QPointF \&head\+Size)
+\item 
+QVector$<$ QPointF $>$ \doxymbox{\hyperlink{namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326}{Geometry\+Utils::\+arrow\+Head\+Vertices}} (const QLineF \&tail, const QPointF \&head\+Size)
+\item 
+QPointF \doxymbox{\hyperlink{namespace_geometry_utils_a14f5188b30863ed81b5d6ea93b20ef3a}{Geometry\+Utils::\+closest\+Point\+On\+Segment}} (const QPointF \&a, const QPointF \&b, const QPointF \&p)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of \doxylink{namespace_geometry_utils}{Geometry\+Utils} class. 
+
+\begin{DoxyAuthor}{Author}
+Sureda-\/\+Cuevas:\+Óscar:\+u1988988 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Monday, July 20, 2026 
+\end{DoxyDate}

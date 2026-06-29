@@ -1,0 +1,13 @@
+<map id="DiagramSpecification::loadFromHash" name="DiagramSpecification::loadFromHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="428,72,573,115"/>
+<area shape="rect" id="Node000002" href="$class_list_specification.html#af3a6488eb45c1e8003085f99d919635a" title=" " alt="" coords="239,5,364,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="418,67,364,50,365,45,424,66"/>
+<area shape="rect" id="Node000003" href="$class_selectable_specification.html#a3bccf6a9bcfa672178fa914ce3902473" title=" " alt="" coords="223,72,380,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="410,94,381,96,380,91,415,93"/>
+<area shape="rect" id="Node000004" href="$class_specifications_group.html#a16923513c2cf6df59d80acaddf4a867c" title=" " alt="" coords="232,139,370,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="423,119,368,141,367,135,418,121"/>
+<area shape="rect" id="Node000005" href="$class_connection_specifications.html#ac387dc096a8cd5b018d09e5138eccf12" title=" " alt="" coords="5,105,175,148"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="214,147,175,143,175,137,219,146"/>
+<area shape="rect" id="Node000006" href="$class_element_specifications.html#ad3ef736741c87d1816d9bd9f0d0cf229" title=" " alt="" coords="14,172,166,215"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="214,174,167,184,166,179,219,173"/>
+</map>

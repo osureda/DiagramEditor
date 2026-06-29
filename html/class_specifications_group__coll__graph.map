@@ -1,0 +1,16 @@
+<map id="SpecificationsGroup" name="SpecificationsGroup">
+<area shape="rect" id="Node000001" title="A group of diagram specifications belonging to a diagram component." alt="" coords="18,279,157,305"/>
+<area shape="rect" id="Node000002" href="$class_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="5,5,122,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,47,89,278,84,278,63,48"/>
+<area shape="rect" id="Node000003" href="$class_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="106,180,243,207"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="81,43,169,179,164,181,78,47"/>
+<area shape="rect" id="Node000005" href="$class_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="169,81,265,108"/>
+<area shape="poly" id="edge8_Node000005_Node000002" title=" " alt="" coords="106,36,146,54,196,80,191,82,144,58,108,41"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,218,100,280,97,276,150,219"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="314,5,384,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="345,45,326,104,310,133,288,158,267,172,245,182,242,177,265,167,284,154,306,130,322,101,341,49"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="311,41,241,83,238,79,316,38"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="190,117,182,133,176,157,175,180,170,178,170,156,177,131,187,121"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="146,5,290,32"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="219,45,220,82,215,80,217,50"/>
+</map>

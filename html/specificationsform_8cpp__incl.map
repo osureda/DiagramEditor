@@ -1,0 +1,19 @@
+<map id="specificationsform.cpp" name="specificationsform.cpp">
+<area shape="rect" id="Node000001" title="Implementation of SpecificationsForm class." alt="" coords="249,5,401,32"/>
+<area shape="rect" id="Node000002" href="$specificationsform_8h.html" title="Declaration of SpecificationsForm class." alt="" coords="93,80,231,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,34,206,76,203,71,299,31"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="255,80,312,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="320,31,300,69,296,65,316,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="336,80,399,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="333,30,355,67,350,66,331,35"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="423,80,525,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="351,30,437,72,431,73,350,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,58,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,110,69,149,67,144,138,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="82,155,152,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="157,106,135,143,131,139,152,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="176,155,242,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="172,105,195,142,190,141,169,110"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="266,155,338,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="187,105,267,147,261,147,186,110"/>
+</map>

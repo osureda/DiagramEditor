@@ -1,0 +1,670 @@
+\doxysection{Geometry\+Utils Namespace Reference}
+\hypertarget{namespace_geometry_utils}{}\label{namespace_geometry_utils}\index{GeometryUtils@{GeometryUtils}}
+
+
+Contains helper functions and constants for geometry.  
+
+
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum class \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \{ \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835dae41480b6bbfbf7407974a88d3d34f4fa}{Solid}}
+, \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835daeb656e41b6da91494775ecf47a51da91}{Dashed}}
+ \}
+\begin{DoxyCompactList}\small\item\em The types of line strokes. \end{DoxyCompactList}\item 
+enum class \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \{ \newline
+\doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010aceb46ca115d05c51aa5a16a8867c3304}{Square}}
+, \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a30954d90085f6eaaf5817917fc5fecb3}{Circle}}
+, \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a8f7671185d590914ac21c7511767b699}{Diamond}}
+, \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010ad0a662a5235ecde30739fe50cf0de830}{Paper}}
+, \newline
+\doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a6adf97f83acf6453d4a6a4b1070f3754}{None}}
+ \}
+\begin{DoxyCompactList}\small\item\em The types of polygon shapes. \end{DoxyCompactList}\item 
+enum class \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \{ \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a64683d46fb27d7cfc481f61170d3f7e1}{Opened\+Arrow}}
+, \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a202868e7cf691195cc0646729e981d65}{Closed\+Arrow}}
+, \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a6adf97f83acf6453d4a6a4b1070f3754}{None}}
+ \}
+\begin{DoxyCompactList}\small\item\em The types of line markers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \doxymbox{\hyperlink{namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28}{stroke\+From\+String}} (const QString \&string)
+\item 
+\doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \doxymbox{\hyperlink{namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4}{shape\+From\+String}} (const QString \&string)
+\item 
+\doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \doxymbox{\hyperlink{namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b}{marker\+From\+String}} (const QString \&string)
+\item 
+QString \doxymbox{\hyperlink{namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19}{stroke\+Name}} (const \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \&stroke)
+\item 
+QString \doxymbox{\hyperlink{namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13}{shape\+Name}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \&shape)
+\item 
+QString \doxymbox{\hyperlink{namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80}{marker\+Name}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \&marker)
+\item 
+QPen \doxymbox{\hyperlink{namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca}{make\+Pen}} (const QColor \&color, qreal width, const \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \&style)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad}{make\+Polygon}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \&shape, const QPointF \&size)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af}{unitary\+Square}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a090df0d8f29cbd283318881f201699be}{unitary\+Circle}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f}{unitary\+Diamond}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151}{unitary\+Paper}} ()
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4}{make\+Marker\+Polygon}} (const \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \&marker\+Shape, const QLineF \&line, const QPointF \&size)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173}{opened\+Arrow\+Head}} (const QLineF \&tail, const QPointF \&head\+Size)
+\item 
+QPolygonF \doxymbox{\hyperlink{namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90}{closed\+Arrow\+Head}} (const QLineF \&tail, const QPointF \&head\+Size)
+\item 
+QVector$<$ QPointF $>$ \doxymbox{\hyperlink{namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326}{arrow\+Head\+Vertices}} (const QLineF \&tail, const QPointF \&head\+Size)
+\item 
+QPointF \doxymbox{\hyperlink{namespace_geometry_utils_a14f5188b30863ed81b5d6ea93b20ef3a}{closest\+Point\+On\+Segment}} (const QPointF \&a, const QPointF \&b, const QPointF \&p)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{namespace_geometry_utils_ab0fdc7dbcf7efa92aaff423e465be91b}\label{namespace_geometry_utils_ab0fdc7dbcf7efa92aaff423e465be91b} 
+const qreal {\bfseries PI} = 3.\+1416
+\begin{DoxyCompactList}\small\item\em The value of PI. \end{DoxyCompactList}\item 
+\Hypertarget{namespace_geometry_utils_ae5eaaae0d598ef3947efc9ee0a63752c}\label{namespace_geometry_utils_ae5eaaae0d598ef3947efc9ee0a63752c} 
+const int {\bfseries N\+\_\+\+CIRCLE\+\_\+\+POINTS} = 100
+\begin{DoxyCompactList}\small\item\em The number of points used to draw a circle. \end{DoxyCompactList}\item 
+\Hypertarget{namespace_geometry_utils_a50af505bdce4f7ee702b35dace8364e7}\label{namespace_geometry_utils_a50af505bdce4f7ee702b35dace8364e7} 
+const qreal {\bfseries ARROW\+\_\+\+HEAD\+\_\+\+ANGLE} = 0.\+5
+\begin{DoxyCompactList}\small\item\em The angle used to draw an arrow head. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains helper functions and constants for geometry. 
+
+\label{namespace_geometry_utils_doc-enum-members}
+\Hypertarget{namespace_geometry_utils_doc-enum-members}
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}\index{GeometryUtils@{GeometryUtils}!LineMarker@{LineMarker}}
+\index{LineMarker@{LineMarker}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{LineMarker}{LineMarker}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09} 
+enum class \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Geometry\+Utils::\+\+Line\+Marker}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+The types of line markers. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OpenedArrow@{OpenedArrow}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!OpenedArrow@{OpenedArrow}}
+}\Hypertarget{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a64683d46fb27d7cfc481f61170d3f7e1}\label{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a64683d46fb27d7cfc481f61170d3f7e1} 
+Opened\+Arrow&The marker is an opened arrow. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ClosedArrow@{ClosedArrow}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!ClosedArrow@{ClosedArrow}}
+}\Hypertarget{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a202868e7cf691195cc0646729e981d65}\label{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a202868e7cf691195cc0646729e981d65} 
+Closed\+Arrow&The marker is a closed arrow. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!None@{None}}
+}\Hypertarget{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a6adf97f83acf6453d4a6a4b1070f3754}\label{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a6adf97f83acf6453d4a6a4b1070f3754} 
+None&There is no marker. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}\index{GeometryUtils@{GeometryUtils}!PolygonShape@{PolygonShape}}
+\index{PolygonShape@{PolygonShape}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{PolygonShape}{PolygonShape}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010} 
+enum class \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Geometry\+Utils::\+\+Polygon\+Shape}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+The types of polygon shapes. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Square@{Square}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!Square@{Square}}
+}\Hypertarget{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010aceb46ca115d05c51aa5a16a8867c3304}\label{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010aceb46ca115d05c51aa5a16a8867c3304} 
+Square&The polygon is a square. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Circle@{Circle}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!Circle@{Circle}}
+}\Hypertarget{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a30954d90085f6eaaf5817917fc5fecb3}\label{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a30954d90085f6eaaf5817917fc5fecb3} 
+Circle&The polygon is a circle. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Diamond@{Diamond}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!Diamond@{Diamond}}
+}\Hypertarget{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a8f7671185d590914ac21c7511767b699}\label{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a8f7671185d590914ac21c7511767b699} 
+Diamond&The polygon is a diamond. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Paper@{Paper}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!Paper@{Paper}}
+}\Hypertarget{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010ad0a662a5235ecde30739fe50cf0de830}\label{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010ad0a662a5235ecde30739fe50cf0de830} 
+Paper&The polygon has a paper shape. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!None@{None}}
+}\Hypertarget{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a6adf97f83acf6453d4a6a4b1070f3754}\label{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a6adf97f83acf6453d4a6a4b1070f3754} 
+None&There is no polygon. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}\index{GeometryUtils@{GeometryUtils}!Stroke@{Stroke}}
+\index{Stroke@{Stroke}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{Stroke}{Stroke}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d} 
+enum class \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Geometry\+Utils::\+\+Stroke}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+The types of line strokes. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Solid@{Solid}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!Solid@{Solid}}
+}\Hypertarget{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835dae41480b6bbfbf7407974a88d3d34f4fa}\label{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835dae41480b6bbfbf7407974a88d3d34f4fa} 
+Solid&The stroke is solid. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Dashed@{Dashed}!GeometryUtils@{GeometryUtils}}
+\index{GeometryUtils@{GeometryUtils}!Dashed@{Dashed}}
+}\Hypertarget{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835daeb656e41b6da91494775ecf47a51da91}\label{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835daeb656e41b6da91494775ecf47a51da91} 
+Dashed&The stroke is dashed. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\label{namespace_geometry_utils_doc-func-members}
+\Hypertarget{namespace_geometry_utils_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326}\index{GeometryUtils@{GeometryUtils}!arrowHeadVertices@{arrowHeadVertices}}
+\index{arrowHeadVertices@{arrowHeadVertices}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{arrowHeadVertices()}{arrowHeadVertices()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326} 
+QVector$<$ QPointF $>$ Geometry\+Utils::\+arrow\+Head\+Vertices (\begin{DoxyParamCaption}\item[{const QLineF \&}]{tail}{, }\item[{const QPointF \&}]{head\+Size}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The vertices of the arrow head for a tail. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em tail} & The arrow tail whose head vertices we want to obtain. \\
+\hline
+{\em head\+Size} & The size of the arrow head whose vertices we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+head\+Size.\+x() \texorpdfstring{$>$}{>}= 0 \&\& head\+Size.\+y() \texorpdfstring{$>$}{>}= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The vertices of the arrow head with size head\+Size for the given tail have been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90}\index{GeometryUtils@{GeometryUtils}!closedArrowHead@{closedArrowHead}}
+\index{closedArrowHead@{closedArrowHead}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{closedArrowHead()}{closedArrowHead()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90} 
+QPolygonF Geometry\+Utils::\+closed\+Arrow\+Head (\begin{DoxyParamCaption}\item[{const QLineF \&}]{tail}{, }\item[{const QPointF \&}]{head\+Size}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A closed arrow head for a tail. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em tail} & The arrow tail whose head we want to obtain. \\
+\hline
+{\em head\+Size} & The size of the arrow head we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+head\+Size.\+x() \texorpdfstring{$>$}{>}= 0 \&\& head\+Size.\+y() \texorpdfstring{$>$}{>}= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A closed arrow head with size head\+Size for the given tail has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a14f5188b30863ed81b5d6ea93b20ef3a}\index{GeometryUtils@{GeometryUtils}!closestPointOnSegment@{closestPointOnSegment}}
+\index{closestPointOnSegment@{closestPointOnSegment}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{closestPointOnSegment()}{closestPointOnSegment()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a14f5188b30863ed81b5d6ea93b20ef3a} 
+QPointF Geometry\+Utils::\+closest\+Point\+On\+Segment (\begin{DoxyParamCaption}\item[{const QPointF \&}]{a}{, }\item[{const QPointF \&}]{b}{, }\item[{const QPointF \&}]{p}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The closest point to a point in a segment. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first endpoint of the segment. \\
+\hline
+{\em b} & The second endpoint of the segment. \\
+\hline
+{\em p} & The point whose closest point on the segment we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The closest point to p on the segment between a and b. 
+\end{DoxyPostcond}
+\Hypertarget{namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4}\index{GeometryUtils@{GeometryUtils}!makeMarkerPolygon@{makeMarkerPolygon}}
+\index{makeMarkerPolygon@{makeMarkerPolygon}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{makeMarkerPolygon()}{makeMarkerPolygon()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4} 
+QPolygonF Geometry\+Utils::\+make\+Marker\+Polygon (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \&}]{marker\+Shape}{, }\item[{const QLineF \&}]{line}{, }\item[{const QPointF \&}]{size}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A line marker with the given properties. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em marker\+Shape} & The shape of the line marker we want to obtain. \\
+\hline
+{\em line} & The line whose marker we want to obtain. \\
+\hline
+{\em size} & The size of the line marker we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+size.\+x() \texorpdfstring{$>$}{>}= 0 \&\& size.\+y() \texorpdfstring{$>$}{>}= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A line marker with shape marker\+Shape, the given size and for the given line has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca}\index{GeometryUtils@{GeometryUtils}!makePen@{makePen}}
+\index{makePen@{makePen}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{makePen()}{makePen()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca} 
+QPen Geometry\+Utils::\+make\+Pen (\begin{DoxyParamCaption}\item[{const QColor \&}]{color}{, }\item[{qreal}]{width}{, }\item[{const \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \&}]{style}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A pen with the given properties. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em color} & The color of the pen we want to obtain. \\
+\hline
+{\em width} & The width of the pen we want to obtain. \\
+\hline
+{\em style} & The stroke type of the pen we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+width \texorpdfstring{$>$}{>}= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A pen with the given color and width and stroke style has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad}\index{GeometryUtils@{GeometryUtils}!makePolygon@{makePolygon}}
+\index{makePolygon@{makePolygon}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{makePolygon()}{makePolygon()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad} 
+QPolygonF Geometry\+Utils::\+make\+Polygon (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \&}]{shape}{, }\item[{const QPointF \&}]{size}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A polygon with the given properties. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em shape} & The shape of the polygon we want to obtain. \\
+\hline
+{\em size} & The size of the polygon we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+size.\+x() \texorpdfstring{$>$}{>}= 0 \&\& size.\+y() \texorpdfstring{$>$}{>}= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A polygon with the given shape and size has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b}\index{GeometryUtils@{GeometryUtils}!markerFromString@{markerFromString}}
+\index{markerFromString@{markerFromString}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{markerFromString()}{markerFromString()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b} 
+\doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} Geometry\+Utils::\+marker\+From\+String (\begin{DoxyParamCaption}\item[{const QString \&}]{string}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The line marker associated with the given string. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The string whose associated line marker we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The line marker associated with the given string has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80}\index{GeometryUtils@{GeometryUtils}!markerName@{markerName}}
+\index{markerName@{markerName}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{markerName()}{markerName()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80} 
+QString Geometry\+Utils::\+marker\+Name (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{Line\+Marker}} \&}]{marker}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The name of the given line marker. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em marker} & The line marker whose name we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The name of the given line marker has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173}\index{GeometryUtils@{GeometryUtils}!openedArrowHead@{openedArrowHead}}
+\index{openedArrowHead@{openedArrowHead}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{openedArrowHead()}{openedArrowHead()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173} 
+QPolygonF Geometry\+Utils::\+opened\+Arrow\+Head (\begin{DoxyParamCaption}\item[{const QLineF \&}]{tail}{, }\item[{const QPointF \&}]{head\+Size}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+An opened arrow head for a tail. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em tail} & The arrow tail whose head we want to obtain. \\
+\hline
+{\em head\+Size} & The size of the arrow head we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+head\+Size.\+x() \texorpdfstring{$>$}{>}= 0 \&\& head\+Size.\+y() \texorpdfstring{$>$}{>}= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+An opened arrow head with size head\+Size for the given tail has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4}\index{GeometryUtils@{GeometryUtils}!shapeFromString@{shapeFromString}}
+\index{shapeFromString@{shapeFromString}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{shapeFromString()}{shapeFromString()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4} 
+\doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} Geometry\+Utils::\+shape\+From\+String (\begin{DoxyParamCaption}\item[{const QString \&}]{string}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The polygon shape associated with the given string. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The string whose associated polygon shape we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The polygon shape associated with the given string has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13}\index{GeometryUtils@{GeometryUtils}!shapeName@{shapeName}}
+\index{shapeName@{shapeName}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{shapeName()}{shapeName()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13} 
+QString Geometry\+Utils::\+shape\+Name (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{Polygon\+Shape}} \&}]{shape}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The name of the given polygon shape. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em shape} & The polygon shape whose name we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The name of the given polygon shape has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28}\index{GeometryUtils@{GeometryUtils}!strokeFromString@{strokeFromString}}
+\index{strokeFromString@{strokeFromString}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{strokeFromString()}{strokeFromString()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28} 
+\doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} Geometry\+Utils::\+stroke\+From\+String (\begin{DoxyParamCaption}\item[{const QString \&}]{string}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The stroke associated with the given string. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The string whose associated stroke we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The stroke associated with the given string has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19}\index{GeometryUtils@{GeometryUtils}!strokeName@{strokeName}}
+\index{strokeName@{strokeName}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{strokeName()}{strokeName()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19} 
+QString Geometry\+Utils::\+stroke\+Name (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}} \&}]{stroke}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The name of the given stroke. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em stroke} & The stroke whose name we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The name of the given stroke has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a090df0d8f29cbd283318881f201699be}\index{GeometryUtils@{GeometryUtils}!unitaryCircle@{unitaryCircle}}
+\index{unitaryCircle@{unitaryCircle}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{unitaryCircle()}{unitaryCircle()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a090df0d8f29cbd283318881f201699be} 
+QPolygonF Geometry\+Utils::\+unitary\+Circle (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A unit circle polygon. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A unit circle polygon has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a090df0d8f29cbd283318881f201699be_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f}\index{GeometryUtils@{GeometryUtils}!unitaryDiamond@{unitaryDiamond}}
+\index{unitaryDiamond@{unitaryDiamond}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{unitaryDiamond()}{unitaryDiamond()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f} 
+QPolygonF Geometry\+Utils::\+unitary\+Diamond (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A unit diamond polygon. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A unit diamond polygon has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151}\index{GeometryUtils@{GeometryUtils}!unitaryPaper@{unitaryPaper}}
+\index{unitaryPaper@{unitaryPaper}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{unitaryPaper()}{unitaryPaper()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151} 
+QPolygonF Geometry\+Utils::\+unitary\+Paper (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A unit polygon with a paper shape. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A unit polygon with a paper shape has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af}\index{GeometryUtils@{GeometryUtils}!unitarySquare@{unitarySquare}}
+\index{unitarySquare@{unitarySquare}!GeometryUtils@{GeometryUtils}}
+\doxysubsubsection{\texorpdfstring{unitarySquare()}{unitarySquare()}}
+{\footnotesize\ttfamily \label{namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af} 
+QPolygonF Geometry\+Utils::\+unitary\+Square (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+A unit square polygon. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A unit square polygon has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af_icgraph}
+\end{center}
+\end{figure}

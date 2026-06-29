@@ -1,0 +1,13 @@
+<map id="DiagramComponent::componentResized" name="DiagramComponent::componentResized">
+<area shape="rect" id="Node000001" title=" " alt="" coords="407,101,616,144"/>
+<area shape="rect" id="Node000002" href="$class_diagram_connection.html#a916814611854cfda4b8a0bfb11899c22" title=" " alt="" coords="206,72,350,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,108,351,105,351,100,394,107"/>
+<area shape="rect" id="Node000006" href="$class_diagram_element.html#ac326320d5c2413544c2638838ff8897a" title=" " alt="" coords="198,139,359,165"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="394,137,360,145,359,139,389,138"/>
+<area shape="rect" id="Node000003" href="$class_diagram_connection.html#a315cfce2a9eeb0b300754be90e999a56" title=" " alt="" coords="5,5,150,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="196,68,144,51,144,46,201,66"/>
+<area shape="rect" id="Node000004" href="$class_diagram_connection.html#ad18fd1041d476a9f6d5aefe373233f6f" title=" " alt="" coords="5,72,150,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,94,151,96,150,91,193,92"/>
+<area shape="rect" id="Node000005" href="$class_diagram_connection.html#ad474eb310d3da2ee70a40a82a850a1f9" title=" " alt="" coords="5,139,150,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="201,119,145,141,143,135,195,121"/>
+</map>

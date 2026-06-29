@@ -1,0 +1,95 @@
+\doxysection{diagram.\+h}
+\hypertarget{diagram_8h_source}{}\label{diagram_8h_source}\doxymbox{\hyperlink{diagram_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ DIAGRAM\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ DIAGRAM\_H}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{jsonserializable_8h}{jsonserializable.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QGraphicsScene>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QObject>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QList>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QVariant>}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}};}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_item}{DiagramItem}};}
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_specifications_form}{SpecificationsForm}};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00022\ \textcolor{keyword}{class\ }QGraphicsSceneMouseEvent;}
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }QPointF;}
+\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }QWidget;}
+\DoxyCodeLine{00025\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00031\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_a56688a9f6a357683304f75e52a67f908}{Diagram}}\ :\ \textcolor{keyword}{public}\ QGraphicsScene,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_json_serializable}{JsonSerializable}}}
+\DoxyCodeLine{00032\ \{}
+\DoxyCodeLine{00033\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keyword}{enum\ class}\ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}{EditionMode}}\ \{}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0ae9e604e885141fce3e5708da964193bf}{AddItemMode}},\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a6299674ebedde7114677fe458e36cc15}{SelectionMode}},\ \ \ \ \ \ }
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a4106b8d61e42f0e804b06c98d49d3dd0}{AddResizerMode}},\ \ \ \ \ }
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0a48a3239590a535fb95a2f269be70df12}{RemoveResizerMode}}\ \ \ }
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \};}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_a56688a9f6a357683304f75e52a67f908}{Diagram}}(\textcolor{keywordtype}{int}\ sceneSize\ =\ 1000,\ QObject\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a95932dafe57417fd63d5bf4bcbd26f68}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_diagram_a164376c43eddee6b8d1eb6befc4c83d9}{toHash}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_aabb39c65909f86a08a293ad69d65242c}{setEditionMode}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}{EditionMode}}\ \&mode);}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_af0df1a1efae0a304a00bd0ef92dd8b8b}{setDraggingResizer}}(\textcolor{keywordtype}{bool}\ dragging);}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a5638e0d65cb65b2554b630ff7d920281}{setSpecifications}}(\textcolor{keyword}{const}\ QWidget\ *formResults);}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_item}{DiagramItem}}\ *\doxymbox{\hyperlink{class_diagram_a61599e31735f69ebb2c0785c024c4248}{diagramItemAt}}(\textcolor{keyword}{const}\ QPointF\ \&pos)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_a3b79b68d7f75ed9237d08abe53b46b11}{newDiagramItemId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}}\ *\doxymbox{\hyperlink{class_diagram_a45924c27707d1f56c1424e676bfac653}{diagramComponentAt}}(\textcolor{keyword}{const}\ QPointF\ \&pos,\ \doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}}\ *exception\ =\ \textcolor{keyword}{nullptr})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00117\ }
+\DoxyCodeLine{00128\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}}\ *\doxymbox{\hyperlink{class_diagram_abd611188c2d9a95bf46e9c40d02af029}{componentByIds}}(\textcolor{keywordtype}{int}\ itemId,\ \textcolor{keywordtype}{int}\ componentId)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \ \ \ \ signals:}
+\DoxyCodeLine{00137\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a22509aaeea41732a8d3fbeccdb212bdf}{itemRequested}}(\textcolor{keyword}{const}\ QPointF\ \&pos);}
+\DoxyCodeLine{00138\ }
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a64c788c53fa7fb1d4b68537c69f8b745}{selectedItemChanged}}(QWidget\ *specificationsForm);}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00148\ \ \ \ \ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00153\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a689252558b07ef75be2b337e2047e0cd}{selectNextItem}}();}
+\DoxyCodeLine{00154\ }
+\DoxyCodeLine{00160\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a22081499a55b7a35980bcb0cdaae93a1}{moveSelectedItems}}(\textcolor{keyword}{const}\ QPointF\ \&moveStep);}
+\DoxyCodeLine{00161\ }
+\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a52244162286fdd7f0c24388a02636b2c}{deleteSelectedItems}}();}
+\DoxyCodeLine{00167\ }
+\DoxyCodeLine{00168\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00174\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_ae2b0631628ba8ac6b3fdd8595af0bdcd}{mouseMoveEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00175\ }
+\DoxyCodeLine{00181\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_a677b52039b3596304edae4017b679836}{mousePressEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00182\ }
+\DoxyCodeLine{00183\ \ \ \ \ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00188\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ updateSelectedItem();}
+\DoxyCodeLine{00189\ }
+\DoxyCodeLine{00190\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00194\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_ad26a179868b75e331c4bca95f1dfa9b0}{EditionMode}}\ editionMode;\ }
+\DoxyCodeLine{00195\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ draggingResizer;\ }
+\DoxyCodeLine{00196\ }
+\DoxyCodeLine{00197\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_item}{DiagramItem}}\ *shadowedItem;\ }
+\DoxyCodeLine{00198\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ selectedSingleItemIndex;\ }
+\DoxyCodeLine{00199\ }
+\DoxyCodeLine{00205\ \ \ \ \ \ \ \ \ QList<DiagramItem*>\ diagramItems()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00206\ }
+\DoxyCodeLine{00212\ \ \ \ \ \ \ \ \ QList<DiagramItem*>\ selectedDiagramItems()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00213\ }
+\DoxyCodeLine{00220\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_item}{DiagramItem}}\ *selectedSingleItem()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00221\ }
+\DoxyCodeLine{00229\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QWidget\ *emptySpecificationsForm();}
+\DoxyCodeLine{00230\ \};}
+\DoxyCodeLine{00231\ }
+\DoxyCodeLine{00232\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DIAGRAM\_H}}
+
+\end{DoxyCode}

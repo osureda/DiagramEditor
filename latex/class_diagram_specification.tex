@@ -1,0 +1,266 @@
+\doxysection{Diagram\+Specification Class Reference}
+\hypertarget{class_diagram_specification}{}\label{class_diagram_specification}\index{DiagramSpecification@{DiagramSpecification}}
+
+
+A diagram component specification.  
+
+
+
+
+{\ttfamily \+\#include $<$diagramspecification.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Specification:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_specification__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Specification:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{class_diagram_specification__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_specification_a30cf6ea35a35adf0e282a7cd55849d66}{Diagram\+Specification}} (QGraphics\+Item \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+void \doxymbox{\hyperlink{class_diagram_specification_a240078bbf34512f902069d5636d2438f}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_specification_aeedd993a4d93321d7db3f15e9087cdd3}{to\+Hash}} () const override
+\item 
+QPointF \doxymbox{\hyperlink{class_diagram_specification_a83b60ddb94112fa4d96fb60cc4de429c}{moving\+Translation}} () const
+\item 
+QString \doxymbox{\hyperlink{class_diagram_specification_a073540d9596529377a2c8c47fe8a3a5b}{name}} () const
+\item 
+virtual QWidget \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_specification_a1b6c1738b4e17a4c0569a9b34a50d890}{form}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_specification_a598224f43fd779c7bc30814879809571}{apply\+Form\+Results}} (const QWidget \texorpdfstring{$\ast$}{*}form\+Results)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_json_serializable_a194264cba8c2b23e4f5a9f9980cff1a1}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+QVariant \doxymbox{\hyperlink{class_diagram_specification_a874dc921ca27da52de03f49bc6572f7a}{item\+Change}} (Graphics\+Item\+Change change, const QVariant \&value) override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_specification_a0c3e2378eac3feaa4a477a3c758870aa}\label{class_diagram_specification_a0c3e2378eac3feaa4a477a3c758870aa} 
+QString {\bfseries stored\+Name}
+\begin{DoxyCompactList}\small\item\em The name of the specification. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_specification_a70a8c252ad67e4046b05e351d8355405}\label{class_diagram_specification_a70a8c252ad67e4046b05e351d8355405} 
+bool {\bfseries fixed}
+\begin{DoxyCompactList}\small\item\em Whether the specification text can be edited. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_json_serializable_aec63456fa3e67355a80bc60f61643c99}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A diagram component specification. 
+
+\label{class_diagram_specification_doc-constructors}
+\Hypertarget{class_diagram_specification_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_specification_a30cf6ea35a35adf0e282a7cd55849d66}\index{DiagramSpecification@{DiagramSpecification}!DiagramSpecification@{DiagramSpecification}}
+\index{DiagramSpecification@{DiagramSpecification}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{DiagramSpecification()}{DiagramSpecification()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_a30cf6ea35a35adf0e282a7cd55849d66} 
+Diagram\+Specification::\+\+Diagram\+Specification (\begin{DoxyParamCaption}\item[{QGraphics\+Item \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The container of the specification. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification is contained by parent. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_specification_a30cf6ea35a35adf0e282a7cd55849d66_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_specification_doc-func-members}
+\Hypertarget{class_diagram_specification_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_specification_a598224f43fd779c7bc30814879809571}\index{DiagramSpecification@{DiagramSpecification}!applyFormResults@{applyFormResults}}
+\index{applyFormResults@{applyFormResults}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{applyFormResults()}{applyFormResults()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_a598224f43fd779c7bc30814879809571} 
+void Diagram\+Specification::\+apply\+Form\+Results (\begin{DoxyParamCaption}\item[{const QWidget \texorpdfstring{$\ast$}{*}}]{form\+Results}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Results} & The form containing the results to apply. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The results in the form form\+Results have been applied. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_specification_a1b6c1738b4e17a4c0569a9b34a50d890}\index{DiagramSpecification@{DiagramSpecification}!form@{form}}
+\index{form@{form}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{form()}{form()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_a1b6c1738b4e17a4c0569a9b34a50d890} 
+QWidget \texorpdfstring{$\ast$}{*} Diagram\+Specification::\+form (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The form to modify the specification text. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The form to modify the specification text has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented in \doxymbox{\hyperlink{class_list_specification_aee7dbdec6f072f936cb7061270bca6be}{List\+Specification}}, \doxymbox{\hyperlink{class_long_text_specification_ac2979d73817304cc8d741e54b16140b7}{Long\+Text\+Specification}}, \doxymbox{\hyperlink{class_selectable_specification_aa4ea4ad525696403a557c00f97a47715}{Selectable\+Specification}}, and \doxymbox{\hyperlink{class_short_text_specification_a21371fb2e689a13b71f5c5d38049fa40}{Short\+Text\+Specification}}.
+
+\Hypertarget{class_diagram_specification_a874dc921ca27da52de03f49bc6572f7a}\index{DiagramSpecification@{DiagramSpecification}!itemChange@{itemChange}}
+\index{itemChange@{itemChange}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{itemChange()}{itemChange()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_a874dc921ca27da52de03f49bc6572f7a} 
+QVariant Diagram\+Specification::\+item\+Change (\begin{DoxyParamCaption}\item[{Graphics\+Item\+Change}]{change}{, }\item[{const QVariant \&}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em change} & The type of change that has to be applied to the specification. \\
+\hline
+{\em value} & The value of the change that has to be applied to the specification. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The given change with the given value has been applied to the specification. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_specification_a240078bbf34512f902069d5636d2438f}\index{DiagramSpecification@{DiagramSpecification}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_a240078bbf34512f902069d5636d2438f} 
+void Diagram\+Specification::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification data has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_json_serializable_a12dc785a9d7211b1e5a8c26cd5e3bd45}{Json\+Serializable}}.
+
+
+
+Reimplemented in \doxymbox{\hyperlink{class_list_specification_af3a6488eb45c1e8003085f99d919635a}{List\+Specification}}, and \doxymbox{\hyperlink{class_selectable_specification_a3bccf6a9bcfa672178fa914ce3902473}{Selectable\+Specification}}.
+
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_specification_a240078bbf34512f902069d5636d2438f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_specification_a83b60ddb94112fa4d96fb60cc4de429c}\index{DiagramSpecification@{DiagramSpecification}!movingTranslation@{movingTranslation}}
+\index{movingTranslation@{movingTranslation}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{movingTranslation()}{movingTranslation()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_a83b60ddb94112fa4d96fb60cc4de429c} 
+QPointF Diagram\+Specification::\+moving\+Translation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The translation applied to the specification while moving it. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The translation applied to the specification while moving it has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_specification_a073540d9596529377a2c8c47fe8a3a5b}\index{DiagramSpecification@{DiagramSpecification}!name@{name}}
+\index{name@{name}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_a073540d9596529377a2c8c47fe8a3a5b} 
+QString Diagram\+Specification::\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The name of the specification. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The name of the specification has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_specification_aeedd993a4d93321d7db3f15e9087cdd3}\index{DiagramSpecification@{DiagramSpecification}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramSpecification@{DiagramSpecification}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_specification_aeedd993a4d93321d7db3f15e9087cdd3} 
+QVariant\+Hash Diagram\+Specification::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The data associated with the specification. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The data associated with the specification has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_json_serializable_a688bbf991d7ff227e01f7f2294c7cae8}{Json\+Serializable}}.
+
+
+
+Reimplemented in \doxymbox{\hyperlink{class_list_specification_a328ba1d83bce14c24496d907ce7485cf}{List\+Specification}}, and \doxymbox{\hyperlink{class_selectable_specification_aa4d0add763518be6ec605bbca5367dc9}{Selectable\+Specification}}.
+
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{class_diagram_specification_aeedd993a4d93321d7db3f15e9087cdd3_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{diagramspecification_8h}{diagramspecification.\+h}}\item 
+\doxymbox{\hyperlink{diagramspecification_8cpp}{diagramspecification.\+cpp}}\end{DoxyCompactItemize}

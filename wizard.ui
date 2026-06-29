@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Wizard</class>
+ <widget class="QWizard" name="Wizard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>817</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Wizard</string>
+  </property>
+  <property name="wizardStyle">
+   <enum>QWizard::WizardStyle::ClassicStyle</enum>
+  </property>
+  <property name="options">
+   <set>QWizard::WizardOption::HaveNextButtonOnLastPage|QWizard::WizardOption::NoCancelButton</set>
+  </property>
+  <property name="subTitleFormat">
+   <enum>Qt::TextFormat::AutoText</enum>
+  </property>
+  <widget class="QWizardPage" name="chooseDiagramModelPage">
+   <layout class="QVBoxLayout" name="chooseDiagramModelPageLayout">
+    <item>
+     <widget class="QLabel" name="chooseDiagramModelLabel">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Choose your diagram model</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="chooseDiagramModelSelectorLayout"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

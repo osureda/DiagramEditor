@@ -1,0 +1,7 @@
+<map id="SelectableDataButton" name="SelectableDataButton">
+<area shape="rect" id="Node000001" title="A checkable button with associated data." alt="" coords="46,80,194,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,105,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,41,112,79,106,80,75,46"/>
+<area shape="rect" id="Node000003" href="$class_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="129,5,245,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,43,133,82,130,77,163,45"/>
+</map>

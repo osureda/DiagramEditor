@@ -1,0 +1,15 @@
+<map id="SpecificationsGroup::typeNameFromSpecification" name="SpecificationsGroup::typeNameFromSpecification">
+<area shape="rect" id="Node000001" title=" " alt="" coords="626,105,821,148"/>
+<area shape="rect" id="Node000002" href="$class_specifications_group.html#ab03a4577fbd06fa5432db592411a86d2" title=" " alt="" coords="440,105,578,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="609,127,579,129,579,124,614,126"/>
+<area shape="rect" id="Node000003" href="$class_specifications_group.html#a16923513c2cf6df59d80acaddf4a867c" title=" " alt="" coords="238,39,376,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="426,100,374,85,375,79,431,100"/>
+<area shape="rect" id="Node000006" href="$class_connection_specifications.html#a3a7c5577e2664301af5631d393fa75f3" title=" " alt="" coords="223,105,392,148"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="422,127,393,129,392,124,427,126"/>
+<area shape="rect" id="Node000007" href="$class_element_specifications.html#abaa831a7f87c668099d4318db808aacf" title=" " alt="" coords="232,172,383,215"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="431,153,375,174,374,169,426,154"/>
+<area shape="rect" id="Node000004" href="$class_connection_specifications.html#ac387dc096a8cd5b018d09e5138eccf12" title=" " alt="" coords="5,5,175,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,48,176,42,175,37,226,46"/>
+<area shape="rect" id="Node000005" href="$class_element_specifications.html#ad3ef736741c87d1816d9bd9f0d0cf229" title=" " alt="" coords="14,72,166,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="221,74,167,84,165,79,226,72"/>
+</map>

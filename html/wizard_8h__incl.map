@@ -1,0 +1,21 @@
+<map id="wizard.h" name="wizard.h">
+<area shape="rect" id="Node000001" title="Declaration of Wizard class." alt="" coords="373,5,444,32"/>
+<area shape="rect" id="Node000002" href="$diagramtype_8h.html" title="Declaration of DiagramType class." alt="" coords="162,80,266,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="372,34,263,77,261,72,377,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="226,229,298,256"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="408,31,391,101,374,143,349,183,327,205,301,224,299,219,323,201,345,180,369,141,386,99,404,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="410,80,479,107"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="416,30,434,67,429,65,414,35"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="503,80,575,107"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="432,30,506,72,500,72,431,35"/>
+<area shape="rect" id="Node000003" href="$jsonserializable_8h.html" title="Declaration of JsonSerializable class." alt="" coords="37,155,158,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="192,109,133,148,130,144,196,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,229,92,256"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="159,97,126,103,89,113,54,130,27,156,21,170,21,185,34,216,28,217,16,186,16,169,22,153,51,126,87,108,125,98,164,94"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="183,155,245,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="215,105,216,140,211,138,212,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="269,155,334,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="230,105,278,145,272,145,229,110"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,180,68,218,64,215,87,183"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="127,179,221,221,217,224,126,184"/>
+</map>

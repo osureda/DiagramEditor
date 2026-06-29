@@ -1,0 +1,37 @@
+<map id="JsonSerializable" name="JsonSerializable">
+<area shape="rect" id="Node000001" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="5,208,122,235"/>
+<area shape="rect" id="Node000002" href="$class_connectable_resizer.html" title="A diagram resizer that can be connected to a diagram component." alt="" coords="174,5,314,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,193,86,158,107,118,134,77,168,42,190,30,187,35,171,46,138,81,111,121,91,161,77,194"/>
+<area shape="rect" id="Node000003" href="$class_diagram.html" title="A diagram that contains and manages diagram items." alt="" coords="209,56,279,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="78,193,116,142,140,116,168,92,210,75,206,79,171,97,144,119,120,146,83,196"/>
+<area shape="rect" id="Node000004" href="$class_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="175,107,312,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="90,196,127,169,168,143,198,132,194,136,171,148,130,173,94,200"/>
+<area shape="rect" id="Node000007" href="$class_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="196,157,292,184"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="127,201,197,182,194,186,129,206"/>
+<area shape="rect" id="Node000008" href="$class_diagram_specification.html" title="A diagram component specification." alt="" coords="171,208,316,235"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="136,219,173,220,169,223,138,224"/>
+<area shape="rect" id="Node000013" href="$class_diagram_type.html" title="Represents a diagram type and the identifiers of its associated items." alt="" coords="195,259,293,285"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="128,237,197,257,192,260,129,242"/>
+<area shape="rect" id="Node000014" href="$class_diagram_type_group.html" title="Represents a group of diagram types." alt="" coords="177,309,310,336"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="92,242,130,270,171,295,198,308,193,309,168,300,127,274,93,247"/>
+<area shape="rect" id="Node000015" href="$class_selectable_data_button.html" title="A checkable button with associated data." alt="" coords="170,360,318,387"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="81,246,120,297,144,323,171,346,194,359,188,360,168,350,140,327,116,300,80,251"/>
+<area shape="rect" id="Node000016" href="$class_specifications_group.html" title="A group of diagram specifications belonging to a diagram component." alt="" coords="175,411,313,437"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="75,247,91,282,111,322,138,362,171,397,191,410,186,410,168,401,134,365,107,325,86,284,74,252"/>
+<area shape="rect" id="Node000005" href="$class_diagram_connection.html" title="A diagram component represented by a path that connects other components." alt="" coords="382,56,519,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="315,100,395,82,391,85,318,105"/>
+<area shape="rect" id="Node000006" href="$class_diagram_element.html" title="A diagram component represented as a polygon." alt="" coords="392,107,510,133"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="327,117,393,119,388,121,329,123"/>
+<area shape="rect" id="Node000009" href="$class_list_specification.html" title="diagram specification whose text is displayed as a list.." alt="" coords="392,157,509,184"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="315,201,396,183,391,186,317,206"/>
+<area shape="rect" id="Node000010" href="$class_long_text_specification.html" title="A diagram specification with a long text." alt="" coords="376,208,525,235"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="331,219,378,220,373,222,333,224"/>
+<area shape="rect" id="Node000011" href="$class_selectable_specification.html" title="A diagram specification whose text can be chosen from selectable choices." alt="" coords="372,259,529,285"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="316,236,396,257,391,259,317,242"/>
+<area shape="rect" id="Node000012" href="$class_short_text_specification.html" title="A diagram specification with a short text." alt="" coords="374,309,527,336"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="309,239,320,244,335,258,344,271,353,283,367,295,393,309,387,309,365,300,349,287,340,274,331,261,316,249,309,244"/>
+<area shape="rect" id="Node000017" href="$class_connection_specifications.html" title="The specifications of a diagram connection." alt="" coords="366,385,535,412"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="328,411,368,409,363,409,328,416"/>
+<area shape="rect" id="Node000018" href="$class_element_specifications.html" title="The specifications of a diagram element." alt="" coords="375,436,526,463"/>
+<area shape="poly" id="edge17_Node000016_Node000018" title=" " alt="" coords="328,432,377,440,372,440,328,437"/>
+</map>

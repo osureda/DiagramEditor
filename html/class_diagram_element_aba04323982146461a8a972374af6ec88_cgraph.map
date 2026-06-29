@@ -1,0 +1,15 @@
+<map id="DiagramElement::loadFromHash" name="DiagramElement::loadFromHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,217,124"/>
+<area shape="rect" id="Node000002" href="$namespace_geometry_utils.html#a754e94d5c015ea142f5927e15af8c4ca" title=" " alt="" coords="270,5,438,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,94,197,68,264,41,288,36,283,38,266,47,199,73,142,99"/>
+<area shape="rect" id="Node000003" href="$namespace_geometry_utils.html#a67a696e2faca3bcfc004f3d8fdc7efb4" title=" " alt="" coords="265,56,444,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,94,252,91,247,93,214,99"/>
+<area shape="rect" id="Node000004" href="$namespace_geometry_utils.html#a2efbb61c25261b651aa44903946e7e28" title=" " alt="" coords="265,123,444,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,122,252,129,247,130,214,127"/>
+<area shape="rect" id="Node000005" href="$class_diagram_element.html#a957416453e3b8ac12e1b9691be6ac41d" title=" " alt="" coords="270,189,438,216"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="141,122,199,148,266,175,288,184,283,184,264,180,197,153,141,127"/>
+<area shape="rect" id="Node000006" href="$namespace_geometry_utils.html#ab3699ccfcccff3da766a9cc5c7e22e13" title=" " alt="" coords="492,164,676,191"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="439,191,474,189,480,189,439,196"/>
+<area shape="rect" id="Node000007" href="$namespace_geometry_utils.html#abe73989920f4e0aa207e21c32b000e19" title=" " alt="" coords="492,215,676,241"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="439,209,479,216,474,216,439,215"/>
+</map>

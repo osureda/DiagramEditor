@@ -1,0 +1,80 @@
+\doxysection{geometryutils.\+h}
+\hypertarget{geometryutils_8h_source}{}\label{geometryutils_8h_source}\doxymbox{\hyperlink{geometryutils_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QPen>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QPointF>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <QPolygonF>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QVector>}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }QColor;}
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }QLineF;}
+\DoxyCodeLine{00018\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_geometry_utils}{GeometryUtils}}}
+\DoxyCodeLine{00025\ \{}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{const}\ qreal\ \doxymbox{\hyperlink{namespace_geometry_utils_ab0fdc7dbcf7efa92aaff423e465be91b}{PI}}\ =\ 3.1416;}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespace_geometry_utils_ae5eaaae0d598ef3947efc9ee0a63752c}{N\_CIRCLE\_POINTS}}\ =\ 100;}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keyword}{const}\ qreal\ \doxymbox{\hyperlink{namespace_geometry_utils_a50af505bdce4f7ee702b35dace8364e7}{ARROW\_HEAD\_ANGLE}}\ =\ 0.5;}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keyword}{enum\ class}\ \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}}\ \{}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835dae41480b6bbfbf7407974a88d3d34f4fa}{Solid}},\ \ }
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835daeb656e41b6da91494775ecf47a51da91}{Dashed}}\ \ }
+\DoxyCodeLine{00042\ \ \ \ \ \};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{enum\ class}\ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{PolygonShape}}\ \{}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010aceb46ca115d05c51aa5a16a8867c3304}{Square}},\ \ \ \ \ }
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a30954d90085f6eaaf5817917fc5fecb3}{Circle}},\ \ \ \ \ }
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a8f7671185d590914ac21c7511767b699}{Diamond}},\ \ \ \ }
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010ad0a662a5235ecde30739fe50cf0de830}{Paper}},\ \ \ \ \ \ }
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a6adf97f83acf6453d4a6a4b1070f3754}{None}}\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00054\ \ \ \ \ \};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keyword}{enum\ class}\ \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{LineMarker}}\ \{}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a64683d46fb27d7cfc481f61170d3f7e1}{OpenedArrow}},\ \ \ \ }
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09a202868e7cf691195cc0646729e981d65}{ClosedArrow}},\ \ \ \ }
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010a6adf97f83acf6453d4a6a4b1070f3754}{None}}\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00064\ \ \ \ \ \};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00072\ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}}\ \doxymbox{\hyperlink{namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28}{strokeFromString}}(\textcolor{keyword}{const}\ QString\ \&\textcolor{keywordtype}{string});}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00080\ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{PolygonShape}}\ \doxymbox{\hyperlink{namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4}{shapeFromString}}(\textcolor{keyword}{const}\ QString\ \&\textcolor{keywordtype}{string});}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00088\ \ \ \ \ \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{LineMarker}}\ \doxymbox{\hyperlink{namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b}{markerFromString}}(\textcolor{keyword}{const}\ QString\ \&\textcolor{keywordtype}{string});}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00096\ \ \ \ \ QString\ \doxymbox{\hyperlink{namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19}{strokeName}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}}\ \&stroke);}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00104\ \ \ \ \ QString\ \doxymbox{\hyperlink{namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13}{shapeName}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{PolygonShape}}\ \&shape);}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00112\ \ \ \ \ QString\ \doxymbox{\hyperlink{namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80}{markerName}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{LineMarker}}\ \&marker);}
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00123\ \ \ \ \ QPen\ \doxymbox{\hyperlink{namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca}{makePen}}(\textcolor{keyword}{const}\ QColor\ \&color,\ qreal\ width,\ \textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespace_geometry_utils_aff98d094f367fd8e6217f616314d835d}{Stroke}}\ \&style);}
+\DoxyCodeLine{00124\ }
+\DoxyCodeLine{00132\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad}{makePolygon}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespace_geometry_utils_a3487d3326bf0b14ec5655f9135404010}{PolygonShape}}\ \&shape,\ \textcolor{keyword}{const}\ QPointF\ \&size);}
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00139\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af}{unitarySquare}}();}
+\DoxyCodeLine{00140\ }
+\DoxyCodeLine{00146\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_a090df0d8f29cbd283318881f201699be}{unitaryCircle}}();}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00153\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f}{unitaryDiamond}}();}
+\DoxyCodeLine{00154\ }
+\DoxyCodeLine{00160\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151}{unitaryPaper}}();}
+\DoxyCodeLine{00161\ }
+\DoxyCodeLine{00171\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4}{makeMarkerPolygon}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespace_geometry_utils_a7649d9820e81d33c35b70ab4f839fa09}{LineMarker}}\ \&markerShape,\ \textcolor{keyword}{const}\ QLineF\ \&line,\ \textcolor{keyword}{const}\ QPointF\ \&size);}
+\DoxyCodeLine{00172\ }
+\DoxyCodeLine{00181\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173}{openedArrowHead}}(\textcolor{keyword}{const}\ QLineF\ \&tail,\ \textcolor{keyword}{const}\ QPointF\ \&headSize);}
+\DoxyCodeLine{00182\ }
+\DoxyCodeLine{00191\ \ \ \ \ QPolygonF\ \doxymbox{\hyperlink{namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90}{closedArrowHead}}(\textcolor{keyword}{const}\ QLineF\ \&tail,\ \textcolor{keyword}{const}\ QPointF\ \&headSize);}
+\DoxyCodeLine{00192\ }
+\DoxyCodeLine{00201\ \ \ \ \ QVector<QPointF>\ \doxymbox{\hyperlink{namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326}{arrowHeadVertices}}(\textcolor{keyword}{const}\ QLineF\ \&tail,\ \textcolor{keyword}{const}\ QPointF\ \&headSize);}
+\DoxyCodeLine{00202\ }
+\DoxyCodeLine{00211\ \ \ \ \ QPointF\ \doxymbox{\hyperlink{namespace_geometry_utils_a14f5188b30863ed81b5d6ea93b20ef3a}{closestPointOnSegment}}(\textcolor{keyword}{const}\ QPointF\ \&a,\ \textcolor{keyword}{const}\ QPointF\ \&b,\ \textcolor{keyword}{const}\ QPointF\ \&p);}
+\DoxyCodeLine{00212\ \}}
+
+\end{DoxyCode}

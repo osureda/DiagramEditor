@@ -1,0 +1,38 @@
+\doxysection{jsonfile.\+h}
+\hypertarget{jsonfile_8h_source}{}\label{jsonfile_8h_source}\doxymbox{\hyperlink{jsonfile_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ JSONFILE\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ JSONFILE\_H}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QFile>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <QJsonObject>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QVariant>}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }QByteArray;}
+\DoxyCodeLine{00017\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_json_file_aa7e9052a5ea38e7e4376368f1d40feee}{JsonFile}}\ :\ \textcolor{keyword}{public}\ QFile}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_json_file_aa7e9052a5ea38e7e4376368f1d40feee}{JsonFile}}(\textcolor{keyword}{const}\ QString\ \&path);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_json_file_abbd183414af440c64250860ef342f9f0}{load}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_json_file_af347f04b8475a74a3808fa5e65f3491f}{hashForKey}}(\textcolor{keyword}{const}\ QString\ \&key)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QVariantHash\ \doxymbox{\hyperlink{class_json_file_abf5a43fecf93ed28674a11ff2a13b985}{textToHash}}(\textcolor{keyword}{const}\ QString\ \&text);}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QString\ \doxymbox{\hyperlink{class_json_file_ac4be58cf076325c9dde18beefaf5639b}{hashToText}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash);}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ QJsonObject\ contents;\ }
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ parseToJsonObject(\textcolor{keyword}{const}\ QByteArray\ \&json,\ QJsonObject\ \&jsonObject);}
+\DoxyCodeLine{00081\ \};}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ JSONFILE\_H}}
+
+\end{DoxyCode}

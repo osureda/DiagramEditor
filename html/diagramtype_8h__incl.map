@@ -1,0 +1,14 @@
+<map id="diagramtype.h" name="diagramtype.h">
+<area shape="rect" id="Node000001" title="Declaration of DiagramType class." alt="" coords="153,5,256,32"/>
+<area shape="rect" id="Node000002" href="$jsonserializable_8h.html" title="Declaration of JsonSerializable class." alt="" coords="86,80,208,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,31,168,70,165,66,192,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,92,181"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="152,34,114,53,94,66,77,82,61,110,54,140,49,138,56,108,73,78,91,62,111,49,156,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="232,80,294,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="216,30,246,68,241,68,214,35"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="318,80,384,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="230,30,314,72,309,73,230,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,107,79,148,76,143,127,108"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="116,155,187,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="150,105,152,140,147,138,146,109"/>
+</map>

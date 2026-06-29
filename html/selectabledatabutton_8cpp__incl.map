@@ -1,0 +1,30 @@
+<map id="selectabledatabutton.cpp" name="selectabledatabutton.cpp">
+<area shape="rect" id="Node000001" title="Implementation of SelectableDataButton class." alt="" coords="450,5,616,32"/>
+<area shape="rect" id="Node000002" href="$selectabledatabutton_8h.html" title="Declaration of SelectableDataButton class." alt="" coords="240,80,393,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="493,34,370,77,368,72,497,31"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="418,80,480,107"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="520,31,476,72,473,67,516,34"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="504,80,561,107"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="534,30,535,66,530,63,531,35"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="586,80,688,107"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="551,30,609,71,604,71,550,35"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="712,80,785,107"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="570,30,700,75,695,75,570,35"/>
+<area shape="rect" id="Node000003" href="$jsonserializable_8h.html" title="Declaration of JsonSerializable class." alt="" coords="5,155,127,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="272,110,126,152,124,147,274,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="129,229,200,256"/>
+<area shape="poly" id="edge10_Node000002_Node000005" title=" " alt="" coords="265,109,227,128,208,141,192,156,177,185,169,216,165,213,172,183,188,153,205,137,225,123,270,106"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="202,155,258,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="304,106,258,147,255,143,299,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="282,155,351,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="318,105,319,140,314,138,315,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="375,155,429,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="332,105,379,145,373,145,331,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="454,155,553,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="350,105,459,148,454,149,349,110"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="577,155,643,181"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="371,105,565,153,560,155,370,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="19,229,105,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,180,66,214,61,213,64,184"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="84,179,138,219,133,221,82,184"/>
+</map>

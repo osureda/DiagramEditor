@@ -1,0 +1,21 @@
+<map id="ConnectableResizer" name="ConnectableResizer">
+<area shape="rect" id="Node000001" title="A diagram resizer that can be connected to a diagram component." alt="" coords="48,355,188,381"/>
+<area shape="rect" id="Node000002" href="$class_diagram_resizer.html" title="An item to resize a diagram component." alt="" coords="207,279,322,305"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,312,144,357,142,352,224,313"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="314,5,384,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,41,395,76,416,118,423,141,426,164,424,186,415,208,395,234,368,254,340,270,312,281,310,276,338,265,365,250,391,230,411,205,419,185,421,164,418,142,411,120,391,79,369,47"/>
+<area shape="rect" id="Node000005" href="$class_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="102,180,239,207"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="345,45,326,104,309,133,287,158,265,173,241,183,238,178,262,168,283,154,304,130,321,101,341,50"/>
+<area shape="rect" id="Node000007" href="$class_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="167,81,264,108"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="311,42,240,83,237,79,315,38"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="263,180,400,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="322,219,303,256,281,280,278,276,299,253,318,223"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="172,220,178,238,187,253,201,266,221,278,215,278,198,270,182,256,173,240,171,225"/>
+<area shape="rect" id="Node000006" href="$class_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="5,5,122,32"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="64,45,66,93,66,293,70,311,78,327,104,354,98,354,74,330,65,313,61,294,61,93,63,50"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="80,43,165,179,160,180,78,47"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="106,36,145,54,195,80,190,82,142,58,107,41"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="186,121,180,133,173,157,172,180,167,178,168,156,175,131,189,117"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="146,5,290,32"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="218,45,219,82,213,80,216,50"/>
+</map>

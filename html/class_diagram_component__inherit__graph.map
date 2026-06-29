@@ -1,0 +1,11 @@
+<map id="DiagramComponent" name="DiagramComponent">
+<area shape="rect" id="Node000001" title="A diagram component contained by a diagram item." alt="" coords="81,80,218,107"/>
+<area shape="rect" id="Node000004" href="$class_diagram_connection.html" title="A diagram component represented by a path that connects other components." alt="" coords="5,155,142,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="128,117,88,156,85,152,123,118"/>
+<area shape="rect" id="Node000005" href="$class_diagram_element.html" title="A diagram component represented as a polygon." alt="" coords="166,155,285,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="175,115,215,154,210,154,173,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="56,5,126,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,42,142,79,137,80,110,47"/>
+<area shape="rect" id="Node000003" href="$class_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="150,5,266,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,43,161,81,158,78,186,46"/>
+</map>

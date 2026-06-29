@@ -1,0 +1,12 @@
+<map id="elementspecifications.h" name="elementspecifications.h">
+<area shape="rect" id="Node000001" title="Declaration of ElementSpecifications class." alt="" coords="231,5,390,32"/>
+<area shape="rect" id="Node000002" href="$diagramelement_8h.html" title="Declaration of DiagramElement class." alt="" coords="199,80,323,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="295,44,271,82,268,78,291,47"/>
+<area shape="rect" id="Node000005" href="$elementspecifications_8cpp.html" title="Implementation of ElementSpecifications class." alt="" coords="310,155,482,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="327,43,391,155,386,154,324,48"/>
+<area shape="rect" id="Node000003" href="$diagramelement_8cpp.html" title="Implementation of DiagramElement class." alt="" coords="5,155,144,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,115,108,157,106,152,213,111"/>
+<area shape="rect" id="Node000004" href="$diagramitem_8cpp.html" title="Implementation of DiagramItem class." alt="" coords="168,155,285,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="251,120,234,156,231,152,246,122"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="298,112,375,154,370,154,297,117"/>
+</map>

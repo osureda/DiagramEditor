@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>mouseArrow.svg</file>
+        <file>bin.svg</file>
+        <file>circle.svg</file>
+        <file>circledDots.svg</file>
+        <file>circledLine.svg</file>
+        <file>closedArrow.svg</file>
+        <file>connectionLine.svg</file>
+        <file>dashedCircle.svg</file>
+        <file>descriptiveArrow.svg</file>
+        <file>diamond.svg</file>
+        <file>doubleCircle.svg</file>
+        <file>enumeratedList.svg</file>
+        <file>halfDiamond.svg</file>
+        <file>line.svg</file>
+        <file>objectDescriptionDark.svg</file>
+        <file>objectDescriptionLight.svg</file>
+        <file>openedArrow.svg</file>
+        <file>paper.svg</file>
+        <file>squaredDiamond.svg</file>
+        <file>union.svg</file>
+        <file>square.svg</file>
+        <file>doubleSquare.svg</file>
+        <file>plusObject.svg</file>
+        <file>shortLine.svg</file>
+        <file>linedSquare.svg</file>
+    </qresource>
+    <qresource prefix="/descriptors">
+        <file>diagramsDescriptor.json</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>umlDiagram.png</file>
+        <file>entityRelationship.png</file>
+        <file>classesDiagram.png</file>
+        <file>deploymentDiagram.png</file>
+        <file>objectsDiagram.png</file>
+        <file>simplifiedEntityRelationship.png</file>
+        <file>erDiagram.png</file>
+    </qresource>
+</RCC>

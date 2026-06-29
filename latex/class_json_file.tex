@@ -1,0 +1,157 @@
+\doxysection{Json\+File Class Reference}
+\hypertarget{class_json_file}{}\label{class_json_file}\index{JsonFile@{JsonFile}}
+
+
+Helper class for loading a JSON file and performing JSON conversions.  
+
+
+
+
+{\ttfamily \+\#include $<$jsonfile.\+h$>$}
+
+
+
+Inheritance diagram for Json\+File:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_json_file__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Json\+File:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_json_file__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_json_file_aa7e9052a5ea38e7e4376368f1d40feee}{Json\+File}} (const QString \&path)
+\item 
+bool \doxymbox{\hyperlink{class_json_file_abbd183414af440c64250860ef342f9f0}{load}} ()
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_json_file_af347f04b8475a74a3808fa5e65f3491f}{hash\+For\+Key}} (const QString \&key) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_json_file_abf5a43fecf93ed28674a11ff2a13b985}{text\+To\+Hash}} (const QString \&text)
+\item 
+static QString \doxymbox{\hyperlink{class_json_file_ac4be58cf076325c9dde18beefaf5639b}{hash\+To\+Text}} (const QVariant\+Hash \&hash)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Helper class for loading a JSON file and performing JSON conversions. 
+
+\label{class_json_file_doc-constructors}
+\Hypertarget{class_json_file_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_json_file_aa7e9052a5ea38e7e4376368f1d40feee}\index{JsonFile@{JsonFile}!JsonFile@{JsonFile}}
+\index{JsonFile@{JsonFile}!JsonFile@{JsonFile}}
+\doxysubsubsection{\texorpdfstring{JsonFile()}{JsonFile()}}
+{\footnotesize\ttfamily \label{class_json_file_aa7e9052a5ea38e7e4376368f1d40feee} 
+Json\+File::\+\+Json\+File (\begin{DoxyParamCaption}\item[{const QString \&}]{path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path of the JSON file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The JSON file has the given path. 
+\end{DoxyPostcond}
+
+
+\label{class_json_file_doc-func-members}
+\Hypertarget{class_json_file_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_json_file_af347f04b8475a74a3808fa5e65f3491f}\index{JsonFile@{JsonFile}!hashForKey@{hashForKey}}
+\index{hashForKey@{hashForKey}!JsonFile@{JsonFile}}
+\doxysubsubsection{\texorpdfstring{hashForKey()}{hashForKey()}}
+{\footnotesize\ttfamily \label{class_json_file_af347f04b8475a74a3808fa5e65f3491f} 
+QVariant\+Hash Json\+File::\+hash\+For\+Key (\begin{DoxyParamCaption}\item[{const QString \&}]{key}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The hash associated with the key in the JSON root object. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em key} & The key whose hash we want to retrieve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+\doxylink{class_json_file_abbd183414af440c64250860ef342f9f0}{load()} has returned true. \begin{DoxyVerb}  been returned.
+\end{DoxyVerb}
+ 
+\end{DoxyPrecond}
+\Hypertarget{class_json_file_ac4be58cf076325c9dde18beefaf5639b}\index{JsonFile@{JsonFile}!hashToText@{hashToText}}
+\index{hashToText@{hashToText}!JsonFile@{JsonFile}}
+\doxysubsubsection{\texorpdfstring{hashToText()}{hashToText()}}
+{\footnotesize\ttfamily \label{class_json_file_ac4be58cf076325c9dde18beefaf5639b} 
+QString Json\+File::\+hash\+To\+Text (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+The JSON text that represents the hash. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash we want to transform. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The text that represents the given hash has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_json_file_abbd183414af440c64250860ef342f9f0}\index{JsonFile@{JsonFile}!load@{load}}
+\index{load@{load}!JsonFile@{JsonFile}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{class_json_file_abbd183414af440c64250860ef342f9f0} 
+bool Json\+File::\+load (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if the file was opened and loaded correctly; false otherwise. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the function returns true, the JSON file has been opened and its contents have been loaded as a root JSON object. 
+\end{DoxyPostcond}
+\Hypertarget{class_json_file_abf5a43fecf93ed28674a11ff2a13b985}\index{JsonFile@{JsonFile}!textToHash@{textToHash}}
+\index{textToHash@{textToHash}!JsonFile@{JsonFile}}
+\doxysubsubsection{\texorpdfstring{textToHash()}{textToHash()}}
+{\footnotesize\ttfamily \label{class_json_file_abf5a43fecf93ed28674a11ff2a13b985} 
+QVariant\+Hash Json\+File::\+text\+To\+Hash (\begin{DoxyParamCaption}\item[{const QString \&}]{text}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+The generated hash from the JSON text. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The JSON text we want to transform. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash that can be generated from the given JSON text has been returned. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{jsonfile_8h}{jsonfile.\+h}}\item 
+\doxymbox{\hyperlink{jsonfile_8cpp}{jsonfile.\+cpp}}\end{DoxyCompactItemize}

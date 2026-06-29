@@ -1,0 +1,9 @@
+<map id="DiagramItem" name="DiagramItem">
+<area shape="rect" id="Node000001" title="A diagram item that contains and manages diagram components." alt="" coords="122,80,219,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,37,150,78,145,81,75,42"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,5,243,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,46,173,81,168,78,169,50"/>
+<area shape="rect" id="Node000004" href="$class_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="267,5,384,32"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="287,39,199,82,197,77,282,39"/>
+</map>

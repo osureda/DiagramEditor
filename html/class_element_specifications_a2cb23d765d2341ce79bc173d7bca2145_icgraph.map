@@ -1,0 +1,9 @@
+<map id="ElementSpecifications::sizeChanged" name="ElementSpecifications::sizeChanged">
+<area shape="rect" id="Node000001" title=" " alt="" coords="277,64,428,107"/>
+<area shape="rect" id="Node000002" href="$class_element_specifications.html#ad359e57485280cc65b5839ca82329e40" title=" " alt="" coords="41,5,193,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,64,193,48,193,43,264,62"/>
+<area shape="rect" id="Node000003" href="$class_diagram_element.html#a901ec16e1115af0ddbcf6fb9b7dae19c" title=" " alt="" coords="5,72,229,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,86,229,88,229,83,264,85"/>
+<area shape="rect" id="Node000004" href="$class_element_specifications.html#ad3ef736741c87d1816d9bd9f0d0cf229" title=" " alt="" coords="41,123,193,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="264,107,194,128,192,123,259,108"/>
+</map>

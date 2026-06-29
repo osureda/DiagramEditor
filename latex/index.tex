@@ -1,0 +1,14 @@
+\chapter{Diagram\+Editor }
+\hypertarget{index}{}\label{index}\index{DiagramEditor@{DiagramEditor}}
+This program implements a class structure that serves as a basis for creating a comprehensive diagram editor.
+
+At the moment, the application allows drawing some types of database diagrams:\+
+\begin{DoxyItemize}
+\item Entity-\/relationship diagrams
+\item Class diagrams
+\end{DoxyItemize}The class structure has been designed to meet the following requirements:\+
+\begin{DoxyItemize}
+\item Facilitate the extensibility of the editor thanks to a functionality that allows adding new items and diagram types quickly by writing their properties to the diagrams descriptor file.
+\item Guarantee the portability of the application between different operating systems and execution environments, using the appropriate resources provided by Qt.
+\item Establish the bases of certain patterns that will allow the application to be oriented towards educational use, such as adding comments or saving the diagram as a JSON file, opening the possibility of an automatic correction system.
+\end{DoxyItemize}

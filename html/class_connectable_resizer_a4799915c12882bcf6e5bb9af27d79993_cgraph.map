@@ -1,0 +1,9 @@
+<map id="ConnectableResizer::ConnectableResizer" name="ConnectableResizer::ConnectableResizer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,153,81"/>
+<area shape="rect" id="Node000002" href="$class_diagram_resizer.html#a7ae8f497b0dabb7e059985e8e40b102d" title=" " alt="" coords="201,47,418,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,57,188,59,183,61,153,63"/>
+<area shape="rect" id="Node000003" href="$class_diagram_component.html#a90e92e0290ab8d43b2b25e4c5d8874c3" title=" " alt="" coords="471,5,661,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="417,43,458,41,453,41,418,49"/>
+<area shape="rect" id="Node000004" href="$class_diagram_resizer.html#a3ef8c43d1ac108509a452f655aa7bb12" title=" " alt="" coords="466,72,666,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="417,71,453,78,448,78,417,77"/>
+</map>

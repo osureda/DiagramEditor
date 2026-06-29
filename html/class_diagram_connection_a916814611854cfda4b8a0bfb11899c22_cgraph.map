@@ -1,0 +1,7 @@
+<map id="DiagramConnection::resize" name="DiagramConnection::resize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,150,81"/>
+<area shape="rect" id="Node000002" href="$class_diagram_component.html#a34611d5ac335e6645dbb84d57c1facd4" title=" " alt="" coords="198,5,407,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,47,185,44,180,45,150,52"/>
+<area shape="rect" id="Node000003" href="$class_diagram_component.html#a91afdeb455cdfe202c4207ec27e3607e" title=" " alt="" coords="210,72,394,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,68,197,77,192,78,150,73"/>
+</map>

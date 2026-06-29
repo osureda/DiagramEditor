@@ -1,0 +1,7 @@
+<map id="DiagramConnection::toHash" name="DiagramConnection::toHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,150,65"/>
+<area shape="rect" id="Node000002" href="$namespace_geometry_utils.html#a838cf67d13c94a9efe629bfe27c4da80" title=" " alt="" coords="198,5,386,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,33,185,31,180,32,150,38"/>
+<area shape="rect" id="Node000003" href="$namespace_geometry_utils.html#abe73989920f4e0aa207e21c32b000e19" title=" " alt="" coords="200,56,384,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,50,187,56,181,57,150,55"/>
+</map>

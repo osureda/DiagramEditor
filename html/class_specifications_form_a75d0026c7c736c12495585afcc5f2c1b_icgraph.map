@@ -1,0 +1,7 @@
+<map id="SpecificationsForm::SpecificationsForm" name="SpecificationsForm::SpecificationsForm">
+<area shape="rect" id="Node000001" title=" " alt="" coords="449,5,590,48"/>
+<area shape="rect" id="Node000002" href="$class_specifications_form.html#ae74ec6d19785a356a00e2513bd190fa0" title=" " alt="" coords="268,5,401,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="431,27,402,29,401,24,436,27"/>
+<area shape="rect" id="Node000003" href="$class_diagram_item.html#abd7384bbaa416b7e51f06ae9a3ece366" title=" " alt="" coords="5,13,220,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,27,220,29,220,24,255,27"/>
+</map>

@@ -1,0 +1,308 @@
+\doxysection{Diagram\+Resizer Class Reference}
+\hypertarget{class_diagram_resizer}{}\label{class_diagram_resizer}\index{DiagramResizer@{DiagramResizer}}
+
+
+An item to resize a diagram component.  
+
+
+
+
+{\ttfamily \+\#include $<$diagramresizer.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Resizer:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{class_diagram_resizer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Resizer:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_resizer_a7ae8f497b0dabb7e059985e8e40b102d}{Diagram\+Resizer}} (\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}parent)
+\item 
+QPointF \doxymbox{\hyperlink{class_diagram_resizer_a62e0f69f5ed38a051d24fb2620281944}{scene\+Center\+Pos}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_resizer_ae17c729fc241b2841ab4bff604ef2c7d}{set\+Scene\+Center\+Pos}} (const QPointF \&position)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_resizer_a76cc238ec081c99cc3e6d4ce6c8ba7f9}\label{class_diagram_resizer_a76cc238ec081c99cc3e6d4ce6c8ba7f9} 
+static const QColor {\bfseries COLOR} = Qt::\+black
+\begin{DoxyCompactList}\small\item\em The color of the resizer. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_resizer_ab1bd404c9dbb920458a967e4d6f17d19}\label{class_diagram_resizer_ab1bd404c9dbb920458a967e4d6f17d19} 
+static const int {\bfseries SIZE} = 10
+\begin{DoxyCompactList}\small\item\em The size of the resizer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Slots}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \doxymbox{\hyperlink{class_diagram_resizer_a3ef8c43d1ac108509a452f655aa7bb12}{update\+Parent\+Position}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_resizer_abba7afe4b9ba88d2784496db7cc8fa85}{mouse\+Press\+Event}} (QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}event) override
+\item 
+void \doxymbox{\hyperlink{class_diagram_resizer_a1d739ba0984be9f7258642d2fd6ee504}{mouse\+Move\+Event}} (QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}event) override
+\item 
+void \doxymbox{\hyperlink{class_diagram_resizer_a32d45926c74bc418d3dde9a169bdbc94}{mouse\+Release\+Event}} (QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}event) override
+\item 
+QVariant \doxymbox{\hyperlink{class_diagram_resizer_a9ea3b4e7c829307f1a3254580350dd7f}{item\+Change}} (Graphics\+Item\+Change change, const QVariant \&value) override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_resizer_ad7f8649cfd48cc535fe97ce9a63ff4b1}{parent\+Component}}
+\begin{DoxyCompactList}\small\item\em The component to wich the resizer can resize. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_resizer_a1233d1d6d804b463c54d8b23ddaffef9}\label{class_diagram_resizer_a1233d1d6d804b463c54d8b23ddaffef9} 
+QGraphics\+Item \texorpdfstring{$\ast$}{*} {\bfseries parent\+Item}
+\begin{DoxyCompactList}\small\item\em The graphics item to wich the resizer can resize. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_resizer_a12bf93bca2824aaee854cb687920008a}\label{class_diagram_resizer_a12bf93bca2824aaee854cb687920008a} 
+QPointF {\bfseries parent\+Mapped\+Pos}
+\begin{DoxyCompactList}\small\item\em The position of the reizer mapped to parent\+Item. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An item to resize a diagram component. 
+
+\label{class_diagram_resizer_doc-constructors}
+\Hypertarget{class_diagram_resizer_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_resizer_a7ae8f497b0dabb7e059985e8e40b102d}\index{DiagramResizer@{DiagramResizer}!DiagramResizer@{DiagramResizer}}
+\index{DiagramResizer@{DiagramResizer}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{DiagramResizer()}{DiagramResizer()}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_a7ae8f497b0dabb7e059985e8e40b102d} 
+Diagram\+Resizer::\+\+Diagram\+Resizer (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}}]{parent}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The component to which the resizer resizes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The resizer can resize the component parent. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_a7ae8f497b0dabb7e059985e8e40b102d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_a7ae8f497b0dabb7e059985e8e40b102d_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_resizer_doc-func-members}
+\Hypertarget{class_diagram_resizer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_resizer_a9ea3b4e7c829307f1a3254580350dd7f}\index{DiagramResizer@{DiagramResizer}!itemChange@{itemChange}}
+\index{itemChange@{itemChange}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{itemChange()}{itemChange()}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_a9ea3b4e7c829307f1a3254580350dd7f} 
+QVariant Diagram\+Resizer::\+item\+Change (\begin{DoxyParamCaption}\item[{Graphics\+Item\+Change}]{change}{, }\item[{const QVariant \&}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em change} & The type of change that has to be applied to the resizer. \\
+\hline
+{\em value} & The value of the change that has to be applied to the resizer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+parent\+Component != nullptr. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The given change with the given value has been applied to the resizer. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_a9ea3b4e7c829307f1a3254580350dd7f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_resizer_a1d739ba0984be9f7258642d2fd6ee504}\index{DiagramResizer@{DiagramResizer}!mouseMoveEvent@{mouseMoveEvent}}
+\index{mouseMoveEvent@{mouseMoveEvent}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{mouseMoveEvent()}{mouseMoveEvent()}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_a1d739ba0984be9f7258642d2fd6ee504} 
+void Diagram\+Resizer::\+mouse\+Move\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The mouse event we want to handle. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The resizer has handled the given mouse move event. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_a1d739ba0984be9f7258642d2fd6ee504_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_resizer_abba7afe4b9ba88d2784496db7cc8fa85}\index{DiagramResizer@{DiagramResizer}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_abba7afe4b9ba88d2784496db7cc8fa85} 
+void Diagram\+Resizer::\+mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The mouse event we want to handle. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The resizer is in a diagram scene. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The resizer has handled the given mouse press event. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_resizer_a32d45926c74bc418d3dde9a169bdbc94}\index{DiagramResizer@{DiagramResizer}!mouseReleaseEvent@{mouseReleaseEvent}}
+\index{mouseReleaseEvent@{mouseReleaseEvent}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{mouseReleaseEvent()}{mouseReleaseEvent()}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_a32d45926c74bc418d3dde9a169bdbc94} 
+void Diagram\+Resizer::\+mouse\+Release\+Event (\begin{DoxyParamCaption}\item[{QGraphics\+Scene\+Mouse\+Event \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The mouse event we want to handle. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The resizer is in a diagram scene. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The resizer has handled the given mouse release event. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_a32d45926c74bc418d3dde9a169bdbc94_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_resizer_a62e0f69f5ed38a051d24fb2620281944}\index{DiagramResizer@{DiagramResizer}!sceneCenterPos@{sceneCenterPos}}
+\index{sceneCenterPos@{sceneCenterPos}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{sceneCenterPos()}{sceneCenterPos()}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_a62e0f69f5ed38a051d24fb2620281944} 
+QPointF Diagram\+Resizer::\+scene\+Center\+Pos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The center position of the cresizer. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The center position of the cresizer has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_a62e0f69f5ed38a051d24fb2620281944_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_resizer_ae17c729fc241b2841ab4bff604ef2c7d}\index{DiagramResizer@{DiagramResizer}!setSceneCenterPos@{setSceneCenterPos}}
+\index{setSceneCenterPos@{setSceneCenterPos}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{setSceneCenterPos()}{setSceneCenterPos()}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_ae17c729fc241b2841ab4bff604ef2c7d} 
+void Diagram\+Resizer::\+set\+Scene\+Center\+Pos (\begin{DoxyParamCaption}\item[{const QPointF \&}]{position}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & The center position where we want to move the resizer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The given position is the center position of the resizer. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_ae17c729fc241b2841ab4bff604ef2c7d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_resizer_a3ef8c43d1ac108509a452f655aa7bb12}\index{DiagramResizer@{DiagramResizer}!updateParentPosition@{updateParentPosition}}
+\index{updateParentPosition@{updateParentPosition}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{updateParentPosition}{updateParentPosition}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_a3ef8c43d1ac108509a452f655aa7bb12} 
+void Diagram\+Resizer::\+update\+Parent\+Position (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The position parent\+Mapped\+Pos has been applied. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_resizer_a3ef8c43d1ac108509a452f655aa7bb12_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_resizer_doc-variable-members}
+\Hypertarget{class_diagram_resizer_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_diagram_resizer_ad7f8649cfd48cc535fe97ce9a63ff4b1}\index{DiagramResizer@{DiagramResizer}!parentComponent@{parentComponent}}
+\index{parentComponent@{parentComponent}!DiagramResizer@{DiagramResizer}}
+\doxysubsubsection{\texorpdfstring{parentComponent}{parentComponent}}
+{\footnotesize\ttfamily \label{class_diagram_resizer_ad7f8649cfd48cc535fe97ce9a63ff4b1} 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}}\texorpdfstring{$\ast$}{*} Diagram\+Resizer::\+parent\+Component\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The component to wich the resizer can resize. 
+
+\begin{DoxyInvariant}{Invariant}
+parent\+Item == parent\+Component-\/\texorpdfstring{$>$}{>}graphics\+Item(). 
+\end{DoxyInvariant}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{diagramresizer_8h}{diagramresizer.\+h}}\item 
+\doxymbox{\hyperlink{diagramresizer_8cpp}{diagramresizer.\+cpp}}\end{DoxyCompactItemize}

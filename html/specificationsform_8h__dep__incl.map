@@ -1,0 +1,21 @@
+<map id="specificationsform.h" name="specificationsform.h">
+<area shape="rect" id="Node000001" title="Declaration of SpecificationsForm class." alt="" coords="695,5,833,32"/>
+<area shape="rect" id="Node000002" href="$connectionspecifications_8cpp.html" title="Implementation of ConnectionSpecifications class." alt="" coords="5,80,195,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="680,32,207,83,195,84,194,79,206,77,679,26"/>
+<area shape="rect" id="Node000003" href="$diagram_8cpp.html" title="Implementation of Diagram class." alt="" coords="219,80,312,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="682,29,514,53,323,83,312,85,311,79,322,77,514,48,677,30"/>
+<area shape="rect" id="Node000004" href="$diagramcomponent_8cpp.html" title="Implementation of DiagramComponent class." alt="" coords="335,80,492,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="690,35,475,82,474,77,685,36"/>
+<area shape="rect" id="Node000005" href="$diagramconnection_8cpp.html" title="Implementation of DiagramConnection class." alt="" coords="516,80,671,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="723,38,624,82,623,77,718,39"/>
+<area shape="rect" id="Node000006" href="$diagramelement_8cpp.html" title="Implementation of DiagramElement class." alt="" coords="695,80,833,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="766,46,766,81,762,78,762,50"/>
+<area shape="rect" id="Node000007" href="$diagramitem_8cpp.html" title="Implementation of DiagramItem class." alt="" coords="857,80,975,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="805,36,892,80,887,79,804,42"/>
+<area shape="rect" id="Node000008" href="$elementspecifications_8cpp.html" title="Implementation of ElementSpecifications class." alt="" coords="999,80,1172,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="835,33,1032,79,1026,79,835,39"/>
+<area shape="rect" id="Node000009" href="$specificationsform_8cpp.html" title="Implementation of SpecificationsForm class." alt="" coords="1196,80,1348,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="849,29,1198,81,1193,81,848,35"/>
+<area shape="rect" id="Node000010" href="$specificationsgroup_8cpp.html" title="Implementation of SpecificationsGroup class." alt="" coords="1373,80,1531,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="849,25,1360,77,1375,82,1370,81,1360,83,849,30"/>
+</map>

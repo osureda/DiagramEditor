@@ -1,0 +1,9 @@
+<map id="SpecificationsGroup" name="SpecificationsGroup">
+<area shape="rect" id="Node000001" title="A group of diagram specifications belonging to a diagram component." alt="" coords="113,80,251,107"/>
+<area shape="rect" id="Node000003" href="$class_connection_specifications.html" title="The specifications of a diagram connection." alt="" coords="5,155,175,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,116,107,157,104,152,152,117"/>
+<area shape="rect" id="Node000004" href="$class_element_specifications.html" title="The specifications of a diagram element." alt="" coords="198,155,350,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,114,261,154,255,154,209,119"/>
+<area shape="rect" id="Node000002" href="$class_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="124,5,240,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,46,184,81,180,79,181,50"/>
+</map>

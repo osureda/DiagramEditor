@@ -1,0 +1,34 @@
+\doxysection{longtextspecification.\+h}
+\hypertarget{longtextspecification_8h_source}{}\label{longtextspecification_8h_source}\doxymbox{\hyperlink{longtextspecification_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ LONGTEXTSPECIFICATION\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ LONGTEXTSPECIFICATION\_H}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{diagramspecification_8h}{diagramspecification.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QVariant>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }QGraphicsItem;}
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }QWidget;}
+\DoxyCodeLine{00017\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_long_text_specification_a3a1ed2b429800d6a38a3366ecfc057d3}{LongTextSpecification}}\ :\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_diagram_specification_a30cf6ea35a35adf0e282a7cd55849d66}{DiagramSpecification}}}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_long_text_specification_a3a1ed2b429800d6a38a3366ecfc057d3}{LongTextSpecification}}(QGraphicsItem\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ QWidget\ *\doxymbox{\hyperlink{class_long_text_specification_ac2979d73817304cc8d741e54b16140b7}{form}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadTextFromVariant(\textcolor{keyword}{const}\ QVariant\ \&variant)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ QVariant\ variantFromText()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ updateTextFromForm(\textcolor{keyword}{const}\ QWidget\ *fromResults)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00063\ \};}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LONGTEXTSPECIFICATION\_H}}
+
+\end{DoxyCode}

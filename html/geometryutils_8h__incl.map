@@ -1,0 +1,13 @@
+<map id="geometryutils.h" name="geometryutils.h">
+<area shape="rect" id="Node000001" title="Declaration of GeometryUtils namespace." alt="" coords="164,5,274,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,60,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,35,75,79,73,74,186,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,80,152,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,32,149,73,147,68,199,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="176,80,262,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="221,31,221,66,217,63,217,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="286,80,352,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="237,30,292,71,287,70,236,35"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="376,80,444,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="253,30,365,74,360,75,252,35"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="ConnectableResizer::mouseReleaseEvent" name="ConnectableResizer::mouseReleaseEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,156,81"/>
+<area shape="rect" id="Node000002" href="$class_diagram_resizer.html#a32d45926c74bc418d3dde9a169bdbc94" title=" " alt="" coords="204,5,414,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,47,191,43,186,45,157,52"/>
+<area shape="rect" id="Node000003" href="$class_connectable_resizer.html#a19d74c3b186853ab82ce04027f2ee521" title=" " alt="" coords="232,72,386,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,68,219,79,214,81,156,74"/>
+<area shape="rect" id="Node000004" href="$class_diagram_resizer.html#ae17c729fc241b2841ab4bff604ef2c7d" title=" " alt="" coords="473,39,651,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="386,81,460,73,455,74,386,86"/>
+<area shape="rect" id="Node000005" href="$class_diagram_resizer.html#a3ef8c43d1ac108509a452f655aa7bb12" title=" " alt="" coords="462,105,662,148"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="386,101,449,111,444,112,386,106"/>
+</map>

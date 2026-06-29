@@ -1,0 +1,13 @@
+<map id="ElementSpecifications::applyFormResults" name="ElementSpecifications::applyFormResults">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,157,148"/>
+<area shape="rect" id="Node000002" href="$class_specifications_group.html#ad6f2cc1d7895f401a80afa857ffaf88f" title=" " alt="" coords="222,5,360,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,102,203,58,219,53,215,56,206,62,121,107"/>
+<area shape="rect" id="Node000004" href="$class_element_specifications.html#a6480cd6af3605b9a438f83550eb20f22" title=" " alt="" coords="216,72,367,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,112,203,106,198,109,158,117"/>
+<area shape="rect" id="Node000005" href="$class_element_specifications.html#a2cb23d765d2341ce79bc173d7bca2145" title=" " alt="" coords="216,139,367,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="157,136,203,145,198,146,158,141"/>
+<area shape="rect" id="Node000006" href="$class_element_specifications.html#a51dda71c68d88965136c71a4f111c7fb" title=" " alt="" coords="205,205,378,248"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="120,146,206,191,219,199,214,199,203,196,119,151"/>
+<area shape="rect" id="Node000003" href="$class_specifications_form.html#a67b0d678217739885030e2b1b5beb1eb" title=" " alt="" coords="426,5,559,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,24,413,26,408,27,362,29"/>
+</map>

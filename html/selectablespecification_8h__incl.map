@@ -1,0 +1,24 @@
+<map id="selectablespecification.h" name="selectablespecification.h">
+<area shape="rect" id="Node000001" title="Declaration of SelectableSpecification class." alt="" coords="370,5,535,32"/>
+<area shape="rect" id="Node000002" href="$diagramspecification_8h.html" title="Declaration of DiagramSpecification class." alt="" coords="377,80,528,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="454,30,455,66,450,63,451,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,229,92,256"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="376,34,283,55,176,82,83,117,49,136,27,156,21,170,21,185,34,216,28,217,16,186,16,169,22,153,46,132,81,112,175,77,281,50,381,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="673,229,744,256"/>
+<area shape="poly" id="edge12_Node000001_Node000005" title=" " alt="" coords="513,30,565,46,620,71,671,106,694,128,712,153,718,168,721,184,718,216,714,212,716,184,713,170,708,156,690,132,668,110,617,76,563,51,513,35"/>
+<area shape="rect" id="Node000003" href="$jsonserializable_8h.html" title="Declaration of JsonSerializable class." alt="" coords="37,155,158,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,110,174,154,173,149,391,105"/>
+<area shape="poly" id="edge10_Node000002_Node000005" title=" " alt="" coords="529,93,569,99,610,110,650,127,685,153,696,166,703,182,710,215,705,212,698,184,691,169,681,157,648,132,609,115,568,104,529,99"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="183,155,317,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="415,108,301,151,299,146,420,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="341,155,393,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="440,106,395,147,392,142,435,108"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="418,155,487,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="454,105,455,141,450,138,451,109"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="511,155,580,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="469,105,520,145,515,145,468,110"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="605,155,670,181"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="485,105,594,148,589,149,484,110"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,180,68,218,64,215,87,183"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="159,177,172,179,446,212,660,236,655,237,445,217,171,184,159,182"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="geometryutils.h" name="geometryutils.h">
+<area shape="rect" id="Node000001" title="Declaration of GeometryUtils namespace." alt="" coords="477,5,587,32"/>
+<area shape="rect" id="Node000002" href="$diagramconnection_8h.html" title="Declaration of DiagramConnection class." alt="" coords="303,80,444,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="493,38,402,82,400,77,488,40"/>
+<area shape="rect" id="Node000006" href="$diagramelement_8h.html" title="Declaration of DiagramElement class." alt="" coords="470,80,594,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="534,46,534,81,530,78,530,50"/>
+<area shape="rect" id="Node000009" href="$geometryutils_8cpp.html" title="Implementation of GeometryUtils class." alt="" coords="618,80,742,107"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="572,37,657,79,651,79,571,42"/>
+<area shape="rect" id="Node000003" href="$connectionspecifications_8cpp.html" title="Implementation of ConnectionSpecifications class." alt="" coords="5,155,195,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="312,113,149,157,147,151,310,109"/>
+<area shape="rect" id="Node000004" href="$diagramconnection_8cpp.html" title="Implementation of DiagramConnection class." alt="" coords="218,155,374,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="351,117,311,157,308,152,346,118"/>
+<area shape="rect" id="Node000005" href="$diagramitem_8cpp.html" title="Implementation of DiagramItem class." alt="" coords="397,155,515,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="400,115,444,155,439,154,398,120"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="510,117,470,157,468,152,505,118"/>
+<area shape="rect" id="Node000007" href="$diagramelement_8cpp.html" title="Implementation of DiagramElement class." alt="" coords="539,155,677,181"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="557,115,597,155,592,154,555,120"/>
+<area shape="rect" id="Node000008" href="$elementspecifications_8cpp.html" title="Implementation of ElementSpecifications class." alt="" coords="702,155,874,181"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="591,109,746,154,740,154,591,114"/>
+</map>

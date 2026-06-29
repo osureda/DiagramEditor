@@ -1,0 +1,9 @@
+<map id="ConnectionSpecifications::updateSpecificationsPos" name="ConnectionSpecifications::updateSpecificationsPos">
+<area shape="rect" id="Node000001" title=" " alt="" coords="231,72,404,115"/>
+<area shape="rect" id="Node000002" href="$class_connection_specifications.html#a8824b6c8ed4be895c3f6b7421d9747f7" title=" " alt="" coords="9,5,179,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,68,168,51,168,46,232,66"/>
+<area shape="rect" id="Node000003" href="$class_connection_specifications.html#a043bc6562d21bc8a52a8cf771b647d6d" title=" " alt="" coords="5,72,183,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,94,184,96,183,91,217,93"/>
+<area shape="rect" id="Node000004" href="$class_connection_specifications.html#ac387dc096a8cd5b018d09e5138eccf12" title=" " alt="" coords="9,139,179,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,119,169,141,167,135,227,120"/>
+</map>

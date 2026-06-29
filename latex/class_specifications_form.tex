@@ -1,0 +1,213 @@
+\doxysection{Specifications\+Form Class Reference}
+\hypertarget{class_specifications_form}{}\label{class_specifications_form}\index{SpecificationsForm@{SpecificationsForm}}
+
+
+A form for editing diagram item specifications that can contain many diagram component specification forms.  
+
+
+
+
+{\ttfamily \+\#include $<$specificationsform.\+h$>$}
+
+
+
+Inheritance diagram for Specifications\+Form:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_specifications_form__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Specifications\+Form:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_specifications_form__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_specifications_form_a75d0026c7c736c12495585afcc5f2c1b}{Specifications\+Form}} ()
+\item 
+void \doxymbox{\hyperlink{class_specifications_form_ae74ec6d19785a356a00e2513bd190fa0}{append\+Form}} (const \doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}form)
+\item 
+void \doxymbox{\hyperlink{class_specifications_form_ab77131a307497ae51dd600c9f17b424e}{append\+Field}} (const QString \&field\+Name, QWidget \texorpdfstring{$\ast$}{*}field\+Widget)
+\item 
+int \doxymbox{\hyperlink{class_specifications_form_aa8927ccba376a8b941c5b23350211196}{form\+Count}} () const
+\item 
+int \doxymbox{\hyperlink{class_specifications_form_ae62b3a4806135e59665fa6c1c59a566c}{field\+Count}} () const
+\item 
+QWidget \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_specifications_form_a67b0d678217739885030e2b1b5beb1eb}{field\+Results}} (int form\+Index, const QString \&field\+Name) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A form for editing diagram item specifications that can contain many diagram component specification forms. 
+
+\label{class_specifications_form_doc-constructors}
+\Hypertarget{class_specifications_form_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_specifications_form_a75d0026c7c736c12495585afcc5f2c1b}\index{SpecificationsForm@{SpecificationsForm}!SpecificationsForm@{SpecificationsForm}}
+\index{SpecificationsForm@{SpecificationsForm}!SpecificationsForm@{SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{SpecificationsForm()}{SpecificationsForm()}}
+{\footnotesize\ttfamily \label{class_specifications_form_a75d0026c7c736c12495585afcc5f2c1b} 
+Specifications\+Form::\+\+Specifications\+Form (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The form is empty. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specifications_form_a75d0026c7c736c12495585afcc5f2c1b_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_specifications_form_doc-func-members}
+\Hypertarget{class_specifications_form_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_specifications_form_ab77131a307497ae51dd600c9f17b424e}\index{SpecificationsForm@{SpecificationsForm}!appendField@{appendField}}
+\index{appendField@{appendField}!SpecificationsForm@{SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{appendField()}{appendField()}}
+{\footnotesize\ttfamily \label{class_specifications_form_ab77131a307497ae51dd600c9f17b424e} 
+void Specifications\+Form::\+append\+Field (\begin{DoxyParamCaption}\item[{const QString \&}]{field\+Name}{, }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{field\+Widget}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Name} & The name of the field to add. \\
+\hline
+{\em field\+Widget} & The values widget of the field to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A form field named field\+Name and with the values widget field\+Widget has been added to the last form. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specifications_form_ab77131a307497ae51dd600c9f17b424e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_specifications_form_ae74ec6d19785a356a00e2513bd190fa0}\index{SpecificationsForm@{SpecificationsForm}!appendForm@{appendForm}}
+\index{appendForm@{appendForm}!SpecificationsForm@{SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{appendForm()}{appendForm()}}
+{\footnotesize\ttfamily \label{class_specifications_form_ae74ec6d19785a356a00e2513bd190fa0} 
+void Specifications\+Form::\+append\+Form (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}}]{form}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form} & The specifications form to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The given specifications form has been added. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_specifications_form_ae74ec6d19785a356a00e2513bd190fa0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specifications_form_ae74ec6d19785a356a00e2513bd190fa0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_specifications_form_ae62b3a4806135e59665fa6c1c59a566c}\index{SpecificationsForm@{SpecificationsForm}!fieldCount@{fieldCount}}
+\index{fieldCount@{fieldCount}!SpecificationsForm@{SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{fieldCount()}{fieldCount()}}
+{\footnotesize\ttfamily \label{class_specifications_form_ae62b3a4806135e59665fa6c1c59a566c} 
+int Specifications\+Form::\+field\+Count (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The number of fields that contains the form. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The number of fields that contains the form has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specifications_form_ae62b3a4806135e59665fa6c1c59a566c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_specifications_form_a67b0d678217739885030e2b1b5beb1eb}\index{SpecificationsForm@{SpecificationsForm}!fieldResults@{fieldResults}}
+\index{fieldResults@{fieldResults}!SpecificationsForm@{SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{fieldResults()}{fieldResults()}}
+{\footnotesize\ttfamily \label{class_specifications_form_a67b0d678217739885030e2b1b5beb1eb} 
+QWidget \texorpdfstring{$\ast$}{*} Specifications\+Form::\+field\+Results (\begin{DoxyParamCaption}\item[{int}]{form\+Index}{, }\item[{const QString \&}]{field\+Name}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The values widget of the field with the name in the form at the index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Index} & The index of the form of the field we want to obtain \\
+\hline
+{\em field\+Name} & The name of the field we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The values widget of the field named field\+Name in the form at index form\+Index has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_specifications_form_a67b0d678217739885030e2b1b5beb1eb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_specifications_form_aa8927ccba376a8b941c5b23350211196}\index{SpecificationsForm@{SpecificationsForm}!formCount@{formCount}}
+\index{formCount@{formCount}!SpecificationsForm@{SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{formCount()}{formCount()}}
+{\footnotesize\ttfamily \label{class_specifications_form_aa8927ccba376a8b941c5b23350211196} 
+int Specifications\+Form::\+form\+Count (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The number of forms that contains the form. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The number of forms that contains the form has been returned. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{specificationsform_8h}{specificationsform.\+h}}\item 
+\doxymbox{\hyperlink{specificationsform_8cpp}{specificationsform.\+cpp}}\end{DoxyCompactItemize}

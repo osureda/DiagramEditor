@@ -1,0 +1,37 @@
+<map id="diagramconnection.h" name="diagramconnection.h">
+<area shape="rect" id="Node000001" title="Declaration of DiagramConnection class." alt="" coords="356,5,498,32"/>
+<area shape="rect" id="Node000002" href="$diagramcomponent_8h.html" title="Declaration of DiagramComponent class." alt="" coords="190,80,333,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="396,34,306,76,304,71,400,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="37,229,108,256"/>
+<area shape="poly" id="edge19_Node000001_Node000005" title=" " alt="" coords="354,28,246,47,185,62,127,83,59,108,34,125,12,156,9,172,14,188,26,204,42,219,37,221,22,208,9,191,3,173,7,154,30,122,56,103,125,77,184,57,245,42,358,25"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="21,155,83,181"/>
+<area shape="poly" id="edge14_Node000001_Node000006" title=" " alt="" coords="353,31,270,52,224,65,180,82,125,113,80,146,77,142,122,109,178,78,223,60,269,46,358,29"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="347,155,416,181"/>
+<area shape="poly" id="edge18_Node000001_Node000008" title=" " alt="" coords="425,30,409,81,391,141,387,138,404,79,421,34"/>
+<area shape="rect" id="Node000009" href="$geometryutils_8h.html" title="Declaration of GeometryUtils namespace." alt="" coords="418,80,529,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="436,30,460,68,455,66,434,35"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="553,80,690,107"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="461,30,576,74,571,75,461,35"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="714,80,777,107"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="489,30,701,79,696,80,489,35"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="801,80,853,107"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="498,26,629,45,789,79,783,80,628,51,498,31"/>
+<area shape="rect" id="Node000003" href="$jsonserializable_8h.html" title="Declaration of JsonSerializable class." alt="" coords="201,155,322,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="263,105,264,140,259,138,260,109"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="224,110,99,153,97,148,226,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="107,155,176,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="238,109,177,149,174,144,243,106"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="283,105,350,146,345,147,282,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="218,229,305,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="263,180,264,215,259,212,260,184"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="231,183,121,226,119,221,226,181"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="460,106,410,147,408,143,455,108"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="732,155,786,181"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="529,104,719,153,714,154,529,110"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="440,155,526,181"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="477,105,482,141,477,138,474,109"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="550,155,616,181"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="493,105,554,146,549,146,492,110"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="639,155,708,181"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="509,105,627,149,622,149,508,110"/>
+</map>

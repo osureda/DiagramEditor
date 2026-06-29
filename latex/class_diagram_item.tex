@@ -1,0 +1,505 @@
+\doxysection{Diagram\+Item Class Reference}
+\hypertarget{class_diagram_item}{}\label{class_diagram_item}\index{DiagramItem@{DiagramItem}}
+
+
+A diagram item that contains and manages diagram components.  
+
+
+
+
+{\ttfamily \+\#include $<$diagramitem.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Item:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Item:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \doxymbox{\hyperlink{struct_diagram_item_1_1_component}{Component}}
+\begin{DoxyCompactList}\small\item\em The data of a diagram component. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_item_ae1ec18e5f1652db4af1686365291bc0a}{Diagram\+Item}} (\doxymbox{\hyperlink{class_diagram}{Diagram}} \texorpdfstring{$\ast$}{*}scene)
+\item 
+int \doxymbox{\hyperlink{class_diagram_item_aa8d2fb110a6c966d4ab6399a6d25b09f}{item\+Id}} () const
+\item 
+QPointF \doxymbox{\hyperlink{class_diagram_item_a7350417f9501334762374c28b2198849}{center\+Offset}} () const
+\item 
+int \doxymbox{\hyperlink{class_diagram_item_af6aef9ad4ecfab8f59b267d18d12897c}{defined\+ZValue}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_item_afd1c80471342f9a4673b0b2ea0ed6534}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_item_a0175f23d5ca91b4429b9def02826509e}{to\+Hash}} () const override
+\item 
+void \doxymbox{\hyperlink{class_diagram_item_a56bb6c71c0175f74fb8a908fa6aa7bca}{connect\+Components}} ()
+\item 
+void \doxymbox{\hyperlink{class_diagram_item_a5b481bb2233e8b28e7be6927fca32130}{set\+Loaded}} (bool is\+Loaded)
+\item 
+\doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_item_abd7384bbaa416b7e51f06ae9a3ece366}{specifications\+Form}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_item_adf18668ef037a6fdfb4d7b90f035291f}{set\+Specifications}} (const \doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}form\+Results)
+\item 
+void \doxymbox{\hyperlink{class_diagram_item_aa5b0376ba80e3fd99a0dde46a748db7f}{set\+Shadow}} (bool shadowed)
+\item 
+bool \doxymbox{\hyperlink{class_diagram_item_a31a5de18432c16c372442b5e418e387e}{set\+Resizer\+Enabled}} (const QPointF \&scene\+Pos, bool enabled)
+\item 
+void \doxymbox{\hyperlink{class_diagram_item_af9c4f30ca0cb150bc2e0e01c9a3eec7d}{update\+Geometry}} ()
+\item 
+int \doxymbox{\hyperlink{class_diagram_item_a2052008b9c3676b1b023bf70d069f734}{component\+Id}} (const \doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}component) const
+\item 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_item_a41fd1473cd2c2593bd14cad76eee6c82}{component\+By\+Id}} (int id) const
+\item 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_item_a35e9fcfee8ac0b2c33ac0f2a92bc1e77}{component\+At}} (const QPointF \&scene\+Pos) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_json_serializable_a194264cba8c2b23e4f5a9f9980cff1a1}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \doxymbox{\hyperlink{class_diagram_item_aa1cbba7f3095af91d0d0a3c209be8ae2}{component\+Type\+Matches}} (const \doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}component, const QString\+List \&types)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_json_serializable}{Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_json_serializable_aec63456fa3e67355a80bc60f61643c99}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+QVariant \doxymbox{\hyperlink{class_diagram_item_aa4ab427eaa6fe6c967a054f57de94bab}{item\+Change}} (Graphics\+Item\+Change change, const QVariant \&value) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A diagram item that contains and manages diagram components. 
+
+\label{class_diagram_item_doc-constructors}
+\Hypertarget{class_diagram_item_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_item_ae1ec18e5f1652db4af1686365291bc0a}\index{DiagramItem@{DiagramItem}!DiagramItem@{DiagramItem}}
+\index{DiagramItem@{DiagramItem}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{DiagramItem()}{DiagramItem()}}
+{\footnotesize\ttfamily \label{class_diagram_item_ae1ec18e5f1652db4af1686365291bc0a} 
+Diagram\+Item::\+\+Diagram\+Item (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_diagram}{Diagram}} \texorpdfstring{$\ast$}{*}}]{scene}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & The container scene of the item. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The item is contained by scene. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_item_doc-func-members}
+\Hypertarget{class_diagram_item_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_item_a7350417f9501334762374c28b2198849}\index{DiagramItem@{DiagramItem}!centerOffset@{centerOffset}}
+\index{centerOffset@{centerOffset}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{centerOffset()}{centerOffset()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a7350417f9501334762374c28b2198849} 
+QPointF Diagram\+Item::\+center\+Offset (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The distance from the item\textquotesingle{}s position to its center. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The distance from the item\textquotesingle{}s position to its center has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_item_a35e9fcfee8ac0b2c33ac0f2a92bc1e77}\index{DiagramItem@{DiagramItem}!componentAt@{componentAt}}
+\index{componentAt@{componentAt}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{componentAt()}{componentAt()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a35e9fcfee8ac0b2c33ac0f2a92bc1e77} 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} Diagram\+Item::\+component\+At (\begin{DoxyParamCaption}\item[{const QPointF \&}]{scene\+Pos}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The item component at the scene position. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em scene\+Pos} & The scene position whose item component we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The item\textquotesingle{}s component at the scene position scene\+Pos has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_item_a41fd1473cd2c2593bd14cad76eee6c82}\index{DiagramItem@{DiagramItem}!componentById@{componentById}}
+\index{componentById@{componentById}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{componentById()}{componentById()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a41fd1473cd2c2593bd14cad76eee6c82} 
+\doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} Diagram\+Item::\+component\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+An item\textquotesingle{}s component by its id. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The id of the item\textquotesingle{}s component we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The item\textquotesingle{}s component with the given id has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_item_a2052008b9c3676b1b023bf70d069f734}\index{DiagramItem@{DiagramItem}!componentId@{componentId}}
+\index{componentId@{componentId}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{componentId()}{componentId()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a2052008b9c3676b1b023bf70d069f734} 
+int Diagram\+Item::\+component\+Id (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}}]{component}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The id of an item\textquotesingle{}s component. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em component} & The item\textquotesingle{}s component whose id we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The id of the given item\textquotesingle{}s component has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_item_aa1cbba7f3095af91d0d0a3c209be8ae2}\index{DiagramItem@{DiagramItem}!componentTypeMatches@{componentTypeMatches}}
+\index{componentTypeMatches@{componentTypeMatches}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{componentTypeMatches()}{componentTypeMatches()}}
+{\footnotesize\ttfamily \label{class_diagram_item_aa1cbba7f3095af91d0d0a3c209be8ae2} 
+bool Diagram\+Item::\+component\+Type\+Matches (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}}]{component}{, }\item[{const QString\+List \&}]{types}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+true if the diagram component type matches with one of the types; false otherwise. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em component} & The component whose type is checked. \\
+\hline
+{\em types} & The list of types to compare with the component type. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the function returns true, the given diagram component type matches one of the given types. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_aa1cbba7f3095af91d0d0a3c209be8ae2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_a56bb6c71c0175f74fb8a908fa6aa7bca}\index{DiagramItem@{DiagramItem}!connectComponents@{connectComponents}}
+\index{connectComponents@{connectComponents}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{connectComponents()}{connectComponents()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a56bb6c71c0175f74fb8a908fa6aa7bca} 
+void Diagram\+Item::\+connect\+Components (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The components of the item are connected to their corresponding components. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_item_af6aef9ad4ecfab8f59b267d18d12897c}\index{DiagramItem@{DiagramItem}!definedZValue@{definedZValue}}
+\index{definedZValue@{definedZValue}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{definedZValue()}{definedZValue()}}
+{\footnotesize\ttfamily \label{class_diagram_item_af6aef9ad4ecfab8f59b267d18d12897c} 
+int Diagram\+Item::\+defined\+ZValue (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The z-\/value of the item. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The z-\/value of the item has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_af6aef9ad4ecfab8f59b267d18d12897c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_aa4ab427eaa6fe6c967a054f57de94bab}\index{DiagramItem@{DiagramItem}!itemChange@{itemChange}}
+\index{itemChange@{itemChange}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{itemChange()}{itemChange()}}
+{\footnotesize\ttfamily \label{class_diagram_item_aa4ab427eaa6fe6c967a054f57de94bab} 
+QVariant Diagram\+Item::\+item\+Change (\begin{DoxyParamCaption}\item[{Graphics\+Item\+Change}]{change}{, }\item[{const QVariant \&}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em change} & The type of change that has to be applied to the item. \\
+\hline
+{\em value} & The value of the change that has to be applied to the item. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The given change with the given value has been applied to the item. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_item_aa8d2fb110a6c966d4ab6399a6d25b09f}\index{DiagramItem@{DiagramItem}!itemId@{itemId}}
+\index{itemId@{itemId}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{itemId()}{itemId()}}
+{\footnotesize\ttfamily \label{class_diagram_item_aa8d2fb110a6c966d4ab6399a6d25b09f} 
+int Diagram\+Item::\+item\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The id of the item. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The id of the item has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_diagram_item_aa8d2fb110a6c966d4ab6399a6d25b09f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_afd1c80471342f9a4673b0b2ea0ed6534}\index{DiagramItem@{DiagramItem}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_item_afd1c80471342f9a4673b0b2ea0ed6534} 
+void Diagram\+Item::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The item has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_json_serializable_a12dc785a9d7211b1e5a8c26cd5e3bd45}{Json\+Serializable}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_afd1c80471342f9a4673b0b2ea0ed6534_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_afd1c80471342f9a4673b0b2ea0ed6534_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_a5b481bb2233e8b28e7be6927fca32130}\index{DiagramItem@{DiagramItem}!setLoaded@{setLoaded}}
+\index{setLoaded@{setLoaded}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{setLoaded()}{setLoaded()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a5b481bb2233e8b28e7be6927fca32130} 
+void Diagram\+Item::\+set\+Loaded (\begin{DoxyParamCaption}\item[{bool}]{is\+Loaded}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Loaded} & Whether the item has been loaded. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If is\+Loaded, the item has been loaded; otherwise, the item has not been loaded. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_item_a31a5de18432c16c372442b5e418e387e}\index{DiagramItem@{DiagramItem}!setResizerEnabled@{setResizerEnabled}}
+\index{setResizerEnabled@{setResizerEnabled}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{setResizerEnabled()}{setResizerEnabled()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a31a5de18432c16c372442b5e418e387e} 
+bool Diagram\+Item::\+set\+Resizer\+Enabled (\begin{DoxyParamCaption}\item[{const QPointF \&}]{scene\+Pos}{, }\item[{bool}]{enabled}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if the item has a resizer at the scene position; false otherwise. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em scene\+Pos} & The scene position of the resizer we want to edit. \\
+\hline
+{\em enabled} & Whether we want to enable the resizer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the function returns true, the item resizer at scene position scene\+Pos is active whether enabled is true; otherwise, there\textquotesingle{}s no item resizer at scene position scene\+Pos. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_a31a5de18432c16c372442b5e418e387e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_aa5b0376ba80e3fd99a0dde46a748db7f}\index{DiagramItem@{DiagramItem}!setShadow@{setShadow}}
+\index{setShadow@{setShadow}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{setShadow()}{setShadow()}}
+{\footnotesize\ttfamily \label{class_diagram_item_aa5b0376ba80e3fd99a0dde46a748db7f} 
+void Diagram\+Item::\+set\+Shadow (\begin{DoxyParamCaption}\item[{bool}]{shadowed}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em shadowed} & Whether we want to shadow the item or not. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If shadowed is true, the item is shadowed; otherwise, it\textquotesingle{}s not shadowed. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_aa5b0376ba80e3fd99a0dde46a748db7f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_adf18668ef037a6fdfb4d7b90f035291f}\index{DiagramItem@{DiagramItem}!setSpecifications@{setSpecifications}}
+\index{setSpecifications@{setSpecifications}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{setSpecifications()}{setSpecifications()}}
+{\footnotesize\ttfamily \label{class_diagram_item_adf18668ef037a6fdfb4d7b90f035291f} 
+void Diagram\+Item::\+set\+Specifications (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}}]{form\+Results}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Results} & The specifications form containing the results to apply. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The results in the specifications form form\+Results have been applied to the item. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_adf18668ef037a6fdfb4d7b90f035291f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_abd7384bbaa416b7e51f06ae9a3ece366}\index{DiagramItem@{DiagramItem}!specificationsForm@{specificationsForm}}
+\index{specificationsForm@{specificationsForm}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{specificationsForm()}{specificationsForm()}}
+{\footnotesize\ttfamily \label{class_diagram_item_abd7384bbaa416b7e51f06ae9a3ece366} 
+\doxymbox{\hyperlink{class_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*} Diagram\+Item::\+specifications\+Form (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The specifications form of the item. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specifications form of the item has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_item_abd7384bbaa416b7e51f06ae9a3ece366_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_a0175f23d5ca91b4429b9def02826509e}\index{DiagramItem@{DiagramItem}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_item_a0175f23d5ca91b4429b9def02826509e} 
+QVariant\+Hash Diagram\+Item::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the item\textquotesingle{}s data. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the item\textquotesingle{}s data has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_json_serializable_a688bbf991d7ff227e01f7f2294c7cae8}{Json\+Serializable}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_diagram_item_a0175f23d5ca91b4429b9def02826509e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_item_af9c4f30ca0cb150bc2e0e01c9a3eec7d}\index{DiagramItem@{DiagramItem}!updateGeometry@{updateGeometry}}
+\index{updateGeometry@{updateGeometry}!DiagramItem@{DiagramItem}}
+\doxysubsubsection{\texorpdfstring{updateGeometry()}{updateGeometry()}}
+{\footnotesize\ttfamily \label{class_diagram_item_af9c4f30ca0cb150bc2e0e01c9a3eec7d} 
+void Diagram\+Item::\+update\+Geometry (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the item is loaded, its geometry has been updated. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{diagramitem_8h}{diagramitem.\+h}}\item 
+\doxymbox{\hyperlink{diagramitem_8cpp}{diagramitem.\+cpp}}\end{DoxyCompactItemize}
