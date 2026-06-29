@@ -17,6 +17,8 @@ class QGraphicsItem;
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+
 /**
  * @class SelectableSpecification
  * @brief A diagram specification whose text can be chosen from selectable choices.
@@ -79,5 +81,7 @@ class SelectableSpecification : public DiagramSpecification
          */
         void updateTextFromForm(const QWidget *fromResults) override;
 };
+
+}
 
 #endif // SELECTABLESPECIFICATION_H

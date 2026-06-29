@@ -1,0 +1,101 @@
+\doxysection{Diagram\+Editor::\+Gui::\+Diagram\+Type\+Group Class Reference}
+\hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_group}{}\label{class_diagram_editor_1_1_gui_1_1_diagram_type_group}\index{DiagramEditor::Gui::DiagramTypeGroup@{DiagramEditor::Gui::DiagramTypeGroup}}
+
+
+Represents a group of diagram types.  
+
+
+
+
+{\ttfamily \+\#include $<$diagramtypegroup.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Gui::\+Diagram\+Type\+Group:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_diagram_editor_1_1_gui_1_1_diagram_type_group__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Gui::\+Diagram\+Type\+Group:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_diagram_editor_1_1_gui_1_1_diagram_type_group__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_group_aeffff29eae135759e116930352b7c2bc}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QString\+List \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_group_abd354f58b952689caf121c6fd17f2851}{diagram\+Types}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\item 
+virtual QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124}{to\+Hash}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a group of diagram types. 
+
+\label{class_diagram_editor_1_1_gui_1_1_diagram_type_group_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_group_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_group_abd354f58b952689caf121c6fd17f2851}\index{DiagramEditor::Gui::DiagramTypeGroup@{DiagramEditor::Gui::DiagramTypeGroup}!diagramTypes@{diagramTypes}}
+\index{diagramTypes@{diagramTypes}!DiagramEditor::Gui::DiagramTypeGroup@{DiagramEditor::Gui::DiagramTypeGroup}}
+\doxysubsubsection{\texorpdfstring{diagramTypes()}{diagramTypes()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_diagram_type_group_abd354f58b952689caf121c6fd17f2851} 
+QString\+List Diagram\+Editor::\+\+Gui::\+\+Diagram\+Type\+Group::\+diagram\+Types (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The IDs of the diagram types in the group. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The IDs of the diagram types in the group have been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_group_aeffff29eae135759e116930352b7c2bc}\index{DiagramEditor::Gui::DiagramTypeGroup@{DiagramEditor::Gui::DiagramTypeGroup}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Gui::DiagramTypeGroup@{DiagramEditor::Gui::DiagramTypeGroup}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_diagram_type_group_aeffff29eae135759e116930352b7c2bc} 
+void Diagram\+Editor::\+\+Gui::\+\+Diagram\+Type\+Group::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram type group data has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}.
+
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{diagramtypegroup_8h}{diagramtypegroup.\+h}}\item 
+\doxymbox{\hyperlink{diagramtypegroup_8cpp}{diagramtypegroup.\+cpp}}\end{DoxyCompactItemize}

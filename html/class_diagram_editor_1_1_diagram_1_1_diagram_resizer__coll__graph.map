@@ -1,0 +1,18 @@
+<map id="DiagramEditor::Diagram::DiagramResizer" name="DiagramEditor::Diagram::DiagramResizer">
+<area shape="rect" id="Node000001" title="An item to resize a diagram component." alt="" coords="88,1052,244,1351"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,45,74,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,132,22,275,14,375,9,487,9,608,15,733,29,858,54,979,70,1027,91,1074,86,1075,65,1029,49,981,24,859,10,733,4,608,4,487,9,375,17,275,37,127"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="63,617,269,980"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="46,127,59,313,71,429,90,545,107,617,102,618,85,546,66,429,54,313,46,132"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_diagram_1_1_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="99,204,273,545"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="67,125,107,204,101,205,67,130"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="293,764,420,833"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="349,846,328,934,312,983,292,1029,246,1106,242,1102,288,1027,307,981,323,933,346,850"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,977,169,1035,163,1034,165,982"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="256,5,428,155"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="347,167,349,259,343,367,327,482,314,539,298,594,271,639,266,637,293,592,309,538,321,481,337,366,343,259,346,172"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="295,171,275,212,270,210,297,166"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="178,542,178,601,173,600,178,548"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="98,45,231,115"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="168,127,176,204,171,204,168,132"/>
+</map>

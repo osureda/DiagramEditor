@@ -1,0 +1,403 @@
+\doxysection{Diagram\+Editor::\+Specification::\+Diagram\+Connection Class Reference}
+\hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection}{}\label{class_diagram_editor_1_1_specification_1_1_diagram_connection}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+
+
+A diagram component represented by a path that connects other components.  
+
+
+
+
+{\ttfamily \+\#include $<$diagramconnection.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Specification::\+Diagram\+Connection:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_diagram_connection__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Specification::\+Diagram\+Connection:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_diagram_connection__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a7a939b4a4c3dce9b257468164e812928}{Diagram\+Connection}} (Diagram\+Item \texorpdfstring{$\ast$}{*}parent)
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a328ee6bcfbc0d5d20f5978a45e1ac6d2}{\texorpdfstring{$\sim$}{\string~}\+Diagram\+Connection}} () override
+\item 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_aed8c019bb987179310628747efd5bba3}{defined\+ZValue}} () const override
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_ab49a07abe7d8e1ac22c66d425488a524}{connect\+Component}} () override
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a25528a84db6428e664bd24fa7cacfaea}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_ad105cbacebacdad116a8ce703c99e268}{to\+Hash}} () const override
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a04456eb3f70ccb33c03aee942fa8493e}{specifications\+Form}} () const override
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a81d66cee1f934c36202d13135eacdd6a}{set\+Specifications}} (const \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}form\+Results, int form\+Index) override
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a6e75e3a1411139e88576397bcf4c6c0b}{set\+Shadow}} (bool shadowed) override
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_addda35b4b7d6ed23928e291a20677894}{set\+Resizers\+Visibility}} (bool visible) override
+\item 
+bool \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a24d0bcc479b958e6dfa4a2c1a602086f}{add\+Resizer}} (const QPointF \&scene\+Pos) override
+\item 
+bool \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_ad1801d0414c9e494987d065e086d729b}{remove\+Resizer}} (const QPointF \&scene\+Pos) override
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a30e6658c3b143e5d89653e467fbfb69a}{resize}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a3f6562f0ac7d255625928079b21dcd20}{Diagram\+Component}} ()
+\item 
+QGraphics\+Item \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a6c1ef83fc6ae5d38269a954f7fdf1abd}{graphics\+Item}} ()
+\item 
+virtual bool \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a901bddd80b204962f87a0127f90364ff}{can\+Resize\+To}} (const QPointF \&pos) const
+\item 
+QPointF \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_aef887373f739ae5eb7ca557d57f763ae}{closest\+Connection\+Point}} (const QPointF \&point, bool item\+Mapped=false)
+\item 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a9c80b0aab8cc397a47dc85d122118a98}{component\+Id}} () const
+\item 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a6cade2c5662bea28703e303cfbd737b9}{group\+Id}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a0d7041c6d4aa8e60b17343b524f7ef58}{set\+Comment\+Badge\+Visibility}} (bool visible)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a1977e3356bbb5ef693d138c880c681ac}\label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a1977e3356bbb5ef693d138c880c681ac} 
+static const QColor {\bfseries DEFAULT\+\_\+\+COLOR} = Qt::\+black
+\begin{DoxyCompactList}\small\item\em The color of the connection path. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a8dffd3270f27a60ceccf734cca28b269}\label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a8dffd3270f27a60ceccf734cca28b269} 
+static const int {\bfseries LINE\+\_\+\+WIDTH} = 3
+\begin{DoxyCompactList}\small\item\em The width of the connection path. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_acef629750373ff5fa1dee053f3436013}\label{class_diagram_editor_1_1_specification_1_1_diagram_connection_acef629750373ff5fa1dee053f3436013} 
+static const QPointF {\bfseries MARKERS\+\_\+\+SIZE} = QPointF(20, 20)
+\begin{DoxyCompactList}\small\item\em The size of the path endpoint markers. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a9446442640285c76d2c899169dd15700}\label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a9446442640285c76d2c899169dd15700} 
+static const QColor {\bfseries MARKERS\+\_\+\+BRUSH\+\_\+\+COLOR} = Qt::\+white
+\begin{DoxyCompactList}\small\item\em The fill color of the path endpoint markers. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a924c82b9899ca652db391e1643ebf166}\label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a924c82b9899ca652db391e1643ebf166} 
+static const int {\bfseries CLICK\+\_\+\+MARGIN} = 2
+\begin{DoxyCompactList}\small\item\em The margin of the area where the connection can be clicked regarding its path. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}}
+\begin{DoxyCompactItemize}
+\item 
+static const int {\bfseries COMMENT\+\_\+\+BADGE\+\_\+\+RADIUS} = 5
+\begin{DoxyCompactList}\small\item\em The radius of the comment badge. \end{DoxyCompactList}\item 
+static const QColor {\bfseries COMMENT\+\_\+\+BADGE\+\_\+\+COLOR} = Qt::\+green
+\begin{DoxyCompactList}\small\item\em The color of the comment badge. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Signals inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_aba31ad15a7dd0cdf4c8d11d6e91c88ed}{position\+Changed}} ()
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a17f80cc648ec2444076bf15755e658ea}{component\+Resized}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a3068ed800086063a62b3631d6c877141}{update\+Comment\+Badge\+Pos}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_item}{Diagram\+Item}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_ab18d850bb19c584822e5c55b09bab717}{component\+Group}}
+\begin{DoxyCompactList}\small\item\em The diagram item that contains the component. \end{DoxyCompactList}\item 
+QGraphics\+Ellipse\+Item \texorpdfstring{$\ast$}{*} {\bfseries comment\+Badge}
+\begin{DoxyCompactList}\small\item\em The component comment badge. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A diagram component represented by a path that connects other components. 
+
+\label{class_diagram_editor_1_1_specification_1_1_diagram_connection_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a7a939b4a4c3dce9b257468164e812928}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!DiagramConnection@{DiagramConnection}}
+\index{DiagramConnection@{DiagramConnection}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{DiagramConnection()}{DiagramConnection()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a7a939b4a4c3dce9b257468164e812928} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a7a939b4a4c3dce9b257468164e812928}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+\+Diagram\+Connection}} (\begin{DoxyParamCaption}\item[{Diagram\+Item \texorpdfstring{$\ast$}{*}}]{parent}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The diagram item to which the connection belongs. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The connection belongs to diagram item parent. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a328ee6bcfbc0d5d20f5978a45e1ac6d2}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!````~DiagramConnection@{\texorpdfstring{$\sim$}{\string~}DiagramConnection}}
+\index{````~DiagramConnection@{\texorpdfstring{$\sim$}{\string~}DiagramConnection}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}DiagramConnection()}{\string~DiagramConnection()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a328ee6bcfbc0d5d20f5978a45e1ac6d2} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a328ee6bcfbc0d5d20f5978a45e1ac6d2}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+\texorpdfstring{$\sim$}{\string~}\+Diagram\+Connection}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The connection has been deleted. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_editor_1_1_specification_1_1_diagram_connection_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a24d0bcc479b958e6dfa4a2c1a602086f}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!addResizer@{addResizer}}
+\index{addResizer@{addResizer}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{addResizer()}{addResizer()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a24d0bcc479b958e6dfa4a2c1a602086f} 
+bool \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a24d0bcc479b958e6dfa4a2c1a602086f}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+add\+Resizer}} (\begin{DoxyParamCaption}\item[{const QPointF \&}]{scene\+Pos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+true if a resizer has been added to the position; false otherwise. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em scene\+Pos} & The scene position of the resizer we want to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the function returns true, a resizer has been added to the scene position scene\+Pos; otherwise, a resizer can\textquotesingle{}t be added to the scene position scene\+Pos. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_abf9a5ee426cf7540a53ca21cd002bf66}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_ab49a07abe7d8e1ac22c66d425488a524}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!connectComponent@{connectComponent}}
+\index{connectComponent@{connectComponent}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{connectComponent()}{connectComponent()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_ab49a07abe7d8e1ac22c66d425488a524} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_ab49a07abe7d8e1ac22c66d425488a524}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+connect\+Component}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The connection is connecting its corresponding components. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a28037662a2450d8d0006cc5ea41e05d0}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_aed8c019bb987179310628747efd5bba3}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!definedZValue@{definedZValue}}
+\index{definedZValue@{definedZValue}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{definedZValue()}{definedZValue()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_aed8c019bb987179310628747efd5bba3} 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_aed8c019bb987179310628747efd5bba3}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+defined\+ZValue}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The z-\/value that has to be assigned to the connection. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The z-\/value that has to be assigned to the connection has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a692f03f9a821bab6a7b43335dd54d516}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a25528a84db6428e664bd24fa7cacfaea}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a25528a84db6428e664bd24fa7cacfaea} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a25528a84db6428e664bd24fa7cacfaea}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+load\+From\+Hash}} (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The connection has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_ad1801d0414c9e494987d065e086d729b}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!removeResizer@{removeResizer}}
+\index{removeResizer@{removeResizer}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{removeResizer()}{removeResizer()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_ad1801d0414c9e494987d065e086d729b} 
+bool \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad1801d0414c9e494987d065e086d729b}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+remove\+Resizer}} (\begin{DoxyParamCaption}\item[{const QPointF \&}]{scene\+Pos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+true if a resizer has been removed from the position; false otherwise. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em scene\+Pos} & The scene position of the resizer we want to remove. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the function returns true, a resizer has been removed from the scene position scene\+Pos; otherwise, a resizer can\textquotesingle{}t be removed from the scene position sscene\+Pos. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_abf7c8259b2db29c3b62bba1490417c6e}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a30e6658c3b143e5d89653e467fbfb69a}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!resize@{resize}}
+\index{resize@{resize}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a30e6658c3b143e5d89653e467fbfb69a} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d89653e467fbfb69a}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+resize}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyPrecond}{Precondition}
+specifications != nullptr. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The connection has been resized to its resizer position. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_aba28046e62ea68e56111c5e822691f91}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_addda35b4b7d6ed23928e291a20677894}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!setResizersVisibility@{setResizersVisibility}}
+\index{setResizersVisibility@{setResizersVisibility}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{setResizersVisibility()}{setResizersVisibility()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_addda35b4b7d6ed23928e291a20677894} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_addda35b4b7d6ed23928e291a20677894}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+set\+Resizers\+Visibility}} (\begin{DoxyParamCaption}\item[{bool}]{visible}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em visible} & Whether we want to set the connection resizers visible. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If visible is true, the connection resizers are visible; otherwise, the connection resizers are not visible. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a2cee91790645be8e7f74a0f1e110ca2a}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a6e75e3a1411139e88576397bcf4c6c0b}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!setShadow@{setShadow}}
+\index{setShadow@{setShadow}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{setShadow()}{setShadow()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a6e75e3a1411139e88576397bcf4c6c0b} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a6e75e3a1411139e88576397bcf4c6c0b}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+set\+Shadow}} (\begin{DoxyParamCaption}\item[{bool}]{shadowed}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em shadowed} & Whether we want to shadow the connection or not. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If shadowed is true, the connection is shadowed; otherwise, it\textquotesingle{}s not shadowed. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a639d408807d2eb9cc6a29c4b66329b02}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a81d66cee1f934c36202d13135eacdd6a}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!setSpecifications@{setSpecifications}}
+\index{setSpecifications@{setSpecifications}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{setSpecifications()}{setSpecifications()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a81d66cee1f934c36202d13135eacdd6a} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a81d66cee1f934c36202d13135eacdd6a}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+set\+Specifications}} (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}}]{form\+Results}{, }\item[{int}]{form\+Index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Results} & The specifications form containing the results to apply. \\
+\hline
+{\em form\+Index} & The index of the component form in form\+Results. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The results in the specifications form with index form\+Index in form\+Results have been applied to the connection. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a94d4772fda8ff0ee7d30b35f0b85f6e3}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_a04456eb3f70ccb33c03aee942fa8493e}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!specificationsForm@{specificationsForm}}
+\index{specificationsForm@{specificationsForm}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{specificationsForm()}{specificationsForm()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_a04456eb3f70ccb33c03aee942fa8493e} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a04456eb3f70ccb33c03aee942fa8493e}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+specifications\+Form}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The specifications form of the connection. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specifications form of the connection has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_ac2690e9e099e6fe3197a045887a7781c}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Component}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_diagram_connection_ad105cbacebacdad116a8ce703c99e268}\index{DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramEditor::Specification::DiagramConnection@{DiagramEditor::Specification::DiagramConnection}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_diagram_connection_ad105cbacebacdad116a8ce703c99e268} 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad116a8ce703c99e268}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection::\+to\+Hash}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the connection\textquotesingle{}s data. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the connection\textquotesingle{}s data has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}.
+
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{diagramconnection_8h}{diagramconnection.\+h}}\item 
+\doxymbox{\hyperlink{diagramconnection_8cpp}{diagramconnection.\+cpp}}\end{DoxyCompactItemize}

@@ -16,6 +16,8 @@ class QGraphicsItem;
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+
 /**
  * @class LongTextSpecification
  * @brief A diagram specification with a long text.
@@ -61,5 +63,7 @@ class LongTextSpecification : public DiagramSpecification
          */
         void updateTextFromForm(const QWidget *fromResults) override;
 };
+
+}
 
 #endif // LONGTEXTSPECIFICATION_H

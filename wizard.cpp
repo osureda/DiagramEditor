@@ -13,6 +13,10 @@
 
 #include <QWidget>
 
+namespace DiagramEditor::Gui {
+
+using DiagramEditor::Serialization::JsonSerializable;
+
 Wizard::Wizard(const QVariantHash &diagramGroups, const QVariantHash &diagramTypes, QWidget *parent)
     : QWizard(parent)
     , ui(new Ui::Wizard)
@@ -51,4 +55,6 @@ void Wizard::selectedGroupChanged(const QVariantHash &selectedGroupData) {
 
     diagramTypesSelector->clear();
     diagramTypesSelector->addButtons(requiredDiagramTypes);
+}
+
 }

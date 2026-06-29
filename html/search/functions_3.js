@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['elementspecifications_0',['ElementSpecifications',['../class_element_specifications.html#a293b54c8935bdb6a5fb816d97063a163',1,'ElementSpecifications']]]
+  ['elementspecifications_0',['ElementSpecifications',['../class_diagram_editor_1_1_specification_1_1_element_specifications.html#ae0de7081b74704424f70bdfb90cd7748',1,'DiagramEditor::Specification::ElementSpecifications::ElementSpecifications()'],['../class_diagram_editor_1_1_diagram_1_1_element_specifications.html#ae0de7081b74704424f70bdfb90cd7748',1,'DiagramEditor::Diagram::ElementSpecifications::ElementSpecifications()']]]
 ];

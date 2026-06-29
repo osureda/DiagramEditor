@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Diagram::ConnectableResizer::loadFromHash" name="DiagramEditor::Diagram::ConnectableResizer::loadFromHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,167,64"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#a8bd6ef308de1dab74e0eae0bf1f8fb8d" title=" " alt="" coords="215,13,463,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,32,202,34,196,35,167,37"/>
+</map>

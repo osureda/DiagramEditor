@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['diagramitemsids_0',['DiagramItemsIds',['../class_diagram_type.html#aea3f7eeb179f1adf0a19422f785568be',1,'DiagramType']]]
+  ['diagramitemsids_0',['DiagramItemsIds',['../class_diagram_editor_1_1_gui_1_1_diagram_type.html#a746178d47d2ccb0901802e591f90f66f',1,'DiagramEditor::Gui::DiagramType']]]
 ];

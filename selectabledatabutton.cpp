@@ -11,6 +11,8 @@
 #include <QVBoxLayout>
 #include <QWidget>
 
+namespace DiagramEditor::Gui {
+
 const QString SelectableDataButton::STYLE_SHEET =
     "text-align: left;"
     "padding-left: 12px;"
@@ -95,4 +97,6 @@ SelectableDataButton *SelectableDataButton::textButton() const {
     button->setCheckable(true);
 
     return button;
+}
+
 }

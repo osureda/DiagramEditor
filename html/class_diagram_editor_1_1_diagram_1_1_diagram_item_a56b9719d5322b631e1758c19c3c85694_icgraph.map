@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Diagram::DiagramItem::setResizerEnabled" name="DiagramEditor::Diagram::DiagramItem::setResizerEnabled">
+<area shape="rect" id="Node000001" title=" " alt="" coords="247,5,469,48"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram.html#a6ec137d96e1b6021f1ac586edcb8f40c" title=" " alt="" coords="5,5,199,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,27,199,29,199,24,234,26"/>
+</map>

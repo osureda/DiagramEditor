@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN7DiagramE_t {};
+struct qt_meta_tag_ZN13DiagramEditor7Diagram7DiagramE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto Diagram::qt_create_metaobjectdata<qt_meta_tag_ZN7DiagramE_t>()
+template <> constexpr inline auto DiagramEditor::Diagram::Diagram::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor7Diagram7DiagramE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "Diagram",
+        "DiagramEditor::Diagram::Diagram",
         "itemRequested",
         "",
         "QPointF",
@@ -77,20 +77,20 @@ template <> constexpr inline auto Diagram::qt_create_metaobjectdata<qt_meta_tag_
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<Diagram, qt_meta_tag_ZN7DiagramE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<Diagram, qt_meta_tag_ZN13DiagramEditor7Diagram7DiagramE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject Diagram::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Diagram::Diagram::staticMetaObject = { {
     QMetaObject::SuperData::link<QGraphicsScene::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN7DiagramE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN7DiagramE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram7DiagramE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram7DiagramE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN7DiagramE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor7Diagram7DiagramE_t>.metaTypes,
     nullptr
 } };
 
-void Diagram::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Diagram::Diagram::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<Diagram *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -112,22 +112,22 @@ void Diagram::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
     }
 }
 
-const QMetaObject *Diagram::metaObject() const
+const QMetaObject *DiagramEditor::Diagram::Diagram::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Diagram::qt_metacast(const char *_clname)
+void *DiagramEditor::Diagram::Diagram::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN7DiagramE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram7DiagramE_t>.strings))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "JsonSerializable"))
-        return static_cast< JsonSerializable*>(this);
+    if (!strcmp(_clname, "DiagramEditor::Serialization::JsonSerializable"))
+        return static_cast< DiagramEditor::Serialization::JsonSerializable*>(this);
     return QGraphicsScene::qt_metacast(_clname);
 }
 
-int Diagram::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Diagram::Diagram::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QGraphicsScene::qt_metacall(_c, _id, _a);
     if (_id < 0)
@@ -146,13 +146,13 @@ int Diagram::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void Diagram::itemRequested(const QPointF & _t1)
+void DiagramEditor::Diagram::Diagram::itemRequested(const QPointF & _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }
 
 // SIGNAL 1
-void Diagram::selectedItemChanged(QWidget * _t1)
+void DiagramEditor::Diagram::Diagram::selectedItemChanged(QWidget * _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1);
 }

@@ -1,0 +1,15 @@
+<map id="DiagramEditor::Diagram::DiagramComponent::updateCommentBadgePos" name="DiagramEditor::Diagram::DiagramComponent::updateCommentBadgePos">
+<area shape="rect" id="Node000001" title=" " alt="" coords="570,131,819,189"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a30e6658c3b143e5d89653e467fbfb69a" title=" " alt="" coords="314,72,502,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="552,128,502,118,502,112,558,127"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_diagram_1_1_diagram_element.html#a6e2414c45e56e6c578e3073a69a00f13" title=" " alt="" coords="323,139,492,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="552,160,493,163,493,157,557,160"/>
+<area shape="rect" id="Node000007" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a0d7041c6d4aa8e60b17343b524f7ef58" title=" " alt="" coords="294,205,522,264"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="567,193,523,208,522,202,562,194"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a24d0bcc479b958e6dfa4a2c1a602086f" title=" " alt="" coords="16,5,235,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,69,219,51,219,46,302,67"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a25528a84db6428e664bd24fa7cacfaea" title=" " alt="" coords="7,72,244,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="296,94,245,96,244,91,301,92"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#ad1801d0414c9e494987d065e086d729b" title=" " alt="" coords="5,139,246,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="298,120,220,141,218,136,302,118"/>
+</map>

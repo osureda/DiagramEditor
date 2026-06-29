@@ -1,4 +1,4 @@
 var specificationsform_8h =
 [
-    [ "SpecificationsForm", "class_specifications_form.html", "class_specifications_form" ]
+    [ "DiagramEditor::Specification::SpecificationsForm", "class_diagram_editor_1_1_specification_1_1_specifications_form.html", "class_diagram_editor_1_1_specification_1_1_specifications_form" ]
 ];

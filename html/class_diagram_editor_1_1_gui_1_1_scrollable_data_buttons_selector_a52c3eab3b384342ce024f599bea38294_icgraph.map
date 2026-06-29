@@ -1,0 +1,6 @@
+<map id="DiagramEditor::Gui::ScrollableDataButtonsSelector::addButtons" name="DiagramEditor::Gui::ScrollableDataButtonsSelector::addButtons">
+<area shape="rect" id="Node000001" title=" " alt="" coords="186,21,393,80"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_gui_1_1_wizard.html#a3c452fc3f47c7d16a90f1762d460791c" title=" " alt="" coords="5,29,138,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,51,138,53,138,48,173,50"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="105,14,93,10,71,8,51,10,38,15,34,21,35,29,30,29,28,19,35,10,50,5,72,3,95,5,110,13"/>
+</map>

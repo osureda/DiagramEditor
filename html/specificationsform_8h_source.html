@@ -130,47 +130,53 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('specifications
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>QT_BEGIN_NAMESPACE</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QVBoxLayout;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>QT_END_NAMESPACE</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
-<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_specifications_form.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="class_specifications_form.html#a75d0026c7c736c12495585afcc5f2c1b">SpecificationsForm</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    Q_OBJECT</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_function" href="class_specifications_form.html#a75d0026c7c736c12495585afcc5f2c1b">SpecificationsForm</a>();</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_specifications_form.html#ae74ec6d19785a356a00e2513bd190fa0">appendForm</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_specifications_form.html#a75d0026c7c736c12495585afcc5f2c1b">SpecificationsForm</a> *form);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_specifications_form.html#ab77131a307497ae51dd600c9f17b424e">appendField</a>(<span class="keyword">const</span> QString &amp;fieldName, QWidget *fieldWidget);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_specifications_form.html#aa8927ccba376a8b941c5b23350211196">formCount</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_specifications_form.html#ae62b3a4806135e59665fa6c1c59a566c">fieldCount</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        QWidget *<a class="code hl_function" href="class_specifications_form.html#a67b0d678217739885030e2b1b5beb1eb">fieldResults</a>(<span class="keywordtype">int</span> formIndex, <span class="keyword">const</span> QString &amp;fieldName) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="keyword">struct </span>FormField {</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            QString name;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            QWidget *widget;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        };</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        QVBoxLayout *formLayout; </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        QList&lt;int&gt; formStartIndices; </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        QList&lt;FormField&gt; formFields; </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        QWidget *field(<span class="keyword">const</span> QString &amp;fieldName, QWidget *fieldWidget) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>};</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_diagram_editor_1_1_specification.html">DiagramEditor::Specification</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_diagram_1_1_specifications_form.html">   26</a></span><span class="keyword">class </span><a class="code hl_function" href="class_diagram_editor_1_1_diagram_1_1_specifications_form.html#a9020883dd7b108647715d81195d870a7">SpecificationsForm</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Q_OBJECT</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a9020883dd7b108647715d81195d870a7">SpecificationsForm</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#aca9c16d1bf74900b417f15045e5d4d22">appendForm</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_diagram_editor_1_1_diagram_1_1_specifications_form.html#a9020883dd7b108647715d81195d870a7">SpecificationsForm</a> *form);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#ae0331c6f314a218aad9b015dcae88052">appendField</a>(<span class="keyword">const</span> QString &amp;fieldName, QWidget *fieldWidget);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a06cbd3b0737bd7999d9b0d00ed0fd05b">formCount</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a353adae7aed423833c238daab19bb114">fieldCount</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        QWidget *<a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a554646f0d0005f5f8fa93b92195544dc">fieldResults</a>(<span class="keywordtype">int</span> formIndex, <span class="keyword">const</span> QString &amp;fieldName) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keyword">struct </span>FormField {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            QString name;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            QWidget *widget;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        };</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        QVBoxLayout *formLayout; </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        QList&lt;int&gt; formStartIndices; </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        QList&lt;FormField&gt; formFields; </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        QWidget *field(<span class="keyword">const</span> QString &amp;fieldName, QWidget *fieldWidget) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>};</div>
 </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="preprocessor">#endif </span><span class="comment">// SPECIFICATIONSFORM_H</span></div>
-<div class="ttc" id="aclass_specifications_form_html_a67b0d678217739885030e2b1b5beb1eb"><div class="ttname"><a href="class_specifications_form.html#a67b0d678217739885030e2b1b5beb1eb">SpecificationsForm::fieldResults</a></div><div class="ttdeci">QWidget * fieldResults(int formIndex, const QString &amp;fieldName) const</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:46</div></div>
-<div class="ttc" id="aclass_specifications_form_html_a75d0026c7c736c12495585afcc5f2c1b"><div class="ttname"><a href="class_specifications_form.html#a75d0026c7c736c12495585afcc5f2c1b">SpecificationsForm::SpecificationsForm</a></div><div class="ttdeci">SpecificationsForm()</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:13</div></div>
-<div class="ttc" id="aclass_specifications_form_html_aa8927ccba376a8b941c5b23350211196"><div class="ttname"><a href="class_specifications_form.html#aa8927ccba376a8b941c5b23350211196">SpecificationsForm::formCount</a></div><div class="ttdeci">int formCount() const</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:38</div></div>
-<div class="ttc" id="aclass_specifications_form_html_ab77131a307497ae51dd600c9f17b424e"><div class="ttname"><a href="class_specifications_form.html#ab77131a307497ae51dd600c9f17b424e">SpecificationsForm::appendField</a></div><div class="ttdeci">void appendField(const QString &amp;fieldName, QWidget *fieldWidget)</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:29</div></div>
-<div class="ttc" id="aclass_specifications_form_html_ae62b3a4806135e59665fa6c1c59a566c"><div class="ttname"><a href="class_specifications_form.html#ae62b3a4806135e59665fa6c1c59a566c">SpecificationsForm::fieldCount</a></div><div class="ttdeci">int fieldCount() const</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:42</div></div>
-<div class="ttc" id="aclass_specifications_form_html_ae74ec6d19785a356a00e2513bd190fa0"><div class="ttname"><a href="class_specifications_form.html#ae74ec6d19785a356a00e2513bd190fa0">SpecificationsForm::appendForm</a></div><div class="ttdeci">void appendForm(const SpecificationsForm *form)</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:19</div></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>}</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#endif </span><span class="comment">// SPECIFICATIONSFORM_H</span></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_diagram_1_1_specifications_form_html_a9020883dd7b108647715d81195d870a7"><div class="ttname"><a href="class_diagram_editor_1_1_diagram_1_1_specifications_form.html#a9020883dd7b108647715d81195d870a7">DiagramEditor::Diagram::SpecificationsForm::SpecificationsForm</a></div><div class="ttdeci">SpecificationsForm()</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:15</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_specifications_form_html_a06cbd3b0737bd7999d9b0d00ed0fd05b"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a06cbd3b0737bd7999d9b0d00ed0fd05b">DiagramEditor::Specification::SpecificationsForm::formCount</a></div><div class="ttdeci">int formCount() const</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:40</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_specifications_form_html_a353adae7aed423833c238daab19bb114"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a353adae7aed423833c238daab19bb114">DiagramEditor::Specification::SpecificationsForm::fieldCount</a></div><div class="ttdeci">int fieldCount() const</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:44</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_specifications_form_html_a554646f0d0005f5f8fa93b92195544dc"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a554646f0d0005f5f8fa93b92195544dc">DiagramEditor::Specification::SpecificationsForm::fieldResults</a></div><div class="ttdeci">QWidget * fieldResults(int formIndex, const QString &amp;fieldName) const</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:48</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_specifications_form_html_a9020883dd7b108647715d81195d870a7"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#a9020883dd7b108647715d81195d870a7">DiagramEditor::Specification::SpecificationsForm::SpecificationsForm</a></div><div class="ttdeci">SpecificationsForm()</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:15</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_specifications_form_html_aca9c16d1bf74900b417f15045e5d4d22"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#aca9c16d1bf74900b417f15045e5d4d22">DiagramEditor::Specification::SpecificationsForm::appendForm</a></div><div class="ttdeci">void appendForm(const SpecificationsForm *form)</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:21</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_specifications_form_html_ae0331c6f314a218aad9b015dcae88052"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_specifications_form.html#ae0331c6f314a218aad9b015dcae88052">DiagramEditor::Specification::SpecificationsForm::appendField</a></div><div class="ttdeci">void appendField(const QString &amp;fieldName, QWidget *fieldWidget)</div><div class="ttdef"><b>Definition</b> specificationsform.cpp:31</div></div>
+<div class="ttc" id="anamespace_diagram_editor_1_1_specification_html"><div class="ttname"><a href="namespace_diagram_editor_1_1_specification.html">DiagramEditor::Specification</a></div><div class="ttdoc">Contains the classes used for show and edit item specifications.</div><div class="ttdef"><b>Definition</b> connectionspecifications.cpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

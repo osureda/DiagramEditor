@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,97,32"/>
-<area shape="rect" id="Node000001" href="$class_scrollable_data_buttons_selector.html" title="A scrollable widget for selecting a data button." alt="" coords="145,5,344,32"/>
-<area shape="poly" id="edge33_Node000000_Node000001" title=" " alt="" coords="112,16,147,18,141,19,112,21"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,58,40"/>
+<area shape="rect" id="Node000001" href="$class_diagram_editor_1_1_serialization_1_1_json_file.html" title="Helper class for loading a JSON file and performing JSON conversions." alt="" coords="106,5,289,48"/>
+<area shape="poly" id="edge40_Node000000_Node000001" title=" " alt="" coords="73,24,108,26,103,27,74,29"/>
 </map>

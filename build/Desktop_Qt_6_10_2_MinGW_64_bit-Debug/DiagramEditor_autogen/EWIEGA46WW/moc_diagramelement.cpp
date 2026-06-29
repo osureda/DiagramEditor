@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN14DiagramElementE_t {};
+struct qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramElementE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto DiagramElement::qt_create_metaobjectdata<qt_meta_tag_ZN14DiagramElementE_t>()
+template <> constexpr inline auto DiagramEditor::Diagram::DiagramElement::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramElementE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "DiagramElement",
+        "DiagramEditor::Diagram::DiagramElement",
         "specificationsSizeChanged",
         ""
     };
@@ -51,20 +51,20 @@ template <> constexpr inline auto DiagramElement::qt_create_metaobjectdata<qt_me
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<DiagramElement, qt_meta_tag_ZN14DiagramElementE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<DiagramElement, qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramElementE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject DiagramElement::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Diagram::DiagramElement::staticMetaObject = { {
     QMetaObject::SuperData::link<DiagramComponent::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN14DiagramElementE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN14DiagramElementE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramElementE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramElementE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN14DiagramElementE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramElementE_t>.metaTypes,
     nullptr
 } };
 
-void DiagramElement::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Diagram::DiagramElement::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<DiagramElement *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -76,22 +76,22 @@ void DiagramElement::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     (void)_a;
 }
 
-const QMetaObject *DiagramElement::metaObject() const
+const QMetaObject *DiagramEditor::Diagram::DiagramElement::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *DiagramElement::qt_metacast(const char *_clname)
+void *DiagramEditor::Diagram::DiagramElement::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN14DiagramElementE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramElementE_t>.strings))
         return static_cast<void*>(this);
     if (!strcmp(_clname, "QGraphicsPolygonItem"))
         return static_cast< QGraphicsPolygonItem*>(this);
     return DiagramComponent::qt_metacast(_clname);
 }
 
-int DiagramElement::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Diagram::DiagramElement::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = DiagramComponent::qt_metacall(_c, _id, _a);
     if (_id < 0)

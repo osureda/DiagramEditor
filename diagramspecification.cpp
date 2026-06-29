@@ -16,6 +16,8 @@
 #include <QPen>
 #include <QWidget>
 
+namespace DiagramEditor::Specification {
+
 DiagramSpecification::DiagramSpecification(QGraphicsItem *parent)
     : QGraphicsTextItem(parent)
     , storedTranslation(0, 0)
@@ -123,3 +125,5 @@ void DiagramSpecification::clearStyleDecorations() {
 }
 
 void DiagramSpecification::updateTextFromForm(const QWidget *) {}
+
+}

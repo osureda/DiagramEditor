@@ -1,11 +1,11 @@
 <map id="GeometryUtils::strokeName" name="GeometryUtils::strokeName">
-<area shape="rect" id="Node000001" title=" " alt="" coords="481,43,665,69"/>
-<area shape="rect" id="Node000002" href="$class_diagram_connection.html#a16cb45f3db2c535d157f2b15d8735417" title=" " alt="" coords="277,5,421,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="463,42,421,39,421,33,468,42"/>
-<area shape="rect" id="Node000004" href="$class_diagram_element.html#a957416453e3b8ac12e1b9691be6ac41d" title=" " alt="" coords="265,72,433,99"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="468,70,434,77,433,72,463,70"/>
-<area shape="rect" id="Node000003" href="$class_diagram_connection.html#ad18fd1041d476a9f6d5aefe373233f6f" title=" " alt="" coords="39,5,183,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,27,184,29,183,24,264,26"/>
-<area shape="rect" id="Node000005" href="$class_diagram_element.html#aba04323982146461a8a972374af6ec88" title=" " alt="" coords="5,72,217,99"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="247,85,217,88,217,83,252,85"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="533,47,717,73"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#ad105cbacebacdad116a8ce703c99e268" title=" " alt="" coords="291,5,485,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="515,45,485,43,485,38,520,45"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_diagram_1_1_diagram_element.html#adae24f3804f949d5af7c7c3bcc1d8ba5" title=" " alt="" coords="300,72,476,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="520,75,477,84,476,78,515,75"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a25528a84db6428e664bd24fa7cacfaea" title=" " alt="" coords="5,5,243,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="273,27,243,29,243,24,278,26"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_diagram_1_1_diagram_element.html#ae80718b4ca26a058c10541effc31bb7f" title=" " alt="" coords="14,72,234,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="282,93,234,96,234,91,287,93"/>
 </map>

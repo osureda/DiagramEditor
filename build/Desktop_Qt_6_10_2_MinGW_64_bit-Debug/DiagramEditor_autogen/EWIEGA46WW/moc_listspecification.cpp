@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN17ListSpecificationE_t {};
+struct qt_meta_tag_ZN13DiagramEditor13Specification17ListSpecificationE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto ListSpecification::qt_create_metaobjectdata<qt_meta_tag_ZN17ListSpecificationE_t>()
+template <> constexpr inline auto DiagramEditor::Specification::ListSpecification::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor13Specification17ListSpecificationE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "ListSpecification"
+        "DiagramEditor::Specification::ListSpecification"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -47,20 +47,20 @@ template <> constexpr inline auto ListSpecification::qt_create_metaobjectdata<qt
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<ListSpecification, qt_meta_tag_ZN17ListSpecificationE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<ListSpecification, qt_meta_tag_ZN13DiagramEditor13Specification17ListSpecificationE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject ListSpecification::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Specification::ListSpecification::staticMetaObject = { {
     QMetaObject::SuperData::link<DiagramSpecification::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN17ListSpecificationE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN17ListSpecificationE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification17ListSpecificationE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification17ListSpecificationE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN17ListSpecificationE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor13Specification17ListSpecificationE_t>.metaTypes,
     nullptr
 } };
 
-void ListSpecification::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Specification::ListSpecification::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<ListSpecification *>(_o);
     (void)_t;
@@ -69,20 +69,20 @@ void ListSpecification::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
     (void)_a;
 }
 
-const QMetaObject *ListSpecification::metaObject() const
+const QMetaObject *DiagramEditor::Specification::ListSpecification::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *ListSpecification::qt_metacast(const char *_clname)
+void *DiagramEditor::Specification::ListSpecification::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN17ListSpecificationE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification17ListSpecificationE_t>.strings))
         return static_cast<void*>(this);
     return DiagramSpecification::qt_metacast(_clname);
 }
 
-int ListSpecification::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Specification::ListSpecification::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = DiagramSpecification::qt_metacall(_c, _id, _a);
     return _id;

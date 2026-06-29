@@ -26,6 +26,13 @@
 #include <QToolButton>
 #include <QWidget>
 
+namespace DiagramEditor::Gui {
+
+using DiagramEditor::Diagram::Diagram;
+using DiagramEditor::Diagram::DiagramItem;
+using DiagramEditor::Serialization::JsonFile;
+using DiagramEditor::Serialization::JsonSerializable;
+
 MainWindow::MainWindow(const QVariantHash &diagramGroups,
                        const QVariantHash &diagramTypes,
                        const QVariantHash &diagramItems,
@@ -237,4 +244,6 @@ void MainWindow::clearSpecificationsForm() {
 
 void MainWindow::moveDiagramItems(const QPointF &moveStep) {
     diagram->moveSelectedItems(moveStep);
+}
+
 }

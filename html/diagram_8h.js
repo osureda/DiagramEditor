@@ -1,4 +1,4 @@
 var diagram_8h =
 [
-    [ "Diagram", "class_diagram.html", "class_diagram" ]
+    [ "DiagramEditor::Diagram::Diagram", "class_diagram_editor_1_1_diagram_1_1_diagram.html", "class_diagram_editor_1_1_diagram_1_1_diagram" ]
 ];

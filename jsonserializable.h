@@ -10,6 +10,8 @@
 #include <QStringList>
 #include <QVariant>
 
+namespace DiagramEditor::Serialization {
+
 /**
  * @class JsonSerializable
  * @brief Base class for objects that can be loaded from and converted to a
@@ -49,5 +51,7 @@ class JsonSerializable
          */
         static QVariantHash filteredHashByKeys(const QVariantHash &hash, const QStringList &keys);
 };
+
+}
 
 #endif // JSONSERIALIZABLE_H

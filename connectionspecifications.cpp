@@ -15,6 +15,8 @@
 #include <QGraphicsScene>
 #include <QRectF>
 
+namespace DiagramEditor::Specification {
+
 ConnectionSpecifications::ConnectionSpecifications(DiagramConnection *parent)
     : SpecificationsGroup(parent)
 {
@@ -148,4 +150,6 @@ QString ConnectionSpecifications::stringFromVerticalPos(const ConnectionSpecific
         default:
             return "below";
     }
+}
+
 }

@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Diagram::DiagramElement::DiagramElement" name="DiagramEditor::Diagram::DiagramElement::DiagramElement">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,237,56"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_element_specifications.html#ae9207a7616f1b9032f3d64a76507506b" title=" " alt="" coords="285,5,446,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,32,272,34,266,35,237,37"/>
+</map>

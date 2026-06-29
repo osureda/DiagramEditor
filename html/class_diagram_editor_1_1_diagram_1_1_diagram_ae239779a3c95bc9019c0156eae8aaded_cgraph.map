@@ -1,0 +1,7 @@
+<map id="DiagramEditor::Diagram::Diagram::loadFromHash" name="DiagramEditor::Diagram::Diagram::loadFromHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,177,48"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_item.html#a7d541cbdfd17004162560aa49c5acbb2" title=" " alt="" coords="225,5,422,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,24,212,26,206,27,177,29"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_item.html#a17e1999faa60a3a7769ffb6d17ac7a41" title=" " alt="" coords="470,5,664,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,24,457,27,452,27,422,29"/>
+</map>

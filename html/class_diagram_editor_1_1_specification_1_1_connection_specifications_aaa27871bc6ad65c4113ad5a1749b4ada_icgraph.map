@@ -1,0 +1,9 @@
+<map id="DiagramEditor::Specification::ConnectionSpecifications::updateSpecificationsPos" name="DiagramEditor::Specification::ConnectionSpecifications::updateSpecificationsPos">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,88,428,147"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_specification_1_1_connection_specifications.html#a968beaf2d6a9c079081609fe6d7ba082" title=" " alt="" coords="5,5,193,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,83,185,67,184,62,237,82"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_connection_specifications.html#a50d0c9e100e9274a248315d50c36c62a" title=" " alt="" coords="5,88,193,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,118,194,120,193,115,227,117"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_specification_1_1_connection_specifications.html#a5f4fa3742d877dbdcc8e643084504c4f" title=" " alt="" coords="5,171,193,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="237,151,185,173,184,168,232,153"/>
+</map>

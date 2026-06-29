@@ -1,7 +1,0 @@
-<map id="Wizard::selectedConfiguration" name="Wizard::selectedConfiguration">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,202,57"/>
-<area shape="rect" id="Node000002" href="$class_diagram_type.html#a05bf79a97fbbf57915a50e71dd8117c1" title=" " alt="" coords="253,5,438,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,31,240,29,234,30,203,36"/>
-<area shape="rect" id="Node000003" href="$class_diagram_type.html#aff7acf19d582137928e30ce5f6cb4b61" title=" " alt="" coords="250,56,441,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,52,237,58,231,58,202,57"/>
-</map>

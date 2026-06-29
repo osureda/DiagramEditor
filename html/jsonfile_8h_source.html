@@ -130,34 +130,40 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('jsonfile_8h_so
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>QT_BEGIN_NAMESPACE</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QByteArray;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>QT_END_NAMESPACE</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_json_file.html">   23</a></span><span class="keyword">class </span><a class="code hl_function" href="class_json_file.html#aa7e9052a5ea38e7e4376368f1d40feee">JsonFile</a> : <span class="keyword">public</span> QFile</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="class_json_file.html#aa7e9052a5ea38e7e4376368f1d40feee">JsonFile</a>(<span class="keyword">const</span> QString &amp;path);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_json_file.html#abbd183414af440c64250860ef342f9f0">load</a>();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        QVariantHash <a class="code hl_function" href="class_json_file.html#af347f04b8475a74a3808fa5e65f3491f">hashForKey</a>(<span class="keyword">const</span> QString &amp;key) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">static</span> QVariantHash <a class="code hl_function" href="class_json_file.html#abf5a43fecf93ed28674a11ff2a13b985">textToHash</a>(<span class="keyword">const</span> QString &amp;text);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keyword">static</span> QString <a class="code hl_function" href="class_json_file.html#ac4be58cf076325c9dde18beefaf5639b">hashToText</a>(<span class="keyword">const</span> QVariantHash &amp;hash);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        QJsonObject contents; </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> parseToJsonObject(<span class="keyword">const</span> QByteArray &amp;json, QJsonObject &amp;jsonObject);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>};</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_diagram_editor_1_1_serialization.html">DiagramEditor::Serialization</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_gui_1_1_json_file.html">   25</a></span><span class="keyword">class </span><a class="code hl_function" href="class_diagram_editor_1_1_gui_1_1_json_file.html#a0f526e3c7575dce92db79b4ce0455679">JsonFile</a> : <span class="keyword">public</span> QFile</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a0f526e3c7575dce92db79b4ce0455679">JsonFile</a>(<span class="keyword">const</span> QString &amp;path);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a61a419c75c84d2d005c9388bbf79d364">load</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        QVariantHash <a class="code hl_function" href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a2c83bcd62e8081c8021c3e7f12787f9a">hashForKey</a>(<span class="keyword">const</span> QString &amp;key) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keyword">static</span> QVariantHash <a class="code hl_function" href="class_diagram_editor_1_1_serialization_1_1_json_file.html#ace95355ba2721f47e4d6ff65a16f3e9d">textToHash</a>(<span class="keyword">const</span> QString &amp;text);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keyword">static</span> QString <a class="code hl_function" href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a2d25ba8bef8d9c953f35242404068f4e">hashToText</a>(<span class="keyword">const</span> QVariantHash &amp;hash);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        QJsonObject contents; </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> parseToJsonObject(<span class="keyword">const</span> QByteArray &amp;json, QJsonObject &amp;jsonObject);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>};</div>
 </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">#endif </span><span class="comment">// JSONFILE_H</span></div>
-<div class="ttc" id="aclass_json_file_html_aa7e9052a5ea38e7e4376368f1d40feee"><div class="ttname"><a href="class_json_file.html#aa7e9052a5ea38e7e4376368f1d40feee">JsonFile::JsonFile</a></div><div class="ttdeci">JsonFile(const QString &amp;path)</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:16</div></div>
-<div class="ttc" id="aclass_json_file_html_abbd183414af440c64250860ef342f9f0"><div class="ttname"><a href="class_json_file.html#abbd183414af440c64250860ef342f9f0">JsonFile::load</a></div><div class="ttdeci">bool load()</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:20</div></div>
-<div class="ttc" id="aclass_json_file_html_abf5a43fecf93ed28674a11ff2a13b985"><div class="ttname"><a href="class_json_file.html#abf5a43fecf93ed28674a11ff2a13b985">JsonFile::textToHash</a></div><div class="ttdeci">static QVariantHash textToHash(const QString &amp;text)</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:48</div></div>
-<div class="ttc" id="aclass_json_file_html_ac4be58cf076325c9dde18beefaf5639b"><div class="ttname"><a href="class_json_file.html#ac4be58cf076325c9dde18beefaf5639b">JsonFile::hashToText</a></div><div class="ttdeci">static QString hashToText(const QVariantHash &amp;hash)</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:56</div></div>
-<div class="ttc" id="aclass_json_file_html_af347f04b8475a74a3808fa5e65f3491f"><div class="ttname"><a href="class_json_file.html#af347f04b8475a74a3808fa5e65f3491f">JsonFile::hashForKey</a></div><div class="ttdeci">QVariantHash hashForKey(const QString &amp;key) const</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:33</div></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#endif </span><span class="comment">// JSONFILE_H</span></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_json_file_html_a0f526e3c7575dce92db79b4ce0455679"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_json_file.html#a0f526e3c7575dce92db79b4ce0455679">DiagramEditor::Gui::JsonFile::JsonFile</a></div><div class="ttdeci">JsonFile(const QString &amp;path)</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:18</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_serialization_1_1_json_file_html_a0f526e3c7575dce92db79b4ce0455679"><div class="ttname"><a href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a0f526e3c7575dce92db79b4ce0455679">DiagramEditor::Serialization::JsonFile::JsonFile</a></div><div class="ttdeci">JsonFile(const QString &amp;path)</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:18</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_serialization_1_1_json_file_html_a2c83bcd62e8081c8021c3e7f12787f9a"><div class="ttname"><a href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a2c83bcd62e8081c8021c3e7f12787f9a">DiagramEditor::Serialization::JsonFile::hashForKey</a></div><div class="ttdeci">QVariantHash hashForKey(const QString &amp;key) const</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:35</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_serialization_1_1_json_file_html_a2d25ba8bef8d9c953f35242404068f4e"><div class="ttname"><a href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a2d25ba8bef8d9c953f35242404068f4e">DiagramEditor::Serialization::JsonFile::hashToText</a></div><div class="ttdeci">static QString hashToText(const QVariantHash &amp;hash)</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:58</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_serialization_1_1_json_file_html_a61a419c75c84d2d005c9388bbf79d364"><div class="ttname"><a href="class_diagram_editor_1_1_serialization_1_1_json_file.html#a61a419c75c84d2d005c9388bbf79d364">DiagramEditor::Serialization::JsonFile::load</a></div><div class="ttdeci">bool load()</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:22</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_serialization_1_1_json_file_html_ace95355ba2721f47e4d6ff65a16f3e9d"><div class="ttname"><a href="class_diagram_editor_1_1_serialization_1_1_json_file.html#ace95355ba2721f47e4d6ff65a16f3e9d">DiagramEditor::Serialization::JsonFile::textToHash</a></div><div class="ttdeci">static QVariantHash textToHash(const QString &amp;text)</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:50</div></div>
+<div class="ttc" id="anamespace_diagram_editor_1_1_serialization_html"><div class="ttname"><a href="namespace_diagram_editor_1_1_serialization.html">DiagramEditor::Serialization</a></div><div class="ttdoc">Contains the classes used for saving and loading diagrams.</div><div class="ttdef"><b>Definition</b> jsonfile.cpp:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

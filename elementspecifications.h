@@ -17,12 +17,18 @@
 #include <QVariant>
 #include <QVector>
 
-class DiagramElement;
-class SpecificationsForm;
-
 QT_BEGIN_NAMESPACE
 class QGraphicsItem;
 QT_END_NAMESPACE
+
+namespace DiagramEditor::Diagram {
+class DiagramElement;
+}
+
+namespace DiagramEditor::Specification {
+
+class SpecificationsForm;
+using DiagramEditor::Diagram::DiagramElement;
 
 /**
  * @class ElementSpecifications
@@ -162,5 +168,7 @@ class ElementSpecifications : public QObject, public SpecificationsGroup
          */
         static QString stringFromPos(const SpecificationPos &pos);
 };
+
+}
 
 #endif // ELEMENTSPECIFICATIONS_H

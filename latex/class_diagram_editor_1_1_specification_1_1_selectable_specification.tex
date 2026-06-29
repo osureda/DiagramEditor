@@ -1,0 +1,195 @@
+\doxysection{Diagram\+Editor::\+Specification::\+Selectable\+Specification Class Reference}
+\hypertarget{class_diagram_editor_1_1_specification_1_1_selectable_specification}{}\label{class_diagram_editor_1_1_specification_1_1_selectable_specification}\index{DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}}
+
+
+A diagram specification whose text can be chosen from selectable choices.  
+
+
+
+
+{\ttfamily \+\#include $<$selectablespecification.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Specification::\+Selectable\+Specification:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_selectable_specification__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Specification::\+Selectable\+Specification:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_selectable_specification__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae00a54f9c87170a991923f271fbd41}{Selectable\+Specification}} (QGraphics\+Item \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c276a4e0df571fc7b5bf900e4b11e1}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c2f2c4edaf84a7df93d5791edf91}{to\+Hash}} () const override
+\item 
+QWidget \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_selectable_specification_ad7f76bf18a731735db0fa7f1e03e2b3b}{form}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754c5603c800e3859d9cf617a328}{Diagram\+Specification}} (QGraphics\+Item \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+QPointF \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a987e80caf24592840e2893f2d67d6d58}{moving\+Translation}} () const
+\item 
+QString \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a4f0116c7816fb2d388229f46a990bbb7}{name}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a74f8a350ecad54f859778caef1646c41}{apply\+Form\+Results}} (const QWidget \texorpdfstring{$\ast$}{*}form\+Results)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}}
+\begin{DoxyCompactItemize}
+\item 
+QVariant \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_abda5919d25d8935646e9a7ac4a4bb363}{item\+Change}} (Graphics\+Item\+Change change, const QVariant \&value) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}}
+\begin{DoxyCompactItemize}
+\item 
+QString {\bfseries stored\+Name}
+\begin{DoxyCompactList}\small\item\em The name of the specification. \end{DoxyCompactList}\item 
+bool {\bfseries fixed}
+\begin{DoxyCompactList}\small\item\em Whether the specification text can be edited. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A diagram specification whose text can be chosen from selectable choices. 
+
+\label{class_diagram_editor_1_1_specification_1_1_selectable_specification_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_selectable_specification_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae00a54f9c87170a991923f271fbd41}\index{DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}!SelectableSpecification@{SelectableSpecification}}
+\index{SelectableSpecification@{SelectableSpecification}!DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}}
+\doxysubsubsection{\texorpdfstring{SelectableSpecification()}{SelectableSpecification()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae00a54f9c87170a991923f271fbd41} 
+Diagram\+Editor::\+\+Specification::\+\+Selectable\+Specification::\+\+Selectable\+Specification (\begin{DoxyParamCaption}\item[{QGraphics\+Item \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The container of the specification. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification is contained by parent. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae00a54f9c87170a991923f271fbd41_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_editor_1_1_specification_1_1_selectable_specification_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_selectable_specification_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_selectable_specification_ad7f76bf18a731735db0fa7f1e03e2b3b}\index{DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}!form@{form}}
+\index{form@{form}!DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}}
+\doxysubsubsection{\texorpdfstring{form()}{form()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_selectable_specification_ad7f76bf18a731735db0fa7f1e03e2b3b} 
+QWidget \texorpdfstring{$\ast$}{*} Diagram\+Editor::\+\+Specification::\+\+Selectable\+Specification::\+form (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The form to modify the specification text. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The form to modify the specification text has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_ac888f58ba31c1758cc272f3148624153}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c276a4e0df571fc7b5bf900e4b11e1}\index{DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c276a4e0df571fc7b5bf900e4b11e1} 
+void Diagram\+Editor::\+\+Specification::\+\+Selectable\+Specification::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification data has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138a7983bae50e3c925a5e662442}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c276a4e0df571fc7b5bf900e4b11e1_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c2f2c4edaf84a7df93d5791edf91}\index{DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramEditor::Specification::SelectableSpecification@{DiagramEditor::Specification::SelectableSpecification}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c2f2c4edaf84a7df93d5791edf91} 
+QVariant\+Hash Diagram\+Editor::\+\+Specification::\+\+Selectable\+Specification::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The data associated with the specification. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The data associated with the specification has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9c977387ee7818d22b020ee03f}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c2f2c4edaf84a7df93d5791edf91_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{selectablespecification_8h}{selectablespecification.\+h}}\item 
+\doxymbox{\hyperlink{selectablespecification_8cpp}{selectablespecification.\+cpp}}\end{DoxyCompactItemize}

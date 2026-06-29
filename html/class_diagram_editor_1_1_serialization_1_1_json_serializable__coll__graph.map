@@ -1,0 +1,3 @@
+<map id="DiagramEditor::Serialization::JsonSerializable" name="DiagramEditor::Serialization::JsonSerializable">
+<area shape="rect" id="Node000001" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="5,5,178,155"/>
+</map>

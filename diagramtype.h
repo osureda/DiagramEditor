@@ -17,11 +17,13 @@ QT_BEGIN_NAMESPACE
 class QVariant;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Gui {
+
 /**
  * @class DiagramType
  * @brief Represents a diagram type and the identifiers of its associated items.
  */
-class DiagramType : public JsonSerializable
+class DiagramType : public DiagramEditor::Serialization::JsonSerializable
 {
     public:
         /**
@@ -50,5 +52,7 @@ class DiagramType : public JsonSerializable
     private:
         DiagramItemsIds storedDiagramItems; ///< IDs of the items associated with the diagram type
 };
+
+}
 
 #endif // DIAGRAMTYPE_H

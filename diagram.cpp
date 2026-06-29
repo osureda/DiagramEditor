@@ -18,6 +18,8 @@
 #include <QTransform>
 #include <QWidget>
 
+namespace DiagramEditor::Diagram {
+
 Diagram::Diagram(int sceneSize, QObject *parent)
     : QGraphicsScene(parent)
     , editionMode(EditionMode::AddItemMode)
@@ -242,4 +244,6 @@ DiagramItem *Diagram::selectedSingleItem() const {
 
 QWidget *Diagram::emptySpecificationsForm() {
     return new QLabel("Select a single item");
+}
+
 }

@@ -19,52 +19,56 @@
 \DoxyCodeLine{00021\ \textcolor{keyword}{class\ }QWidget;}
 \DoxyCodeLine{00022\ QT\_END\_NAMESPACE}
 \DoxyCodeLine{00023\ }
-\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_specification_a30cf6ea35a35adf0e282a7cd55849d66}{DiagramSpecification}}\ :\ \textcolor{keyword}{public}\ QGraphicsTextItem,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_json_serializable}{JsonSerializable}}}
-\DoxyCodeLine{00029\ \{}
-\DoxyCodeLine{00030\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{00031\ }
-\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_specification_a30cf6ea35a35adf0e282a7cd55849d66}{DiagramSpecification}}(QGraphicsItem\ *parent\ =\ \textcolor{keyword}{nullptr});}
-\DoxyCodeLine{00039\ }
-\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_specification_a240078bbf34512f902069d5636d2438f}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash)\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00047\ }
-\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_diagram_specification_aeedd993a4d93321d7db3f15e9087cdd3}{toHash}}()\ \textcolor{keyword}{const\ override};}
-\DoxyCodeLine{00054\ }
-\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_specification_a83b60ddb94112fa4d96fb60cc4de429c}{movingTranslation}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00062\ }
-\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ QString\ \doxymbox{\hyperlink{class_diagram_specification_a073540d9596529377a2c8c47fe8a3a5b}{name}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00069\ }
-\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QWidget\ *\doxymbox{\hyperlink{class_diagram_specification_a1b6c1738b4e17a4c0569a9b34a50d890}{form}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00076\ }
-\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_specification_a598224f43fd779c7bc30814879809571}{applyFormResults}}(\textcolor{keyword}{const}\ QWidget\ *formResults);}
-\DoxyCodeLine{00083\ }
-\DoxyCodeLine{00084\ \ \ \ \ \textcolor{keyword}{protected}:}
-\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ QString\ \doxymbox{\hyperlink{class_diagram_specification_a0c3e2378eac3feaa4a477a3c758870aa}{storedName}};\ }
-\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_specification_a70a8c252ad67e4046b05e351d8355405}{fixed}};\ }
-\DoxyCodeLine{00087\ }
-\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ QVariant\ \doxymbox{\hyperlink{class_diagram_specification_a874dc921ca27da52de03f49bc6572f7a}{itemChange}}(GraphicsItemChange\ change,\ \textcolor{keyword}{const}\ QVariant\ \&value)\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00098\ }
-\DoxyCodeLine{00099\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ QPointF\ storedTranslation;\ }
-\DoxyCodeLine{00105\ }
-\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ QStringList\ textStyles;\ }
-\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ QList<QGraphicsItem*>\ styleDecorationItems;\ }
-\DoxyCodeLine{00108\ }
-\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadColor(\textcolor{keyword}{const}\ QString\ \&colorName);}
-\DoxyCodeLine{00115\ }
-\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ applyTextStyles();}
-\DoxyCodeLine{00121\ }
-\DoxyCodeLine{00126\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ applyDashedUnderline();}
-\DoxyCodeLine{00127\ }
-\DoxyCodeLine{00132\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ clearStyleDecorations();}
-\DoxyCodeLine{00133\ }
-\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ loadTextFromVariant(\textcolor{keyword}{const}\ QVariant\ \&variant)\ =\ 0;}
-\DoxyCodeLine{00140\ }
-\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QVariant\ variantFromText()\ \textcolor{keyword}{const}\ =\ 0;}
-\DoxyCodeLine{00148\ }
-\DoxyCodeLine{00155\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ updateTextFromForm(\textcolor{keyword}{const}\ QWidget\ *fromResults);}
-\DoxyCodeLine{00156\ \};}
-\DoxyCodeLine{00157\ }
-\DoxyCodeLine{00158\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DIAGRAMSPECIFICATION\_H}}
+\DoxyCodeLine{00024\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_specification}{DiagramEditor::Specification}}\ \{}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754c5603c800e3859d9cf617a328}{DiagramSpecification}}\ :\ \textcolor{keyword}{public}\ QGraphicsTextItem,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{DiagramEditor::Serialization::JsonSerializable}}}
+\DoxyCodeLine{00031\ \{}
+\DoxyCodeLine{00032\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754c5603c800e3859d9cf617a328}{DiagramSpecification}}(QGraphicsItem\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138a7983bae50e3c925a5e662442}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9c977387ee7818d22b020ee03f}{toHash}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a987e80caf24592840e2893f2d67d6d58}{movingTranslation}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ QString\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a4f0116c7816fb2d388229f46a990bbb7}{name}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QWidget\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_ac888f58ba31c1758cc272f3148624153}{form}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a74f8a350ecad54f859778caef1646c41}{applyFormResults}}(\textcolor{keyword}{const}\ QWidget\ *formResults);}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ QString\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_aa3fef579f01e31de3c26faf0b2be3ae8}{storedName}};\ }
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a792616bfb18d6db4e3a1ea331fd08ae4}{fixed}};\ }
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ QVariant\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_abda5919d25d8935646e9a7ac4a4bb363}{itemChange}}(GraphicsItemChange\ change,\ \textcolor{keyword}{const}\ QVariant\ \&value)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ QPointF\ storedTranslation;\ }
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00108\ \ \ \ \ \ \ \ \ QStringList\ textStyles;\ }
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ QList<QGraphicsItem*>\ styleDecorationItems;\ }
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadColor(\textcolor{keyword}{const}\ QString\ \&colorName);}
+\DoxyCodeLine{00117\ }
+\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ applyTextStyles();}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00128\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ applyDashedUnderline();}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00134\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ clearStyleDecorations();}
+\DoxyCodeLine{00135\ }
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ loadTextFromVariant(\textcolor{keyword}{const}\ QVariant\ \&variant)\ =\ 0;}
+\DoxyCodeLine{00142\ }
+\DoxyCodeLine{00149\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QVariant\ variantFromText()\ \textcolor{keyword}{const}\ =\ 0;}
+\DoxyCodeLine{00150\ }
+\DoxyCodeLine{00157\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ updateTextFromForm(\textcolor{keyword}{const}\ QWidget\ *fromResults);}
+\DoxyCodeLine{00158\ \};}
+\DoxyCodeLine{00159\ }
+\DoxyCodeLine{00160\ \}}
+\DoxyCodeLine{00161\ }
+\DoxyCodeLine{00162\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DIAGRAMSPECIFICATION\_H}}
 
 \end{DoxyCode}

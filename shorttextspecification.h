@@ -16,6 +16,8 @@ class QGraphicsItem;
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+
 /**
  * @class ShortTextSpecification
  * @brief A diagram specification with a short text.
@@ -61,5 +63,7 @@ class ShortTextSpecification : public DiagramSpecification
          */
         void updateTextFromForm(const QWidget *fromResults) override;
 };
+
+}
 
 #endif // SHORTTEXTSPECIFICATION_H

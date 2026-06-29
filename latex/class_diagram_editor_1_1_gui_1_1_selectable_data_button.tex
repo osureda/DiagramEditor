@@ -1,0 +1,226 @@
+\doxysection{Diagram\+Editor::\+Gui::\+Selectable\+Data\+Button Class Reference}
+\hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button}{}\label{class_diagram_editor_1_1_gui_1_1_selectable_data_button}\index{DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}}
+
+
+A checkable button with associated data.  
+
+
+
+
+{\ttfamily \+\#include $<$selectabledatabutton.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Gui::\+Selectable\+Data\+Button:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_diagram_editor_1_1_gui_1_1_selectable_data_button__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Gui::\+Selectable\+Data\+Button:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_diagram_editor_1_1_gui_1_1_selectable_data_button__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{Selectable\+Data\+Button}} (int icon\+Size=0, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a3de2aa015230f88f2d99a7d7ee6ea2ed}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf52bab493bd1d1e1}{data}} () const
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{Selectable\+Data\+Button}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed90444b0e38b80fd32}{left\+Icon\+Button}} () const
+\item 
+QPair$<$ QWidget \texorpdfstring{$\ast$}{*}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{Selectable\+Data\+Button}} \texorpdfstring{$\ast$}{*} $>$ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67ccd12fac1cdef9024}{upper\+Icon\+Button}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\item 
+virtual QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124}{to\+Hash}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a550e270ff86a0017e084b5c07a87ac24}\label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a550e270ff86a0017e084b5c07a87ac24} 
+static const int {\bfseries ICON\+\_\+\+TEXT\+\_\+\+SPACING} = 2
+\begin{DoxyCompactList}\small\item\em The size of the space between the icon and the text. \end{DoxyCompactList}\item 
+static const QString \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_adbd3f9f2202b1037479190bcd72f84fb}{STYLE\+\_\+\+SHEET}}
+\begin{DoxyCompactList}\small\item\em The style of the button content. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A checkable button with associated data. 
+
+\label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}\index{DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}!SelectableDataButton@{SelectableDataButton}}
+\index{SelectableDataButton@{SelectableDataButton}!DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}}
+\doxysubsubsection{\texorpdfstring{SelectableDataButton()}{SelectableDataButton()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b} 
+Diagram\+Editor::\+\+Gui::\+\+Selectable\+Data\+Button::\+\+Selectable\+Data\+Button (\begin{DoxyParamCaption}\item[{int}]{icon\+Size}{ = {\ttfamily 0}, }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em icon\+Size} & The size of the button icon. \\
+\hline
+{\em parent} & The container of the button. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+icon\+Size \texorpdfstring{$>$}{>}= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The button is empty, is contained by parent and its icon has a size of icon\+Size. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf52bab493bd1d1e1}\index{DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}!data@{data}}
+\index{data@{data}!DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}}
+\doxysubsubsection{\texorpdfstring{data()}{data()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf52bab493bd1d1e1} 
+QVariant\+Hash Diagram\+Editor::\+\+Gui::\+\+Selectable\+Data\+Button::\+data (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The data associated with the button. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The data associated with the button has been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf52bab493bd1d1e1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed90444b0e38b80fd32}\index{DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}!leftIconButton@{leftIconButton}}
+\index{leftIconButton@{leftIconButton}!DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}}
+\doxysubsubsection{\texorpdfstring{leftIconButton()}{leftIconButton()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed90444b0e38b80fd32} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{Selectable\+Data\+Button}} \texorpdfstring{$\ast$}{*} Diagram\+Editor::\+\+Gui::\+\+Selectable\+Data\+Button::\+left\+Icon\+Button (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The button with the icon to the left of the text. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The button with the icon to the left of the text has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed90444b0e38b80fd32_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a3de2aa015230f88f2d99a7d7ee6ea2ed}\index{DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a3de2aa015230f88f2d99a7d7ee6ea2ed} 
+void Diagram\+Editor::\+\+Gui::\+\+Selectable\+Data\+Button::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The button data has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}.
+
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67ccd12fac1cdef9024}\index{DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}!upperIconButton@{upperIconButton}}
+\index{upperIconButton@{upperIconButton}!DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}}
+\doxysubsubsection{\texorpdfstring{upperIconButton()}{upperIconButton()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67ccd12fac1cdef9024} 
+QPair$<$ QWidget \texorpdfstring{$\ast$}{*}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{Selectable\+Data\+Button}} \texorpdfstring{$\ast$}{*} $>$ Diagram\+Editor::\+\+Gui::\+\+Selectable\+Data\+Button::\+upper\+Icon\+Button (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+A widget with the icon above the text button and the text button. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A widget with the icon above the text button and the text button has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67ccd12fac1cdef9024_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_doc-variable-members}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_selectable_data_button_adbd3f9f2202b1037479190bcd72f84fb}\index{DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}!STYLE\_SHEET@{STYLE\_SHEET}}
+\index{STYLE\_SHEET@{STYLE\_SHEET}!DiagramEditor::Gui::SelectableDataButton@{DiagramEditor::Gui::SelectableDataButton}}
+\doxysubsubsection{\texorpdfstring{STYLE\_SHEET}{STYLE\_SHEET}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_selectable_data_button_adbd3f9f2202b1037479190bcd72f84fb} 
+const QString Diagram\+Editor::\+\+Gui::\+\+Selectable\+Data\+Button::\+\+STYLE\+\_\+\+SHEET\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =}
+\DoxyCodeLine{\textcolor{stringliteral}{"{}text-\/align:\ left;"{}}}
+\DoxyCodeLine{\textcolor{stringliteral}{"{}padding-\/left:\ 12px;"{}}}
+\DoxyCodeLine{\textcolor{stringliteral}{"{}padding-\/right:\ 12px;"{}}}
+\DoxyCodeLine{\textcolor{stringliteral}{"{}padding-\/top:\ 12px;"{}}}
+\DoxyCodeLine{\textcolor{stringliteral}{"{}padding-\/bottom:\ 12px;"{}}}
+
+\end{DoxyCode}
+
+
+The style of the button content. 
+
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{selectabledatabutton_8h}{selectabledatabutton.\+h}}\item 
+\doxymbox{\hyperlink{selectabledatabutton_8cpp}{selectabledatabutton.\+cpp}}\end{DoxyCompactItemize}

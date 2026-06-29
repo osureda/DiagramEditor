@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['canvas_5fsize_0',['CANVAS_SIZE',['../class_main_window.html#a919c0ea004db239d32720ecfbfc2b15b',1,'MainWindow']]],
-  ['click_5fmargin_1',['CLICK_MARGIN',['../class_diagram_connection.html#a16b47054d80af7aa1455e20f4037619f',1,'DiagramConnection']]],
-  ['color_2',['COLOR',['../class_diagram_resizer.html#a76cc238ec081c99cc3e6d4ce6c8ba7f9',1,'DiagramResizer']]],
-  ['comment_5fbadge_5fcolor_3',['COMMENT_BADGE_COLOR',['../class_diagram_component.html#a07b688d97042980f6856812137df91c2',1,'DiagramComponent']]],
-  ['comment_5fbadge_5fradius_4',['COMMENT_BADGE_RADIUS',['../class_diagram_component.html#aa39c5b2428fb1332964644625988ada5',1,'DiagramComponent']]],
-  ['commentbadge_5',['commentBadge',['../class_diagram_component.html#a1674c1ecdfa102e3217f574e2b980661',1,'DiagramComponent']]],
-  ['componentgroup_6',['componentGroup',['../class_diagram_component.html#ad33da8867cd5578ae93f75869181f010',1,'DiagramComponent']]]
+  ['canvas_5fsize_0',['CANVAS_SIZE',['../class_diagram_editor_1_1_gui_1_1_main_window.html#abf889ce90a120e8a4043b3b003a94c3c',1,'DiagramEditor::Gui::MainWindow::CANVAS_SIZE'],['../class_main_window.html#abf889ce90a120e8a4043b3b003a94c3c',1,'MainWindow::CANVAS_SIZE']]],
+  ['click_5fmargin_1',['CLICK_MARGIN',['../class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a924c82b9899ca652db391e1643ebf166',1,'DiagramEditor::Diagram::DiagramConnection::CLICK_MARGIN'],['../class_diagram_editor_1_1_specification_1_1_diagram_connection.html#a924c82b9899ca652db391e1643ebf166',1,'DiagramEditor::Specification::DiagramConnection::CLICK_MARGIN']]],
+  ['color_2',['COLOR',['../class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#a82d1ed08acfae1fc023cc93afa6a9c49',1,'DiagramEditor::Diagram::DiagramResizer']]],
+  ['comment_5fbadge_5fcolor_3',['COMMENT_BADGE_COLOR',['../class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a1a1c7521292d7e19a23d997dad3b1827',1,'DiagramEditor::Diagram::DiagramComponent::COMMENT_BADGE_COLOR'],['../class_diagram_editor_1_1_specification_1_1_diagram_component.html#a1a1c7521292d7e19a23d997dad3b1827',1,'DiagramEditor::Specification::DiagramComponent::COMMENT_BADGE_COLOR']]],
+  ['comment_5fbadge_5fradius_4',['COMMENT_BADGE_RADIUS',['../class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a052bee4ba28f3c6eb7351f114d180604',1,'DiagramEditor::Diagram::DiagramComponent::COMMENT_BADGE_RADIUS'],['../class_diagram_editor_1_1_specification_1_1_diagram_component.html#a052bee4ba28f3c6eb7351f114d180604',1,'DiagramEditor::Specification::DiagramComponent::COMMENT_BADGE_RADIUS']]],
+  ['commentbadge_5',['commentBadge',['../class_diagram_editor_1_1_diagram_1_1_diagram_component.html#ae2bdf401c46d43d8322fc74af25ee013',1,'DiagramEditor::Diagram::DiagramComponent::commentBadge'],['../class_diagram_editor_1_1_specification_1_1_diagram_component.html#ae2bdf401c46d43d8322fc74af25ee013',1,'DiagramEditor::Specification::DiagramComponent::commentBadge']]],
+  ['componentgroup_6',['componentGroup',['../class_diagram_editor_1_1_diagram_1_1_diagram_component.html#ab18d850bb19c584822e5c55b09bab717',1,'DiagramEditor::Diagram::DiagramComponent::componentGroup'],['../class_diagram_editor_1_1_specification_1_1_diagram_component.html#ab18d850bb19c584822e5c55b09bab717',1,'DiagramEditor::Specification::DiagramComponent::componentGroup']]]
 ];

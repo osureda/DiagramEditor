@@ -14,21 +14,26 @@
 #include <QList>
 #include <QVariant>
 
-class DiagramComponent;
-class DiagramItem;
-class SpecificationsForm;
-
 QT_BEGIN_NAMESPACE
 class QGraphicsSceneMouseEvent;
 class QPointF;
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+class SpecificationsForm;
+}
+
+namespace DiagramEditor::Diagram {
+
+class DiagramComponent;
+class DiagramItem;
+
 /**
  * @class Diagram
  * @brief A diagram that contains and manages diagram items.
  */
-class Diagram : public QGraphicsScene, public JsonSerializable
+class Diagram : public QGraphicsScene, public DiagramEditor::Serialization::JsonSerializable
 {
     Q_OBJECT
 
@@ -228,5 +233,7 @@ class Diagram : public QGraphicsScene, public JsonSerializable
          */
         static QWidget *emptySpecificationsForm();
 };
+
+}
 
 #endif // DIAGRAM_H

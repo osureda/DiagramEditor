@@ -1,9 +1,0 @@
-<map id="Diagram::mousePressEvent" name="Diagram::mousePressEvent">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,191,83"/>
-<area shape="rect" id="Node000002" href="$class_diagram.html#a61599e31735f69ebb2c0785c024c4248" title=" " alt="" coords="264,5,428,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,53,265,34,260,37,168,58"/>
-<area shape="rect" id="Node000003" href="$class_diagram.html#a22509aaeea41732a8d3fbeccdb212bdf" title=" " alt="" coords="263,56,429,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,67,250,69,244,70,192,72"/>
-<area shape="rect" id="Node000004" href="$class_diagram_item.html#a31a5de18432c16c372442b5e418e387e" title=" " alt="" coords="239,107,453,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,81,265,102,260,104,167,86"/>
-</map>

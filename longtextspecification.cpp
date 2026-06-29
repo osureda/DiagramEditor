@@ -10,6 +10,8 @@
 #include <QTextEdit>
 #include <QWidget>
 
+namespace DiagramEditor::Specification {
+
 LongTextSpecification::LongTextSpecification(QGraphicsItem *parent)
     : DiagramSpecification(parent)
 {}
@@ -36,4 +38,6 @@ void LongTextSpecification::updateTextFromForm(const QWidget *fromResults) {
     if (textEditor) {
         setPlainText(textEditor->toPlainText());
     }
+}
+
 }

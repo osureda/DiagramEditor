@@ -21,11 +21,13 @@ class QGraphicsItem;
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+
 /**
  * @class DiagramSpecification
  * @brief A diagram component specification.
  */
-class DiagramSpecification : public QGraphicsTextItem, public JsonSerializable
+class DiagramSpecification : public QGraphicsTextItem, public DiagramEditor::Serialization::JsonSerializable
 {
     Q_OBJECT
 
@@ -154,5 +156,7 @@ class DiagramSpecification : public QGraphicsTextItem, public JsonSerializable
          */
         virtual void updateTextFromForm(const QWidget *fromResults);
 };
+
+}
 
 #endif // DIAGRAMSPECIFICATION_H

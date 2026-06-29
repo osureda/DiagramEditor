@@ -1,0 +1,7 @@
+<map id="DiagramEditor::Specification::ElementSpecifications::size" name="DiagramEditor::Specification::ElementSpecifications::size">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,55,432,97"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_specification_1_1_element_specifications.html#a74f8906b7452bae9d257f66693549859" title=" " alt="" coords="5,5,193,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,57,193,54,193,48,228,56"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_element_specifications.html#a9bf6251eb33d2194301110ee36aba599" title=" " alt="" coords="5,88,193,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,96,194,104,193,98,228,95"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Gui::Wizard" name="DiagramEditor::Gui::Wizard">
+<area shape="rect" id="Node000001" title="The initialization wizard to select the diagram configuration." alt="" coords="5,123,235,315"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="90,5,151,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,87,123,123,118,122,120,92"/>
+</map>

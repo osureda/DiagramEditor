@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN29ScrollableDataButtonsSelectorE_t {};
+struct qt_meta_tag_ZN13DiagramEditor3Gui29ScrollableDataButtonsSelectorE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto ScrollableDataButtonsSelector::qt_create_metaobjectdata<qt_meta_tag_ZN29ScrollableDataButtonsSelectorE_t>()
+template <> constexpr inline auto DiagramEditor::Gui::ScrollableDataButtonsSelector::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor3Gui29ScrollableDataButtonsSelectorE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "ScrollableDataButtonsSelector",
+        "DiagramEditor::Gui::ScrollableDataButtonsSelector",
         "selectionChanged",
         "",
         "QVariantHash",
@@ -62,20 +62,20 @@ template <> constexpr inline auto ScrollableDataButtonsSelector::qt_create_metao
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<ScrollableDataButtonsSelector, qt_meta_tag_ZN29ScrollableDataButtonsSelectorE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<ScrollableDataButtonsSelector, qt_meta_tag_ZN13DiagramEditor3Gui29ScrollableDataButtonsSelectorE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject ScrollableDataButtonsSelector::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Gui::ScrollableDataButtonsSelector::staticMetaObject = { {
     QMetaObject::SuperData::link<QScrollArea::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN29ScrollableDataButtonsSelectorE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN29ScrollableDataButtonsSelectorE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor3Gui29ScrollableDataButtonsSelectorE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor3Gui29ScrollableDataButtonsSelectorE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN29ScrollableDataButtonsSelectorE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor3Gui29ScrollableDataButtonsSelectorE_t>.metaTypes,
     nullptr
 } };
 
-void ScrollableDataButtonsSelector::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Gui::ScrollableDataButtonsSelector::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<ScrollableDataButtonsSelector *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -91,20 +91,20 @@ void ScrollableDataButtonsSelector::qt_static_metacall(QObject *_o, QMetaObject:
     }
 }
 
-const QMetaObject *ScrollableDataButtonsSelector::metaObject() const
+const QMetaObject *DiagramEditor::Gui::ScrollableDataButtonsSelector::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *ScrollableDataButtonsSelector::qt_metacast(const char *_clname)
+void *DiagramEditor::Gui::ScrollableDataButtonsSelector::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN29ScrollableDataButtonsSelectorE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor3Gui29ScrollableDataButtonsSelectorE_t>.strings))
         return static_cast<void*>(this);
     return QScrollArea::qt_metacast(_clname);
 }
 
-int ScrollableDataButtonsSelector::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Gui::ScrollableDataButtonsSelector::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QScrollArea::qt_metacall(_c, _id, _a);
     if (_id < 0)
@@ -123,7 +123,7 @@ int ScrollableDataButtonsSelector::qt_metacall(QMetaObject::Call _c, int _id, vo
 }
 
 // SIGNAL 0
-void ScrollableDataButtonsSelector::selectionChanged(const QVariantHash & _t1)
+void DiagramEditor::Gui::ScrollableDataButtonsSelector::selectionChanged(const QVariantHash & _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }

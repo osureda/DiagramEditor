@@ -1,0 +1,11 @@
+<map id="DiagramEditor::Diagram::ConnectableResizer::mouseReleaseEvent" name="DiagramEditor::Diagram::ConnectableResizer::mouseReleaseEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,167,93"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#aafa1a51d4ed774f0542a351e46649675" title=" " alt="" coords="215,5,467,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,50,202,46,197,49,168,55"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html#aef5e430f5bedb5ff71d07a97984cbda3" title=" " alt="" coords="260,72,422,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,73,247,86,242,88,167,78"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#a8bd6ef308de1dab74e0eae0bf1f8fb8d" title=" " alt="" coords="515,43,763,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="421,89,502,81,497,82,422,94"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#ada3e2063d6bb80cc33f2abaa2ddca299" title=" " alt="" coords="535,109,743,168"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="422,109,522,124,517,124,422,114"/>
+</map>

@@ -1,4 +1,4 @@
 var jsonserializable_8h =
 [
-    [ "JsonSerializable", "class_json_serializable.html", "class_json_serializable" ]
+    [ "DiagramEditor::Serialization::JsonSerializable", "class_diagram_editor_1_1_serialization_1_1_json_serializable.html", "class_diagram_editor_1_1_serialization_1_1_json_serializable" ]
 ];

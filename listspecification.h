@@ -20,6 +20,8 @@ class QVBoxLayout;
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+
 /**
  * @class ListSpecification
  * @brief  diagram specification whose text is displayed as a list..
@@ -95,5 +97,7 @@ class ListSpecification : public DiagramSpecification
          */
         void formButtons(QVBoxLayout *formLayout) const;
 };
+
+}
 
 #endif // LISTSPECIFICATION_H

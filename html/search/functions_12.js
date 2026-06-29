@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wizard_0',['Wizard',['../class_wizard.html#a7962cc5ebc46df40d5672d0a63e22148',1,'Wizard']]]
+  ['wizard_0',['Wizard',['../class_diagram_editor_1_1_gui_1_1_wizard.html#a3c452fc3f47c7d16a90f1762d460791c',1,'DiagramEditor::Gui::Wizard']]]
 ];

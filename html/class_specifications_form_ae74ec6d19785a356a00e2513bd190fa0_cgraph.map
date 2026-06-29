@@ -1,9 +1,0 @@
-<map id="SpecificationsForm::appendForm" name="SpecificationsForm::appendForm">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,139,115"/>
-<area shape="rect" id="Node000002" href="$class_specifications_form.html#ab77131a307497ae51dd600c9f17b424e" title=" " alt="" coords="191,5,324,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,69,184,52,180,55,134,74"/>
-<area shape="rect" id="Node000003" href="$class_specifications_form.html#ae62b3a4806135e59665fa6c1c59a566c" title=" " alt="" coords="191,72,324,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,91,178,92,173,94,140,96"/>
-<area shape="rect" id="Node000004" href="$class_specifications_form.html#a75d0026c7c736c12495585afcc5f2c1b" title=" " alt="" coords="187,139,328,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="133,113,185,132,179,134,133,118"/>
-</map>

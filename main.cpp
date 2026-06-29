@@ -40,6 +40,9 @@
 /// Diagrams descriptor file path.
 const QString DIAGRAMS_DESCRIPTOR_FILE = ":/descriptors/diagramsDescriptor.json";
 
+using DiagramEditor::Gui::MainWindow;
+using DiagramEditor::Serialization::JsonFile;
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);

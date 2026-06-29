@@ -1,0 +1,21 @@
+<map id="DiagramEditor::Diagram::ConnectableResizer" name="DiagramEditor::Diagram::ConnectableResizer">
+<area shape="rect" id="Node000001" title="A diagram resizer that can be connected to a diagram component." alt="" coords="79,1400,235,1635"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html" title="An item to resize a diagram component." alt="" coords="272,1052,428,1351"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,1340,231,1402,226,1399,263,1344"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="360,45,418,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,126,460,274,486,374,510,487,527,608,533,733,531,796,525,859,515,921,500,981,487,1016,470,1049,430,1111,426,1108,465,1047,482,1013,494,979,510,919,520,858,526,796,528,733,522,608,505,487,481,375,454,275,408,131"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="127,617,333,980"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="398,126,410,218,415,336,412,401,404,467,391,532,370,595,360,608,348,619,336,636,331,634,344,616,356,604,365,592,385,531,399,466,406,401,409,336,405,219,397,132"/>
+<area shape="rect" id="Node000007" href="$class_diagram_editor_1_1_diagram_1_1_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="178,204,352,545"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="368,131,339,205,334,203,370,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="358,764,484,833"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="414,845,379,1053,374,1051,411,850"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="246,977,260,1027,269,1051,263,1051,255,1029,245,983"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="5,5,178,155"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="91,167,93,373,93,1203,95,1253,102,1304,123,1400,118,1400,97,1305,90,1253,88,1203,88,373,91,172"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="107,167,112,178,138,362,150,442,169,545,185,617,180,618,164,546,145,443,133,363,106,179,108,172"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="152,165,162,177,181,209,176,210,157,180,153,170"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="252,542,249,601,244,600,251,548"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="202,45,336,115"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="269,127,270,204,265,204,268,132"/>
+</map>

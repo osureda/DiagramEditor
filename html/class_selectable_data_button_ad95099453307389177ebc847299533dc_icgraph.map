@@ -1,7 +1,0 @@
-<map id="SelectableDataButton::SelectableDataButton" name="SelectableDataButton::SelectableDataButton">
-<area shape="rect" id="Node000001" title=" " alt="" coords="202,39,358,81"/>
-<area shape="rect" id="Node000002" href="$class_selectable_data_button.html#a05e4cf709119fb88182aa78d22b37a2f" title=" " alt="" coords="5,5,154,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,45,154,42,154,36,189,44"/>
-<area shape="rect" id="Node000003" href="$class_selectable_data_button.html#acc1a45976517d71e9c272088c23279c8" title=" " alt="" coords="5,72,154,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,76,155,84,154,78,189,75"/>
-</map>

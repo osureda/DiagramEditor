@@ -14,6 +14,8 @@
 #include <QVBoxLayout>
 #include <QWidget>
 
+namespace DiagramEditor::Specification {
+
 ListSpecification::ListSpecification(QGraphicsItem *parent)
     : DiagramSpecification(parent)
 {}
@@ -109,4 +111,6 @@ void ListSpecification::formButtons(QVBoxLayout *formLayout) const {
     buttonsLayout->addWidget(removeElemButton);
 
     formLayout->addWidget(buttons);
+}
+
 }

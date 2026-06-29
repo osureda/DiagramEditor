@@ -13,6 +13,8 @@
 #include <QGraphicsItem>
 #include <QPen>
 
+namespace DiagramEditor::Diagram {
+
 const QColor DiagramComponent::COMMENT_BADGE_COLOR = Qt::green;
 
 DiagramComponent::DiagramComponent()
@@ -111,4 +113,6 @@ QPointF DiagramComponent::commentBadgePos() {
 
 QPointF DiagramComponent::closestConnectionMappedPoint(const QPointF &mappedPoint) const {
     return mappedPoint;
+}
+
 }

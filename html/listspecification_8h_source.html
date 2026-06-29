@@ -134,45 +134,50 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('listspecificat
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>QVBoxLayout;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>QWidget;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>QT_END_NAMESPACE</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
-<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_list_specification.html">   27</a></span><span class="keyword">class </span><a class="code hl_function" href="class_list_specification.html#aaff0140fc18fceae3a20621663176720">ListSpecification</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_diagram_specification.html#a30cf6ea35a35adf0e282a7cd55849d66">DiagramSpecification</a></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    Q_OBJECT</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_list_specification.html#a61e2a2ac0024095f048786d26c3f2b29">   33</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_list_specification.html#a61e2a2ac0024095f048786d26c3f2b29">FORM_BUTTONS_SIZE</a> = 25;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="class_list_specification.html#aaff0140fc18fceae3a20621663176720">ListSpecification</a>(QGraphicsItem *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_list_specification.html#af3a6488eb45c1e8003085f99d919635a">loadFromHash</a>(<span class="keyword">const</span> QVariantHash &amp;hash) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        QVariantHash <a class="code hl_function" href="class_list_specification.html#a328ba1d83bce14c24496d907ce7485cf">toHash</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        QWidget *<a class="code hl_function" href="class_list_specification.html#aee7dbdec6f072f936cb7061270bca6be">form</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        QString bullet; </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        QStringList list; </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <span class="keywordtype">void</span> loadTextFromVariant(<span class="keyword">const</span> QVariant &amp;variant) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        QVariant variantFromText() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordtype">void</span> updateTextFromForm(<span class="keyword">const</span> QWidget *fromResults) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordtype">void</span> formButtons(QVBoxLayout *formLayout) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>};</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_diagram_editor_1_1_specification.html">DiagramEditor::Specification</a> {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_specification_1_1_list_specification.html">   29</a></span><span class="keyword">class </span><a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_list_specification.html#aa4e5588204d8b996ebf4b1a5bc780277">ListSpecification</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_diagram_specification.html#a209e754c5603c800e3859d9cf617a328">DiagramSpecification</a></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    Q_OBJECT</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_specification_1_1_list_specification.html#a6c6a26757e97b7f94f964df7e7e8a61c">   35</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_diagram_editor_1_1_specification_1_1_list_specification.html#a6c6a26757e97b7f94f964df7e7e8a61c">FORM_BUTTONS_SIZE</a> = 25;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_list_specification.html#aa4e5588204d8b996ebf4b1a5bc780277">ListSpecification</a>(QGraphicsItem *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_list_specification.html#a8a8df1e43ec363657602b184f6372330">loadFromHash</a>(<span class="keyword">const</span> QVariantHash &amp;hash) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        QVariantHash <a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_list_specification.html#aa054823a9750d731fe56557d78f593c8">toHash</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        QWidget *<a class="code hl_function" href="class_diagram_editor_1_1_specification_1_1_list_specification.html#a3b8201a59eafc47c9b72a1feb0e10b44">form</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        QString bullet; </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        QStringList list; </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordtype">void</span> loadTextFromVariant(<span class="keyword">const</span> QVariant &amp;variant) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        QVariant variantFromText() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordtype">void</span> updateTextFromForm(<span class="keyword">const</span> QWidget *fromResults) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordtype">void</span> formButtons(QVBoxLayout *formLayout) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>};</div>
 </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#endif </span><span class="comment">// LISTSPECIFICATION_H</span></div>
-<div class="ttc" id="aclass_diagram_specification_html_a30cf6ea35a35adf0e282a7cd55849d66"><div class="ttname"><a href="class_diagram_specification.html#a30cf6ea35a35adf0e282a7cd55849d66">DiagramSpecification::DiagramSpecification</a></div><div class="ttdeci">DiagramSpecification(QGraphicsItem *parent=nullptr)</div><div class="ttdef"><b>Definition</b> diagramspecification.cpp:19</div></div>
-<div class="ttc" id="aclass_list_specification_html_a328ba1d83bce14c24496d907ce7485cf"><div class="ttname"><a href="class_list_specification.html#a328ba1d83bce14c24496d907ce7485cf">ListSpecification::toHash</a></div><div class="ttdeci">QVariantHash toHash() const override</div><div class="ttdef"><b>Definition</b> listspecification.cpp:27</div></div>
-<div class="ttc" id="aclass_list_specification_html_a61e2a2ac0024095f048786d26c3f2b29"><div class="ttname"><a href="class_list_specification.html#a61e2a2ac0024095f048786d26c3f2b29">ListSpecification::FORM_BUTTONS_SIZE</a></div><div class="ttdeci">static const int FORM_BUTTONS_SIZE</div><div class="ttdoc">The size of the specification form buttons.</div><div class="ttdef"><b>Definition</b> listspecification.h:33</div></div>
-<div class="ttc" id="aclass_list_specification_html_aaff0140fc18fceae3a20621663176720"><div class="ttname"><a href="class_list_specification.html#aaff0140fc18fceae3a20621663176720">ListSpecification::ListSpecification</a></div><div class="ttdeci">ListSpecification(QGraphicsItem *parent=nullptr)</div><div class="ttdef"><b>Definition</b> listspecification.cpp:17</div></div>
-<div class="ttc" id="aclass_list_specification_html_aee7dbdec6f072f936cb7061270bca6be"><div class="ttname"><a href="class_list_specification.html#aee7dbdec6f072f936cb7061270bca6be">ListSpecification::form</a></div><div class="ttdeci">QWidget * form() const override</div><div class="ttdef"><b>Definition</b> listspecification.cpp:35</div></div>
-<div class="ttc" id="aclass_list_specification_html_af3a6488eb45c1e8003085f99d919635a"><div class="ttname"><a href="class_list_specification.html#af3a6488eb45c1e8003085f99d919635a">ListSpecification::loadFromHash</a></div><div class="ttdeci">void loadFromHash(const QVariantHash &amp;hash) override</div><div class="ttdef"><b>Definition</b> listspecification.cpp:21</div></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>}</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#endif </span><span class="comment">// LISTSPECIFICATION_H</span></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_diagram_specification_html_a209e754c5603c800e3859d9cf617a328"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_diagram_specification.html#a209e754c5603c800e3859d9cf617a328">DiagramEditor::Specification::DiagramSpecification::DiagramSpecification</a></div><div class="ttdeci">DiagramSpecification(QGraphicsItem *parent=nullptr)</div><div class="ttdef"><b>Definition</b> diagramspecification.cpp:21</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_list_specification_html_a3b8201a59eafc47c9b72a1feb0e10b44"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_list_specification.html#a3b8201a59eafc47c9b72a1feb0e10b44">DiagramEditor::Specification::ListSpecification::form</a></div><div class="ttdeci">QWidget * form() const override</div><div class="ttdef"><b>Definition</b> listspecification.cpp:37</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_list_specification_html_a6c6a26757e97b7f94f964df7e7e8a61c"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_list_specification.html#a6c6a26757e97b7f94f964df7e7e8a61c">DiagramEditor::Specification::ListSpecification::FORM_BUTTONS_SIZE</a></div><div class="ttdeci">static const int FORM_BUTTONS_SIZE</div><div class="ttdoc">The size of the specification form buttons.</div><div class="ttdef"><b>Definition</b> listspecification.h:35</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_list_specification_html_a8a8df1e43ec363657602b184f6372330"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_list_specification.html#a8a8df1e43ec363657602b184f6372330">DiagramEditor::Specification::ListSpecification::loadFromHash</a></div><div class="ttdeci">void loadFromHash(const QVariantHash &amp;hash) override</div><div class="ttdef"><b>Definition</b> listspecification.cpp:23</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_list_specification_html_aa054823a9750d731fe56557d78f593c8"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_list_specification.html#aa054823a9750d731fe56557d78f593c8">DiagramEditor::Specification::ListSpecification::toHash</a></div><div class="ttdeci">QVariantHash toHash() const override</div><div class="ttdef"><b>Definition</b> listspecification.cpp:29</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_specification_1_1_list_specification_html_aa4e5588204d8b996ebf4b1a5bc780277"><div class="ttname"><a href="class_diagram_editor_1_1_specification_1_1_list_specification.html#aa4e5588204d8b996ebf4b1a5bc780277">DiagramEditor::Specification::ListSpecification::ListSpecification</a></div><div class="ttdeci">ListSpecification(QGraphicsItem *parent=nullptr)</div><div class="ttdef"><b>Definition</b> listspecification.cpp:19</div></div>
 <div class="ttc" id="adiagramspecification_8h_html"><div class="ttname"><a href="diagramspecification_8h.html">diagramspecification.h</a></div><div class="ttdoc">Declaration of DiagramSpecification class.</div></div>
+<div class="ttc" id="anamespace_diagram_editor_1_1_specification_html"><div class="ttname"><a href="namespace_diagram_editor_1_1_specification.html">DiagramEditor::Specification</a></div><div class="ttdoc">Contains the classes used for show and edit item specifications.</div><div class="ttdef"><b>Definition</b> connectionspecifications.cpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

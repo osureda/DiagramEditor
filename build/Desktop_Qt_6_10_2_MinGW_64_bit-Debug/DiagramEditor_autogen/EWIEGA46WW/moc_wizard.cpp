@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN6WizardE_t {};
+struct qt_meta_tag_ZN13DiagramEditor3Gui6WizardE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto Wizard::qt_create_metaobjectdata<qt_meta_tag_ZN6WizardE_t>()
+template <> constexpr inline auto DiagramEditor::Gui::Wizard::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor3Gui6WizardE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "Wizard",
+        "DiagramEditor::Gui::Wizard",
         "selectedGroupChanged",
         "",
         "QVariantHash",
@@ -55,20 +55,20 @@ template <> constexpr inline auto Wizard::qt_create_metaobjectdata<qt_meta_tag_Z
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<Wizard, qt_meta_tag_ZN6WizardE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<Wizard, qt_meta_tag_ZN13DiagramEditor3Gui6WizardE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject Wizard::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Gui::Wizard::staticMetaObject = { {
     QMetaObject::SuperData::link<QWizard::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN6WizardE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN6WizardE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor3Gui6WizardE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor3Gui6WizardE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN6WizardE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor3Gui6WizardE_t>.metaTypes,
     nullptr
 } };
 
-void Wizard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Gui::Wizard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<Wizard *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -79,20 +79,20 @@ void Wizard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
     }
 }
 
-const QMetaObject *Wizard::metaObject() const
+const QMetaObject *DiagramEditor::Gui::Wizard::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Wizard::qt_metacast(const char *_clname)
+void *DiagramEditor::Gui::Wizard::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN6WizardE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor3Gui6WizardE_t>.strings))
         return static_cast<void*>(this);
     return QWizard::qt_metacast(_clname);
 }
 
-int Wizard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Gui::Wizard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWizard::qt_metacall(_c, _id, _a);
     if (_id < 0)

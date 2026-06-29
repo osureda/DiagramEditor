@@ -1,697 +1,1199 @@
 \begin{theindex}
 
   \item {\texorpdfstring{$\sim$}{\string~}DiagramConnection}
-    \subitem {DiagramConnection}, \hyperpage{67}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{107}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{117}
   \item {\texorpdfstring{$\sim$}{\string~}DiagramElement}
-    \subitem {DiagramElement}, \hyperpage{77}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{125}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{134}
   \item {\texorpdfstring{$\sim$}{\string~}JsonSerializable}
-    \subitem {JsonSerializable}, \hyperpage{124}
+    \subitem {DiagramEditor::Gui::JsonSerializable}, \hyperpage{210}
+    \subitem {DiagramEditor::Serialization::JsonSerializable}, 
+		\hyperpage{213}
   \item {\texorpdfstring{$\sim$}{\string~}MainWindow}
-    \subitem {MainWindow}, \hyperpage{135}
+    \subitem {DiagramEditor::Gui::MainWindow}, \hyperpage{227}
+    \subitem {MainWindow}, \hyperpage{229}
   \item {\texorpdfstring{$\sim$}{\string~}SpecificationsGroup}
-    \subitem {SpecificationsGroup}, \hyperpage{160}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{265}
   \item {\texorpdfstring{$\sim$}{\string~}Wizard}
-    \subitem {Wizard}, \hyperpage{170}
+    \subitem {DiagramEditor::Gui::Wizard}, \hyperpage{274}
 
   \indexspace
 
   \item {Above}
-    \subitem {ConnectionSpecifications}, \hyperpage{39}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
   \item {addButtons}
-    \subitem {ScrollableDataButtonsSelector}, \hyperpage{138}
+    \subitem {DiagramEditor::Gui::ScrollableDataButtonsSelector}, 
+		\hyperpage{233}
   \item {AddItemMode}
-    \subitem {Diagram}, \hyperpage{45}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{62}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{74}
   \item {addResizer}
-    \subitem {DiagramComponent}, \hyperpage{56}
-    \subitem {DiagramConnection}, \hyperpage{68}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{84}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{108}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{97}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{118}
   \item {AddResizerMode}
-    \subitem {Diagram}, \hyperpage{45}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{62}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{74}
   \item {appendField}
-    \subitem {SpecificationsForm}, \hyperpage{155}
+    \subitem {DiagramEditor::Diagram::SpecificationsForm}, 
+		\hyperpage{254}
+    \subitem {DiagramEditor::Specification::SpecificationsForm}, 
+		\hyperpage{258}
   \item {appendForm}
-    \subitem {SpecificationsForm}, \hyperpage{155}
+    \subitem {DiagramEditor::Diagram::SpecificationsForm}, 
+		\hyperpage{254}
+    \subitem {DiagramEditor::Specification::SpecificationsForm}, 
+		\hyperpage{258}
   \item {applyFormResults}
-    \subitem {ConnectionSpecifications}, \hyperpage{40}
-    \subitem {DiagramSpecification}, \hyperpage{104}
-    \subitem {ElementSpecifications}, \hyperpage{116}
-    \subitem {SpecificationsGroup}, \hyperpage{161}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{49}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{186}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{55}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{172}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{193}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{265}
   \item {arrowHeadVertices}
-    \subitem {GeometryUtils}, \hyperpage{15}
+    \subitem {GeometryUtils}, \hyperpage{18}
 
   \indexspace
 
   \item {Begin}
-    \subitem {ConnectionSpecifications}, \hyperpage{39}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
   \item {Below}
-    \subitem {ConnectionSpecifications}, \hyperpage{39}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
 
   \indexspace
 
   \item {canResizeTo}
-    \subitem {DiagramComponent}, \hyperpage{56}
-    \subitem {DiagramElement}, \hyperpage{78}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{84}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{126}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{97}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{135}
   \item {Center}
-    \subitem {ConnectionSpecifications}, \hyperpage{39}
-    \subitem {ElementSpecifications}, \hyperpage{115}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{185}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{192}
   \item {centerOffset}
-    \subitem {DiagramItem}, \hyperpage{85}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{141}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{154}
   \item {Circle}
-    \subitem {GeometryUtils}, \hyperpage{14}
+    \subitem {GeometryUtils}, \hyperpage{17}
   \item {clear}
-    \subitem {ScrollableDataButtonsSelector}, \hyperpage{139}
-    \subitem {SpecificationsGroup}, \hyperpage{162}
+    \subitem {DiagramEditor::Gui::ScrollableDataButtonsSelector}, 
+		\hyperpage{233}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{266}
   \item {ClosedArrow}
-    \subitem {GeometryUtils}, \hyperpage{14}
+    \subitem {GeometryUtils}, \hyperpage{17}
   \item {closedArrowHead}
-    \subitem {GeometryUtils}, \hyperpage{15}
+    \subitem {GeometryUtils}, \hyperpage{18}
   \item {closestConnectionPoint}
-    \subitem {DiagramComponent}, \hyperpage{57}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{85}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{98}
   \item {closestPointOnSegment}
-    \subitem {GeometryUtils}, \hyperpage{16}
+    \subitem {GeometryUtils}, \hyperpage{19}
   \item {componentAt}
-    \subitem {DiagramItem}, \hyperpage{85}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{141}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{154}
   \item {componentById}
-    \subitem {DiagramItem}, \hyperpage{85}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{141}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{154}
   \item {componentByIds}
-    \subitem {Diagram}, \hyperpage{46}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{62}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{74}
   \item {componentGroup}
-    \subitem {DiagramComponent}, \hyperpage{64}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{93}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{103}
   \item {componentId}
-    \subitem {DiagramComponent}, \hyperpage{57}
-    \subitem {DiagramItem}, \hyperpage{86}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{85}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{142}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{155}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{98}
   \item {componentResized}
-    \subitem {DiagramComponent}, \hyperpage{58}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{86}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{99}
   \item {componentTypeMatches}
-    \subitem {DiagramItem}, \hyperpage{86}
-  \item {ConnectableResizer}, \hyperpage{29}
-    \subitem {ConnectableResizer}, \hyperpage{31}
-    \subitem {connectResizer}, \hyperpage{32}
-    \subitem {itemChange}, \hyperpage{32}
-    \subitem {loadFromHash}, \hyperpage{32}
-    \subitem {mouseMoveEvent}, \hyperpage{33}
-    \subitem {mouseReleaseEvent}, \hyperpage{34}
-    \subitem {toHash}, \hyperpage{35}
-    \subitem {updateParentPosition}, \hyperpage{35}
-  \item {connectableresizer.cpp}, \hyperpage{173}
-  \item {connectableresizer.h}, \hyperpage{174}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{142}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{155}
+  \item {ConnectableResizer}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{39}
+  \item {connectableresizer.cpp}, \hyperpage{277}
+  \item {connectableresizer.h}, \hyperpage{278}
   \item {connectComponent}
-    \subitem {DiagramComponent}, \hyperpage{58}
-    \subitem {DiagramConnection}, \hyperpage{68}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{86}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{108}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{99}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{118}
   \item {connectComponents}
-    \subitem {DiagramItem}, \hyperpage{87}
-  \item {ConnectionSpecifications}, \hyperpage{37}
-    \subitem {Above}, \hyperpage{39}
-    \subitem {applyFormResults}, \hyperpage{40}
-    \subitem {Begin}, \hyperpage{39}
-    \subitem {Below}, \hyperpage{39}
-    \subitem {Center}, \hyperpage{39}
-    \subitem {ConnectionSpecifications}, \hyperpage{40}
-    \subitem {End}, \hyperpage{39}
-    \subitem {HorizontalPos}, \hyperpage{39}
-    \subitem {loadFromHash}, \hyperpage{41}
-    \subitem {toHash}, \hyperpage{42}
-    \subitem {updateSpecificationsPos}, \hyperpage{42}
-    \subitem {VerticalPos}, \hyperpage{39}
-  \item {connectionspecifications.cpp}, \hyperpage{175}
-  \item {connectionspecifications.h}, \hyperpage{176}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{143}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{156}
+  \item {ConnectionSpecifications}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
+  \item {connectionspecifications.cpp}, \hyperpage{280}
+  \item {connectionspecifications.h}, \hyperpage{281}
   \item {connectResizer}
-    \subitem {ConnectableResizer}, \hyperpage{32}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{40}
 
   \indexspace
 
   \item {Dashed}
-    \subitem {GeometryUtils}, \hyperpage{15}
+    \subitem {GeometryUtils}, \hyperpage{17}
   \item {data}
-    \subitem {SelectableDataButton}, \hyperpage{143}
+    \subitem {DiagramEditor::Gui::SelectableDataButton}, 
+		\hyperpage{239}
   \item {definedZValue}
-    \subitem {DiagramComponent}, \hyperpage{58}
-    \subitem {DiagramConnection}, \hyperpage{69}
-    \subitem {DiagramItem}, \hyperpage{87}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{86}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{108}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{143}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{156}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{99}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{118}
   \item {deleteSelectedItems}
-    \subitem {Diagram}, \hyperpage{46}
-  \item {Diagram}, \hyperpage{43}
-    \subitem {AddItemMode}, \hyperpage{45}
-    \subitem {AddResizerMode}, \hyperpage{45}
-    \subitem {componentByIds}, \hyperpage{46}
-    \subitem {deleteSelectedItems}, \hyperpage{46}
-    \subitem {Diagram}, \hyperpage{45}
-    \subitem {diagramComponentAt}, \hyperpage{46}
-    \subitem {diagramItemAt}, \hyperpage{47}
-    \subitem {EditionMode}, \hyperpage{45}
-    \subitem {itemRequested}, \hyperpage{48}
-    \subitem {loadFromHash}, \hyperpage{48}
-    \subitem {mouseMoveEvent}, \hyperpage{49}
-    \subitem {mousePressEvent}, \hyperpage{50}
-    \subitem {moveSelectedItems}, \hyperpage{50}
-    \subitem {newDiagramItemId}, \hyperpage{51}
-    \subitem {RemoveResizerMode}, \hyperpage{45}
-    \subitem {selectedItemChanged}, \hyperpage{51}
-    \subitem {SelectionMode}, \hyperpage{45}
-    \subitem {selectNextItem}, \hyperpage{51}
-    \subitem {setDraggingResizer}, \hyperpage{52}
-    \subitem {setEditionMode}, \hyperpage{52}
-    \subitem {setSpecifications}, \hyperpage{52}
-    \subitem {toHash}, \hyperpage{53}
-  \item {diagram.cpp}, \hyperpage{178}
-  \item {diagram.h}, \hyperpage{179}
-  \item {DiagramComponent}, \hyperpage{54}
-    \subitem {addResizer}, \hyperpage{56}
-    \subitem {canResizeTo}, \hyperpage{56}
-    \subitem {closestConnectionPoint}, \hyperpage{57}
-    \subitem {componentGroup}, \hyperpage{64}
-    \subitem {componentId}, \hyperpage{57}
-    \subitem {componentResized}, \hyperpage{58}
-    \subitem {connectComponent}, \hyperpage{58}
-    \subitem {definedZValue}, \hyperpage{58}
-    \subitem {DiagramComponent}, \hyperpage{56}
-    \subitem {graphicsItem}, \hyperpage{59}
-    \subitem {groupId}, \hyperpage{59}
-    \subitem {positionChanged}, \hyperpage{60}
-    \subitem {removeResizer}, \hyperpage{60}
-    \subitem {resize}, \hyperpage{61}
-    \subitem {setCommentBadgeVisibility}, \hyperpage{61}
-    \subitem {setResizersVisibility}, \hyperpage{62}
-    \subitem {setShadow}, \hyperpage{62}
-    \subitem {setSpecifications}, \hyperpage{63}
-    \subitem {specificationsForm}, \hyperpage{63}
-    \subitem {updateCommentBadgePos}, \hyperpage{63}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{63}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{75}
+  \item {Diagram}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{62}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{74}
+  \item {diagram.cpp}, \hyperpage{283}
+  \item {diagram.h}, \hyperpage{284}
+  \item {DiagramComponent}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{84}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{97}
   \item {diagramComponent}
-    \subitem {SpecificationsGroup}, \hyperpage{167}
-  \item {diagramcomponent.cpp}, \hyperpage{181}
-  \item {diagramcomponent.h}, \hyperpage{182}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{271}
+  \item {diagramcomponent.cpp}, \hyperpage{286}
+  \item {diagramcomponent.h}, \hyperpage{287}
   \item {diagramComponentAt}
-    \subitem {Diagram}, \hyperpage{46}
-  \item {DiagramConnection}, \hyperpage{65}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{63}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{75}
+  \item {DiagramConnection}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{107}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{117}
+  \item {diagramconnection.cpp}, \hyperpage{289}
+  \item {diagramconnection.h}, \hyperpage{290}
+  \item {DiagramEditor}, \hyperpage{1}, \hyperpage{13}
+  \item {DiagramEditor::Diagram}, \hyperpage{13}
+  \item {DiagramEditor::Diagram::ConnectableResizer}, \hyperpage{36}
+    \subitem {ConnectableResizer}, \hyperpage{39}
+    \subitem {connectResizer}, \hyperpage{40}
+    \subitem {itemChange}, \hyperpage{40}
+    \subitem {loadFromHash}, \hyperpage{41}
+    \subitem {mouseMoveEvent}, \hyperpage{42}
+    \subitem {mouseReleaseEvent}, \hyperpage{42}
+    \subitem {toHash}, \hyperpage{43}
+    \subitem {updateParentPosition}, \hyperpage{43}
+  \item {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{45}
+    \subitem {Above}, \hyperpage{48}
+    \subitem {applyFormResults}, \hyperpage{49}
+    \subitem {Begin}, \hyperpage{48}
+    \subitem {Below}, \hyperpage{48}
+    \subitem {Center}, \hyperpage{48}
+    \subitem {ConnectionSpecifications}, \hyperpage{48}
+    \subitem {End}, \hyperpage{48}
+    \subitem {HorizontalPos}, \hyperpage{48}
+    \subitem {loadFromHash}, \hyperpage{49}
+    \subitem {toHash}, \hyperpage{49}
+    \subitem {updateSpecificationsPos}, \hyperpage{50}
+    \subitem {VerticalPos}, \hyperpage{48}
+  \item {DiagramEditor::Diagram::Diagram}, \hyperpage{58}
+    \subitem {AddItemMode}, \hyperpage{62}
+    \subitem {AddResizerMode}, \hyperpage{62}
+    \subitem {componentByIds}, \hyperpage{62}
+    \subitem {deleteSelectedItems}, \hyperpage{63}
+    \subitem {Diagram}, \hyperpage{62}
+    \subitem {diagramComponentAt}, \hyperpage{63}
+    \subitem {diagramItemAt}, \hyperpage{64}
+    \subitem {EditionMode}, \hyperpage{62}
+    \subitem {itemRequested}, \hyperpage{65}
+    \subitem {loadFromHash}, \hyperpage{65}
+    \subitem {mouseMoveEvent}, \hyperpage{66}
+    \subitem {mousePressEvent}, \hyperpage{67}
+    \subitem {moveSelectedItems}, \hyperpage{67}
+    \subitem {newDiagramItemId}, \hyperpage{68}
+    \subitem {RemoveResizerMode}, \hyperpage{62}
+    \subitem {selectedItemChanged}, \hyperpage{68}
+    \subitem {SelectionMode}, \hyperpage{62}
+    \subitem {selectNextItem}, \hyperpage{68}
+    \subitem {setDraggingResizer}, \hyperpage{69}
+    \subitem {setEditionMode}, \hyperpage{69}
+    \subitem {setSpecifications}, \hyperpage{69}
+    \subitem {toHash}, \hyperpage{70}
+  \item {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{81}
+    \subitem {addResizer}, \hyperpage{84}
+    \subitem {canResizeTo}, \hyperpage{84}
+    \subitem {closestConnectionPoint}, \hyperpage{85}
+    \subitem {componentGroup}, \hyperpage{93}
+    \subitem {componentId}, \hyperpage{85}
+    \subitem {componentResized}, \hyperpage{86}
+    \subitem {connectComponent}, \hyperpage{86}
+    \subitem {definedZValue}, \hyperpage{86}
+    \subitem {DiagramComponent}, \hyperpage{84}
+    \subitem {graphicsItem}, \hyperpage{87}
+    \subitem {groupId}, \hyperpage{87}
+    \subitem {positionChanged}, \hyperpage{88}
+    \subitem {removeResizer}, \hyperpage{88}
+    \subitem {resize}, \hyperpage{89}
+    \subitem {setCommentBadgeVisibility}, \hyperpage{89}
+    \subitem {setResizersVisibility}, \hyperpage{90}
+    \subitem {setShadow}, \hyperpage{90}
+    \subitem {setSpecifications}, \hyperpage{91}
+    \subitem {specificationsForm}, \hyperpage{91}
+    \subitem {updateCommentBadgePos}, \hyperpage{92}
+  \item {DiagramEditor::Diagram::DiagramConnection}, \hyperpage{104}
     \subitem {\texorpdfstring{$\sim$}{\string~}DiagramConnection}, 
-		\hyperpage{67}
-    \subitem {addResizer}, \hyperpage{68}
-    \subitem {connectComponent}, \hyperpage{68}
-    \subitem {definedZValue}, \hyperpage{69}
-    \subitem {DiagramConnection}, \hyperpage{67}
-    \subitem {loadFromHash}, \hyperpage{69}
-    \subitem {removeResizer}, \hyperpage{70}
-    \subitem {resize}, \hyperpage{71}
-    \subitem {setResizersVisibility}, \hyperpage{72}
-    \subitem {setShadow}, \hyperpage{72}
-    \subitem {setSpecifications}, \hyperpage{73}
-    \subitem {specificationsForm}, \hyperpage{73}
-    \subitem {toHash}, \hyperpage{73}
-  \item {diagramconnection.cpp}, \hyperpage{184}
-  \item {diagramconnection.h}, \hyperpage{184}
-  \item {DiagramEditor}, \hyperpage{1}
-  \item {DiagramElement}, \hyperpage{75}
-    \subitem {\texorpdfstring{$\sim$}{\string~}DiagramElement}, 
-		\hyperpage{77}
-    \subitem {canResizeTo}, \hyperpage{78}
-    \subitem {DiagramElement}, \hyperpage{77}
-    \subitem {loadFromHash}, \hyperpage{78}
-    \subitem {resize}, \hyperpage{79}
-    \subitem {setResizersVisibility}, \hyperpage{80}
-    \subitem {setShadow}, \hyperpage{80}
-    \subitem {setSpecifications}, \hyperpage{80}
-    \subitem {specificationsForm}, \hyperpage{81}
-    \subitem {toHash}, \hyperpage{81}
-  \item {diagramelement.cpp}, \hyperpage{187}
-  \item {diagramelement.h}, \hyperpage{188}
-  \item {DiagramItem}, \hyperpage{83}
-    \subitem {centerOffset}, \hyperpage{85}
-    \subitem {componentAt}, \hyperpage{85}
-    \subitem {componentById}, \hyperpage{85}
-    \subitem {componentId}, \hyperpage{86}
-    \subitem {componentTypeMatches}, \hyperpage{86}
-    \subitem {connectComponents}, \hyperpage{87}
-    \subitem {definedZValue}, \hyperpage{87}
-    \subitem {DiagramItem}, \hyperpage{84}
-    \subitem {itemChange}, \hyperpage{88}
-    \subitem {itemId}, \hyperpage{88}
-    \subitem {loadFromHash}, \hyperpage{89}
-    \subitem {setLoaded}, \hyperpage{90}
-    \subitem {setResizerEnabled}, \hyperpage{90}
-    \subitem {setShadow}, \hyperpage{91}
-    \subitem {setSpecifications}, \hyperpage{92}
-    \subitem {specificationsForm}, \hyperpage{92}
-    \subitem {toHash}, \hyperpage{93}
-    \subitem {updateGeometry}, \hyperpage{93}
-  \item {diagramitem.cpp}, \hyperpage{190}
-  \item {diagramitem.h}, \hyperpage{190}
-  \item {DiagramItem::Component}, \hyperpage{27}
-  \item {diagramItemAt}
-    \subitem {Diagram}, \hyperpage{47}
-  \item {diagramItems}
-    \subitem {DiagramType}, \hyperpage{109}
-  \item {DiagramResizer}, \hyperpage{94}
-    \subitem {DiagramResizer}, \hyperpage{96}
-    \subitem {itemChange}, \hyperpage{97}
-    \subitem {mouseMoveEvent}, \hyperpage{97}
-    \subitem {mousePressEvent}, \hyperpage{98}
-    \subitem {mouseReleaseEvent}, \hyperpage{98}
-    \subitem {parentComponent}, \hyperpage{101}
-    \subitem {sceneCenterPos}, \hyperpage{99}
-    \subitem {setSceneCenterPos}, \hyperpage{100}
-    \subitem {updateParentPosition}, \hyperpage{100}
-  \item {diagramresizer.cpp}, \hyperpage{193}
-  \item {diagramresizer.h}, \hyperpage{194}
-  \item {DiagramSpecification}, \hyperpage{102}
-    \subitem {applyFormResults}, \hyperpage{104}
-    \subitem {DiagramSpecification}, \hyperpage{103}
-    \subitem {form}, \hyperpage{104}
-    \subitem {itemChange}, \hyperpage{105}
-    \subitem {loadFromHash}, \hyperpage{105}
-    \subitem {movingTranslation}, \hyperpage{106}
-    \subitem {name}, \hyperpage{106}
-    \subitem {toHash}, \hyperpage{107}
-  \item {diagramspecification.cpp}, \hyperpage{195}
-  \item {diagramspecification.h}, \hyperpage{196}
-  \item {DiagramType}, \hyperpage{108}
-    \subitem {diagramItems}, \hyperpage{109}
+		\hyperpage{107}
+    \subitem {addResizer}, \hyperpage{108}
+    \subitem {connectComponent}, \hyperpage{108}
+    \subitem {definedZValue}, \hyperpage{108}
+    \subitem {DiagramConnection}, \hyperpage{107}
     \subitem {loadFromHash}, \hyperpage{109}
-  \item {diagramtype.cpp}, \hyperpage{198}
-  \item {diagramtype.h}, \hyperpage{199}
-  \item {DiagramTypeGroup}, \hyperpage{110}
-    \subitem {diagramTypes}, \hyperpage{111}
-    \subitem {loadFromHash}, \hyperpage{111}
-  \item {diagramtypegroup.cpp}, \hyperpage{200}
-  \item {diagramtypegroup.h}, \hyperpage{201}
+    \subitem {removeResizer}, \hyperpage{109}
+    \subitem {resize}, \hyperpage{110}
+    \subitem {setResizersVisibility}, \hyperpage{111}
+    \subitem {setShadow}, \hyperpage{111}
+    \subitem {setSpecifications}, \hyperpage{112}
+    \subitem {specificationsForm}, \hyperpage{112}
+    \subitem {toHash}, \hyperpage{112}
+  \item {DiagramEditor::Diagram::DiagramElement}, \hyperpage{122}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DiagramElement}, 
+		\hyperpage{125}
+    \subitem {canResizeTo}, \hyperpage{126}
+    \subitem {DiagramElement}, \hyperpage{125}
+    \subitem {loadFromHash}, \hyperpage{126}
+    \subitem {resize}, \hyperpage{127}
+    \subitem {setResizersVisibility}, \hyperpage{128}
+    \subitem {setShadow}, \hyperpage{128}
+    \subitem {setSpecifications}, \hyperpage{129}
+    \subitem {specificationsForm}, \hyperpage{129}
+    \subitem {toHash}, \hyperpage{129}
+  \item {DiagramEditor::Diagram::DiagramItem}, \hyperpage{138}
+    \subitem {centerOffset}, \hyperpage{141}
+    \subitem {componentAt}, \hyperpage{141}
+    \subitem {componentById}, \hyperpage{141}
+    \subitem {componentId}, \hyperpage{142}
+    \subitem {componentTypeMatches}, \hyperpage{142}
+    \subitem {connectComponents}, \hyperpage{143}
+    \subitem {definedZValue}, \hyperpage{143}
+    \subitem {DiagramItem}, \hyperpage{140}
+    \subitem {itemChange}, \hyperpage{144}
+    \subitem {itemId}, \hyperpage{144}
+    \subitem {loadFromHash}, \hyperpage{145}
+    \subitem {setLoaded}, \hyperpage{146}
+    \subitem {setResizerEnabled}, \hyperpage{146}
+    \subitem {setShadow}, \hyperpage{147}
+    \subitem {setSpecifications}, \hyperpage{148}
+    \subitem {specificationsForm}, \hyperpage{148}
+    \subitem {toHash}, \hyperpage{149}
+    \subitem {updateGeometry}, \hyperpage{149}
+  \item {DiagramEditor::Diagram::DiagramItem::Component}, 
+		\hyperpage{31}
+  \item {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{161}
+    \subitem {DiagramResizer}, \hyperpage{163}
+    \subitem {itemChange}, \hyperpage{164}
+    \subitem {mouseMoveEvent}, \hyperpage{165}
+    \subitem {mousePressEvent}, \hyperpage{165}
+    \subitem {mouseReleaseEvent}, \hyperpage{166}
+    \subitem {parentComponent}, \hyperpage{169}
+    \subitem {sceneCenterPos}, \hyperpage{166}
+    \subitem {setSceneCenterPos}, \hyperpage{167}
+    \subitem {updateParentPosition}, \hyperpage{168}
+  \item {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{182}
+    \subitem {applyFormResults}, \hyperpage{186}
+    \subitem {Center}, \hyperpage{185}
+    \subitem {ElementSpecifications}, \hyperpage{185}
+    \subitem {loadFromHash}, \hyperpage{186}
+    \subitem {size}, \hyperpage{186}
+    \subitem {sizeChanged}, \hyperpage{187}
+    \subitem {SpecificationPos}, \hyperpage{185}
+    \subitem {toHash}, \hyperpage{187}
+    \subitem {TopLeft}, \hyperpage{185}
+    \subitem {updateSpecificationsPos}, \hyperpage{188}
+    \subitem {Vertical}, \hyperpage{185}
+    \subitem {VerticalSeparated}, \hyperpage{185}
+  \item {DiagramEditor::Diagram::SpecificationsForm}, \hyperpage{252}
+    \subitem {appendField}, \hyperpage{254}
+    \subitem {appendForm}, \hyperpage{254}
+    \subitem {fieldCount}, \hyperpage{254}
+    \subitem {fieldResults}, \hyperpage{254}
+    \subitem {formCount}, \hyperpage{255}
+    \subitem {SpecificationsForm}, \hyperpage{253}
+  \item {DiagramEditor::Gui}, \hyperpage{14}
+  \item {DiagramEditor::Gui::Diagram}, \hyperpage{71}
+    \subitem {AddItemMode}, \hyperpage{74}
+    \subitem {AddResizerMode}, \hyperpage{74}
+    \subitem {componentByIds}, \hyperpage{74}
+    \subitem {deleteSelectedItems}, \hyperpage{75}
+    \subitem {Diagram}, \hyperpage{74}
+    \subitem {diagramComponentAt}, \hyperpage{75}
+    \subitem {diagramItemAt}, \hyperpage{75}
+    \subitem {EditionMode}, \hyperpage{74}
+    \subitem {itemRequested}, \hyperpage{76}
+    \subitem {loadFromHash}, \hyperpage{76}
+    \subitem {mouseMoveEvent}, \hyperpage{77}
+    \subitem {mousePressEvent}, \hyperpage{77}
+    \subitem {moveSelectedItems}, \hyperpage{77}
+    \subitem {newDiagramItemId}, \hyperpage{78}
+    \subitem {RemoveResizerMode}, \hyperpage{74}
+    \subitem {selectedItemChanged}, \hyperpage{78}
+    \subitem {SelectionMode}, \hyperpage{74}
+    \subitem {selectNextItem}, \hyperpage{78}
+    \subitem {setDraggingResizer}, \hyperpage{79}
+    \subitem {setEditionMode}, \hyperpage{79}
+    \subitem {setSpecifications}, \hyperpage{79}
+    \subitem {toHash}, \hyperpage{80}
+  \item {DiagramEditor::Gui::DiagramItem}, \hyperpage{150}
+    \subitem {centerOffset}, \hyperpage{154}
+    \subitem {componentAt}, \hyperpage{154}
+    \subitem {componentById}, \hyperpage{154}
+    \subitem {componentId}, \hyperpage{155}
+    \subitem {componentTypeMatches}, \hyperpage{155}
+    \subitem {connectComponents}, \hyperpage{156}
+    \subitem {definedZValue}, \hyperpage{156}
+    \subitem {DiagramItem}, \hyperpage{153}
+    \subitem {itemChange}, \hyperpage{156}
+    \subitem {itemId}, \hyperpage{157}
+    \subitem {loadFromHash}, \hyperpage{157}
+    \subitem {setLoaded}, \hyperpage{157}
+    \subitem {setResizerEnabled}, \hyperpage{158}
+    \subitem {setShadow}, \hyperpage{158}
+    \subitem {setSpecifications}, \hyperpage{159}
+    \subitem {specificationsForm}, \hyperpage{159}
+    \subitem {toHash}, \hyperpage{159}
+    \subitem {updateGeometry}, \hyperpage{160}
+  \item {DiagramEditor::Gui::DiagramItem::Component}, \hyperpage{33}
+  \item {DiagramEditor::Gui::DiagramType}, \hyperpage{176}
+    \subitem {diagramItems}, \hyperpage{178}
+    \subitem {loadFromHash}, \hyperpage{178}
+  \item {DiagramEditor::Gui::DiagramTypeGroup}, \hyperpage{179}
+    \subitem {diagramTypes}, \hyperpage{181}
+    \subitem {loadFromHash}, \hyperpage{181}
+  \item {DiagramEditor::Gui::JsonFile}, \hyperpage{197}
+    \subitem {hashForKey}, \hyperpage{199}
+    \subitem {hashToText}, \hyperpage{199}
+    \subitem {JsonFile}, \hyperpage{198}
+    \subitem {load}, \hyperpage{199}
+    \subitem {textToHash}, \hyperpage{200}
+  \item {DiagramEditor::Gui::JsonSerializable}, \hyperpage{209}
+    \subitem {\texorpdfstring{$\sim$}{\string~}JsonSerializable}, 
+		\hyperpage{210}
+    \subitem {filteredHashByKeys}, \hyperpage{210}
+    \subitem {loadFromHash}, \hyperpage{210}
+    \subitem {toHash}, \hyperpage{211}
+  \item {DiagramEditor::Gui::MainWindow}, \hyperpage{225}
+    \subitem {\texorpdfstring{$\sim$}{\string~}MainWindow}, 
+		\hyperpage{227}
+    \subitem {MainWindow}, \hyperpage{226}
+  \item {DiagramEditor::Gui::ScrollableDataButtonsSelector}, 
+		\hyperpage{230}
+    \subitem {addButtons}, \hyperpage{233}
+    \subitem {clear}, \hyperpage{233}
+    \subitem {ScrollableDataButtonsSelector}, \hyperpage{232}
+    \subitem {selectedButtonData}, \hyperpage{234}
+    \subitem {selectionChanged}, \hyperpage{234}
+  \item {DiagramEditor::Gui::SelectableDataButton}, \hyperpage{236}
+    \subitem {data}, \hyperpage{239}
+    \subitem {leftIconButton}, \hyperpage{239}
+    \subitem {loadFromHash}, \hyperpage{239}
+    \subitem {SelectableDataButton}, \hyperpage{238}
+    \subitem {STYLE\_SHEET}, \hyperpage{241}
+    \subitem {upperIconButton}, \hyperpage{240}
+  \item {DiagramEditor::Gui::Wizard}, \hyperpage{272}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Wizard}, \hyperpage{274}
+    \subitem {selectedConfiguration}, \hyperpage{275}
+    \subitem {Wizard}, \hyperpage{274}
+  \item {DiagramEditor::Gui::Wizard::Configuration}, \hyperpage{35}
+  \item {DiagramEditor::Serialization}, \hyperpage{15}
+  \item {DiagramEditor::Serialization::JsonFile}, \hyperpage{201}
+    \subitem {hashForKey}, \hyperpage{203}
+    \subitem {hashToText}, \hyperpage{203}
+    \subitem {JsonFile}, \hyperpage{202}
+    \subitem {load}, \hyperpage{203}
+    \subitem {textToHash}, \hyperpage{204}
+  \item {DiagramEditor::Serialization::JsonSerializable}, 
+		\hyperpage{212}
+    \subitem {\texorpdfstring{$\sim$}{\string~}JsonSerializable}, 
+		\hyperpage{213}
+    \subitem {filteredHashByKeys}, \hyperpage{213}
+    \subitem {loadFromHash}, \hyperpage{213}
+    \subitem {toHash}, \hyperpage{214}
+  \item {DiagramEditor::Specification}, \hyperpage{15}
+  \item {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{51}
+    \subitem {Above}, \hyperpage{54}
+    \subitem {applyFormResults}, \hyperpage{55}
+    \subitem {Begin}, \hyperpage{54}
+    \subitem {Below}, \hyperpage{54}
+    \subitem {Center}, \hyperpage{54}
+    \subitem {ConnectionSpecifications}, \hyperpage{54}
+    \subitem {End}, \hyperpage{54}
+    \subitem {HorizontalPos}, \hyperpage{54}
+    \subitem {loadFromHash}, \hyperpage{56}
+    \subitem {toHash}, \hyperpage{56}
+    \subitem {updateSpecificationsPos}, \hyperpage{57}
+    \subitem {VerticalPos}, \hyperpage{54}
+  \item {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{93}
+    \subitem {addResizer}, \hyperpage{97}
+    \subitem {canResizeTo}, \hyperpage{97}
+    \subitem {closestConnectionPoint}, \hyperpage{98}
+    \subitem {componentGroup}, \hyperpage{103}
+    \subitem {componentId}, \hyperpage{98}
+    \subitem {componentResized}, \hyperpage{99}
+    \subitem {connectComponent}, \hyperpage{99}
+    \subitem {definedZValue}, \hyperpage{99}
+    \subitem {DiagramComponent}, \hyperpage{97}
+    \subitem {graphicsItem}, \hyperpage{99}
+    \subitem {groupId}, \hyperpage{100}
+    \subitem {positionChanged}, \hyperpage{100}
+    \subitem {removeResizer}, \hyperpage{100}
+    \subitem {resize}, \hyperpage{101}
+    \subitem {setCommentBadgeVisibility}, \hyperpage{101}
+    \subitem {setResizersVisibility}, \hyperpage{101}
+    \subitem {setShadow}, \hyperpage{102}
+    \subitem {setSpecifications}, \hyperpage{102}
+    \subitem {specificationsForm}, \hyperpage{102}
+    \subitem {updateCommentBadgePos}, \hyperpage{103}
+  \item {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{114}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DiagramConnection}, 
+		\hyperpage{117}
+    \subitem {addResizer}, \hyperpage{118}
+    \subitem {connectComponent}, \hyperpage{118}
+    \subitem {definedZValue}, \hyperpage{118}
+    \subitem {DiagramConnection}, \hyperpage{117}
+    \subitem {loadFromHash}, \hyperpage{118}
+    \subitem {removeResizer}, \hyperpage{119}
+    \subitem {resize}, \hyperpage{119}
+    \subitem {setResizersVisibility}, \hyperpage{120}
+    \subitem {setShadow}, \hyperpage{120}
+    \subitem {setSpecifications}, \hyperpage{120}
+    \subitem {specificationsForm}, \hyperpage{121}
+    \subitem {toHash}, \hyperpage{121}
+  \item {DiagramEditor::Specification::DiagramElement}, \hyperpage{131}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DiagramElement}, 
+		\hyperpage{134}
+    \subitem {canResizeTo}, \hyperpage{135}
+    \subitem {DiagramElement}, \hyperpage{134}
+    \subitem {loadFromHash}, \hyperpage{135}
+    \subitem {resize}, \hyperpage{135}
+    \subitem {setResizersVisibility}, \hyperpage{136}
+    \subitem {setShadow}, \hyperpage{136}
+    \subitem {setSpecifications}, \hyperpage{136}
+    \subitem {specificationsForm}, \hyperpage{137}
+    \subitem {toHash}, \hyperpage{137}
+  \item {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{169}
+    \subitem {applyFormResults}, \hyperpage{172}
+    \subitem {DiagramSpecification}, \hyperpage{171}
+    \subitem {form}, \hyperpage{172}
+    \subitem {itemChange}, \hyperpage{173}
+    \subitem {loadFromHash}, \hyperpage{173}
+    \subitem {movingTranslation}, \hyperpage{174}
+    \subitem {name}, \hyperpage{174}
+    \subitem {toHash}, \hyperpage{174}
+  \item {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{189}
+    \subitem {applyFormResults}, \hyperpage{193}
+    \subitem {Center}, \hyperpage{192}
+    \subitem {ElementSpecifications}, \hyperpage{192}
+    \subitem {loadFromHash}, \hyperpage{193}
+    \subitem {size}, \hyperpage{194}
+    \subitem {sizeChanged}, \hyperpage{195}
+    \subitem {SpecificationPos}, \hyperpage{192}
+    \subitem {toHash}, \hyperpage{195}
+    \subitem {TopLeft}, \hyperpage{192}
+    \subitem {updateSpecificationsPos}, \hyperpage{196}
+    \subitem {Vertical}, \hyperpage{192}
+    \subitem {VerticalSeparated}, \hyperpage{192}
+  \item {DiagramEditor::Specification::ListSpecification}, 
+		\hyperpage{215}
+    \subitem {form}, \hyperpage{218}
+    \subitem {ListSpecification}, \hyperpage{218}
+    \subitem {loadFromHash}, \hyperpage{218}
+    \subitem {toHash}, \hyperpage{219}
+  \item {DiagramEditor::Specification::LongTextSpecification}, 
+		\hyperpage{220}
+    \subitem {form}, \hyperpage{224}
+    \subitem {LongTextSpecification}, \hyperpage{223}
+  \item {DiagramEditor::Specification::SelectableSpecification}, 
+		\hyperpage{241}
+    \subitem {form}, \hyperpage{245}
+    \subitem {loadFromHash}, \hyperpage{245}
+    \subitem {SelectableSpecification}, \hyperpage{245}
+    \subitem {toHash}, \hyperpage{246}
+  \item {DiagramEditor::Specification::ShortTextSpecification}, 
+		\hyperpage{247}
+    \subitem {form}, \hyperpage{251}
+    \subitem {ShortTextSpecification}, \hyperpage{250}
+  \item {DiagramEditor::Specification::SpecificationsForm}, 
+		\hyperpage{256}
+    \subitem {appendField}, \hyperpage{258}
+    \subitem {appendForm}, \hyperpage{258}
+    \subitem {fieldCount}, \hyperpage{259}
+    \subitem {fieldResults}, \hyperpage{260}
+    \subitem {formCount}, \hyperpage{260}
+    \subitem {SpecificationsForm}, \hyperpage{257}
+  \item {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{261}
+    \subitem {\texorpdfstring{$\sim$}{\string~}SpecificationsGroup}, 
+		\hyperpage{265}
+    \subitem {applyFormResults}, \hyperpage{265}
+    \subitem {clear}, \hyperpage{266}
+    \subitem {diagramComponent}, \hyperpage{271}
+    \subitem {form}, \hyperpage{267}
+    \subitem {loadFromHash}, \hyperpage{268}
+    \subitem {specificationFromTypeName}, \hyperpage{269}
+    \subitem {SpecificationsGroup}, \hyperpage{264}
+    \subitem {toHash}, \hyperpage{269}
+    \subitem {typeNameFromSpecification}, \hyperpage{270}
+  \item {DiagramElement}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{125}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{134}
+  \item {diagramelement.cpp}, \hyperpage{293}
+  \item {diagramelement.h}, \hyperpage{294}
+  \item {DiagramItem}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{140}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{153}
+  \item {diagramitem.cpp}, \hyperpage{296}
+  \item {diagramitem.h}, \hyperpage{297}
+  \item {diagramItemAt}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{64}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{75}
+  \item {diagramItems}
+    \subitem {DiagramEditor::Gui::DiagramType}, \hyperpage{178}
+  \item {DiagramResizer}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{163}
+  \item {diagramresizer.cpp}, \hyperpage{299}
+  \item {diagramresizer.h}, \hyperpage{300}
+  \item {DiagramSpecification}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{171}
+  \item {diagramspecification.cpp}, \hyperpage{302}
+  \item {diagramspecification.h}, \hyperpage{303}
+  \item {diagramtype.cpp}, \hyperpage{305}
+  \item {diagramtype.h}, \hyperpage{306}
+  \item {diagramtypegroup.cpp}, \hyperpage{308}
+  \item {diagramtypegroup.h}, \hyperpage{309}
   \item {diagramTypes}
-    \subitem {DiagramTypeGroup}, \hyperpage{111}
+    \subitem {DiagramEditor::Gui::DiagramTypeGroup}, \hyperpage{181}
   \item {Diamond}
-    \subitem {GeometryUtils}, \hyperpage{14}
+    \subitem {GeometryUtils}, \hyperpage{17}
 
   \indexspace
 
   \item {EditionMode}
-    \subitem {Diagram}, \hyperpage{45}
-  \item {ElementSpecifications}, \hyperpage{112}
-    \subitem {applyFormResults}, \hyperpage{116}
-    \subitem {Center}, \hyperpage{115}
-    \subitem {ElementSpecifications}, \hyperpage{115}
-    \subitem {loadFromHash}, \hyperpage{116}
-    \subitem {size}, \hyperpage{117}
-    \subitem {sizeChanged}, \hyperpage{118}
-    \subitem {SpecificationPos}, \hyperpage{115}
-    \subitem {toHash}, \hyperpage{118}
-    \subitem {TopLeft}, \hyperpage{115}
-    \subitem {updateSpecificationsPos}, \hyperpage{119}
-    \subitem {Vertical}, \hyperpage{115}
-    \subitem {VerticalSeparated}, \hyperpage{115}
-  \item {elementspecifications.cpp}, \hyperpage{203}
-  \item {elementspecifications.h}, \hyperpage{204}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{62}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{74}
+  \item {ElementSpecifications}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{185}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{192}
+  \item {elementspecifications.cpp}, \hyperpage{311}
+  \item {elementspecifications.h}, \hyperpage{312}
   \item {End}
-    \subitem {ConnectionSpecifications}, \hyperpage{39}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
 
   \indexspace
 
   \item {fieldCount}
-    \subitem {SpecificationsForm}, \hyperpage{156}
+    \subitem {DiagramEditor::Diagram::SpecificationsForm}, 
+		\hyperpage{254}
+    \subitem {DiagramEditor::Specification::SpecificationsForm}, 
+		\hyperpage{259}
   \item {fieldResults}
-    \subitem {SpecificationsForm}, \hyperpage{157}
+    \subitem {DiagramEditor::Diagram::SpecificationsForm}, 
+		\hyperpage{254}
+    \subitem {DiagramEditor::Specification::SpecificationsForm}, 
+		\hyperpage{260}
   \item {filteredHashByKeys}
-    \subitem {JsonSerializable}, \hyperpage{125}
+    \subitem {DiagramEditor::Gui::JsonSerializable}, \hyperpage{210}
+    \subitem {DiagramEditor::Serialization::JsonSerializable}, 
+		\hyperpage{213}
   \item {form}
-    \subitem {DiagramSpecification}, \hyperpage{104}
-    \subitem {ListSpecification}, \hyperpage{129}
-    \subitem {LongTextSpecification}, \hyperpage{133}
-    \subitem {SelectableSpecification}, \hyperpage{148}
-    \subitem {ShortTextSpecification}, \hyperpage{153}
-    \subitem {SpecificationsGroup}, \hyperpage{162}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{172}
+    \subitem {DiagramEditor::Specification::ListSpecification}, 
+		\hyperpage{218}
+    \subitem {DiagramEditor::Specification::LongTextSpecification}, 
+		\hyperpage{224}
+    \subitem {DiagramEditor::Specification::SelectableSpecification}, 
+		\hyperpage{245}
+    \subitem {DiagramEditor::Specification::ShortTextSpecification}, 
+		\hyperpage{251}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{267}
   \item {formCount}
-    \subitem {SpecificationsForm}, \hyperpage{157}
+    \subitem {DiagramEditor::Diagram::SpecificationsForm}, 
+		\hyperpage{255}
+    \subitem {DiagramEditor::Specification::SpecificationsForm}, 
+		\hyperpage{260}
 
   \indexspace
 
-  \item {GeometryUtils}, \hyperpage{13}
-    \subitem {arrowHeadVertices}, \hyperpage{15}
-    \subitem {Circle}, \hyperpage{14}
-    \subitem {ClosedArrow}, \hyperpage{14}
-    \subitem {closedArrowHead}, \hyperpage{15}
-    \subitem {closestPointOnSegment}, \hyperpage{16}
-    \subitem {Dashed}, \hyperpage{15}
-    \subitem {Diamond}, \hyperpage{14}
-    \subitem {LineMarker}, \hyperpage{14}
-    \subitem {makeMarkerPolygon}, \hyperpage{17}
-    \subitem {makePen}, \hyperpage{18}
-    \subitem {makePolygon}, \hyperpage{18}
-    \subitem {markerFromString}, \hyperpage{19}
-    \subitem {markerName}, \hyperpage{20}
-    \subitem {None}, \hyperpage{14}
-    \subitem {OpenedArrow}, \hyperpage{14}
-    \subitem {openedArrowHead}, \hyperpage{21}
-    \subitem {Paper}, \hyperpage{14}
-    \subitem {PolygonShape}, \hyperpage{14}
-    \subitem {shapeFromString}, \hyperpage{22}
-    \subitem {shapeName}, \hyperpage{22}
-    \subitem {Solid}, \hyperpage{15}
-    \subitem {Square}, \hyperpage{14}
-    \subitem {Stroke}, \hyperpage{14}
-    \subitem {strokeFromString}, \hyperpage{23}
-    \subitem {strokeName}, \hyperpage{24}
-    \subitem {unitaryCircle}, \hyperpage{24}
-    \subitem {unitaryDiamond}, \hyperpage{25}
-    \subitem {unitaryPaper}, \hyperpage{25}
-    \subitem {unitarySquare}, \hyperpage{26}
-  \item {geometryutils.cpp}, \hyperpage{206}
-  \item {geometryutils.h}, \hyperpage{207}
+  \item {GeometryUtils}, \hyperpage{16}
+    \subitem {arrowHeadVertices}, \hyperpage{18}
+    \subitem {Circle}, \hyperpage{17}
+    \subitem {ClosedArrow}, \hyperpage{17}
+    \subitem {closedArrowHead}, \hyperpage{18}
+    \subitem {closestPointOnSegment}, \hyperpage{19}
+    \subitem {Dashed}, \hyperpage{17}
+    \subitem {Diamond}, \hyperpage{17}
+    \subitem {LineMarker}, \hyperpage{17}
+    \subitem {makeMarkerPolygon}, \hyperpage{20}
+    \subitem {makePen}, \hyperpage{20}
+    \subitem {makePolygon}, \hyperpage{21}
+    \subitem {markerFromString}, \hyperpage{22}
+    \subitem {markerName}, \hyperpage{23}
+    \subitem {None}, \hyperpage{17}
+    \subitem {OpenedArrow}, \hyperpage{17}
+    \subitem {openedArrowHead}, \hyperpage{23}
+    \subitem {Paper}, \hyperpage{17}
+    \subitem {PolygonShape}, \hyperpage{17}
+    \subitem {shapeFromString}, \hyperpage{24}
+    \subitem {shapeName}, \hyperpage{25}
+    \subitem {Solid}, \hyperpage{17}
+    \subitem {Square}, \hyperpage{17}
+    \subitem {Stroke}, \hyperpage{17}
+    \subitem {strokeFromString}, \hyperpage{26}
+    \subitem {strokeName}, \hyperpage{26}
+    \subitem {unitaryCircle}, \hyperpage{27}
+    \subitem {unitaryDiamond}, \hyperpage{27}
+    \subitem {unitaryPaper}, \hyperpage{28}
+    \subitem {unitarySquare}, \hyperpage{28}
+  \item {geometryutils.cpp}, \hyperpage{314}
+  \item {geometryutils.h}, \hyperpage{316}
   \item {graphicsItem}
-    \subitem {DiagramComponent}, \hyperpage{59}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{87}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{99}
   \item {groupId}
-    \subitem {DiagramComponent}, \hyperpage{59}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{87}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{100}
 
   \indexspace
 
   \item {hashForKey}
-    \subitem {JsonFile}, \hyperpage{121}
+    \subitem {DiagramEditor::Gui::JsonFile}, \hyperpage{199}
+    \subitem {DiagramEditor::Serialization::JsonFile}, \hyperpage{203}
+    \subitem {JsonFile}, \hyperpage{207}
   \item {hashToText}
-    \subitem {JsonFile}, \hyperpage{121}
+    \subitem {DiagramEditor::Gui::JsonFile}, \hyperpage{199}
+    \subitem {DiagramEditor::Serialization::JsonFile}, \hyperpage{203}
+    \subitem {JsonFile}, \hyperpage{207}
   \item {HorizontalPos}
-    \subitem {ConnectionSpecifications}, \hyperpage{39}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
 
   \indexspace
 
   \item {itemChange}
-    \subitem {ConnectableResizer}, \hyperpage{32}
-    \subitem {DiagramItem}, \hyperpage{88}
-    \subitem {DiagramResizer}, \hyperpage{97}
-    \subitem {DiagramSpecification}, \hyperpage{105}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{40}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{144}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{164}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{156}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{173}
   \item {itemId}
-    \subitem {DiagramItem}, \hyperpage{88}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{144}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{157}
   \item {itemRequested}
-    \subitem {Diagram}, \hyperpage{48}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{65}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{76}
 
   \indexspace
 
-  \item {JsonFile}, \hyperpage{120}
-    \subitem {hashForKey}, \hyperpage{121}
-    \subitem {hashToText}, \hyperpage{121}
-    \subitem {JsonFile}, \hyperpage{121}
-    \subitem {load}, \hyperpage{122}
-    \subitem {textToHash}, \hyperpage{122}
-  \item {jsonfile.cpp}, \hyperpage{210}
-  \item {jsonfile.h}, \hyperpage{211}
-  \item {JsonSerializable}, \hyperpage{123}
-    \subitem {\texorpdfstring{$\sim$}{\string~}JsonSerializable}, 
-		\hyperpage{124}
-    \subitem {filteredHashByKeys}, \hyperpage{125}
-    \subitem {loadFromHash}, \hyperpage{125}
-    \subitem {toHash}, \hyperpage{125}
-  \item {jsonserializable.cpp}, \hyperpage{213}
-  \item {jsonserializable.h}, \hyperpage{214}
+  \item {JsonFile}, \hyperpage{205}
+    \subitem {DiagramEditor::Gui::JsonFile}, \hyperpage{198}
+    \subitem {DiagramEditor::Serialization::JsonFile}, \hyperpage{202}
+    \subitem {hashForKey}, \hyperpage{207}
+    \subitem {hashToText}, \hyperpage{207}
+    \subitem {JsonFile}, \hyperpage{206}
+    \subitem {load}, \hyperpage{207}
+    \subitem {textToHash}, \hyperpage{208}
+  \item {jsonfile.cpp}, \hyperpage{319}
+  \item {jsonfile.h}, \hyperpage{320}
+  \item {jsonserializable.cpp}, \hyperpage{321}
+  \item {jsonserializable.h}, \hyperpage{322}
 
   \indexspace
 
   \item {leftIconButton}
-    \subitem {SelectableDataButton}, \hyperpage{143}
+    \subitem {DiagramEditor::Gui::SelectableDataButton}, 
+		\hyperpage{239}
   \item {LineMarker}
-    \subitem {GeometryUtils}, \hyperpage{14}
-  \item {ListSpecification}, \hyperpage{126}
-    \subitem {form}, \hyperpage{129}
-    \subitem {ListSpecification}, \hyperpage{128}
-    \subitem {loadFromHash}, \hyperpage{129}
-    \subitem {toHash}, \hyperpage{129}
-  \item {listspecification.cpp}, \hyperpage{215}
-  \item {listspecification.h}, \hyperpage{216}
+    \subitem {GeometryUtils}, \hyperpage{17}
+  \item {ListSpecification}
+    \subitem {DiagramEditor::Specification::ListSpecification}, 
+		\hyperpage{218}
+  \item {listspecification.cpp}, \hyperpage{324}
+  \item {listspecification.h}, \hyperpage{325}
   \item {load}
-    \subitem {JsonFile}, \hyperpage{122}
+    \subitem {DiagramEditor::Gui::JsonFile}, \hyperpage{199}
+    \subitem {DiagramEditor::Serialization::JsonFile}, \hyperpage{203}
+    \subitem {JsonFile}, \hyperpage{207}
   \item {loadFromHash}
-    \subitem {ConnectableResizer}, \hyperpage{32}
-    \subitem {ConnectionSpecifications}, \hyperpage{41}
-    \subitem {Diagram}, \hyperpage{48}
-    \subitem {DiagramConnection}, \hyperpage{69}
-    \subitem {DiagramElement}, \hyperpage{78}
-    \subitem {DiagramItem}, \hyperpage{89}
-    \subitem {DiagramSpecification}, \hyperpage{105}
-    \subitem {DiagramType}, \hyperpage{109}
-    \subitem {DiagramTypeGroup}, \hyperpage{111}
-    \subitem {ElementSpecifications}, \hyperpage{116}
-    \subitem {JsonSerializable}, \hyperpage{125}
-    \subitem {ListSpecification}, \hyperpage{129}
-    \subitem {SelectableDataButton}, \hyperpage{144}
-    \subitem {SelectableSpecification}, \hyperpage{148}
-    \subitem {SpecificationsGroup}, \hyperpage{163}
-  \item {LongTextSpecification}, \hyperpage{130}
-    \subitem {form}, \hyperpage{133}
-    \subitem {LongTextSpecification}, \hyperpage{132}
-  \item {longtextspecification.h}, \hyperpage{217}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{41}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{49}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{65}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{109}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{126}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{145}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{186}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{76}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{157}
+    \subitem {DiagramEditor::Gui::DiagramType}, \hyperpage{178}
+    \subitem {DiagramEditor::Gui::DiagramTypeGroup}, \hyperpage{181}
+    \subitem {DiagramEditor::Gui::JsonSerializable}, \hyperpage{210}
+    \subitem {DiagramEditor::Gui::SelectableDataButton}, 
+		\hyperpage{239}
+    \subitem {DiagramEditor::Serialization::JsonSerializable}, 
+		\hyperpage{213}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{56}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{118}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{135}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{173}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{193}
+    \subitem {DiagramEditor::Specification::ListSpecification}, 
+		\hyperpage{218}
+    \subitem {DiagramEditor::Specification::SelectableSpecification}, 
+		\hyperpage{245}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{268}
+  \item {LongTextSpecification}
+    \subitem {DiagramEditor::Specification::LongTextSpecification}, 
+		\hyperpage{223}
+  \item {longtextspecification.h}, \hyperpage{327}
 
   \indexspace
 
-  \item {main.cpp}, \hyperpage{219}
-  \item {MainWindow}, \hyperpage{133}
+  \item {main.cpp}, \hyperpage{329}
+  \item {MainWindow}, \hyperpage{228}
     \subitem {\texorpdfstring{$\sim$}{\string~}MainWindow}, 
-		\hyperpage{135}
-    \subitem {MainWindow}, \hyperpage{134}
-  \item {mainwindow.cpp}, \hyperpage{220}
-  \item {mainwindow.h}, \hyperpage{220}
+		\hyperpage{229}
+    \subitem {DiagramEditor::Gui::MainWindow}, \hyperpage{226}
+    \subitem {MainWindow}, \hyperpage{229}
+  \item {mainwindow.cpp}, \hyperpage{330}
+  \item {mainwindow.h}, \hyperpage{331}
   \item {makeMarkerPolygon}
-    \subitem {GeometryUtils}, \hyperpage{17}
-  \item {makePen}
-    \subitem {GeometryUtils}, \hyperpage{18}
-  \item {makePolygon}
-    \subitem {GeometryUtils}, \hyperpage{18}
-  \item {markerFromString}
-    \subitem {GeometryUtils}, \hyperpage{19}
-  \item {markerName}
     \subitem {GeometryUtils}, \hyperpage{20}
+  \item {makePen}
+    \subitem {GeometryUtils}, \hyperpage{20}
+  \item {makePolygon}
+    \subitem {GeometryUtils}, \hyperpage{21}
+  \item {markerFromString}
+    \subitem {GeometryUtils}, \hyperpage{22}
+  \item {markerName}
+    \subitem {GeometryUtils}, \hyperpage{23}
   \item {mouseMoveEvent}
-    \subitem {ConnectableResizer}, \hyperpage{33}
-    \subitem {Diagram}, \hyperpage{49}
-    \subitem {DiagramResizer}, \hyperpage{97}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{42}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{66}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{165}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{77}
   \item {mousePressEvent}
-    \subitem {Diagram}, \hyperpage{50}
-    \subitem {DiagramResizer}, \hyperpage{98}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{67}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{165}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{77}
   \item {mouseReleaseEvent}
-    \subitem {ConnectableResizer}, \hyperpage{34}
-    \subitem {DiagramResizer}, \hyperpage{98}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{42}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{166}
   \item {moveSelectedItems}
-    \subitem {Diagram}, \hyperpage{50}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{67}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{77}
   \item {movingTranslation}
-    \subitem {DiagramSpecification}, \hyperpage{106}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{174}
 
   \indexspace
 
   \item {name}
-    \subitem {DiagramSpecification}, \hyperpage{106}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{174}
   \item {newDiagramItemId}
-    \subitem {Diagram}, \hyperpage{51}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{68}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{78}
   \item {None}
-    \subitem {GeometryUtils}, \hyperpage{14}
+    \subitem {GeometryUtils}, \hyperpage{17}
 
   \indexspace
 
   \item {OpenedArrow}
-    \subitem {GeometryUtils}, \hyperpage{14}
+    \subitem {GeometryUtils}, \hyperpage{17}
   \item {openedArrowHead}
-    \subitem {GeometryUtils}, \hyperpage{21}
+    \subitem {GeometryUtils}, \hyperpage{23}
 
   \indexspace
 
   \item {Paper}
-    \subitem {GeometryUtils}, \hyperpage{14}
+    \subitem {GeometryUtils}, \hyperpage{17}
   \item {parentComponent}
-    \subitem {DiagramResizer}, \hyperpage{101}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{169}
   \item {PolygonShape}
-    \subitem {GeometryUtils}, \hyperpage{14}
+    \subitem {GeometryUtils}, \hyperpage{17}
   \item {positionChanged}
-    \subitem {DiagramComponent}, \hyperpage{60}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{88}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{100}
 
   \indexspace
 
   \item {removeResizer}
-    \subitem {DiagramComponent}, \hyperpage{60}
-    \subitem {DiagramConnection}, \hyperpage{70}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{88}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{109}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{100}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{119}
   \item {RemoveResizerMode}
-    \subitem {Diagram}, \hyperpage{45}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{62}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{74}
   \item {resize}
-    \subitem {DiagramComponent}, \hyperpage{61}
-    \subitem {DiagramConnection}, \hyperpage{71}
-    \subitem {DiagramElement}, \hyperpage{79}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{89}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{110}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{127}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{101}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{119}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{135}
 
   \indexspace
 
   \item {sceneCenterPos}
-    \subitem {DiagramResizer}, \hyperpage{99}
-  \item {ScrollableDataButtonsSelector}, \hyperpage{136}
-    \subitem {addButtons}, \hyperpage{138}
-    \subitem {clear}, \hyperpage{139}
-    \subitem {ScrollableDataButtonsSelector}, \hyperpage{137}
-    \subitem {selectedButtonData}, \hyperpage{139}
-    \subitem {selectionChanged}, \hyperpage{140}
-  \item {scrollabledatabuttonsselector.cpp}, \hyperpage{223}
-  \item {scrollabledatabuttonsselector.h}, \hyperpage{223}
-  \item {SelectableDataButton}, \hyperpage{141}
-    \subitem {data}, \hyperpage{143}
-    \subitem {leftIconButton}, \hyperpage{143}
-    \subitem {loadFromHash}, \hyperpage{144}
-    \subitem {SelectableDataButton}, \hyperpage{142}
-    \subitem {STYLE\_SHEET}, \hyperpage{145}
-    \subitem {upperIconButton}, \hyperpage{144}
-  \item {selectabledatabutton.cpp}, \hyperpage{225}
-  \item {selectabledatabutton.h}, \hyperpage{226}
-  \item {SelectableSpecification}, \hyperpage{146}
-    \subitem {form}, \hyperpage{148}
-    \subitem {loadFromHash}, \hyperpage{148}
-    \subitem {SelectableSpecification}, \hyperpage{147}
-    \subitem {toHash}, \hyperpage{149}
-  \item {selectablespecification.cpp}, \hyperpage{228}
-  \item {selectablespecification.h}, \hyperpage{229}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{166}
+  \item {ScrollableDataButtonsSelector}
+    \subitem {DiagramEditor::Gui::ScrollableDataButtonsSelector}, 
+		\hyperpage{232}
+  \item {scrollabledatabuttonsselector.cpp}, \hyperpage{333}
+  \item {scrollabledatabuttonsselector.h}, \hyperpage{334}
+  \item {SelectableDataButton}
+    \subitem {DiagramEditor::Gui::SelectableDataButton}, 
+		\hyperpage{238}
+  \item {selectabledatabutton.cpp}, \hyperpage{336}
+  \item {selectabledatabutton.h}, \hyperpage{337}
+  \item {SelectableSpecification}
+    \subitem {DiagramEditor::Specification::SelectableSpecification}, 
+		\hyperpage{245}
+  \item {selectablespecification.cpp}, \hyperpage{339}
+  \item {selectablespecification.h}, \hyperpage{340}
   \item {selectedButtonData}
-    \subitem {ScrollableDataButtonsSelector}, \hyperpage{139}
+    \subitem {DiagramEditor::Gui::ScrollableDataButtonsSelector}, 
+		\hyperpage{234}
   \item {selectedConfiguration}
-    \subitem {Wizard}, \hyperpage{170}
+    \subitem {DiagramEditor::Gui::Wizard}, \hyperpage{275}
   \item {selectedItemChanged}
-    \subitem {Diagram}, \hyperpage{51}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{68}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{78}
   \item {selectionChanged}
-    \subitem {ScrollableDataButtonsSelector}, \hyperpage{140}
+    \subitem {DiagramEditor::Gui::ScrollableDataButtonsSelector}, 
+		\hyperpage{234}
   \item {SelectionMode}
-    \subitem {Diagram}, \hyperpage{45}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{62}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{74}
   \item {selectNextItem}
-    \subitem {Diagram}, \hyperpage{51}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{68}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{78}
   \item {setCommentBadgeVisibility}
-    \subitem {DiagramComponent}, \hyperpage{61}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{89}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{101}
   \item {setDraggingResizer}
-    \subitem {Diagram}, \hyperpage{52}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{69}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{79}
   \item {setEditionMode}
-    \subitem {Diagram}, \hyperpage{52}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{69}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{79}
   \item {setLoaded}
-    \subitem {DiagramItem}, \hyperpage{90}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{146}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{157}
   \item {setResizerEnabled}
-    \subitem {DiagramItem}, \hyperpage{90}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{146}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{158}
   \item {setResizersVisibility}
-    \subitem {DiagramComponent}, \hyperpage{62}
-    \subitem {DiagramConnection}, \hyperpage{72}
-    \subitem {DiagramElement}, \hyperpage{80}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{90}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{111}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{128}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{101}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{120}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{136}
   \item {setSceneCenterPos}
-    \subitem {DiagramResizer}, \hyperpage{100}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{167}
   \item {setShadow}
-    \subitem {DiagramComponent}, \hyperpage{62}
-    \subitem {DiagramConnection}, \hyperpage{72}
-    \subitem {DiagramElement}, \hyperpage{80}
-    \subitem {DiagramItem}, \hyperpage{91}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{90}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{111}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{128}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{147}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{158}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{102}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{120}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{136}
   \item {setSpecifications}
-    \subitem {Diagram}, \hyperpage{52}
-    \subitem {DiagramComponent}, \hyperpage{63}
-    \subitem {DiagramConnection}, \hyperpage{73}
-    \subitem {DiagramElement}, \hyperpage{80}
-    \subitem {DiagramItem}, \hyperpage{92}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{69}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{91}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{112}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{129}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{148}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{79}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{159}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{102}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{120}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{136}
   \item {shapeFromString}
-    \subitem {GeometryUtils}, \hyperpage{22}
-  \item {shapeName}
-    \subitem {GeometryUtils}, \hyperpage{22}
-  \item {ShortTextSpecification}, \hyperpage{150}
-    \subitem {form}, \hyperpage{153}
-    \subitem {ShortTextSpecification}, \hyperpage{152}
-  \item {shorttextspecification.cpp}, \hyperpage{230}
-  \item {shorttextspecification.h}, \hyperpage{231}
-  \item {size}
-    \subitem {ElementSpecifications}, \hyperpage{117}
-  \item {sizeChanged}
-    \subitem {ElementSpecifications}, \hyperpage{118}
-  \item {Solid}
-    \subitem {GeometryUtils}, \hyperpage{15}
-  \item {specificationFromTypeName}
-    \subitem {SpecificationsGroup}, \hyperpage{164}
-  \item {SpecificationPos}
-    \subitem {ElementSpecifications}, \hyperpage{115}
-  \item {SpecificationsForm}, \hyperpage{153}
-    \subitem {appendField}, \hyperpage{155}
-    \subitem {appendForm}, \hyperpage{155}
-    \subitem {fieldCount}, \hyperpage{156}
-    \subitem {fieldResults}, \hyperpage{157}
-    \subitem {formCount}, \hyperpage{157}
-    \subitem {SpecificationsForm}, \hyperpage{154}
-  \item {specificationsForm}
-    \subitem {DiagramComponent}, \hyperpage{63}
-    \subitem {DiagramConnection}, \hyperpage{73}
-    \subitem {DiagramElement}, \hyperpage{81}
-    \subitem {DiagramItem}, \hyperpage{92}
-  \item {specificationsform.cpp}, \hyperpage{232}
-  \item {specificationsform.h}, \hyperpage{233}
-  \item {SpecificationsGroup}, \hyperpage{158}
-    \subitem {\texorpdfstring{$\sim$}{\string~}SpecificationsGroup}, 
-		\hyperpage{160}
-    \subitem {applyFormResults}, \hyperpage{161}
-    \subitem {clear}, \hyperpage{162}
-    \subitem {diagramComponent}, \hyperpage{167}
-    \subitem {form}, \hyperpage{162}
-    \subitem {loadFromHash}, \hyperpage{163}
-    \subitem {specificationFromTypeName}, \hyperpage{164}
-    \subitem {SpecificationsGroup}, \hyperpage{160}
-    \subitem {toHash}, \hyperpage{165}
-    \subitem {typeNameFromSpecification}, \hyperpage{166}
-  \item {specificationsgroup.cpp}, \hyperpage{235}
-  \item {specificationsgroup.h}, \hyperpage{235}
-  \item {Square}
-    \subitem {GeometryUtils}, \hyperpage{14}
-  \item {Stroke}
-    \subitem {GeometryUtils}, \hyperpage{14}
-  \item {strokeFromString}
-    \subitem {GeometryUtils}, \hyperpage{23}
-  \item {strokeName}
     \subitem {GeometryUtils}, \hyperpage{24}
+  \item {shapeName}
+    \subitem {GeometryUtils}, \hyperpage{25}
+  \item {ShortTextSpecification}
+    \subitem {DiagramEditor::Specification::ShortTextSpecification}, 
+		\hyperpage{250}
+  \item {shorttextspecification.cpp}, \hyperpage{342}
+  \item {shorttextspecification.h}, \hyperpage{343}
+  \item {size}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{186}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{194}
+  \item {sizeChanged}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{187}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{195}
+  \item {Solid}
+    \subitem {GeometryUtils}, \hyperpage{17}
+  \item {specificationFromTypeName}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{269}
+  \item {SpecificationPos}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{185}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{192}
+  \item {SpecificationsForm}
+    \subitem {DiagramEditor::Diagram::SpecificationsForm}, 
+		\hyperpage{253}
+    \subitem {DiagramEditor::Specification::SpecificationsForm}, 
+		\hyperpage{257}
+  \item {specificationsForm}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{91}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{112}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{129}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{148}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{159}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{102}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{121}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{137}
+  \item {specificationsform.cpp}, \hyperpage{344}
+  \item {specificationsform.h}, \hyperpage{345}
+  \item {SpecificationsGroup}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{264}
+  \item {specificationsgroup.cpp}, \hyperpage{347}
+  \item {specificationsgroup.h}, \hyperpage{348}
+  \item {Square}
+    \subitem {GeometryUtils}, \hyperpage{17}
+  \item {Stroke}
+    \subitem {GeometryUtils}, \hyperpage{17}
+  \item {strokeFromString}
+    \subitem {GeometryUtils}, \hyperpage{26}
+  \item {strokeName}
+    \subitem {GeometryUtils}, \hyperpage{26}
   \item {STYLE\_SHEET}
-    \subitem {SelectableDataButton}, \hyperpage{145}
+    \subitem {DiagramEditor::Gui::SelectableDataButton}, 
+		\hyperpage{241}
 
   \indexspace
 
   \item {textToHash}
-    \subitem {JsonFile}, \hyperpage{122}
+    \subitem {DiagramEditor::Gui::JsonFile}, \hyperpage{200}
+    \subitem {DiagramEditor::Serialization::JsonFile}, \hyperpage{204}
+    \subitem {JsonFile}, \hyperpage{208}
   \item {toHash}
-    \subitem {ConnectableResizer}, \hyperpage{35}
-    \subitem {ConnectionSpecifications}, \hyperpage{42}
-    \subitem {Diagram}, \hyperpage{53}
-    \subitem {DiagramConnection}, \hyperpage{73}
-    \subitem {DiagramElement}, \hyperpage{81}
-    \subitem {DiagramItem}, \hyperpage{93}
-    \subitem {DiagramSpecification}, \hyperpage{107}
-    \subitem {ElementSpecifications}, \hyperpage{118}
-    \subitem {JsonSerializable}, \hyperpage{125}
-    \subitem {ListSpecification}, \hyperpage{129}
-    \subitem {SelectableSpecification}, \hyperpage{149}
-    \subitem {SpecificationsGroup}, \hyperpage{165}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{43}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{49}
+    \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{70}
+    \subitem {DiagramEditor::Diagram::DiagramConnection}, 
+		\hyperpage{112}
+    \subitem {DiagramEditor::Diagram::DiagramElement}, \hyperpage{129}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{149}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{187}
+    \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{80}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{159}
+    \subitem {DiagramEditor::Gui::JsonSerializable}, \hyperpage{211}
+    \subitem {DiagramEditor::Serialization::JsonSerializable}, 
+		\hyperpage{214}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{56}
+    \subitem {DiagramEditor::Specification::DiagramConnection}, 
+		\hyperpage{121}
+    \subitem {DiagramEditor::Specification::DiagramElement}, 
+		\hyperpage{137}
+    \subitem {DiagramEditor::Specification::DiagramSpecification}, 
+		\hyperpage{174}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{195}
+    \subitem {DiagramEditor::Specification::ListSpecification}, 
+		\hyperpage{219}
+    \subitem {DiagramEditor::Specification::SelectableSpecification}, 
+		\hyperpage{246}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{269}
   \item {TopLeft}
-    \subitem {ElementSpecifications}, \hyperpage{115}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{185}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{192}
   \item {typeNameFromSpecification}
-    \subitem {SpecificationsGroup}, \hyperpage{166}
+    \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
+		\hyperpage{270}
 
   \indexspace
 
   \item {unitaryCircle}
-    \subitem {GeometryUtils}, \hyperpage{24}
+    \subitem {GeometryUtils}, \hyperpage{27}
   \item {unitaryDiamond}
-    \subitem {GeometryUtils}, \hyperpage{25}
+    \subitem {GeometryUtils}, \hyperpage{27}
   \item {unitaryPaper}
-    \subitem {GeometryUtils}, \hyperpage{25}
+    \subitem {GeometryUtils}, \hyperpage{28}
   \item {unitarySquare}
-    \subitem {GeometryUtils}, \hyperpage{26}
+    \subitem {GeometryUtils}, \hyperpage{28}
   \item {updateCommentBadgePos}
-    \subitem {DiagramComponent}, \hyperpage{63}
+    \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{92}
+    \subitem {DiagramEditor::Specification::DiagramComponent}, 
+		\hyperpage{103}
   \item {updateGeometry}
-    \subitem {DiagramItem}, \hyperpage{93}
+    \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{149}
+    \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{160}
   \item {updateParentPosition}
-    \subitem {ConnectableResizer}, \hyperpage{35}
-    \subitem {DiagramResizer}, \hyperpage{100}
+    \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
+		\hyperpage{43}
+    \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{168}
   \item {updateSpecificationsPos}
-    \subitem {ConnectionSpecifications}, \hyperpage{42}
-    \subitem {ElementSpecifications}, \hyperpage{119}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{50}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{188}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{57}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{196}
   \item {upperIconButton}
-    \subitem {SelectableDataButton}, \hyperpage{144}
+    \subitem {DiagramEditor::Gui::SelectableDataButton}, 
+		\hyperpage{240}
 
   \indexspace
 
   \item {Vertical}
-    \subitem {ElementSpecifications}, \hyperpage{115}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{185}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{192}
   \item {VerticalPos}
-    \subitem {ConnectionSpecifications}, \hyperpage{39}
+    \subitem {DiagramEditor::Diagram::ConnectionSpecifications}, 
+		\hyperpage{48}
+    \subitem {DiagramEditor::Specification::ConnectionSpecifications}, 
+		\hyperpage{54}
   \item {VerticalSeparated}
-    \subitem {ElementSpecifications}, \hyperpage{115}
+    \subitem {DiagramEditor::Diagram::ElementSpecifications}, 
+		\hyperpage{185}
+    \subitem {DiagramEditor::Specification::ElementSpecifications}, 
+		\hyperpage{192}
 
   \indexspace
 
-  \item {Wizard}, \hyperpage{168}
-    \subitem {\texorpdfstring{$\sim$}{\string~}Wizard}, \hyperpage{170}
-    \subitem {selectedConfiguration}, \hyperpage{170}
-    \subitem {Wizard}, \hyperpage{169}
-  \item {wizard.cpp}, \hyperpage{237}
-  \item {wizard.h}, \hyperpage{238}
-  \item {Wizard::Configuration}, \hyperpage{28}
+  \item {Wizard}
+    \subitem {DiagramEditor::Gui::Wizard}, \hyperpage{274}
+  \item {wizard.cpp}, \hyperpage{351}
+  \item {wizard.h}, \hyperpage{352}
 
 \end{theindex}

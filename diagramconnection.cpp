@@ -17,6 +17,8 @@
 #include <QPen>
 #include <QString>
 
+namespace DiagramEditor::Diagram {
+
 const QColor DiagramConnection::DEFAULT_COLOR = Qt::black;
 
 const QPointF DiagramConnection::MARKERS_SIZE = QPointF(20, 20);
@@ -284,4 +286,6 @@ QPointF DiagramConnection::closestConnectionMappedPoint(const QPointF &mappedPoi
     }
 
     return closestPoint;
+}
+
 }

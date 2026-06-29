@@ -13,6 +13,8 @@
 #include <QGraphicsSceneMouseEvent>
 #include <QPointF>
 
+namespace DiagramEditor::Diagram {
+
 ConnectableResizer::ConnectableResizer(DiagramComponent *parent)
     : DiagramResizer(parent)
     , fixed(false)
@@ -147,4 +149,6 @@ void ConnectableResizer::disconnectFrom(DiagramComponent *component) {
         disconnect(component, &DiagramComponent::componentResized,
                 this, &ConnectableResizer::updateParentPosition);
     }
+}
+
 }

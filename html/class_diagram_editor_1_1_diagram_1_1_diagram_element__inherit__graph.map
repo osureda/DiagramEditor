@@ -1,0 +1,11 @@
+<map id="DiagramEditor::Diagram::DiagramElement" name="DiagramEditor::Diagram::DiagramElement">
+<area shape="rect" id="Node000001" title="A diagram component represented as a polygon." alt="" coords="133,635,284,933"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="5,203,211,587"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,599,173,635,167,635,161,604"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="10,45,68,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="49,126,69,203,63,203,50,132"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="93,5,265,155"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="159,172,154,203,149,202,160,167"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="236,360,381,429"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="298,442,249,636,244,634,294,446"/>
+</map>

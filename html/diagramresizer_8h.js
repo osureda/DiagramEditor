@@ -1,4 +1,4 @@
 var diagramresizer_8h =
 [
-    [ "DiagramResizer", "class_diagram_resizer.html", "class_diagram_resizer" ]
+    [ "DiagramEditor::Diagram::DiagramResizer", "class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html", "class_diagram_editor_1_1_diagram_1_1_diagram_resizer" ]
 ];

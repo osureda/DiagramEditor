@@ -1,0 +1,9 @@
+<map id="DiagramEditor::Diagram::DiagramItem" name="DiagramEditor::Diagram::DiagramItem">
+<area shape="rect" id="Node000001" title="A diagram item that contains and manages diagram components." alt="" coords="68,203,242,544"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,45,64,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,125,87,202,82,203,54,131"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="88,45,222,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,126,157,203,152,203,154,132"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="246,5,418,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="281,165,244,231,239,228,278,169"/>
+</map>

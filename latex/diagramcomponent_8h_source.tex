@@ -11,74 +11,82 @@
 \DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QObject>}}
 \DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QPointF>}}
 \DoxyCodeLine{00015\ }
-\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_item}{DiagramItem}};}
-\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_specifications_form}{SpecificationsForm}};}
-\DoxyCodeLine{00018\ }
-\DoxyCodeLine{00019\ QT\_BEGIN\_NAMESPACE}
-\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }QGraphicsEllipseItem;}
-\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }QGraphicsItem;}
-\DoxyCodeLine{00022\ QT\_END\_NAMESPACE}
-\DoxyCodeLine{00023\ }
-\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_component_a3afed05d90c2351a176ef73098d318bc}{DiagramComponent}}\ :\ \textcolor{keyword}{public}\ QObject,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_json_serializable}{JsonSerializable}}}
-\DoxyCodeLine{00029\ \{}
-\DoxyCodeLine{00030\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{00031\ }
-\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_component_aa39c5b2428fb1332964644625988ada5}{COMMENT\_BADGE\_RADIUS}}\ =\ 5;}
-\DoxyCodeLine{00035\ }
-\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ QColor\ \doxymbox{\hyperlink{class_diagram_component_a07b688d97042980f6856812137df91c2}{COMMENT\_BADGE\_COLOR}};}
-\DoxyCodeLine{00038\ }
-\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_component_a3afed05d90c2351a176ef73098d318bc}{DiagramComponent}}();}
+\DoxyCodeLine{00016\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }QGraphicsEllipseItem;}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }QGraphicsItem;}
+\DoxyCodeLine{00019\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_specification}{DiagramEditor::Specification}}\ \{}
+\DoxyCodeLine{00022\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{SpecificationsForm}};}
+\DoxyCodeLine{00023\ \}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_diagram}{DiagramEditor::Diagram}}\ \{}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_item}{DiagramItem}};}
+\DoxyCodeLine{00028\ \textcolor{keyword}{using\ }DiagramEditor::Specification::SpecificationsForm;}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00034\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a3f6562f0ac7d255625928079b21dcd20}{DiagramComponent}}\ :\ \textcolor{keyword}{public}\ QObject,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{DiagramEditor::Serialization::JsonSerializable}}}
+\DoxyCodeLine{00035\ \{}
+\DoxyCodeLine{00036\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a052bee4ba28f3c6eb7351f114d180604}{COMMENT\_BADGE\_RADIUS}}\ =\ 5;}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ QColor\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a1a1c7521292d7e19a23d997dad3b1827}{COMMENT\_BADGE\_COLOR}};}
 \DoxyCodeLine{00044\ }
-\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ QGraphicsItem\ *\doxymbox{\hyperlink{class_diagram_component_a1710efdd95562881d42560dd2ebc3778}{graphicsItem}}();}
-\DoxyCodeLine{00051\ }
-\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_component_a1d97bb02464fb088fed6c0f21d068492}{definedZValue}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00059\ }
-\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a506332cc748cb4c72ed68c154faaaefd}{connectComponent}}();}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a3f6562f0ac7d255625928079b21dcd20}{DiagramComponent}}();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ QGraphicsItem\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a6c1ef83fc6ae5d38269a954f7fdf1abd}{graphicsItem}}();}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a692f03f9a821bab6a7b43335dd54d516}{definedZValue}}()\ \textcolor{keyword}{const};}
 \DoxyCodeLine{00065\ }
-\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \doxymbox{\hyperlink{class_specifications_form}{SpecificationsForm}}\ *\doxymbox{\hyperlink{class_diagram_component_a951d159c1c404a2f4042e37b50a59923}{specificationsForm}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00072\ }
-\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a2aa4cc18bcb9d506a41959b9e0553b68}{setSpecifications}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_specifications_form}{SpecificationsForm}}\ *formResults,\ \textcolor{keywordtype}{int}\ formIndex);}
-\DoxyCodeLine{00082\ }
-\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a937af44504c5c8dd9245be77963c12e3}{setShadow}}(\textcolor{keywordtype}{bool}\ shadowed);}
-\DoxyCodeLine{00090\ }
-\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_ab3aa3d424b4a6ae4224d53429bfe05f5}{setResizersVisibility}}(\textcolor{keywordtype}{bool}\ visible);}
-\DoxyCodeLine{00098\ }
-\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_component_a9c04845a7f9909377c1403bc79820e2f}{addResizer}}(\textcolor{keyword}{const}\ QPointF\ \&scenePos);}
-\DoxyCodeLine{00110\ }
-\DoxyCodeLine{00121\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_component_a27c168d763dc79009c3451b5165041f1}{removeResizer}}(\textcolor{keyword}{const}\ QPointF\ \&scenePos);}
-\DoxyCodeLine{00122\ }
-\DoxyCodeLine{00133\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_component_afeeac8ff6718baf4698dc2569b29848f}{canResizeTo}}(\textcolor{keyword}{const}\ QPointF\ \&pos)\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00134\ }
-\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a98cc4d827eea3f10857d7c2e19787bfc}{resize}}();}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a28037662a2450d8d0006cc5ea41e05d0}{connectComponent}}();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{SpecificationsForm}}\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_ac2690e9e099e6fe3197a045887a7781c}{specificationsForm}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a94d4772fda8ff0ee7d30b35f0b85f6e3}{setSpecifications}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{SpecificationsForm}}\ *formResults,\ \textcolor{keywordtype}{int}\ formIndex);}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a639d408807d2eb9cc6a29c4b66329b02}{setShadow}}(\textcolor{keywordtype}{bool}\ shadowed);}
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a2cee91790645be8e7f74a0f1e110ca2a}{setResizersVisibility}}(\textcolor{keywordtype}{bool}\ visible);}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00115\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_abf9a5ee426cf7540a53ca21cd002bf66}{addResizer}}(\textcolor{keyword}{const}\ QPointF\ \&scenePos);}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00127\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_abf7c8259b2db29c3b62bba1490417c6e}{removeResizer}}(\textcolor{keyword}{const}\ QPointF\ \&scenePos);}
+\DoxyCodeLine{00128\ }
+\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a901bddd80b204962f87a0127f90364ff}{canResizeTo}}(\textcolor{keyword}{const}\ QPointF\ \&pos)\ \textcolor{keyword}{const};}
 \DoxyCodeLine{00140\ }
-\DoxyCodeLine{00153\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_component_a83e9e7d18f342263ccf9ba5f14bcdbbf}{closestConnectionPoint}}(\textcolor{keyword}{const}\ QPointF\ \&point,\ \textcolor{keywordtype}{bool}\ itemMapped\ =\ \textcolor{keyword}{false});}
-\DoxyCodeLine{00154\ }
-\DoxyCodeLine{00160\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_component_a020eb023a988a28032c8606afa263670}{componentId}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00161\ }
-\DoxyCodeLine{00167\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_component_a84bf18b34807e825bc2ece7ecb1e02b0}{groupId}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00168\ }
-\DoxyCodeLine{00176\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a33ef69247830fdfa242b249d29809657}{setCommentBadgeVisibility}}(\textcolor{keywordtype}{bool}\ visible);}
-\DoxyCodeLine{00177\ }
-\DoxyCodeLine{00178\ \ \ \ \ signals:}
-\DoxyCodeLine{00183\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a90e92e0290ab8d43b2b25e4c5d8874c3}{positionChanged}}();}
-\DoxyCodeLine{00184\ }
-\DoxyCodeLine{00189\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a34611d5ac335e6645dbb84d57c1facd4}{componentResized}}();}
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_aba28046e62ea68e56111c5e822691f91}{resize}}();}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00159\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_aef887373f739ae5eb7ca557d57f763ae}{closestConnectionPoint}}(\textcolor{keyword}{const}\ QPointF\ \&point,\ \textcolor{keywordtype}{bool}\ itemMapped\ =\ \textcolor{keyword}{false});}
+\DoxyCodeLine{00160\ }
+\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a9c80b0aab8cc397a47dc85d122118a98}{componentId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00167\ }
+\DoxyCodeLine{00173\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a6cade2c5662bea28703e303cfbd737b9}{groupId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00174\ }
+\DoxyCodeLine{00182\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a0d7041c6d4aa8e60b17343b524f7ef58}{setCommentBadgeVisibility}}(\textcolor{keywordtype}{bool}\ visible);}
+\DoxyCodeLine{00183\ }
+\DoxyCodeLine{00184\ \ \ \ \ signals:}
+\DoxyCodeLine{00189\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_aba31ad15a7dd0cdf4c8d11d6e91c88ed}{positionChanged}}();}
 \DoxyCodeLine{00190\ }
-\DoxyCodeLine{00191\ \ \ \ \ \textcolor{keyword}{protected}:}
-\DoxyCodeLine{00195\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_item}{DiagramItem}}\ *\doxymbox{\hyperlink{class_diagram_component_ad33da8867cd5578ae93f75869181f010}{componentGroup}};\ }
-\DoxyCodeLine{00196\ \ \ \ \ \ \ \ \ QGraphicsEllipseItem\ *\doxymbox{\hyperlink{class_diagram_component_a1674c1ecdfa102e3217f574e2b980661}{commentBadge}};\ }
-\DoxyCodeLine{00197\ }
-\DoxyCodeLine{00202\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_component_a91afdeb455cdfe202c4207ec27e3607e}{updateCommentBadgePos}}();}
+\DoxyCodeLine{00195\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a17f80cc648ec2444076bf15755e658ea}{componentResized}}();}
+\DoxyCodeLine{00196\ }
+\DoxyCodeLine{00197\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00201\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_item}{DiagramItem}}\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_ab18d850bb19c584822e5c55b09bab717}{componentGroup}};\ }
+\DoxyCodeLine{00202\ \ \ \ \ \ \ \ \ QGraphicsEllipseItem\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_ae2bdf401c46d43d8322fc74af25ee013}{commentBadge}};\ }
 \DoxyCodeLine{00203\ }
-\DoxyCodeLine{00204\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00210\ \ \ \ \ \ \ \ \ QGraphicsEllipseItem\ *makeCommentBadge();}
-\DoxyCodeLine{00211\ }
-\DoxyCodeLine{00217\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QPointF\ commentBadgePos();}
-\DoxyCodeLine{00218\ }
-\DoxyCodeLine{00228\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QPointF\ closestConnectionMappedPoint(\textcolor{keyword}{const}\ QPointF\ \&mappedPoint)\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00229\ \};}
-\DoxyCodeLine{00230\ }
-\DoxyCodeLine{00231\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DIAGRAMCOMPONENT\_H}}
+\DoxyCodeLine{00208\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component_a3068ed800086063a62b3631d6c877141}{updateCommentBadgePos}}();}
+\DoxyCodeLine{00209\ }
+\DoxyCodeLine{00210\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00216\ \ \ \ \ \ \ \ \ QGraphicsEllipseItem\ *makeCommentBadge();}
+\DoxyCodeLine{00217\ }
+\DoxyCodeLine{00223\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QPointF\ commentBadgePos();}
+\DoxyCodeLine{00224\ }
+\DoxyCodeLine{00234\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ QPointF\ closestConnectionMappedPoint(\textcolor{keyword}{const}\ QPointF\ \&mappedPoint)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00235\ \};}
+\DoxyCodeLine{00236\ }
+\DoxyCodeLine{00237\ \}}
+\DoxyCodeLine{00238\ }
+\DoxyCodeLine{00239\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DIAGRAMCOMPONENT\_H}}
 
 \end{DoxyCode}

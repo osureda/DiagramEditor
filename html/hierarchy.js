@@ -1,72 +1,84 @@
 var hierarchy =
 [
-    [ "DiagramItem::Component", "struct_diagram_item_1_1_component.html", null ],
-    [ "Wizard::Configuration", "struct_wizard_1_1_configuration.html", null ],
-    [ "JsonSerializable", "class_json_serializable.html", [
-      [ "ConnectableResizer", "class_connectable_resizer.html", null ],
-      [ "Diagram", "class_diagram.html", null ],
-      [ "DiagramComponent", "class_diagram_component.html", [
-        [ "DiagramConnection", "class_diagram_connection.html", null ],
-        [ "DiagramElement", "class_diagram_element.html", null ]
+    [ "DiagramEditor::Diagram::DiagramItem::Component", "struct_diagram_editor_1_1_diagram_1_1_diagram_item_1_1_component.html", null ],
+    [ "DiagramEditor::Gui::DiagramItem::Component", "struct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component.html", null ],
+    [ "DiagramEditor::Gui::Wizard::Configuration", "struct_diagram_editor_1_1_gui_1_1_wizard_1_1_configuration.html", null ],
+    [ "DiagramEditor::Gui::JsonSerializable", "class_diagram_editor_1_1_gui_1_1_json_serializable.html", [
+      [ "DiagramEditor::Diagram::ConnectableResizer", "class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html", null ],
+      [ "DiagramEditor::Diagram::Diagram", "class_diagram_editor_1_1_diagram_1_1_diagram.html", null ],
+      [ "DiagramEditor::Diagram::DiagramComponent", "class_diagram_editor_1_1_diagram_1_1_diagram_component.html", [
+        [ "DiagramEditor::Diagram::DiagramConnection", "class_diagram_editor_1_1_diagram_1_1_diagram_connection.html", null ],
+        [ "DiagramEditor::Diagram::DiagramElement", "class_diagram_editor_1_1_diagram_1_1_diagram_element.html", null ]
       ] ],
-      [ "DiagramItem", "class_diagram_item.html", null ],
-      [ "DiagramSpecification", "class_diagram_specification.html", [
-        [ "ListSpecification", "class_list_specification.html", null ],
-        [ "LongTextSpecification", "class_long_text_specification.html", null ],
-        [ "SelectableSpecification", "class_selectable_specification.html", null ],
-        [ "ShortTextSpecification", "class_short_text_specification.html", null ]
+      [ "DiagramEditor::Diagram::DiagramItem", "class_diagram_editor_1_1_diagram_1_1_diagram_item.html", null ],
+      [ "DiagramEditor::Gui::DiagramType", "class_diagram_editor_1_1_gui_1_1_diagram_type.html", null ],
+      [ "DiagramEditor::Gui::DiagramTypeGroup", "class_diagram_editor_1_1_gui_1_1_diagram_type_group.html", null ],
+      [ "DiagramEditor::Gui::SelectableDataButton", "class_diagram_editor_1_1_gui_1_1_selectable_data_button.html", null ],
+      [ "DiagramEditor::Specification::DiagramSpecification", "class_diagram_editor_1_1_specification_1_1_diagram_specification.html", [
+        [ "DiagramEditor::Specification::ListSpecification", "class_diagram_editor_1_1_specification_1_1_list_specification.html", null ],
+        [ "DiagramEditor::Specification::LongTextSpecification", "class_diagram_editor_1_1_specification_1_1_long_text_specification.html", null ],
+        [ "DiagramEditor::Specification::SelectableSpecification", "class_diagram_editor_1_1_specification_1_1_selectable_specification.html", null ],
+        [ "DiagramEditor::Specification::ShortTextSpecification", "class_diagram_editor_1_1_specification_1_1_short_text_specification.html", null ]
       ] ],
-      [ "DiagramType", "class_diagram_type.html", null ],
-      [ "DiagramTypeGroup", "class_diagram_type_group.html", null ],
-      [ "SelectableDataButton", "class_selectable_data_button.html", null ],
-      [ "SpecificationsGroup", "class_specifications_group.html", [
-        [ "ConnectionSpecifications", "class_connection_specifications.html", null ],
-        [ "ElementSpecifications", "class_element_specifications.html", null ]
+      [ "DiagramEditor::Specification::SpecificationsGroup", "class_diagram_editor_1_1_specification_1_1_specifications_group.html", [
+        [ "DiagramEditor::Specification::ConnectionSpecifications", "class_diagram_editor_1_1_specification_1_1_connection_specifications.html", null ],
+        [ "DiagramEditor::Specification::ElementSpecifications", "class_diagram_editor_1_1_specification_1_1_element_specifications.html", null ]
       ] ]
     ] ],
+    [ "DiagramEditor::Serialization::JsonSerializable", "class_diagram_editor_1_1_serialization_1_1_json_serializable.html", [
+      [ "DiagramEditor::Diagram::ConnectableResizer", "class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html", null ],
+      [ "DiagramEditor::Diagram::Diagram", "class_diagram_editor_1_1_diagram_1_1_diagram.html", null ],
+      [ "DiagramEditor::Diagram::DiagramComponent", "class_diagram_editor_1_1_diagram_1_1_diagram_component.html", null ],
+      [ "DiagramEditor::Diagram::DiagramItem", "class_diagram_editor_1_1_diagram_1_1_diagram_item.html", null ],
+      [ "DiagramEditor::Gui::DiagramType", "class_diagram_editor_1_1_gui_1_1_diagram_type.html", null ],
+      [ "DiagramEditor::Gui::DiagramTypeGroup", "class_diagram_editor_1_1_gui_1_1_diagram_type_group.html", null ],
+      [ "DiagramEditor::Gui::SelectableDataButton", "class_diagram_editor_1_1_gui_1_1_selectable_data_button.html", null ],
+      [ "DiagramEditor::Specification::DiagramSpecification", "class_diagram_editor_1_1_specification_1_1_diagram_specification.html", null ],
+      [ "DiagramEditor::Specification::SpecificationsGroup", "class_diagram_editor_1_1_specification_1_1_specifications_group.html", null ]
+    ] ],
     [ "QFile", null, [
-      [ "JsonFile", "class_json_file.html", null ]
+      [ "DiagramEditor::Serialization::JsonFile", "class_diagram_editor_1_1_serialization_1_1_json_file.html", null ]
     ] ],
     [ "QGraphicsItemGroup", null, [
-      [ "DiagramItem", "class_diagram_item.html", null ]
+      [ "DiagramEditor::Diagram::DiagramItem", "class_diagram_editor_1_1_diagram_1_1_diagram_item.html", null ]
     ] ],
     [ "QGraphicsPathItem", null, [
-      [ "DiagramConnection", "class_diagram_connection.html", null ]
+      [ "DiagramEditor::Diagram::DiagramConnection", "class_diagram_editor_1_1_diagram_1_1_diagram_connection.html", null ]
     ] ],
     [ "QGraphicsPolygonItem", null, [
-      [ "DiagramElement", "class_diagram_element.html", null ]
+      [ "DiagramEditor::Diagram::DiagramElement", "class_diagram_editor_1_1_diagram_1_1_diagram_element.html", null ]
     ] ],
     [ "QGraphicsRectItem", null, [
-      [ "DiagramResizer", "class_diagram_resizer.html", [
-        [ "ConnectableResizer", "class_connectable_resizer.html", null ]
+      [ "DiagramEditor::Diagram::DiagramResizer", "class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html", [
+        [ "DiagramEditor::Diagram::ConnectableResizer", "class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html", null ]
       ] ]
     ] ],
     [ "QGraphicsScene", null, [
-      [ "Diagram", "class_diagram.html", null ]
+      [ "DiagramEditor::Diagram::Diagram", "class_diagram_editor_1_1_diagram_1_1_diagram.html", null ]
     ] ],
     [ "QGraphicsTextItem", null, [
-      [ "DiagramSpecification", "class_diagram_specification.html", null ]
+      [ "DiagramEditor::Specification::DiagramSpecification", "class_diagram_editor_1_1_specification_1_1_diagram_specification.html", null ]
     ] ],
     [ "QMainWindow", null, [
-      [ "MainWindow", "class_main_window.html", null ]
+      [ "DiagramEditor::Gui::MainWindow", "class_diagram_editor_1_1_gui_1_1_main_window.html", null ]
     ] ],
     [ "QObject", null, [
-      [ "ConnectionSpecifications", "class_connection_specifications.html", null ],
-      [ "DiagramComponent", "class_diagram_component.html", null ],
-      [ "DiagramItem", "class_diagram_item.html", null ],
-      [ "DiagramResizer", "class_diagram_resizer.html", null ],
-      [ "ElementSpecifications", "class_element_specifications.html", null ]
+      [ "DiagramEditor::Diagram::DiagramComponent", "class_diagram_editor_1_1_diagram_1_1_diagram_component.html", null ],
+      [ "DiagramEditor::Diagram::DiagramItem", "class_diagram_editor_1_1_diagram_1_1_diagram_item.html", null ],
+      [ "DiagramEditor::Diagram::DiagramResizer", "class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html", null ],
+      [ "DiagramEditor::Specification::ConnectionSpecifications", "class_diagram_editor_1_1_specification_1_1_connection_specifications.html", null ],
+      [ "DiagramEditor::Specification::ElementSpecifications", "class_diagram_editor_1_1_specification_1_1_element_specifications.html", null ]
     ] ],
     [ "QPushButton", null, [
-      [ "SelectableDataButton", "class_selectable_data_button.html", null ]
+      [ "DiagramEditor::Gui::SelectableDataButton", "class_diagram_editor_1_1_gui_1_1_selectable_data_button.html", null ]
     ] ],
     [ "QScrollArea", null, [
-      [ "ScrollableDataButtonsSelector", "class_scrollable_data_buttons_selector.html", null ]
+      [ "DiagramEditor::Gui::ScrollableDataButtonsSelector", "class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector.html", null ]
     ] ],
     [ "QWidget", null, [
-      [ "SpecificationsForm", "class_specifications_form.html", null ]
+      [ "DiagramEditor::Specification::SpecificationsForm", "class_diagram_editor_1_1_specification_1_1_specifications_form.html", null ]
     ] ],
     [ "QWizard", null, [
-      [ "Wizard", "class_wizard.html", null ]
+      [ "DiagramEditor::Gui::Wizard", "class_diagram_editor_1_1_gui_1_1_wizard.html", null ]
     ] ]
 ];

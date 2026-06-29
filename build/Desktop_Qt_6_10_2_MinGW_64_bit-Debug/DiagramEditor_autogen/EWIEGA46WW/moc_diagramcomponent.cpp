@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN16DiagramComponentE_t {};
+struct qt_meta_tag_ZN13DiagramEditor7Diagram16DiagramComponentE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto DiagramComponent::qt_create_metaobjectdata<qt_meta_tag_ZN16DiagramComponentE_t>()
+template <> constexpr inline auto DiagramEditor::Diagram::DiagramComponent::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor7Diagram16DiagramComponentE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "DiagramComponent",
+        "DiagramEditor::Diagram::DiagramComponent",
         "positionChanged",
         "",
         "componentResized"
@@ -54,20 +54,20 @@ template <> constexpr inline auto DiagramComponent::qt_create_metaobjectdata<qt_
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<DiagramComponent, qt_meta_tag_ZN16DiagramComponentE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<DiagramComponent, qt_meta_tag_ZN13DiagramEditor7Diagram16DiagramComponentE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject DiagramComponent::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Diagram::DiagramComponent::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN16DiagramComponentE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN16DiagramComponentE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram16DiagramComponentE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram16DiagramComponentE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN16DiagramComponentE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor7Diagram16DiagramComponentE_t>.metaTypes,
     nullptr
 } };
 
-void DiagramComponent::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Diagram::DiagramComponent::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<DiagramComponent *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -85,22 +85,22 @@ void DiagramComponent::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     }
 }
 
-const QMetaObject *DiagramComponent::metaObject() const
+const QMetaObject *DiagramEditor::Diagram::DiagramComponent::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *DiagramComponent::qt_metacast(const char *_clname)
+void *DiagramEditor::Diagram::DiagramComponent::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN16DiagramComponentE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram16DiagramComponentE_t>.strings))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "JsonSerializable"))
-        return static_cast< JsonSerializable*>(this);
+    if (!strcmp(_clname, "DiagramEditor::Serialization::JsonSerializable"))
+        return static_cast< DiagramEditor::Serialization::JsonSerializable*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int DiagramComponent::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Diagram::DiagramComponent::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)
@@ -119,13 +119,13 @@ int DiagramComponent::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void DiagramComponent::positionChanged()
+void DiagramEditor::Diagram::DiagramComponent::positionChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 
 // SIGNAL 1
-void DiagramComponent::componentResized()
+void DiagramEditor::Diagram::DiagramComponent::componentResized()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }

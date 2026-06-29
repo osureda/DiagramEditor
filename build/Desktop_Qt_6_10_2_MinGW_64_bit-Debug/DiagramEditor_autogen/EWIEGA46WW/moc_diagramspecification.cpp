@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN20DiagramSpecificationE_t {};
+struct qt_meta_tag_ZN13DiagramEditor13Specification20DiagramSpecificationE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto DiagramSpecification::qt_create_metaobjectdata<qt_meta_tag_ZN20DiagramSpecificationE_t>()
+template <> constexpr inline auto DiagramEditor::Specification::DiagramSpecification::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor13Specification20DiagramSpecificationE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "DiagramSpecification"
+        "DiagramEditor::Specification::DiagramSpecification"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -47,20 +47,20 @@ template <> constexpr inline auto DiagramSpecification::qt_create_metaobjectdata
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<DiagramSpecification, qt_meta_tag_ZN20DiagramSpecificationE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<DiagramSpecification, qt_meta_tag_ZN13DiagramEditor13Specification20DiagramSpecificationE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject DiagramSpecification::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Specification::DiagramSpecification::staticMetaObject = { {
     QMetaObject::SuperData::link<QGraphicsTextItem::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN20DiagramSpecificationE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN20DiagramSpecificationE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification20DiagramSpecificationE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification20DiagramSpecificationE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN20DiagramSpecificationE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor13Specification20DiagramSpecificationE_t>.metaTypes,
     nullptr
 } };
 
-void DiagramSpecification::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Specification::DiagramSpecification::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<DiagramSpecification *>(_o);
     (void)_t;
@@ -69,22 +69,22 @@ void DiagramSpecification::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
     (void)_a;
 }
 
-const QMetaObject *DiagramSpecification::metaObject() const
+const QMetaObject *DiagramEditor::Specification::DiagramSpecification::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *DiagramSpecification::qt_metacast(const char *_clname)
+void *DiagramEditor::Specification::DiagramSpecification::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN20DiagramSpecificationE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification20DiagramSpecificationE_t>.strings))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "JsonSerializable"))
-        return static_cast< JsonSerializable*>(this);
+    if (!strcmp(_clname, "DiagramEditor::Serialization::JsonSerializable"))
+        return static_cast< DiagramEditor::Serialization::JsonSerializable*>(this);
     return QGraphicsTextItem::qt_metacast(_clname);
 }
 
-int DiagramSpecification::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Specification::DiagramSpecification::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QGraphicsTextItem::qt_metacall(_c, _id, _a);
     return _id;

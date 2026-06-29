@@ -12,45 +12,49 @@
 \DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QPointF>}}
 \DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QVariant>}}
 \DoxyCodeLine{00016\ }
-\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}};}
-\DoxyCodeLine{00018\ }
-\DoxyCodeLine{00019\ QT\_BEGIN\_NAMESPACE}
-\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }QGraphicsItem;}
-\DoxyCodeLine{00021\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00017\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }QGraphicsItem;}
+\DoxyCodeLine{00019\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_diagram}{DiagramEditor::Diagram}}\ \{}
 \DoxyCodeLine{00022\ }
-\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_resizer_a7ae8f497b0dabb7e059985e8e40b102d}{DiagramResizer}}\ :\ \textcolor{keyword}{public}\ QObject,\ \textcolor{keyword}{public}\ QGraphicsRectItem}
-\DoxyCodeLine{00028\ \{}
-\DoxyCodeLine{00029\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{00030\ }
-\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ QColor\ \doxymbox{\hyperlink{class_diagram_resizer_a76cc238ec081c99cc3e6d4ce6c8ba7f9}{COLOR}};}
-\DoxyCodeLine{00034\ }
-\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_resizer_ab1bd404c9dbb920458a967e4d6f17d19}{SIZE}}\ =\ 10;}
-\DoxyCodeLine{00037\ }
-\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_resizer_a7ae8f497b0dabb7e059985e8e40b102d}{DiagramResizer}}(\doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}}\ *parent);}
-\DoxyCodeLine{00044\ }
-\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_resizer_a62e0f69f5ed38a051d24fb2620281944}{sceneCenterPos}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00051\ }
-\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_resizer_ae17c729fc241b2841ab4bff604ef2c7d}{setSceneCenterPos}}(\textcolor{keyword}{const}\ QPointF\ \&position);}
-\DoxyCodeLine{00058\ }
-\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keyword}{protected}:}
-\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_component}{DiagramComponent}}\ *\doxymbox{\hyperlink{class_diagram_resizer_ad7f8649cfd48cc535fe97ce9a63ff4b1}{parentComponent}};\ }
-\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ QGraphicsItem\ *\doxymbox{\hyperlink{class_diagram_resizer_a1233d1d6d804b463c54d8b23ddaffef9}{parentItem}};\ }
-\DoxyCodeLine{00065\ }
-\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_resizer_a12bf93bca2824aaee854cb687920008a}{parentMappedPos}};\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{DiagramComponent}};}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf117bbbc0bda18e}{DiagramResizer}}\ :\ \textcolor{keyword}{public}\ QObject,\ \textcolor{keyword}{public}\ QGraphicsRectItem}
+\DoxyCodeLine{00030\ \{}
+\DoxyCodeLine{00031\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ QColor\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a82d1ed08acfae1fc023cc93afa6a9c49}{COLOR}};}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a39cf31d235de9ce73cfee7f82cbde735}{SIZE}}\ =\ 10;}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf117bbbc0bda18e}{DiagramResizer}}(\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{DiagramComponent}}\ *parent);}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_af96f27499e1bb5f9ebc8b3aec774999a}{sceneCenterPos}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8bd6ef308de1dab74e0eae0bf1f8fb8d}{setSceneCenterPos}}(\textcolor{keyword}{const}\ QPointF\ \&position);}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{DiagramComponent}}\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_ad9dfeadfc514279430b2d10fee3ca3b4}{parentComponent}};\ }
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ QGraphicsItem\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a31b2966f53496b90da198cf5a7503ee6}{parentItem}};\ }
 \DoxyCodeLine{00067\ }
-\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_resizer_abba7afe4b9ba88d2784496db7cc8fa85}{mousePressEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00074\ }
-\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_resizer_a1d739ba0984be9f7258642d2fd6ee504}{mouseMoveEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00081\ }
-\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_resizer_a32d45926c74bc418d3dde9a169bdbc94}{mouseReleaseEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00088\ }
-\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ QVariant\ \doxymbox{\hyperlink{class_diagram_resizer_a9ea3b4e7c829307f1a3254580350dd7f}{itemChange}}(GraphicsItemChange\ change,\ \textcolor{keyword}{const}\ QVariant\ \&value)\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00098\ }
-\DoxyCodeLine{00099\ \ \ \ \ \textcolor{keyword}{protected}\ slots:}
-\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_resizer_a3ef8c43d1ac108509a452f655aa7bb12}{updateParentPosition}}();}
-\DoxyCodeLine{00105\ \};}
-\DoxyCodeLine{00106\ }
-\DoxyCodeLine{00107\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DIAGRAMRESIZER\_H}}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ QPointF\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_adb02567630ffcc02f7d09a5b4e0f8e46}{parentMappedPos}};\ }
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a3d3c4b43bff8db21cc7453b3d3654cc2}{mousePressEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_adc11e9abb4336b662807b70a7f7cbe73}{mouseMoveEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_aafa1a51d4ed774f0542a351e46649675}{mouseReleaseEvent}}(QGraphicsSceneMouseEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ QVariant\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a910204e46bf037230800bfbdc838c3ae}{itemChange}}(GraphicsItemChange\ change,\ \textcolor{keyword}{const}\ QVariant\ \&value)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keyword}{protected}\ slots:}
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_resizer_ada3e2063d6bb80cc33f2abaa2ddca299}{updateParentPosition}}();}
+\DoxyCodeLine{00107\ \};}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00109\ \}}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00111\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DIAGRAMRESIZER\_H}}
 
 \end{DoxyCode}

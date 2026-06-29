@@ -1,0 +1,7 @@
+<map id="DiagramEditor::Diagram::DiagramElement::resize" name="DiagramEditor::Diagram::DiagramElement::resize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,175,97"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a17f80cc648ec2444076bf15755e658ea" title=" " alt="" coords="239,5,456,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,60,226,54,221,56,176,65"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a3068ed800086063a62b3631d6c877141" title=" " alt="" coords="223,88,472,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,87,210,94,205,95,175,92"/>
+</map>

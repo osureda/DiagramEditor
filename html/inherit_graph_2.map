@@ -1,5 +1,69 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,58,32"/>
-<area shape="rect" id="Node000001" href="$class_json_file.html" title="Helper class for loading a JSON file and performing JSON conversions." alt="" coords="106,5,176,32"/>
-<area shape="poly" id="edge31_Node000000_Node000001" title=" " alt="" coords="73,16,108,18,102,19,73,21"/>
+<area shape="rect" id="Node000000" href="$class_diagram_editor_1_1_gui_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="31,391,163,433"/>
+<area shape="rect" id="Node000001" href="$class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html" title="A diagram resizer that can be connected to a diagram component." alt="" coords="485,583,646,625"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="155,382,216,360,287,346,324,345,360,349,394,359,426,377,443,394,453,412,456,431,457,451,458,491,463,512,474,533,498,559,527,582,522,582,495,563,470,536,458,514,452,492,452,451,451,432,448,414,439,397,422,381,392,364,359,354,324,350,288,352,218,366,158,386"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram.html" title="A diagram that contains and manages diagram items." alt="" coords="250,172,411,215"/>
+<area shape="poly" id="edge2_Node000000_Node000003" title=" " alt="" coords="114,376,162,300,196,260,235,225,257,213,254,217,238,229,200,263,167,303,119,378"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="250,524,411,567"/>
+<area shape="poly" id="edge3_Node000000_Node000005" title=" " alt="" coords="176,435,190,443,207,460,215,478,223,494,238,510,258,523,253,524,235,514,219,497,210,480,202,464,187,447,178,440"/>
+<area shape="rect" id="Node000011" href="$class_diagram_editor_1_1_diagram_1_1_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="250,708,411,751"/>
+<area shape="poly" id="edge6_Node000000_Node000011" title=" " alt="" coords="176,432,191,444,211,476,219,509,219,540,215,571,211,602,211,632,219,663,239,694,252,707,247,708,235,698,214,665,206,633,206,601,210,570,214,540,214,509,206,478,187,447,177,437"/>
+<area shape="rect" id="Node000018" href="$class_diagram_editor_1_1_gui_1_1_diagram_type.html" title="Represents a diagram type and the identifiers of its associated items." alt="" coords="264,457,396,500"/>
+<area shape="poly" id="edge7_Node000000_Node000018" title=" " alt="" coords="178,433,266,458,261,461,179,438"/>
+<area shape="rect" id="Node000019" href="$class_diagram_editor_1_1_gui_1_1_diagram_type_group.html" title="Represents a group of diagram types." alt="" coords="260,391,401,433"/>
+<area shape="poly" id="edge8_Node000000_Node000019" title=" " alt="" coords="178,410,261,410,257,414,180,414"/>
+<area shape="rect" id="Node000020" href="$class_diagram_editor_1_1_gui_1_1_selectable_data_button.html" title="A checkable button with associated data." alt="" coords="252,39,408,81"/>
+<area shape="poly" id="edge9_Node000000_Node000020" title=" " alt="" coords="113,376,186,218,197,181,203,150,212,122,235,91,253,80,250,84,239,95,217,124,208,152,203,182,191,220,118,378"/>
+<area shape="rect" id="Node000022" href="$class_diagram_editor_1_1_specification_1_1_diagram_specification.html" title="A diagram component specification." alt="" coords="237,105,424,148"/>
+<area shape="poly" id="edge10_Node000000_Node000022" title=" " alt="" coords="112,375,170,255,204,197,235,158,255,146,252,151,238,162,208,200,175,258,117,377"/>
+<area shape="rect" id="Node000016" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html" title="A group of diagram specifications belonging to a diagram component." alt="" coords="237,641,424,684"/>
+<area shape="poly" id="edge15_Node000000_Node000016" title=" " alt="" coords="176,433,191,443,204,460,212,477,219,509,223,541,229,559,239,577,268,611,301,640,295,641,264,615,234,580,224,561,218,543,214,510,207,479,200,463,187,447,178,438"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html" title="A diagram component represented by a path that connects other components." alt="" coords="485,341,646,384"/>
+<area shape="poly" id="edge4_Node000005_Node000006" title=" " alt="" coords="415,515,422,510,449,487,482,453,544,386,548,382,486,457,452,491,426,514,418,519"/>
+<area shape="rect" id="Node000008" href="$class_diagram_editor_1_1_diagram_1_1_diagram_element.html" title="A diagram component represented as a polygon." alt="" coords="485,480,646,523"/>
+<area shape="poly" id="edge5_Node000005_Node000008" title=" " alt="" coords="425,525,487,515,482,518,427,530"/>
+<area shape="rect" id="Node000023" href="$class_diagram_editor_1_1_specification_1_1_list_specification.html" title="diagram specification whose text is displayed as a list.." alt="" coords="472,205,659,248"/>
+<area shape="poly" id="edge11_Node000022_Node000023" title=" " alt="" coords="412,152,425,158,450,174,473,191,500,204,495,206,471,196,446,179,423,162,413,157"/>
+<area shape="rect" id="Node000024" href="$class_diagram_editor_1_1_specification_1_1_long_text_specification.html" title="A diagram specification with a long text." alt="" coords="472,5,659,48"/>
+<area shape="poly" id="edge12_Node000022_Node000024" title=" " alt="" coords="410,97,423,91,446,74,471,58,499,47,495,50,473,62,450,79,425,96,414,101"/>
+<area shape="rect" id="Node000025" href="$class_diagram_editor_1_1_specification_1_1_selectable_specification.html" title="A diagram specification whose text can be chosen from selectable choices." alt="" coords="472,72,659,115"/>
+<area shape="poly" id="edge13_Node000022_Node000025" title=" " alt="" coords="438,109,474,105,469,108,441,113"/>
+<area shape="rect" id="Node000026" href="$class_diagram_editor_1_1_specification_1_1_short_text_specification.html" title="A diagram specification with a short text." alt="" coords="472,139,659,181"/>
+<area shape="poly" id="edge14_Node000022_Node000026" title=" " alt="" coords="439,140,474,145,469,148,441,145"/>
+<area shape="rect" id="Node000015" href="$class_diagram_editor_1_1_specification_1_1_connection_specifications.html" title="The specifications of a diagram connection." alt="" coords="472,675,659,717"/>
+<area shape="poly" id="edge16_Node000016_Node000015" title=" " alt="" coords="439,675,474,682,469,683,440,681"/>
+<area shape="rect" id="Node000017" href="$class_diagram_editor_1_1_specification_1_1_element_specifications.html" title="The specifications of a diagram element." alt="" coords="472,792,659,835"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="415,688,425,694,481,736,543,792,538,791,477,740,423,698,415,694"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="5,457,189,500"/>
+<area shape="poly" id="edge18_Node000002_Node000001" title=" " alt="" coords="131,508,180,546,208,563,238,576,300,594,366,603,429,607,487,609,482,611,429,613,365,609,299,599,236,581,206,567,177,550,132,513"/>
+<area shape="poly" id="edge19_Node000002_Node000003" title=" " alt="" coords="185,446,187,444,204,416,212,390,213,363,210,336,207,309,208,281,216,253,235,225,251,213,248,217,239,228,221,256,213,282,213,309,215,336,218,363,217,390,209,419,191,447,189,449"/>
+<area shape="poly" id="edge20_Node000002_Node000005" title=" " alt="" coords="188,502,255,522,251,525,189,507"/>
+<area shape="poly" id="edge21_Node000002_Node000011" title=" " alt="" coords="112,512,134,555,161,603,196,652,238,694,257,707,252,708,235,698,192,655,157,606,129,558,112,517"/>
+<area shape="poly" id="edge22_Node000002_Node000018" title=" " alt="" coords="202,476,266,477,262,480,205,481"/>
+<area shape="poly" id="edge23_Node000002_Node000019" title=" " alt="" coords="187,451,261,430,257,434,190,455"/>
+<area shape="poly" id="edge24_Node000002_Node000020" title=" " alt="" coords="185,446,187,444,202,421,213,399,221,355,218,313,210,270,201,227,199,183,208,138,219,115,235,92,253,78,250,82,239,95,223,118,213,140,204,183,207,226,215,269,224,312,227,356,218,401,207,424,191,447,190,448"/>
+<area shape="poly" id="edge25_Node000002_Node000022" title=" " alt="" coords="185,446,187,444,208,408,217,373,216,338,210,303,204,268,203,232,212,196,235,158,250,146,248,151,239,162,217,198,209,233,210,267,215,302,221,337,222,373,213,410,191,447,190,448"/>
+<area shape="poly" id="edge26_Node000002_Node000016" title=" " alt="" coords="124,509,175,566,205,595,238,620,272,640,266,641,235,625,202,599,171,569,124,515"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="25,716,169,743"/>
+<area shape="poly" id="edge27_Node000012_Node000011" title=" " alt="" coords="184,727,252,728,247,731,185,732"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="262,239,398,265"/>
+<area shape="poly" id="edge28_Node000007_Node000006" title=" " alt="" coords="406,268,425,275,485,306,537,340,531,341,482,311,423,280,407,273"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="252,289,408,316"/>
+<area shape="poly" id="edge29_Node000009_Node000008" title=" " alt="" coords="402,320,426,332,442,347,452,361,474,394,547,479,542,480,470,398,448,364,438,351,422,337,403,325"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="28,884,166,911"/>
+<area shape="rect" id="Node000013" href="$class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html" title="An item to resize a diagram component." alt="" coords="250,876,411,919"/>
+<area shape="poly" id="edge30_Node000014_Node000013" title=" " alt="" coords="181,895,252,897,247,898,181,900"/>
+<area shape="poly" id="edge31_Node000013_Node000001" title=" " alt="" coords="355,862,422,761,435,733,442,710,452,687,470,661,493,640,517,627,521,624,496,644,474,664,456,689,447,711,440,735,426,764,359,866"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="37,180,157,207"/>
+<area shape="poly" id="edge32_Node000004_Node000003" title=" " alt="" coords="171,191,251,192,247,195,174,196"/>
+<area shape="rect" id="Node000027" title=" " alt="" coords="30,113,164,140"/>
+<area shape="poly" id="edge33_Node000027_Node000022" title=" " alt="" coords="178,124,238,125,234,128,181,129"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="62,775,132,801"/>
+<area shape="poly" id="edge34_Node000010_Node000005" title=" " alt="" coords="145,776,168,767,187,753,199,738,207,723,213,694,218,663,234,628,265,593,300,565,297,569,268,597,239,631,223,665,219,695,212,725,204,741,190,757,170,771,148,781"/>
+<area shape="poly" id="edge35_Node000010_Node000011" title=" " alt="" coords="145,773,251,748,247,751,147,778"/>
+<area shape="poly" id="edge37_Node000010_Node000015" title=" " alt="" coords="147,787,274,783,349,775,423,760,479,740,526,719,531,717,481,745,425,765,350,780,274,789,148,792"/>
+<area shape="poly" id="edge38_Node000010_Node000017" title=" " alt="" coords="147,793,237,804,359,810,474,814,469,815,359,815,236,809,148,799"/>
+<area shape="poly" id="edge36_Node000010_Node000013" title=" " alt="" coords="139,806,238,855,280,875,274,875,236,860,138,812"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="47,47,147,73"/>
+<area shape="poly" id="edge39_Node000021_Node000020" title=" " alt="" coords="161,58,254,58,250,62,164,62"/>
 </map>

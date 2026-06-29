@@ -1,0 +1,7 @@
+<map id="DiagramEditor::Gui::SelectableDataButton" name="DiagramEditor::Gui::SelectableDataButton">
+<area shape="rect" id="Node000001" title="A checkable button with associated data." alt="" coords="44,203,210,395"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,45,94,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,126,96,203,91,203,66,131"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="118,5,291,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,166,163,204,158,202,172,171"/>
+</map>

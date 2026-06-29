@@ -16,6 +16,8 @@ QT_BEGIN_NAMESPACE
 class QByteArray;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Serialization {
+
 /**
  * @class JsonFile
  * @brief Helper class for loading a JSON file and performing JSON conversions.
@@ -79,5 +81,7 @@ class JsonFile : public QFile
          */
         static bool parseToJsonObject(const QByteArray &json, QJsonObject &jsonObject);
 };
+
+}
 
 #endif // JSONFILE_H

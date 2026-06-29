@@ -1,0 +1,24 @@
+/**
+ * @namespace DiagramEditor
+ * @brief Main namespace of the application.
+ */
+
+/**
+ * @namespace DiagramEditor::Gui
+ * @brief Contains the classes related to the graphical user interface.
+ */
+
+/**
+ * @namespace DiagramEditor::Diagram
+ * @brief Contains the classes related to the diagram, its items and components.
+ */
+
+/**
+ * @namespace DiagramEditor::Specification
+ * @brief Contains the classes used for show and edit item specifications.
+ */
+
+/**
+ * @namespace DiagramEditor::Serialization
+ * @brief Contains the classes used for saving and loading diagrams.
+ */

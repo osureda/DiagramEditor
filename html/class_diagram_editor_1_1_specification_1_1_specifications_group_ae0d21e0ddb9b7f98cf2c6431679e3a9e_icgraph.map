@@ -1,0 +1,15 @@
+<map id="DiagramEditor::Specification::SpecificationsGroup::typeNameFromSpecification" name="DiagramEditor::Specification::SpecificationsGroup::typeNameFromSpecification">
+<area shape="rect" id="Node000001" title=" " alt="" coords="772,121,1017,180"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#a484b0e447c72b67d285fe064d2d117fa" title=" " alt="" coords="528,129,724,172"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="754,151,725,153,724,148,759,150"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#a859cd3907349b93f7cb16e83bb2b4446" title=" " alt="" coords="241,55,480,97"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="531,125,479,112,439,101,439,95,481,107,536,124"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_specification_1_1_connection_specifications.html#a6bf9eb3bdbc4ff2ba82a31fc833012bd" title=" " alt="" coords="267,121,454,180"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="510,151,455,153,454,148,515,150"/>
+<area shape="rect" id="Node000007" href="$class_diagram_editor_1_1_specification_1_1_element_specifications.html#acafeefeb2d26403d75b4ab18551eeba0" title=" " alt="" coords="256,204,465,247"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="536,176,481,195,440,206,439,201,479,189,531,177"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_specification_1_1_connection_specifications.html#a5f4fa3742d877dbdcc8e643084504c4f" title=" " alt="" coords="5,5,193,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="223,56,194,52,193,47,228,54"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_specification_1_1_element_specifications.html#a9bf6251eb33d2194301110ee36aba599" title=" " alt="" coords="5,88,193,147"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="223,98,194,105,192,100,228,96"/>
+</map>

@@ -16,8 +16,14 @@
 #include <QVariant>
 #include <QVector>
 
+namespace DiagramEditor::Diagram {
 class DiagramConnection;
+}
+
+namespace DiagramEditor::Specification {
+
 class SpecificationsForm;
+using DiagramEditor::Diagram::DiagramConnection;
 
 /**
  * @class ConnectionSpecifications
@@ -156,5 +162,7 @@ class ConnectionSpecifications : public QObject, public SpecificationsGroup
          */
         static QString stringFromVerticalPos(const VerticalPos &verticalPos);
 };
+
+}
 
 #endif // CONNECTIONSPECIFICATIONS_H

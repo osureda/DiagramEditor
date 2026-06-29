@@ -1,0 +1,15 @@
+<map id="DiagramEditor::Specification::DiagramSpecification" name="DiagramEditor::Specification::DiagramSpecification">
+<area shape="rect" id="Node000001" title="A diagram component specification." alt="" coords="307,203,483,459"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_specification_1_1_list_specification.html" title="diagram specification whose text is displayed as a list.." alt="" coords="5,507,182,656"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="293,416,183,510,180,505,297,412"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_specification_1_1_long_text_specification.html" title="A diagram specification with a long text." alt="" coords="207,528,383,635"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="340,471,318,530,314,526,336,474"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_specification_1_1_selectable_specification.html" title="A diagram specification whose text can be chosen from selectable choices." alt="" coords="408,507,585,656"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="454,470,469,508,464,506,451,475"/>
+<area shape="rect" id="Node000007" href="$class_diagram_editor_1_1_specification_1_1_short_text_specification.html" title="A diagram specification with a short text." alt="" coords="609,528,786,635"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="495,411,637,528,632,528,494,416"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="248,45,372,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="326,126,354,203,349,203,325,131"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="395,5,568,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="453,166,442,204,437,201,450,171"/>
+</map>

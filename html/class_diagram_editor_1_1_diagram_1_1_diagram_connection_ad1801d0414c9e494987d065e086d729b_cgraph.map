@@ -1,0 +1,9 @@
+<map id="DiagramEditor::Diagram::DiagramConnection::removeResizer" name="DiagramEditor::Diagram::DiagramConnection::removeResizer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,246,97"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a30e6658c3b143e5d89653e467fbfb69a" title=" " alt="" coords="294,55,481,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,73,281,76,275,76,246,79"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a17f80cc648ec2444076bf15755e658ea" title=" " alt="" coords="545,5,762,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="481,59,532,53,527,54,482,64"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a3068ed800086063a62b3631d6c877141" title=" " alt="" coords="529,88,778,147"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="482,88,516,96,511,95,482,93"/>
+</map>

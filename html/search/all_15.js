@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['_7ediagramconnection_0',['~DiagramConnection',['../class_diagram_connection.html#abc982bde3f8889abdef202489e5c8b85',1,'DiagramConnection']]],
-  ['_7ediagramelement_1',['~DiagramElement',['../class_diagram_element.html#a3fea3eee411d734b280054a8da7c2dd3',1,'DiagramElement']]],
-  ['_7ejsonserializable_2',['~JsonSerializable',['../class_json_serializable.html#a194264cba8c2b23e4f5a9f9980cff1a1',1,'JsonSerializable']]],
-  ['_7emainwindow_3',['~MainWindow',['../class_main_window.html#a1f7d2c56410fc1bfa135bb907d43313f',1,'MainWindow']]],
-  ['_7especificationsgroup_4',['~SpecificationsGroup',['../class_specifications_group.html#aed1ee8efe19ccb669a1b2d3bf0d8161a',1,'SpecificationsGroup']]],
-  ['_7ewizard_5',['~Wizard',['../class_wizard.html#a0bc4e70d0ceb16ab9169037b13e86fae',1,'Wizard']]]
+  ['_7ediagramconnection_0',['~DiagramConnection',['../class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a328ee6bcfbc0d5d20f5978a45e1ac6d2',1,'DiagramEditor::Diagram::DiagramConnection::~DiagramConnection()'],['../class_diagram_editor_1_1_specification_1_1_diagram_connection.html#a328ee6bcfbc0d5d20f5978a45e1ac6d2',1,'DiagramEditor::Specification::DiagramConnection::~DiagramConnection()']]],
+  ['_7ediagramelement_1',['~DiagramElement',['../class_diagram_editor_1_1_diagram_1_1_diagram_element.html#a5cf42b0b0e956c9be65320461644280b',1,'DiagramEditor::Diagram::DiagramElement::~DiagramElement()'],['../class_diagram_editor_1_1_specification_1_1_diagram_element.html#a5cf42b0b0e956c9be65320461644280b',1,'DiagramEditor::Specification::DiagramElement::~DiagramElement()']]],
+  ['_7ejsonserializable_2',['~JsonSerializable',['../class_diagram_editor_1_1_serialization_1_1_json_serializable.html#afc25550e637932eab47d198596e72bfe',1,'DiagramEditor::Serialization::JsonSerializable::~JsonSerializable()'],['../class_diagram_editor_1_1_gui_1_1_json_serializable.html#afc25550e637932eab47d198596e72bfe',1,'DiagramEditor::Gui::JsonSerializable::~JsonSerializable()']]],
+  ['_7emainwindow_3',['~MainWindow',['../class_diagram_editor_1_1_gui_1_1_main_window.html#a2a2a0df04dff2dfab49d02e506302a4c',1,'DiagramEditor::Gui::MainWindow::~MainWindow()'],['../class_main_window.html#a2a2a0df04dff2dfab49d02e506302a4c',1,'MainWindow::~MainWindow()']]],
+  ['_7especificationsgroup_4',['~SpecificationsGroup',['../class_diagram_editor_1_1_specification_1_1_specifications_group.html#ab53914ffe9c97145d31cedadc39d5fab',1,'DiagramEditor::Specification::SpecificationsGroup']]],
+  ['_7ewizard_5',['~Wizard',['../class_diagram_editor_1_1_gui_1_1_wizard.html#aab51b7a71b5d14a89f5b1433652bf111',1,'DiagramEditor::Gui::Wizard']]]
 ];

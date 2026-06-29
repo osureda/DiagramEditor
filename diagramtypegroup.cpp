@@ -8,10 +8,14 @@
 
 #include <QVariant>
 
+namespace DiagramEditor::Gui {
+
 void DiagramTypeGroup::loadFromHash(const QVariantHash &hash) {
     storedDiagramTypes = hash["diagrams"].toStringList();
 }
 
 QStringList DiagramTypeGroup::diagramTypes() const {
     return storedDiagramTypes;
+}
+
 }

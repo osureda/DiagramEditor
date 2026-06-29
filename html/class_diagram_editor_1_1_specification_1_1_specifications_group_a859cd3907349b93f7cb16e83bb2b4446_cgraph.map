@@ -1,0 +1,13 @@
+<map id="DiagramEditor::Specification::SpecificationsGroup::loadFromHash" name="DiagramEditor::Specification::SpecificationsGroup::loadFromHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,245,152"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#acc50641678ade3dbb7900e403a42e9c6" title=" " alt="" coords="322,5,510,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,106,292,57,317,52,312,54,294,63,175,111"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_diagram_specification.html#a8505138a7983bae50e3c925a5e662442" title=" " alt="" coords="293,72,539,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,113,280,110,275,112,246,118"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#a66ce711cc7369064409a60eb5af6ad9b" title=" " alt="" coords="302,139,530,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,143,290,151,284,152,245,149"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#a484b0e447c72b67d285fe064d2d117fa" title=" " alt="" coords="318,221,514,264"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="168,150,227,179,294,207,316,216,310,216,292,212,225,184,167,155"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#ae0d21e0ddb9b7f98cf2c6431679e3a9e" title=" " alt="" coords="587,213,831,272"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="514,240,574,243,568,243,514,245"/>
+</map>

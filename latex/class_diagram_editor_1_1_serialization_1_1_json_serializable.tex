@@ -1,0 +1,143 @@
+\doxysection{Diagram\+Editor::\+Serialization::\+Json\+Serializable Class Reference}
+\hypertarget{class_diagram_editor_1_1_serialization_1_1_json_serializable}{}\label{class_diagram_editor_1_1_serialization_1_1_json_serializable}\index{DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}}
+
+
+Base class for objects that can be loaded from and converted to a QVariant\+Hash.  
+
+
+
+
+{\ttfamily \+\#include $<$jsonserializable.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Serialization::\+Json\+Serializable:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_serialization_1_1_json_serializable__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Serialization::\+Json\+Serializable:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_diagram_editor_1_1_serialization_1_1_json_serializable__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\item 
+virtual void \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}{load\+From\+Hash}} (const QVariant\+Hash \&hash)
+\item 
+virtual QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124}{to\+Hash}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for objects that can be loaded from and converted to a QVariant\+Hash. 
+
+\label{class_diagram_editor_1_1_serialization_1_1_json_serializable_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_serialization_1_1_json_serializable_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}\index{DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}!````~JsonSerializable@{\texorpdfstring{$\sim$}{\string~}JsonSerializable}}
+\index{````~JsonSerializable@{\texorpdfstring{$\sim$}{\string~}JsonSerializable}!DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}JsonSerializable()}{\string~JsonSerializable()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe} 
+Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path of the JSON file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The object has been destroyed. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_editor_1_1_serialization_1_1_json_serializable_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_serialization_1_1_json_serializable_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}\index{DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}!filteredHashByKeys@{filteredHashByKeys}}
+\index{filteredHashByKeys@{filteredHashByKeys}!DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{filteredHashByKeys()}{filteredHashByKeys()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224} 
+QVariant\+Hash Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+filtered\+Hash\+By\+Keys (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{, }\item[{const QString\+List \&}]{keys}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the values of the keys. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing all the values. \\
+\hline
+{\em keys} & The keys we want to keep. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the values from the given hash for the given keys has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}\index{DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b} 
+void Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The object has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented in \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc3920c9dd4e78a75dd4c}{Diagram\+Editor::\+\+Diagram::\+\+Connectable\+Resizer}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_connection_specifications_a5f4fa3742d877dbdcc8e643084504c4f}{Diagram\+Editor::\+\+Diagram::\+\+Connection\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_ae239779a3c95bc9019c0156eae8aaded}{Diagram\+Editor::\+\+Diagram::\+\+Diagram}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_a25528a84db6428e664bd24fa7cacfaea}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_element_ae80718b4ca26a058c10541effc31bb7f}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Element}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560aa49c5acbb2}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Item}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_element_specifications_a9bf6251eb33d2194301110ee36aba599}{Diagram\+Editor::\+\+Diagram::\+\+Element\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_ae239779a3c95bc9019c0156eae8aaded}{Diagram\+Editor::\+\+Gui::\+\+Diagram}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_item_a7d541cbdfd17004162560aa49c5acbb2}{Diagram\+Editor::\+\+Gui::\+\+Diagram\+Item}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e13e25}{Diagram\+Editor::\+\+Gui::\+\+Diagram\+Type}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_group_aeffff29eae135759e116930352b7c2bc}{Diagram\+Editor::\+\+Gui::\+\+Diagram\+Type\+Group}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a3de2aa015230f88f2d99a7d7ee6ea2ed}{Diagram\+Editor::\+\+Gui::\+\+Selectable\+Data\+Button}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4fa3742d877dbdcc8e643084504c4f}{Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_a25528a84db6428e664bd24fa7cacfaea}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Connection}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_element_ae80718b4ca26a058c10541effc31bb7f}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Element}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138a7983bae50e3c925a5e662442}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_element_specifications_a9bf6251eb33d2194301110ee36aba599}{Diagram\+Editor::\+\+Specification::\+\+Element\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec363657602b184f6372330}{Diagram\+Editor::\+\+Specification::\+\+List\+Specification}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c276a4e0df571fc7b5bf900e4b11e1}{Diagram\+Editor::\+\+Specification::\+\+Selectable\+Specification}}, and \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd3907349b93f7cb16e83bb2b4446}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}.
+
+\Hypertarget{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124}\index{DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramEditor::Serialization::JsonSerializable@{DiagramEditor::Serialization::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124} 
+QVariant\+Hash Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the object\textquotesingle{}s data. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the object\textquotesingle{}s data has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented in \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a4bceeb96149b72e523d831bd63357d63}{Diagram\+Editor::\+\+Diagram::\+\+Connectable\+Resizer}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_connection_specifications_a6bf9eb3bdbc4ff2ba82a31fc833012bd}{Diagram\+Editor::\+\+Diagram::\+\+Connection\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_a272844391a06f511d927e5e07da486cd}{Diagram\+Editor::\+\+Diagram::\+\+Diagram}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad116a8ce703c99e268}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Connection}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7c7c3bcc1d8ba5}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Element}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_item_a7b5c5363981fd10cc0e9bc3e67391adc}{Diagram\+Editor::\+\+Diagram::\+\+Diagram\+Item}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_element_specifications_acafeefeb2d26403d75b4ab18551eeba0}{Diagram\+Editor::\+\+Diagram::\+\+Element\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_a272844391a06f511d927e5e07da486cd}{Diagram\+Editor::\+\+Gui::\+\+Diagram}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_item_a7b5c5363981fd10cc0e9bc3e67391adc}{Diagram\+Editor::\+\+Gui::\+\+Diagram\+Item}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9eb3bdbc4ff2ba82a31fc833012bd}{Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_connection_ad105cbacebacdad116a8ce703c99e268}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Connection}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_element_adae24f3804f949d5af7c7c3bcc1d8ba5}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Element}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9c977387ee7818d22b020ee03f}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_element_specifications_acafeefeb2d26403d75b4ab18551eeba0}{Diagram\+Editor::\+\+Specification::\+\+Element\+Specifications}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a9750d731fe56557d78f593c8}{Diagram\+Editor::\+\+Specification::\+\+List\+Specification}}, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c2f2c4edaf84a7df93d5791edf91}{Diagram\+Editor::\+\+Specification::\+\+Selectable\+Specification}}, and \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447c72b67d285fe064d2d117fa}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}.
+
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{jsonserializable_8h}{jsonserializable.\+h}}\item 
+\doxymbox{\hyperlink{jsonserializable_8cpp}{jsonserializable.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,135 @@
+\doxysection{Diagram\+Editor::\+Gui::\+Json\+Serializable Class Reference}
+\hypertarget{class_diagram_editor_1_1_gui_1_1_json_serializable}{}\label{class_diagram_editor_1_1_gui_1_1_json_serializable}\index{DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}}
+
+
+Base class for objects that can be loaded from and converted to a QVariant\+Hash.  
+
+
+
+
+{\ttfamily \+\#include $<$jsonserializable.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Gui::\+Json\+Serializable:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_json_serializable__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Gui::\+Json\+Serializable:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=191pt]{class_diagram_editor_1_1_gui_1_1_json_serializable__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\item 
+virtual void \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}{load\+From\+Hash}} (const QVariant\+Hash \&hash)
+\item 
+virtual QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_serializable_a39055c637972db20848ecf58d2431124}{to\+Hash}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for objects that can be loaded from and converted to a QVariant\+Hash. 
+
+\label{class_diagram_editor_1_1_gui_1_1_json_serializable_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_serializable_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}\index{DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}!````~JsonSerializable@{\texorpdfstring{$\sim$}{\string~}JsonSerializable}}
+\index{````~JsonSerializable@{\texorpdfstring{$\sim$}{\string~}JsonSerializable}!DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}JsonSerializable()}{\string~JsonSerializable()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_serializable_afc25550e637932eab47d198596e72bfe} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path of the JSON file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The object has been destroyed. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_editor_1_1_gui_1_1_json_serializable_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_serializable_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}\index{DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}!filteredHashByKeys@{filteredHashByKeys}}
+\index{filteredHashByKeys@{filteredHashByKeys}!DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{filteredHashByKeys()}{filteredHashByKeys()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224} 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+filtered\+Hash\+By\+Keys}} (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{, }\item[{const QString\+List \&}]{keys}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the values of the keys. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing all the values. \\
+\hline
+{\em keys} & The keys we want to keep. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the values from the given hash for the given keys has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}\index{DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_serializable_a18e64f25585183155b3bbd587593034b} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+load\+From\+Hash}} (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The object has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_serializable_a39055c637972db20848ecf58d2431124}\index{DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramEditor::Gui::JsonSerializable@{DiagramEditor::Gui::JsonSerializable}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_serializable_a39055c637972db20848ecf58d2431124} 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable::\+to\+Hash}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the object\textquotesingle{}s data. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the object\textquotesingle{}s data has been returned. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{jsonserializable_8h}{jsonserializable.\+h}}\item 
+\doxymbox{\hyperlink{jsonserializable_8cpp}{jsonserializable.\+cpp}}\end{DoxyCompactItemize}

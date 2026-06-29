@@ -1,0 +1,123 @@
+\doxysection{Diagram\+Editor::\+Gui::\+Diagram\+Type Class Reference}
+\hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type}{}\label{class_diagram_editor_1_1_gui_1_1_diagram_type}\index{DiagramEditor::Gui::DiagramType@{DiagramEditor::Gui::DiagramType}}
+
+
+Represents a diagram type and the identifiers of its associated items.  
+
+
+
+
+{\ttfamily \+\#include $<$diagramtype.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Gui::\+Diagram\+Type:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_diagram_editor_1_1_gui_1_1_diagram_type__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Gui::\+Diagram\+Type:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_diagram_editor_1_1_gui_1_1_diagram_type__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_a746178d47d2ccb0901802e591f90f66f}\label{class_diagram_editor_1_1_gui_1_1_diagram_type_a746178d47d2ccb0901802e591f90f66f} 
+typedef QHash$<$ QString, QString\+List $>$ {\bfseries Diagram\+Items\+Ids}
+\begin{DoxyCompactList}\small\item\em Hash that stores the associated item IDs for each diagram item type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e13e25}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_a746178d47d2ccb0901802e591f90f66f}{Diagram\+Items\+Ids}} \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432fb1476}{diagram\+Items}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\item 
+virtual QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a39055c637972db20848ecf58d2431124}{to\+Hash}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a diagram type and the identifiers of its associated items. 
+
+\label{class_diagram_editor_1_1_gui_1_1_diagram_type_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432fb1476}\index{DiagramEditor::Gui::DiagramType@{DiagramEditor::Gui::DiagramType}!diagramItems@{diagramItems}}
+\index{diagramItems@{diagramItems}!DiagramEditor::Gui::DiagramType@{DiagramEditor::Gui::DiagramType}}
+\doxysubsubsection{\texorpdfstring{diagramItems()}{diagramItems()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432fb1476} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_a746178d47d2ccb0901802e591f90f66f}{Diagram\+Type::\+\+Diagram\+Items\+Ids}} Diagram\+Editor::\+\+Gui::\+\+Diagram\+Type::\+diagram\+Items (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The IDs of the items associated with the diagram type. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The IDs of the items associated with the diagram type have been returned. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432fb1476_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e13e25}\index{DiagramEditor::Gui::DiagramType@{DiagramEditor::Gui::DiagramType}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Gui::DiagramType@{DiagramEditor::Gui::DiagramType}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e13e25} 
+void Diagram\+Editor::\+\+Gui::\+\+Diagram\+Type::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The diagram type data has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a18e64f25585183155b3bbd587593034b}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}.
+
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e13e25_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{diagramtype_8h}{diagramtype.\+h}}\item 
+\doxymbox{\hyperlink{diagramtype_8cpp}{diagramtype.\+cpp}}\end{DoxyCompactItemize}

@@ -1,7 +1,0 @@
-<map id="ConnectableResizer::updateParentPosition" name="ConnectableResizer::updateParentPosition">
-<area shape="rect" id="Node000001" title=" " alt="" coords="204,39,357,81"/>
-<area shape="rect" id="Node000002" href="$class_connectable_resizer.html#a8bdfcc2c45914d0783063007c023f737" title=" " alt="" coords="11,5,150,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,45,151,41,150,36,191,44"/>
-<area shape="rect" id="Node000003" href="$class_connectable_resizer.html#a6ea0af22dded9e9ca338e40d7728c0ae" title=" " alt="" coords="5,72,156,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,76,157,83,156,78,191,75"/>
-</map>

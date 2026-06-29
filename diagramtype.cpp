@@ -8,6 +8,8 @@
 
 #include <QVariant>
 
+namespace DiagramEditor::Gui {
+
 void DiagramType::loadFromHash(const QVariantHash &hash) {
     const QVariantHash itemsData = hash["items"].toHash();
 
@@ -18,4 +20,6 @@ void DiagramType::loadFromHash(const QVariantHash &hash) {
 
 DiagramType::DiagramItemsIds DiagramType::diagramItems() const {
     return storedDiagramItems;
+}
+
 }

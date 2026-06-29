@@ -15,42 +15,46 @@
 \DoxyCodeLine{00017\ \textcolor{keyword}{class\ }QWidget;}
 \DoxyCodeLine{00018\ QT\_END\_NAMESPACE}
 \DoxyCodeLine{00019\ }
-\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_scrollable_data_buttons_selector_a4fac783d59b5b416d7c1175500170377}{ScrollableDataButtonsSelector}}\ :\ \textcolor{keyword}{public}\ QScrollArea}
-\DoxyCodeLine{00025\ \{}
-\DoxyCodeLine{00026\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{00027\ }
-\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_scrollable_data_buttons_selector_aa27a36bcccecad696da3801716ef4271}{UPPER\_ICONS\_SPACING}}\ =\ 20;}
-\DoxyCodeLine{00031\ }
-\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_scrollable_data_buttons_selector_a4fac783d59b5b416d7c1175500170377}{ScrollableDataButtonsSelector}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
-\DoxyCodeLine{00039\ }
-\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_scrollable_data_buttons_selector_a4fac783d59b5b416d7c1175500170377}{ScrollableDataButtonsSelector}}(\textcolor{keywordtype}{int}\ nColumns,\ \textcolor{keywordtype}{int}\ iconsSize,\ \textcolor{keywordtype}{bool}\ upperIcons,\ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
-\DoxyCodeLine{00051\ }
-\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_scrollable_data_buttons_selector_a208edcaee3280c5ebca40808a002d3dc}{addButtons}}(\textcolor{keyword}{const}\ QVariantHash\ \&buttonsData);}
-\DoxyCodeLine{00059\ }
-\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_scrollable_data_buttons_selector_a6fdd7b6e9c4833e286e80c2ec2616fbe}{selectedButtonData}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00066\ }
-\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_scrollable_data_buttons_selector_ad2b122a3970f5e3d5837713e2289ef61}{clear}}();}
-\DoxyCodeLine{00072\ }
-\DoxyCodeLine{00073\ \ \ \ \ signals:}
-\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_scrollable_data_buttons_selector_aad4229238ff44f8dc0dfc32440d69623}{selectionChanged}}(\textcolor{keyword}{const}\ QVariantHash\ \&\doxymbox{\hyperlink{class_scrollable_data_buttons_selector_a6fdd7b6e9c4833e286e80c2ec2616fbe}{selectedButtonData}});}
-\DoxyCodeLine{00080\ }
-\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keyword}{private}\ slots:}
-\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ buttonToggled(\textcolor{keywordtype}{int}\ buttonId,\ \textcolor{keywordtype}{bool}\ checked);}
-\DoxyCodeLine{00089\ }
-\DoxyCodeLine{00090\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ QGridLayout\ *layout;\ }
-\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ nColumns;\ }
-\DoxyCodeLine{00098\ }
-\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ QButtonGroup\ *buttons;\ }
-\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ nButtons;\ }
-\DoxyCodeLine{00101\ }
-\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ iconsSize;\ }
-\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ upperIcons;\ }
-\DoxyCodeLine{00104\ }
-\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ addButton(\textcolor{keyword}{const}\ QVariantHash\ \&buttonData);}
-\DoxyCodeLine{00112\ \};}
-\DoxyCodeLine{00113\ }
-\DoxyCodeLine{00114\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SCROLLABLEDATABUTTONSSELECTOR\_H}}
+\DoxyCodeLine{00020\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_gui}{DiagramEditor::Gui}}\ \{}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f}{ScrollableDataButtonsSelector}}\ :\ \textcolor{keyword}{public}\ QScrollArea}
+\DoxyCodeLine{00027\ \{}
+\DoxyCodeLine{00028\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a1df20f090d2d20d773fc9d073f011534}{UPPER\_ICONS\_SPACING}}\ =\ 20;}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f}{ScrollableDataButtonsSelector}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f}{ScrollableDataButtonsSelector}}(\textcolor{keywordtype}{int}\ nColumns,\ \textcolor{keywordtype}{int}\ iconsSize,\ \textcolor{keywordtype}{bool}\ upperIcons,\ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab3b384342ce024f599bea38294}{addButtons}}(\textcolor{keyword}{const}\ QVariantHash\ \&buttonsData);}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2d06349d8c367eb3a632bb}{selectedButtonData}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_ac8e440ddf431a47023c176360f0d5059}{clear}}();}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00075\ \ \ \ \ signals:}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe7948d8a1c8a5d95590f37}{selectionChanged}}(\textcolor{keyword}{const}\ QVariantHash\ \&\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2d06349d8c367eb3a632bb}{selectedButtonData}});}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ buttonToggled(\textcolor{keywordtype}{int}\ buttonId,\ \textcolor{keywordtype}{bool}\ checked);}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00092\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ QGridLayout\ *layout;\ }
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ nColumns;\ }
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ QButtonGroup\ *buttons;\ }
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ nButtons;\ }
+\DoxyCodeLine{00103\ }
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ iconsSize;\ }
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ upperIcons;\ }
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ addButton(\textcolor{keyword}{const}\ QVariantHash\ \&buttonData);}
+\DoxyCodeLine{00114\ \};}
+\DoxyCodeLine{00115\ }
+\DoxyCodeLine{00116\ \}}
+\DoxyCodeLine{00117\ }
+\DoxyCodeLine{00118\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SCROLLABLEDATABUTTONSSELECTOR\_H}}
 
 \end{DoxyCode}

@@ -13,9 +13,6 @@
 #include <QObject>
 #include <QVariant>
 
-class Diagram;
-class Wizard;
-
 QT_BEGIN_NAMESPACE
 class QAbstractButton;
 class QPointF;
@@ -25,6 +22,14 @@ namespace Ui {
 class MainWindow;
 }
 QT_END_NAMESPACE
+
+namespace DiagramEditor::Diagram {
+class Diagram;
+}
+
+namespace DiagramEditor::Gui {
+
+class Wizard;
 
 /**
  * @class MainWindow
@@ -163,7 +168,7 @@ class MainWindow : public QMainWindow
         Ui::MainWindow *ui; ///< Window's user interface
 
         Wizard *wizard; ///< The initialization wizard
-        Diagram *diagram; ///< The edited diagram
+        DiagramEditor::Diagram::Diagram *diagram; ///< The edited diagram
 
         QVariantHash allDiagramItems; ///< The data of all the diagram items
 
@@ -203,5 +208,7 @@ class MainWindow : public QMainWindow
          */
         void moveDiagramItems(const QPointF &moveStep);
 };
+
+}
 
 #endif // MAINWINDOW_H

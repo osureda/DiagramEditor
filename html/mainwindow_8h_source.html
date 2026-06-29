@@ -128,97 +128,106 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('mainwindow_8h_
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QVariant&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="class_diagram.html">Diagram</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span><a class="code hl_class" href="class_wizard.html">Wizard</a>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>QT_BEGIN_NAMESPACE</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>QAbstractButton;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">class </span>QPointF;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span>QWidget;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span>Ui {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">class </span>MainWindow;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>QT_END_NAMESPACE</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
-<div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_main_window.html">   33</a></span><span class="keyword">class </span><a class="code hl_function" href="class_main_window.html#a7c3a1b82e141837b6f3ee009514cbdc6">MainWindow</a> : <span class="keyword">public</span> QMainWindow</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    Q_OBJECT</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_main_window.html#a919c0ea004db239d32720ecfbfc2b15b">   39</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_main_window.html#a919c0ea004db239d32720ecfbfc2b15b">CANVAS_SIZE</a> = 2000;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_main_window.html#a15053a08531fc762f013707aecd01f1a">   42</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_main_window.html#a15053a08531fc762f013707aecd01f1a">ITEM_ICON_SIZE</a> = 25;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_main_window.html#aae0d2b9d7c65134f9ce630a6968af0fb">   45</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_main_window.html#aae0d2b9d7c65134f9ce630a6968af0fb">ITEM_MOVE_STEP</a> = 10;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <a class="code hl_function" href="class_main_window.html#a7c3a1b82e141837b6f3ee009514cbdc6">MainWindow</a>(<span class="keyword">const</span> QVariantHash &amp;diagramGroups,</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                   <span class="keyword">const</span> QVariantHash &amp;diagramTypes,</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                   <span class="keyword">const</span> QVariantHash &amp;diagramItems,</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                   QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_function" href="class_main_window.html#a1f7d2c56410fc1bfa135bb907d43313f">~MainWindow</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordtype">void</span> wizardAccepted();</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordtype">void</span> drawItem(<span class="keyword">const</span> QPointF &amp;pos);</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordtype">void</span> setEditionMode(<span class="keyword">const</span> QAbstractButton *modeButton);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordtype">void</span> showSpecificationsForm(QWidget *form);</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        <span class="keywordtype">void</span> saveSpecificationsForm();</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keywordtype">void</span> copyJsonToClipboard() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span></div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordtype">void</span> pasteJsonFromClipboard();</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        <span class="keywordtype">void</span> loadJsonFromScene();</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keywordtype">void</span> saveJsonToScene();</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span></div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        <span class="keywordtype">void</span> keyUpPressed();</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span></div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        <span class="keywordtype">void</span> keyDownPressed();</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span></div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        <span class="keywordtype">void</span> keyLeftPressed();</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span></div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        <span class="keywordtype">void</span> keyRightPressed();</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span></div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        <span class="keywordtype">void</span> keyEnterPressed();</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>        Ui::MainWindow *ui; </div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        <a class="code hl_class" href="class_wizard.html">Wizard</a> *wizard; </div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        <a class="code hl_class" href="class_diagram.html">Diagram</a> *diagram; </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        QVariantHash allDiagramItems; </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span></div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        <span class="keywordtype">void</span> displayDiagramItems(<span class="keyword">const</span> <a class="code hl_typedef" href="class_diagram_type.html#aea3f7eeb179f1adf0a19422f785568be">DiagramType::DiagramItemsIds</a> &amp;requiredDiagramItemsTabs);</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span></div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>        <span class="keywordtype">void</span> connectWindowActions();</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span></div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        <span class="keywordtype">void</span> connectKeyboardActions();</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span></div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        <span class="keywordtype">void</span> clearSpecificationsForm();</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>        <span class="keywordtype">void</span> moveDiagramItems(<span class="keyword">const</span> QPointF &amp;moveStep);</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>};</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>QT_BEGIN_NAMESPACE</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>QAbstractButton;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span>QPointF;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>QWidget;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">class </span>MainWindow;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>QT_END_NAMESPACE</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_diagram_editor_1_1_diagram.html">DiagramEditor::Diagram</a> {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">class </span><a class="code hl_class" href="class_diagram_editor_1_1_diagram_1_1_diagram.html">Diagram</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>}</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_diagram_editor_1_1_gui.html">DiagramEditor::Gui</a> {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">class </span><a class="code hl_class" href="class_diagram_editor_1_1_gui_1_1_wizard.html">Wizard</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
+<div class="foldopen" id="foldopen00038" data-start="{" data-end="};">
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_gui_1_1_main_window.html">   38</a></span><span class="keyword">class </span><a class="code hl_function" href="class_diagram_editor_1_1_gui_1_1_main_window.html#a5ce33b553f00f804d1badc1083246039">MainWindow</a> : <span class="keyword">public</span> QMainWindow</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    Q_OBJECT</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_gui_1_1_main_window.html#abf889ce90a120e8a4043b3b003a94c3c">   44</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_diagram_editor_1_1_gui_1_1_main_window.html#abf889ce90a120e8a4043b3b003a94c3c">CANVAS_SIZE</a> = 2000;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_gui_1_1_main_window.html#aaf7cede577a149b883a3be8a8d7b129c">   47</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_diagram_editor_1_1_gui_1_1_main_window.html#aaf7cede577a149b883a3be8a8d7b129c">ITEM_ICON_SIZE</a> = 25;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_diagram_editor_1_1_gui_1_1_main_window.html#ac98f5a7f809d432f36e2261ff66a6fe7">   50</a></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="class_diagram_editor_1_1_gui_1_1_main_window.html#ac98f5a7f809d432f36e2261ff66a6fe7">ITEM_MOVE_STEP</a> = 10;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <a class="code hl_function" href="class_diagram_editor_1_1_gui_1_1_main_window.html#a5ce33b553f00f804d1badc1083246039">MainWindow</a>(<span class="keyword">const</span> QVariantHash &amp;diagramGroups,</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                   <span class="keyword">const</span> QVariantHash &amp;diagramTypes,</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                   <span class="keyword">const</span> QVariantHash &amp;diagramItems,</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                   QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <a class="code hl_function" href="class_diagram_editor_1_1_gui_1_1_main_window.html#a2a2a0df04dff2dfab49d02e506302a4c">~MainWindow</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keywordtype">void</span> wizardAccepted();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordtype">void</span> drawItem(<span class="keyword">const</span> QPointF &amp;pos);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordtype">void</span> setEditionMode(<span class="keyword">const</span> QAbstractButton *modeButton);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordtype">void</span> showSpecificationsForm(QWidget *form);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keywordtype">void</span> saveSpecificationsForm();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <span class="keywordtype">void</span> copyJsonToClipboard() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        <span class="keywordtype">void</span> pasteJsonFromClipboard();</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        <span class="keywordtype">void</span> loadJsonFromScene();</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordtype">void</span> saveJsonToScene();</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        <span class="keywordtype">void</span> keyUpPressed();</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        <span class="keywordtype">void</span> keyDownPressed();</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>        <span class="keywordtype">void</span> keyLeftPressed();</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        <span class="keywordtype">void</span> keyRightPressed();</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        <span class="keywordtype">void</span> keyEnterPressed();</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        Ui::MainWindow *ui; </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        <a class="code hl_class" href="class_diagram_editor_1_1_gui_1_1_wizard.html">Wizard</a> *wizard; </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        <a class="code hl_class" href="class_diagram_editor_1_1_diagram_1_1_diagram.html">DiagramEditor::Diagram::Diagram</a> *diagram; </div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        QVariantHash allDiagramItems; </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        <span class="keywordtype">void</span> displayDiagramItems(<span class="keyword">const</span> <a class="code hl_typedef" href="class_diagram_editor_1_1_gui_1_1_diagram_type.html#a746178d47d2ccb0901802e591f90f66f">DiagramType::DiagramItemsIds</a> &amp;requiredDiagramItemsTabs);</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span></div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        <span class="keywordtype">void</span> connectWindowActions();</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        <span class="keywordtype">void</span> connectKeyboardActions();</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        <span class="keywordtype">void</span> clearSpecificationsForm();</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        <span class="keywordtype">void</span> moveDiagramItems(<span class="keyword">const</span> QPointF &amp;moveStep);</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>};</div>
 </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">#endif </span><span class="comment">// MAINWINDOW_H</span></div>
-<div class="ttc" id="aclass_diagram_html"><div class="ttname"><a href="class_diagram.html">Diagram</a></div><div class="ttdoc">A diagram that contains and manages diagram items.</div><div class="ttdef"><b>Definition</b> diagram.h:32</div></div>
-<div class="ttc" id="aclass_diagram_type_html_aea3f7eeb179f1adf0a19422f785568be"><div class="ttname"><a href="class_diagram_type.html#aea3f7eeb179f1adf0a19422f785568be">DiagramType::DiagramItemsIds</a></div><div class="ttdeci">QHash&lt; QString, QStringList &gt; DiagramItemsIds</div><div class="ttdoc">Hash that stores the associated item IDs for each diagram item type.</div><div class="ttdef"><b>Definition</b> diagramtype.h:32</div></div>
-<div class="ttc" id="aclass_main_window_html_a15053a08531fc762f013707aecd01f1a"><div class="ttname"><a href="class_main_window.html#a15053a08531fc762f013707aecd01f1a">MainWindow::ITEM_ICON_SIZE</a></div><div class="ttdeci">static const int ITEM_ICON_SIZE</div><div class="ttdoc">The size of the diagram item icons.</div><div class="ttdef"><b>Definition</b> mainwindow.h:42</div></div>
-<div class="ttc" id="aclass_main_window_html_a1f7d2c56410fc1bfa135bb907d43313f"><div class="ttname"><a href="class_main_window.html#a1f7d2c56410fc1bfa135bb907d43313f">MainWindow::~MainWindow</a></div><div class="ttdeci">~MainWindow() override</div><div class="ttdef"><b>Definition</b> mainwindow.cpp:50</div></div>
-<div class="ttc" id="aclass_main_window_html_a7c3a1b82e141837b6f3ee009514cbdc6"><div class="ttname"><a href="class_main_window.html#a7c3a1b82e141837b6f3ee009514cbdc6">MainWindow::MainWindow</a></div><div class="ttdeci">MainWindow(const QVariantHash &amp;diagramGroups, const QVariantHash &amp;diagramTypes, const QVariantHash &amp;diagramItems, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> mainwindow.cpp:29</div></div>
-<div class="ttc" id="aclass_main_window_html_a919c0ea004db239d32720ecfbfc2b15b"><div class="ttname"><a href="class_main_window.html#a919c0ea004db239d32720ecfbfc2b15b">MainWindow::CANVAS_SIZE</a></div><div class="ttdeci">static const int CANVAS_SIZE</div><div class="ttdoc">The size of the diagram canvas.</div><div class="ttdef"><b>Definition</b> mainwindow.h:39</div></div>
-<div class="ttc" id="aclass_main_window_html_aae0d2b9d7c65134f9ce630a6968af0fb"><div class="ttname"><a href="class_main_window.html#aae0d2b9d7c65134f9ce630a6968af0fb">MainWindow::ITEM_MOVE_STEP</a></div><div class="ttdeci">static const int ITEM_MOVE_STEP</div><div class="ttdoc">The length of a diagram item move step.</div><div class="ttdef"><b>Definition</b> mainwindow.h:45</div></div>
-<div class="ttc" id="aclass_wizard_html"><div class="ttname"><a href="class_wizard.html">Wizard</a></div><div class="ttdoc">The initialization wizard to select the diagram configuration.</div><div class="ttdef"><b>Definition</b> wizard.h:31</div></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span> </div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>}</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="preprocessor">#endif </span><span class="comment">// MAINWINDOW_H</span></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_diagram_1_1_diagram_html"><div class="ttname"><a href="class_diagram_editor_1_1_diagram_1_1_diagram.html">DiagramEditor::Diagram::Diagram</a></div><div class="ttdoc">A diagram that contains and manages diagram items.</div><div class="ttdef"><b>Definition</b> diagram.h:37</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_diagram_type_html_a746178d47d2ccb0901802e591f90f66f"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_diagram_type.html#a746178d47d2ccb0901802e591f90f66f">DiagramEditor::Gui::DiagramType::DiagramItemsIds</a></div><div class="ttdeci">QHash&lt; QString, QStringList &gt; DiagramItemsIds</div><div class="ttdoc">Hash that stores the associated item IDs for each diagram item type.</div><div class="ttdef"><b>Definition</b> diagramtype.h:34</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_main_window_html_a2a2a0df04dff2dfab49d02e506302a4c"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_main_window.html#a2a2a0df04dff2dfab49d02e506302a4c">DiagramEditor::Gui::MainWindow::~MainWindow</a></div><div class="ttdeci">~MainWindow() override</div><div class="ttdef"><b>Definition</b> mainwindow.cpp:57</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_main_window_html_a5ce33b553f00f804d1badc1083246039"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_main_window.html#a5ce33b553f00f804d1badc1083246039">DiagramEditor::Gui::MainWindow::MainWindow</a></div><div class="ttdeci">MainWindow(const QVariantHash &amp;diagramGroups, const QVariantHash &amp;diagramTypes, const QVariantHash &amp;diagramItems, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> mainwindow.cpp:36</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_main_window_html_aaf7cede577a149b883a3be8a8d7b129c"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_main_window.html#aaf7cede577a149b883a3be8a8d7b129c">DiagramEditor::Gui::MainWindow::ITEM_ICON_SIZE</a></div><div class="ttdeci">static const int ITEM_ICON_SIZE</div><div class="ttdoc">The size of the diagram item icons.</div><div class="ttdef"><b>Definition</b> mainwindow.h:47</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_main_window_html_abf889ce90a120e8a4043b3b003a94c3c"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_main_window.html#abf889ce90a120e8a4043b3b003a94c3c">DiagramEditor::Gui::MainWindow::CANVAS_SIZE</a></div><div class="ttdeci">static const int CANVAS_SIZE</div><div class="ttdoc">The size of the diagram canvas.</div><div class="ttdef"><b>Definition</b> mainwindow.h:44</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_main_window_html_ac98f5a7f809d432f36e2261ff66a6fe7"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_main_window.html#ac98f5a7f809d432f36e2261ff66a6fe7">DiagramEditor::Gui::MainWindow::ITEM_MOVE_STEP</a></div><div class="ttdeci">static const int ITEM_MOVE_STEP</div><div class="ttdoc">The length of a diagram item move step.</div><div class="ttdef"><b>Definition</b> mainwindow.h:50</div></div>
+<div class="ttc" id="aclass_diagram_editor_1_1_gui_1_1_wizard_html"><div class="ttname"><a href="class_diagram_editor_1_1_gui_1_1_wizard.html">DiagramEditor::Gui::Wizard</a></div><div class="ttdoc">The initialization wizard to select the diagram configuration.</div><div class="ttdef"><b>Definition</b> wizard.h:33</div></div>
 <div class="ttc" id="adiagramtype_8h_html"><div class="ttname"><a href="diagramtype_8h.html">diagramtype.h</a></div><div class="ttdoc">Declaration of DiagramType class.</div></div>
+<div class="ttc" id="anamespace_diagram_editor_1_1_diagram_html"><div class="ttname"><a href="namespace_diagram_editor_1_1_diagram.html">DiagramEditor::Diagram</a></div><div class="ttdoc">Contains the classes related to the diagram, its items and components.</div><div class="ttdef"><b>Definition</b> connectableresizer.cpp:16</div></div>
+<div class="ttc" id="anamespace_diagram_editor_1_1_gui_html"><div class="ttname"><a href="namespace_diagram_editor_1_1_gui.html">DiagramEditor::Gui</a></div><div class="ttdoc">Contains the classes related to the graphical user interface.</div><div class="ttdef"><b>Definition</b> diagramtype.cpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

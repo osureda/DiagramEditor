@@ -14,37 +14,41 @@
 \DoxyCodeLine{00016\ \textcolor{keyword}{class\ }QVBoxLayout;}
 \DoxyCodeLine{00017\ QT\_END\_NAMESPACE}
 \DoxyCodeLine{00018\ }
-\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_specifications_form_a75d0026c7c736c12495585afcc5f2c1b}{SpecificationsForm}}\ :\ \textcolor{keyword}{public}\ QWidget}
-\DoxyCodeLine{00025\ \{}
-\DoxyCodeLine{00026\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{00027\ }
-\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_specifications_form_a75d0026c7c736c12495585afcc5f2c1b}{SpecificationsForm}}();}
-\DoxyCodeLine{00034\ }
-\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_specifications_form_ae74ec6d19785a356a00e2513bd190fa0}{appendForm}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_specifications_form_a75d0026c7c736c12495585afcc5f2c1b}{SpecificationsForm}}\ *form);}
-\DoxyCodeLine{00041\ }
-\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_specifications_form_ab77131a307497ae51dd600c9f17b424e}{appendField}}(\textcolor{keyword}{const}\ QString\ \&fieldName,\ QWidget\ *fieldWidget);}
-\DoxyCodeLine{00050\ }
-\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_specifications_form_aa8927ccba376a8b941c5b23350211196}{formCount}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00057\ }
-\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_specifications_form_ae62b3a4806135e59665fa6c1c59a566c}{fieldCount}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00064\ }
-\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ QWidget\ *\doxymbox{\hyperlink{class_specifications_form_a67b0d678217739885030e2b1b5beb1eb}{fieldResults}}(\textcolor{keywordtype}{int}\ formIndex,\ \textcolor{keyword}{const}\ QString\ \&fieldName)\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00075\ }
-\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keyword}{struct\ }FormField\ \{}
-\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ \ \ \ \ QString\ name;}
-\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \ \ \ \ QWidget\ *widget;}
-\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \};}
-\DoxyCodeLine{00085\ }
-\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ QVBoxLayout\ *formLayout;\ }
-\DoxyCodeLine{00092\ }
-\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ QList<int>\ formStartIndices;\ }
-\DoxyCodeLine{00094\ \ \ \ \ \ \ \ \ QList<FormField>\ formFields;\ }
-\DoxyCodeLine{00095\ }
-\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ QWidget\ *field(\textcolor{keyword}{const}\ QString\ \&fieldName,\ QWidget\ *fieldWidget)\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00106\ \};}
-\DoxyCodeLine{00107\ }
-\DoxyCodeLine{00108\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SPECIFICATIONSFORM\_H}}
+\DoxyCodeLine{00019\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_specification}{DiagramEditor::Specification}}\ \{}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}{SpecificationsForm}}\ :\ \textcolor{keyword}{public}\ QWidget}
+\DoxyCodeLine{00027\ \{}
+\DoxyCodeLine{00028\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}{SpecificationsForm}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf74900b417f15045e5d4d22}{appendForm}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}{SpecificationsForm}}\ *form);}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_ae0331c6f314a218aad9b015dcae88052}{appendField}}(\textcolor{keyword}{const}\ QString\ \&fieldName,\ QWidget\ *fieldWidget);}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a06cbd3b0737bd7999d9b0d00ed0fd05b}{formCount}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a353adae7aed423833c238daab19bb114}{fieldCount}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ QWidget\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a554646f0d0005f5f8fa93b92195544dc}{fieldResults}}(\textcolor{keywordtype}{int}\ formIndex,\ \textcolor{keyword}{const}\ QString\ \&fieldName)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00078\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \textcolor{keyword}{struct\ }FormField\ \{}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \ \ \ \ QString\ name;}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ \ \ \ \ QWidget\ *widget;}
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \};}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ QVBoxLayout\ *formLayout;\ }
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ QList<int>\ formStartIndices;\ }
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ QList<FormField>\ formFields;\ }
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ QWidget\ *field(\textcolor{keyword}{const}\ QString\ \&fieldName,\ QWidget\ *fieldWidget)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00108\ \};}
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00110\ \}}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SPECIFICATIONSFORM\_H}}
 
 \end{DoxyCode}

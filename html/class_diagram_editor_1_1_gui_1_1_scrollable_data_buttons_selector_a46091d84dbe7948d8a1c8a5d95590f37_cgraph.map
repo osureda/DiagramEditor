@@ -1,0 +1,7 @@
+<map id="DiagramEditor::Gui::ScrollableDataButtonsSelector::selectionChanged" name="DiagramEditor::Gui::ScrollableDataButtonsSelector::selectionChanged">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,213,64"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector.html#acbab4326bf2d06349d8c367eb3a632bb" title=" " alt="" coords="261,5,468,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,32,248,34,243,35,213,37"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_gui_1_1_selectable_data_button.html#a75187ef48dea1c1bf52bab493bd1d1e1" title=" " alt="" coords="516,13,705,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="469,32,503,35,498,35,469,37"/>
+</map>

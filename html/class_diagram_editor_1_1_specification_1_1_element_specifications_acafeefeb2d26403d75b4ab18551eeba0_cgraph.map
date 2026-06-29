@@ -1,0 +1,7 @@
+<map id="DiagramEditor::Specification::ElementSpecifications::toHash" name="DiagramEditor::Specification::ElementSpecifications::toHash">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,215,56"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#a484b0e447c72b67d285fe064d2d117fa" title=" " alt="" coords="263,13,459,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,32,249,34,244,35,215,37"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html#ae0d21e0ddb9b7f98cf2c6431679e3a9e" title=" " alt="" coords="507,5,751,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="460,32,494,35,489,35,460,37"/>
+</map>

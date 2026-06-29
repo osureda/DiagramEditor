@@ -15,11 +15,13 @@ QT_BEGIN_NAMESPACE
 class QVariant;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Gui {
+
 /**
  * @class DiagramTypeGroup
  * @brief Represents a group of diagram types.
  */
-class DiagramTypeGroup : public JsonSerializable
+class DiagramTypeGroup : public DiagramEditor::Serialization::JsonSerializable
 {
     public:
         /**
@@ -40,5 +42,7 @@ class DiagramTypeGroup : public JsonSerializable
     private:
         QStringList storedDiagramTypes; ///< IDs of the diagram types in the group
 };
+
+}
 
 #endif // DIAGRAMTYPEGROUP_H

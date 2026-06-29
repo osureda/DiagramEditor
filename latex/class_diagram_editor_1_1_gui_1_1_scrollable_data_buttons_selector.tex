@@ -1,0 +1,231 @@
+\doxysection{Diagram\+Editor::\+Gui::\+Scrollable\+Data\+Buttons\+Selector Class Reference}
+\hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector}{}\label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector}\index{DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}}
+
+
+A scrollable widget for selecting a data button.  
+
+
+
+
+{\ttfamily \+\#include $<$scrollabledatabuttonsselector.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Gui::\+Scrollable\+Data\+Buttons\+Selector:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Gui::\+Scrollable\+Data\+Buttons\+Selector:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe7948d8a1c8a5d95590f37}{selection\+Changed}} (const QVariant\+Hash \&selected\+Button\+Data)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f}{Scrollable\+Data\+Buttons\+Selector}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a21898c095b9bc0a673f4e326435950ce}{Scrollable\+Data\+Buttons\+Selector}} (int n\+Columns, int icons\+Size, bool upper\+Icons, QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab3b384342ce024f599bea38294}{add\+Buttons}} (const QVariant\+Hash \&buttons\+Data)
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2d06349d8c367eb3a632bb}{selected\+Button\+Data}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_ac8e440ddf431a47023c176360f0d5059}{clear}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a1df20f090d2d20d773fc9d073f011534}\label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a1df20f090d2d20d773fc9d073f011534} 
+static const int {\bfseries UPPER\+\_\+\+ICONS\+\_\+\+SPACING} = 20
+\begin{DoxyCompactList}\small\item\em The spacing between buttons whose icon is above the text. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A scrollable widget for selecting a data button. 
+
+\label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f}\index{DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}!ScrollableDataButtonsSelector@{ScrollableDataButtonsSelector}}
+\index{ScrollableDataButtonsSelector@{ScrollableDataButtonsSelector}!DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}}
+\doxysubsubsection{\texorpdfstring{ScrollableDataButtonsSelector()}{ScrollableDataButtonsSelector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f} 
+Diagram\+Editor::\+\+Gui::\+\+Scrollable\+Data\+Buttons\+Selector::\+\+Scrollable\+Data\+Buttons\+Selector (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The container of the selector. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The selector has one column of buttons with no icons and is contained by parent. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed3957758d823482941a7496f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a21898c095b9bc0a673f4e326435950ce}\index{DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}!ScrollableDataButtonsSelector@{ScrollableDataButtonsSelector}}
+\index{ScrollableDataButtonsSelector@{ScrollableDataButtonsSelector}!DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}}
+\doxysubsubsection{\texorpdfstring{ScrollableDataButtonsSelector()}{ScrollableDataButtonsSelector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a21898c095b9bc0a673f4e326435950ce} 
+Diagram\+Editor::\+\+Gui::\+\+Scrollable\+Data\+Buttons\+Selector::\+\+Scrollable\+Data\+Buttons\+Selector (\begin{DoxyParamCaption}\item[{int}]{n\+Columns}{, }\item[{int}]{icons\+Size}{, }\item[{bool}]{upper\+Icons}{, }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+Columns} & The number of button columns of the selector. \\
+\hline
+{\em icons\+Size} & The size of the button icons. \\
+\hline
+{\em upper\+Icons} & Whether the buttons have the icons above the text. \\
+\hline
+{\em parent} & The container of the selector. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The selector is contained by parent and has n\+Columns columns of buttons with icons of size icons\+Size and above the text if upper\+Icons is true. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab3b384342ce024f599bea38294}\index{DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}!addButtons@{addButtons}}
+\index{addButtons@{addButtons}!DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}}
+\doxysubsubsection{\texorpdfstring{addButtons()}{addButtons()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab3b384342ce024f599bea38294} 
+void Diagram\+Editor::\+\+Gui::\+\+Scrollable\+Data\+Buttons\+Selector::\+add\+Buttons (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{buttons\+Data}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em buttons\+Data} & The data of the buttons we want to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Buttons with the data from buttons\+Data have been added to the selector. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab3b384342ce024f599bea38294_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_ac8e440ddf431a47023c176360f0d5059}\index{DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}!clear@{clear}}
+\index{clear@{clear}!DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_ac8e440ddf431a47023c176360f0d5059} 
+void Diagram\+Editor::\+\+Gui::\+\+Scrollable\+Data\+Buttons\+Selector::\+clear (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The selector contains no buttons. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2d06349d8c367eb3a632bb}\index{DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}!selectedButtonData@{selectedButtonData}}
+\index{selectedButtonData@{selectedButtonData}!DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}}
+\doxysubsubsection{\texorpdfstring{selectedButtonData()}{selectedButtonData()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2d06349d8c367eb3a632bb} 
+QVariant\+Hash Diagram\+Editor::\+\+Gui::\+\+Scrollable\+Data\+Buttons\+Selector::\+selected\+Button\+Data (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The data of the selected button. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The data of the selected button has been returned. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2d06349d8c367eb3a632bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2d06349d8c367eb3a632bb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe7948d8a1c8a5d95590f37}\index{DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}!selectionChanged@{selectionChanged}}
+\index{selectionChanged@{selectionChanged}!DiagramEditor::Gui::ScrollableDataButtonsSelector@{DiagramEditor::Gui::ScrollableDataButtonsSelector}}
+\doxysubsubsection{\texorpdfstring{selectionChanged}{selectionChanged}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe7948d8a1c8a5d95590f37} 
+void Diagram\+Editor::\+\+Gui::\+\+Scrollable\+Data\+Buttons\+Selector::\+selection\+Changed (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{selected\+Button\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em selected\+Button\+Data} & The data of the selected button. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The selected button has changed. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The signal has been emited with the selected button data. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe7948d8a1c8a5d95590f37_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe7948d8a1c8a5d95590f37_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{scrollabledatabuttonsselector_8h}{scrollabledatabuttonsselector.\+h}}\item 
+\doxymbox{\hyperlink{scrollabledatabuttonsselector_8cpp}{scrollabledatabuttonsselector.\+cpp}}\end{DoxyCompactItemize}

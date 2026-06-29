@@ -16,6 +16,8 @@ QT_BEGIN_NAMESPACE
 class QVBoxLayout;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+
 /**
  * @class SpecificationsForm
  * @brief A form for editing diagram item specifications that can contain many
@@ -104,5 +106,7 @@ class SpecificationsForm : public QWidget
          */
         QWidget *field(const QString &fieldName, QWidget *fieldWidget) const;
 };
+
+}
 
 #endif // SPECIFICATIONSFORM_H

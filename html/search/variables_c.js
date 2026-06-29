@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['separator_5fpath_5fcolor_0',['SEPARATOR_PATH_COLOR',['../class_element_specifications.html#a9296c7769010a12f5e41146a5f38336c',1,'ElementSpecifications']]],
-  ['separator_5fpath_5fwidth_1',['SEPARATOR_PATH_WIDTH',['../class_element_specifications.html#aef13f486f87f28aea412382eb92a81b8',1,'ElementSpecifications']]],
-  ['size_2',['SIZE',['../class_diagram_resizer.html#ab1bd404c9dbb920458a967e4d6f17d19',1,'DiagramResizer']]],
-  ['specifications_3',['specifications',['../class_specifications_group.html#a97ad1507842cd9fe458b962eb739ac91',1,'SpecificationsGroup']]],
-  ['specificationsids_4',['specificationsIds',['../class_specifications_group.html#a74e1ab1ab7284b10f34131eae25b3bf0',1,'SpecificationsGroup']]],
-  ['storedname_5',['storedName',['../class_diagram_specification.html#a0c3e2378eac3feaa4a477a3c758870aa',1,'DiagramSpecification']]],
-  ['style_5fsheet_6',['STYLE_SHEET',['../class_selectable_data_button.html#a62e6dfb51f2567bdadf5fc813890e516',1,'SelectableDataButton']]]
+  ['separator_5fpath_5fcolor_0',['SEPARATOR_PATH_COLOR',['../class_diagram_editor_1_1_specification_1_1_element_specifications.html#a89c86c02e3a64ff732cb55ea94c2350e',1,'DiagramEditor::Specification::ElementSpecifications::SEPARATOR_PATH_COLOR'],['../class_diagram_editor_1_1_diagram_1_1_element_specifications.html#a89c86c02e3a64ff732cb55ea94c2350e',1,'DiagramEditor::Diagram::ElementSpecifications::SEPARATOR_PATH_COLOR']]],
+  ['separator_5fpath_5fwidth_1',['SEPARATOR_PATH_WIDTH',['../class_diagram_editor_1_1_specification_1_1_element_specifications.html#a00fa479b89f4368414ba0c87cb214503',1,'DiagramEditor::Specification::ElementSpecifications::SEPARATOR_PATH_WIDTH'],['../class_diagram_editor_1_1_diagram_1_1_element_specifications.html#a00fa479b89f4368414ba0c87cb214503',1,'DiagramEditor::Diagram::ElementSpecifications::SEPARATOR_PATH_WIDTH']]],
+  ['size_2',['SIZE',['../class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#a39cf31d235de9ce73cfee7f82cbde735',1,'DiagramEditor::Diagram::DiagramResizer']]],
+  ['specifications_3',['specifications',['../class_diagram_editor_1_1_specification_1_1_specifications_group.html#aa42721612a9422691cec219d5890a10d',1,'DiagramEditor::Specification::SpecificationsGroup']]],
+  ['specificationsids_4',['specificationsIds',['../class_diagram_editor_1_1_specification_1_1_specifications_group.html#aff1b39295c8e043eb7bd1bb150a33fa5',1,'DiagramEditor::Specification::SpecificationsGroup']]],
+  ['storedname_5',['storedName',['../class_diagram_editor_1_1_specification_1_1_diagram_specification.html#aa3fef579f01e31de3c26faf0b2be3ae8',1,'DiagramEditor::Specification::DiagramSpecification']]],
+  ['style_5fsheet_6',['STYLE_SHEET',['../class_diagram_editor_1_1_gui_1_1_selectable_data_button.html#adbd3f9f2202b1037479190bcd72f84fb',1,'DiagramEditor::Gui::SelectableDataButton']]]
 ];

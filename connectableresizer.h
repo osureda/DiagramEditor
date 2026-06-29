@@ -14,17 +14,19 @@
 #include <QStringList>
 #include <QVariant>
 
-class DiagramComponent;
-
 QT_BEGIN_NAMESPACE
 class QGraphicsSceneMouseEvent;
 QT_END_NAMESPACE
+
+namespace DiagramEditor::Diagram {
+
+class DiagramComponent;
 
 /**
  * @class ConnectableResizer
  * @brief A diagram resizer that can be connected to a diagram component.
  */
-class ConnectableResizer : public DiagramResizer, public JsonSerializable
+class ConnectableResizer : public DiagramResizer, public DiagramEditor::Serialization::JsonSerializable
 {
     Q_OBJECT
 
@@ -115,5 +117,7 @@ class ConnectableResizer : public DiagramResizer, public JsonSerializable
          */
         void disconnectFrom(DiagramComponent *component);
 };
+
+}
 
 #endif // CONNECTABLERESIZER_H

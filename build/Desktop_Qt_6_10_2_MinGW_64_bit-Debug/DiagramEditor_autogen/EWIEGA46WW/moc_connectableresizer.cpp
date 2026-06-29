@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN18ConnectableResizerE_t {};
+struct qt_meta_tag_ZN13DiagramEditor7Diagram18ConnectableResizerE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto ConnectableResizer::qt_create_metaobjectdata<qt_meta_tag_ZN18ConnectableResizerE_t>()
+template <> constexpr inline auto DiagramEditor::Diagram::ConnectableResizer::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor7Diagram18ConnectableResizerE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "ConnectableResizer",
+        "DiagramEditor::Diagram::ConnectableResizer",
         "updateParentPosition",
         ""
     };
@@ -51,20 +51,20 @@ template <> constexpr inline auto ConnectableResizer::qt_create_metaobjectdata<q
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<ConnectableResizer, qt_meta_tag_ZN18ConnectableResizerE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<ConnectableResizer, qt_meta_tag_ZN13DiagramEditor7Diagram18ConnectableResizerE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject ConnectableResizer::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Diagram::ConnectableResizer::staticMetaObject = { {
     QMetaObject::SuperData::link<DiagramResizer::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN18ConnectableResizerE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN18ConnectableResizerE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram18ConnectableResizerE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram18ConnectableResizerE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN18ConnectableResizerE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor7Diagram18ConnectableResizerE_t>.metaTypes,
     nullptr
 } };
 
-void ConnectableResizer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Diagram::ConnectableResizer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<ConnectableResizer *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -76,22 +76,22 @@ void ConnectableResizer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
     (void)_a;
 }
 
-const QMetaObject *ConnectableResizer::metaObject() const
+const QMetaObject *DiagramEditor::Diagram::ConnectableResizer::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *ConnectableResizer::qt_metacast(const char *_clname)
+void *DiagramEditor::Diagram::ConnectableResizer::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN18ConnectableResizerE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram18ConnectableResizerE_t>.strings))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "JsonSerializable"))
-        return static_cast< JsonSerializable*>(this);
+    if (!strcmp(_clname, "DiagramEditor::Serialization::JsonSerializable"))
+        return static_cast< DiagramEditor::Serialization::JsonSerializable*>(this);
     return DiagramResizer::qt_metacast(_clname);
 }
 
-int ConnectableResizer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Diagram::ConnectableResizer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = DiagramResizer::qt_metacall(_c, _id, _a);
     if (_id < 0)

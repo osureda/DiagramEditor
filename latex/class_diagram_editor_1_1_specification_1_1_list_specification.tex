@@ -1,0 +1,201 @@
+\doxysection{Diagram\+Editor::\+Specification::\+List\+Specification Class Reference}
+\hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification}{}\label{class_diagram_editor_1_1_specification_1_1_list_specification}\index{DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}}
+
+
+diagram specification whose text is displayed as a list..  
+
+
+
+
+{\ttfamily \+\#include $<$listspecification.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Specification::\+List\+Specification:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_list_specification__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Specification::\+List\+Specification:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_list_specification__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204d8b996ebf4b1a5bc780277}{List\+Specification}} (QGraphics\+Item \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec363657602b184f6372330}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a9750d731fe56557d78f593c8}{to\+Hash}} () const override
+\item 
+QWidget \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_list_specification_a3b8201a59eafc47c9b72a1feb0e10b44}{form}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754c5603c800e3859d9cf617a328}{Diagram\+Specification}} (QGraphics\+Item \texorpdfstring{$\ast$}{*}parent=nullptr)
+\item 
+QPointF \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a987e80caf24592840e2893f2d67d6d58}{moving\+Translation}} () const
+\item 
+QString \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a4f0116c7816fb2d388229f46a990bbb7}{name}} () const
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a74f8a350ecad54f859778caef1646c41}{apply\+Form\+Results}} (const QWidget \texorpdfstring{$\ast$}{*}form\+Results)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification_a6c6a26757e97b7f94f964df7e7e8a61c}\label{class_diagram_editor_1_1_specification_1_1_list_specification_a6c6a26757e97b7f94f964df7e7e8a61c} 
+static const int {\bfseries FORM\+\_\+\+BUTTONS\+\_\+\+SIZE} = 25
+\begin{DoxyCompactList}\small\item\em The size of the specification form buttons. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}}
+\begin{DoxyCompactItemize}
+\item 
+QVariant \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_abda5919d25d8935646e9a7ac4a4bb363}{item\+Change}} (Graphics\+Item\+Change change, const QVariant \&value) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}}
+\begin{DoxyCompactItemize}
+\item 
+QString {\bfseries stored\+Name}
+\begin{DoxyCompactList}\small\item\em The name of the specification. \end{DoxyCompactList}\item 
+bool {\bfseries fixed}
+\begin{DoxyCompactList}\small\item\em Whether the specification text can be edited. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+diagram specification whose text is displayed as a list.. 
+
+\label{class_diagram_editor_1_1_specification_1_1_list_specification_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204d8b996ebf4b1a5bc780277}\index{DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}!ListSpecification@{ListSpecification}}
+\index{ListSpecification@{ListSpecification}!DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}}
+\doxysubsubsection{\texorpdfstring{ListSpecification()}{ListSpecification()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204d8b996ebf4b1a5bc780277} 
+Diagram\+Editor::\+\+Specification::\+\+List\+Specification::\+\+List\+Specification (\begin{DoxyParamCaption}\item[{QGraphics\+Item \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The container of the specification. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification is contained by parent. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204d8b996ebf4b1a5bc780277_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_editor_1_1_specification_1_1_list_specification_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification_a3b8201a59eafc47c9b72a1feb0e10b44}\index{DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}!form@{form}}
+\index{form@{form}!DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}}
+\doxysubsubsection{\texorpdfstring{form()}{form()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_list_specification_a3b8201a59eafc47c9b72a1feb0e10b44} 
+QWidget \texorpdfstring{$\ast$}{*} Diagram\+Editor::\+\+Specification::\+\+List\+Specification::\+form (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The form to modify the specification text. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The form to modify the specification text has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_ac888f58ba31c1758cc272f3148624153}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}.
+
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec363657602b184f6372330}\index{DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec363657602b184f6372330} 
+void Diagram\+Editor::\+\+Specification::\+\+List\+Specification::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification data has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138a7983bae50e3c925a5e662442}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec363657602b184f6372330_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a9750d731fe56557d78f593c8}\index{DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramEditor::Specification::ListSpecification@{DiagramEditor::Specification::ListSpecification}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a9750d731fe56557d78f593c8} 
+QVariant\+Hash Diagram\+Editor::\+\+Specification::\+\+List\+Specification::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The data associated with the specification. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The data associated with the specification has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9c977387ee7818d22b020ee03f}{Diagram\+Editor::\+\+Specification::\+\+Diagram\+Specification}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a9750d731fe56557d78f593c8_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{listspecification_8h}{listspecification.\+h}}\item 
+\doxymbox{\hyperlink{listspecification_8cpp}{listspecification.\+cpp}}\end{DoxyCompactItemize}

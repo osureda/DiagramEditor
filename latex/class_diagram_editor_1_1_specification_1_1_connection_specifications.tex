@@ -1,0 +1,314 @@
+\doxysection{Diagram\+Editor::\+Specification::\+Connection\+Specifications Class Reference}
+\hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications}{}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+
+
+The specifications of a diagram connection.  
+
+
+
+
+{\ttfamily \+\#include $<$connectionspecifications.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Specification::\+Connection\+Specifications:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_connection_specifications__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Specification::\+Connection\+Specifications:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_diagram_editor_1_1_specification_1_1_connection_specifications__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum class \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8}{Horizontal\+Pos}} \{ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a4f1f6016fc9f3f2353c0cc7c67b292bd}{Center}}
+, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a1a06729125544cab7cee73195fc044f0}{Begin}}
+, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a87557f11575c0ad78e4e28abedc13b6e}{End}}
+ \}
+\begin{DoxyCompactList}\small\item\em The types of specification horizontal positions. \end{DoxyCompactList}\item 
+enum class \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262}{Vertical\+Pos}} \{ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262a5b469fd01889ec12f1e84c6e66829fc1}{Above}}
+, \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262ae59dd8d25c0b6bb6697eac0617ccd412}{Below}}
+ \}
+\begin{DoxyCompactList}\small\item\em The types of specification vertical positions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa27871bc6ad65c4113ad5a1749b4ada}{update\+Specifications\+Pos}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d0c9e100e9274a248315d50c36c62a}{Connection\+Specifications}} (\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection}{Diagram\+Connection}} \texorpdfstring{$\ast$}{*}parent)
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4fa3742d877dbdcc8e643084504c4f}{load\+From\+Hash}} (const QVariant\+Hash \&hash) override
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9eb3bdbc4ff2ba82a31fc833012bd}{to\+Hash}} () const override
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a968beaf2d6a9c079081609fe6d7ba082}{apply\+Form\+Results}} (const \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}form\+Results, int form\+Index) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_ae74a6f26f73e5a5d9cb5c3b4305e2fdc}{Specifications\+Group}} (\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*}parent)
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_ab53914ffe9c97145d31cedadc39d5fab}{\texorpdfstring{$\sim$}{\string~}\+Specifications\+Group}} () override
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc04363ffa9941fd4c17d3565348e}{form}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_afc25550e637932eab47d198596e72bfe}{\texorpdfstring{$\sim$}{\string~}\+Json\+Serializable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a4f30067033b7fa8c0a1587bce87f61e6}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a4f30067033b7fa8c0a1587bce87f61e6} 
+static const int {\bfseries HORIZONTAL\+\_\+\+SPACING} = 3
+\begin{DoxyCompactList}\small\item\em The margins of the endpoint specifications. \end{DoxyCompactList}\item 
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a583d239ca8c25cd95fbbfb0d786e9017}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a583d239ca8c25cd95fbbfb0d786e9017} 
+static const int {\bfseries VERTICAL\+\_\+\+SPACING} = 2
+\begin{DoxyCompactList}\small\item\em The default vertical distance between the specifications and the connection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{Diagram\+Editor::\+\+Serialization::\+\+Json\+Serializable}}}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable_a94656d5f38cccd96b5d58d601956b224}{filtered\+Hash\+By\+Keys}} (const QVariant\+Hash \&hash, const QString\+List \&keys)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}}
+\begin{DoxyCompactItemize}
+\item 
+static \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Specification}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_a66ce711cc7369064409a60eb5af6ad9b}{specification\+From\+Type\+Name}} (const QString \&type\+Name)
+\item 
+static QString \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_ae0d21e0ddb9b7f98cf2c6431679e3a9e}{type\+Name\+From\+Specification}} (const \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Specification}} \texorpdfstring{$\ast$}{*}specification)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_component}{Diagram\+Component}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_a65449164f7a313b171de34acc9fbb5ea}{diagram\+Component}}
+\begin{DoxyCompactList}\small\item\em The diagram component to which the specifications belong. \end{DoxyCompactList}\item 
+QVector$<$ QString $>$ {\bfseries specifications\+Ids}
+\begin{DoxyCompactList}\small\item\em The IDs of the specifications. \end{DoxyCompactList}\item 
+QVector$<$ \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_diagram_specification}{Diagram\+Specification}} \texorpdfstring{$\ast$}{*} $>$ {\bfseries specifications}
+\begin{DoxyCompactList}\small\item\em The group specifications. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The specifications of a diagram connection. 
+
+\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_doc-enum-members}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_doc-enum-members}
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!HorizontalPos@{HorizontalPos}}
+\index{HorizontalPos@{HorizontalPos}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\doxysubsubsection{\texorpdfstring{HorizontalPos}{HorizontalPos}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8} 
+enum class \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8}{Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications::\+\+Horizontal\+Pos}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+The types of specification horizontal positions. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Center@{Center}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!Center@{Center}}
+}\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a4f1f6016fc9f3f2353c0cc7c67b292bd}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a4f1f6016fc9f3f2353c0cc7c67b292bd} 
+Center&A centered horizontal position. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Begin@{Begin}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!Begin@{Begin}}
+}\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a1a06729125544cab7cee73195fc044f0}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a1a06729125544cab7cee73195fc044f0} 
+Begin&A left endpoint horizontal position. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{End@{End}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!End@{End}}
+}\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a87557f11575c0ad78e4e28abedc13b6e}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a49d2472eefb51cb9bcd89e4f311133f8a87557f11575c0ad78e4e28abedc13b6e} 
+End&A right endpoint horizontal position. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!VerticalPos@{VerticalPos}}
+\index{VerticalPos@{VerticalPos}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\doxysubsubsection{\texorpdfstring{VerticalPos}{VerticalPos}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262} 
+enum class \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262}{Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications::\+\+Vertical\+Pos}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+The types of specification vertical positions. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Above@{Above}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!Above@{Above}}
+}\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262a5b469fd01889ec12f1e84c6e66829fc1}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262a5b469fd01889ec12f1e84c6e66829fc1} 
+Above&A vertical position above the connection. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Below@{Below}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!Below@{Below}}
+}\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262ae59dd8d25c0b6bb6697eac0617ccd412}\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a7f55dfa3fbfe52805dbc0c9fba98f262ae59dd8d25c0b6bb6697eac0617ccd412} 
+Below&A vertical position below the connection. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d0c9e100e9274a248315d50c36c62a}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!ConnectionSpecifications@{ConnectionSpecifications}}
+\index{ConnectionSpecifications@{ConnectionSpecifications}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\doxysubsubsection{\texorpdfstring{ConnectionSpecifications()}{ConnectionSpecifications()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d0c9e100e9274a248315d50c36c62a} 
+Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications::\+\+Connection\+Specifications (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram_connection}{Diagram\+Connection}} \texorpdfstring{$\ast$}{*}}]{parent}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The diagram connection to which the specifications belong. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specifications group belongs to parent. 
+\end{DoxyPostcond}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d0c9e100e9274a248315d50c36c62a_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{class_diagram_editor_1_1_specification_1_1_connection_specifications_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a968beaf2d6a9c079081609fe6d7ba082}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!applyFormResults@{applyFormResults}}
+\index{applyFormResults@{applyFormResults}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\doxysubsubsection{\texorpdfstring{applyFormResults()}{applyFormResults()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a968beaf2d6a9c079081609fe6d7ba082} 
+void Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications::\+apply\+Form\+Results (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}}]{form\+Results}{, }\item[{int}]{form\+Index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Results} & The specifications form containing the results to apply. \\
+\hline
+{\em form\+Index} & The index of the component form in form\+Results. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The results in the specifications form with index form\+Index in form\+Results have been applied to the specifications. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4f5bdeb33e4c78e9f615e75e8}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_connection_specifications_a968beaf2d6a9c079081609fe6d7ba082_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4fa3742d877dbdcc8e643084504c4f}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!loadFromHash@{loadFromHash}}
+\index{loadFromHash@{loadFromHash}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\doxysubsubsection{\texorpdfstring{loadFromHash()}{loadFromHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4fa3742d877dbdcc8e643084504c4f} 
+void Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications::\+load\+From\+Hash (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash containing the data to load. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The specifications diagram component belongs to a scene. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specifications group has been loaded using the data from the given hash. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd3907349b93f7cb16e83bb2b4446}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4fa3742d877dbdcc8e643084504c4f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9eb3bdbc4ff2ba82a31fc833012bd}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!toHash@{toHash}}
+\index{toHash@{toHash}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\doxysubsubsection{\texorpdfstring{toHash()}{toHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9eb3bdbc4ff2ba82a31fc833012bd} 
+QVariant\+Hash Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications::\+to\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The hash containing the specifications data. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash containing the specifications data has been returned. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447c72b67d285fe064d2d117fa}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Group}}.
+
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9eb3bdbc4ff2ba82a31fc833012bd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa27871bc6ad65c4113ad5a1749b4ada}\index{DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}!updateSpecificationsPos@{updateSpecificationsPos}}
+\index{updateSpecificationsPos@{updateSpecificationsPos}!DiagramEditor::Specification::ConnectionSpecifications@{DiagramEditor::Specification::ConnectionSpecifications}}
+\doxysubsubsection{\texorpdfstring{updateSpecificationsPos}{updateSpecificationsPos}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa27871bc6ad65c4113ad5a1749b4ada} 
+void Diagram\+Editor::\+\+Specification::\+\+Connection\+Specifications::\+update\+Specifications\+Pos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The specification positions have been updated. 
+\end{DoxyPostcond}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa27871bc6ad65c4113ad5a1749b4ada_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{connectionspecifications_8h}{connectionspecifications.\+h}}\item 
+\doxymbox{\hyperlink{connectionspecifications_8cpp}{connectionspecifications.\+cpp}}\end{DoxyCompactItemize}

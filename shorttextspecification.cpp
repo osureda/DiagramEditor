@@ -10,6 +10,8 @@
 #include <QLineEdit>
 #include <QWidget>
 
+namespace DiagramEditor::Specification {
+
 ShortTextSpecification::ShortTextSpecification(QGraphicsItem *parent)
     : DiagramSpecification(parent)
 {}
@@ -36,4 +38,6 @@ void ShortTextSpecification::updateTextFromForm(const QWidget *fromResults) {
     if (textEditor) {
         setPlainText(textEditor->text());
     }
+}
+
 }

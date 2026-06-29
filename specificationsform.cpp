@@ -10,6 +10,8 @@
 #include <QLabel>
 #include <QVBoxLayout>
 
+namespace DiagramEditor::Specification {
+
 SpecificationsForm::SpecificationsForm()
 {
     formLayout = new QVBoxLayout(this);
@@ -73,4 +75,6 @@ QWidget *SpecificationsForm::field(const QString &fieldName, QWidget *fieldWidge
     layout->addWidget(fieldWidget);
 
     return widget;
+}
+
 }

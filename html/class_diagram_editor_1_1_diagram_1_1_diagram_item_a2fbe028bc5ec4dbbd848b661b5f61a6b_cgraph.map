@@ -1,0 +1,11 @@
+<map id="DiagramEditor::Diagram::DiagramItem::specificationsForm" name="DiagramEditor::Diagram::DiagramItem::specificationsForm">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,228,115"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_specification_1_1_specifications_form.html#aca9c16d1bf74900b417f15045e5d4d22" title=" " alt="" coords="276,72,497,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,91,263,93,257,94,228,96"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_specifications_form.html#ae0331c6f314a218aad9b015dcae88052" title=" " alt="" coords="566,5,785,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="481,69,563,53,568,51,483,74"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_specification_1_1_specifications_form.html#a353adae7aed423833c238daab19bb114" title=" " alt="" coords="572,72,780,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="497,91,558,93,553,94,497,96"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_specification_1_1_specifications_form.html#a9020883dd7b108647715d81195d870a7" title=" " alt="" coords="545,139,806,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="482,113,568,135,563,135,482,118"/>
+</map>

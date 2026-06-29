@@ -9,437 +9,615 @@
 \contentsline {chapter}{\numberline {5}File Index}{9}{chapter.5}%
 \contentsline {section}{\numberline {5.1}File List}{9}{section.5.1}%
 \contentsline {chapter}{\numberline {6}Namespace Documentation}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Geometry\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils Namespace Reference}{13}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{14}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Enumeration Type Documentation}{14}{subsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.2.1}LineMarker}{14}{subsubsection.6.1.2.1}%
-\contentsline {subsubsection}{\numberline {6.1.2.2}PolygonShape}{14}{subsubsection.6.1.2.2}%
-\contentsline {subsubsection}{\numberline {6.1.2.3}Stroke}{15}{subsubsection.6.1.2.3}%
-\contentsline {subsection}{\numberline {6.1.3}Function Documentation}{15}{subsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.3.1}arrowHeadVertices()}{15}{subsubsection.6.1.3.1}%
-\contentsline {subsubsection}{\numberline {6.1.3.2}closedArrowHead()}{16}{subsubsection.6.1.3.2}%
-\contentsline {subsubsection}{\numberline {6.1.3.3}closestPointOnSegment()}{17}{subsubsection.6.1.3.3}%
-\contentsline {subsubsection}{\numberline {6.1.3.4}makeMarkerPolygon()}{17}{subsubsection.6.1.3.4}%
-\contentsline {subsubsection}{\numberline {6.1.3.5}makePen()}{18}{subsubsection.6.1.3.5}%
-\contentsline {subsubsection}{\numberline {6.1.3.6}makePolygon()}{19}{subsubsection.6.1.3.6}%
-\contentsline {subsubsection}{\numberline {6.1.3.7}markerFromString()}{19}{subsubsection.6.1.3.7}%
-\contentsline {subsubsection}{\numberline {6.1.3.8}markerName()}{20}{subsubsection.6.1.3.8}%
-\contentsline {subsubsection}{\numberline {6.1.3.9}openedArrowHead()}{21}{subsubsection.6.1.3.9}%
-\contentsline {subsubsection}{\numberline {6.1.3.10}shapeFromString()}{22}{subsubsection.6.1.3.10}%
-\contentsline {subsubsection}{\numberline {6.1.3.11}shapeName()}{23}{subsubsection.6.1.3.11}%
-\contentsline {subsubsection}{\numberline {6.1.3.12}strokeFromString()}{23}{subsubsection.6.1.3.12}%
-\contentsline {subsubsection}{\numberline {6.1.3.13}strokeName()}{24}{subsubsection.6.1.3.13}%
-\contentsline {subsubsection}{\numberline {6.1.3.14}unitaryCircle()}{25}{subsubsection.6.1.3.14}%
-\contentsline {subsubsection}{\numberline {6.1.3.15}unitaryDiamond()}{25}{subsubsection.6.1.3.15}%
-\contentsline {subsubsection}{\numberline {6.1.3.16}unitaryPaper()}{26}{subsubsection.6.1.3.16}%
-\contentsline {subsubsection}{\numberline {6.1.3.17}unitarySquare()}{26}{subsubsection.6.1.3.17}%
-\contentsline {chapter}{\numberline {7}Class Documentation}{27}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Component Struct Reference}{27}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{28}{subsection.7.1.1}%
-\contentsline {section}{\numberline {7.2}Wizard::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Configuration Struct Reference}{28}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{28}{subsection.7.2.1}%
-\contentsline {section}{\numberline {7.3}Connectable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resizer Class Reference}{29}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{31}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Constructor \& Destructor Documentation}{31}{subsection.7.3.2}%
-\contentsline {subsubsection}{\numberline {7.3.2.1}ConnectableResizer()}{31}{subsubsection.7.3.2.1}%
-\contentsline {subsection}{\numberline {7.3.3}Member Function Documentation}{32}{subsection.7.3.3}%
-\contentsline {subsubsection}{\numberline {7.3.3.1}connectResizer()}{32}{subsubsection.7.3.3.1}%
-\contentsline {subsubsection}{\numberline {7.3.3.2}itemChange()}{32}{subsubsection.7.3.3.2}%
-\contentsline {subsubsection}{\numberline {7.3.3.3}loadFromHash()}{33}{subsubsection.7.3.3.3}%
-\contentsline {subsubsection}{\numberline {7.3.3.4}mouseMoveEvent()}{34}{subsubsection.7.3.3.4}%
-\contentsline {subsubsection}{\numberline {7.3.3.5}mouseReleaseEvent()}{34}{subsubsection.7.3.3.5}%
-\contentsline {subsubsection}{\numberline {7.3.3.6}toHash()}{35}{subsubsection.7.3.3.6}%
-\contentsline {subsubsection}{\numberline {7.3.3.7}updateParentPosition}{36}{subsubsection.7.3.3.7}%
-\contentsline {section}{\numberline {7.4}Connection\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications Class Reference}{37}{section.7.4}%
+\contentsline {section}{\numberline {6.1}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor Namespace Reference}{13}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{13}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram Namespace Reference}{13}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{14}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui Namespace Reference}{14}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{15}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serialization Namespace Reference}{15}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{15}{subsection.6.4.1}%
+\contentsline {section}{\numberline {6.5}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Namespace Reference}{15}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{16}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}Geometry\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils Namespace Reference}{16}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{17}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Enumeration Type Documentation}{17}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}LineMarker}{17}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}PolygonShape}{17}{subsubsection.6.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.3}Stroke}{17}{subsubsection.6.6.2.3}%
+\contentsline {subsection}{\numberline {6.6.3}Function Documentation}{18}{subsection.6.6.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.1}arrowHeadVertices()}{18}{subsubsection.6.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.6.3.2}closedArrowHead()}{18}{subsubsection.6.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.6.3.3}closestPointOnSegment()}{19}{subsubsection.6.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.4}makeMarkerPolygon()}{20}{subsubsection.6.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.6.3.5}makePen()}{21}{subsubsection.6.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.6.3.6}makePolygon()}{21}{subsubsection.6.6.3.6}%
+\contentsline {subsubsection}{\numberline {6.6.3.7}markerFromString()}{22}{subsubsection.6.6.3.7}%
+\contentsline {subsubsection}{\numberline {6.6.3.8}markerName()}{23}{subsubsection.6.6.3.8}%
+\contentsline {subsubsection}{\numberline {6.6.3.9}openedArrowHead()}{24}{subsubsection.6.6.3.9}%
+\contentsline {subsubsection}{\numberline {6.6.3.10}shapeFromString()}{25}{subsubsection.6.6.3.10}%
+\contentsline {subsubsection}{\numberline {6.6.3.11}shapeName()}{25}{subsubsection.6.6.3.11}%
+\contentsline {subsubsection}{\numberline {6.6.3.12}strokeFromString()}{26}{subsubsection.6.6.3.12}%
+\contentsline {subsubsection}{\numberline {6.6.3.13}strokeName()}{27}{subsubsection.6.6.3.13}%
+\contentsline {subsubsection}{\numberline {6.6.3.14}unitaryCircle()}{27}{subsubsection.6.6.3.14}%
+\contentsline {subsubsection}{\numberline {6.6.3.15}unitaryDiamond()}{28}{subsubsection.6.6.3.15}%
+\contentsline {subsubsection}{\numberline {6.6.3.16}unitaryPaper()}{28}{subsubsection.6.6.3.16}%
+\contentsline {subsubsection}{\numberline {6.6.3.17}unitarySquare()}{29}{subsubsection.6.6.3.17}%
+\contentsline {chapter}{\numberline {7}Class Documentation}{31}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Component Struct Reference}{31}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{33}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Component Struct Reference}{33}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{35}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wizard::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Configuration Struct Reference}{35}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{35}{subsection.7.3.1}%
+\contentsline {section}{\numberline {7.4}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Connectable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resizer Class Reference}{36}{section.7.4}%
 \contentsline {subsection}{\numberline {7.4.1}Detailed Description}{39}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Member Enumeration Documentation}{39}{subsection.7.4.2}%
-\contentsline {subsubsection}{\numberline {7.4.2.1}HorizontalPos}{39}{subsubsection.7.4.2.1}%
-\contentsline {subsubsection}{\numberline {7.4.2.2}VerticalPos}{39}{subsubsection.7.4.2.2}%
-\contentsline {subsection}{\numberline {7.4.3}Constructor \& Destructor Documentation}{40}{subsection.7.4.3}%
-\contentsline {subsubsection}{\numberline {7.4.3.1}ConnectionSpecifications()}{40}{subsubsection.7.4.3.1}%
-\contentsline {subsection}{\numberline {7.4.4}Member Function Documentation}{40}{subsection.7.4.4}%
-\contentsline {subsubsection}{\numberline {7.4.4.1}applyFormResults()}{40}{subsubsection.7.4.4.1}%
-\contentsline {subsubsection}{\numberline {7.4.4.2}loadFromHash()}{41}{subsubsection.7.4.4.2}%
-\contentsline {subsubsection}{\numberline {7.4.4.3}toHash()}{42}{subsubsection.7.4.4.3}%
-\contentsline {subsubsection}{\numberline {7.4.4.4}updateSpecificationsPos}{43}{subsubsection.7.4.4.4}%
-\contentsline {section}{\numberline {7.5}Diagram Class Reference}{43}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{45}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Member Enumeration Documentation}{45}{subsection.7.5.2}%
-\contentsline {subsubsection}{\numberline {7.5.2.1}EditionMode}{45}{subsubsection.7.5.2.1}%
-\contentsline {subsection}{\numberline {7.5.3}Constructor \& Destructor Documentation}{45}{subsection.7.5.3}%
-\contentsline {subsubsection}{\numberline {7.5.3.1}Diagram()}{45}{subsubsection.7.5.3.1}%
-\contentsline {subsection}{\numberline {7.5.4}Member Function Documentation}{46}{subsection.7.5.4}%
-\contentsline {subsubsection}{\numberline {7.5.4.1}componentByIds()}{46}{subsubsection.7.5.4.1}%
-\contentsline {subsubsection}{\numberline {7.5.4.2}deleteSelectedItems}{46}{subsubsection.7.5.4.2}%
-\contentsline {subsubsection}{\numberline {7.5.4.3}diagramComponentAt()}{47}{subsubsection.7.5.4.3}%
-\contentsline {subsubsection}{\numberline {7.5.4.4}diagramItemAt()}{47}{subsubsection.7.5.4.4}%
-\contentsline {subsubsection}{\numberline {7.5.4.5}itemRequested}{48}{subsubsection.7.5.4.5}%
-\contentsline {subsubsection}{\numberline {7.5.4.6}loadFromHash()}{49}{subsubsection.7.5.4.6}%
-\contentsline {subsubsection}{\numberline {7.5.4.7}mouseMoveEvent()}{49}{subsubsection.7.5.4.7}%
-\contentsline {subsubsection}{\numberline {7.5.4.8}mousePressEvent()}{50}{subsubsection.7.5.4.8}%
-\contentsline {subsubsection}{\numberline {7.5.4.9}moveSelectedItems}{51}{subsubsection.7.5.4.9}%
-\contentsline {subsubsection}{\numberline {7.5.4.10}newDiagramItemId()}{51}{subsubsection.7.5.4.10}%
-\contentsline {subsubsection}{\numberline {7.5.4.11}selectedItemChanged}{51}{subsubsection.7.5.4.11}%
-\contentsline {subsubsection}{\numberline {7.5.4.12}selectNextItem}{52}{subsubsection.7.5.4.12}%
-\contentsline {subsubsection}{\numberline {7.5.4.13}setDraggingResizer()}{52}{subsubsection.7.5.4.13}%
-\contentsline {subsubsection}{\numberline {7.5.4.14}setEditionMode()}{52}{subsubsection.7.5.4.14}%
-\contentsline {subsubsection}{\numberline {7.5.4.15}setSpecifications()}{53}{subsubsection.7.5.4.15}%
-\contentsline {subsubsection}{\numberline {7.5.4.16}toHash()}{53}{subsubsection.7.5.4.16}%
-\contentsline {section}{\numberline {7.6}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Component Class Reference}{54}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}Detailed Description}{56}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Constructor \& Destructor Documentation}{56}{subsection.7.6.2}%
-\contentsline {subsubsection}{\numberline {7.6.2.1}DiagramComponent()}{56}{subsubsection.7.6.2.1}%
-\contentsline {subsection}{\numberline {7.6.3}Member Function Documentation}{56}{subsection.7.6.3}%
-\contentsline {subsubsection}{\numberline {7.6.3.1}addResizer()}{56}{subsubsection.7.6.3.1}%
-\contentsline {subsubsection}{\numberline {7.6.3.2}canResizeTo()}{57}{subsubsection.7.6.3.2}%
-\contentsline {subsubsection}{\numberline {7.6.3.3}closestConnectionPoint()}{57}{subsubsection.7.6.3.3}%
-\contentsline {subsubsection}{\numberline {7.6.3.4}componentId()}{58}{subsubsection.7.6.3.4}%
-\contentsline {subsubsection}{\numberline {7.6.3.5}componentResized}{58}{subsubsection.7.6.3.5}%
-\contentsline {subsubsection}{\numberline {7.6.3.6}connectComponent()}{58}{subsubsection.7.6.3.6}%
-\contentsline {subsubsection}{\numberline {7.6.3.7}definedZValue()}{59}{subsubsection.7.6.3.7}%
-\contentsline {subsubsection}{\numberline {7.6.3.8}graphicsItem()}{59}{subsubsection.7.6.3.8}%
-\contentsline {subsubsection}{\numberline {7.6.3.9}groupId()}{60}{subsubsection.7.6.3.9}%
-\contentsline {subsubsection}{\numberline {7.6.3.10}positionChanged}{60}{subsubsection.7.6.3.10}%
-\contentsline {subsubsection}{\numberline {7.6.3.11}removeResizer()}{61}{subsubsection.7.6.3.11}%
-\contentsline {subsubsection}{\numberline {7.6.3.12}resize()}{61}{subsubsection.7.6.3.12}%
-\contentsline {subsubsection}{\numberline {7.6.3.13}setCommentBadgeVisibility()}{61}{subsubsection.7.6.3.13}%
-\contentsline {subsubsection}{\numberline {7.6.3.14}setResizersVisibility()}{62}{subsubsection.7.6.3.14}%
-\contentsline {subsubsection}{\numberline {7.6.3.15}setShadow()}{62}{subsubsection.7.6.3.15}%
-\contentsline {subsubsection}{\numberline {7.6.3.16}setSpecifications()}{63}{subsubsection.7.6.3.16}%
-\contentsline {subsubsection}{\numberline {7.6.3.17}specificationsForm()}{63}{subsubsection.7.6.3.17}%
-\contentsline {subsubsection}{\numberline {7.6.3.18}updateCommentBadgePos()}{64}{subsubsection.7.6.3.18}%
-\contentsline {subsection}{\numberline {7.6.4}Member Data Documentation}{64}{subsection.7.6.4}%
-\contentsline {subsubsection}{\numberline {7.6.4.1}componentGroup}{64}{subsubsection.7.6.4.1}%
-\contentsline {section}{\numberline {7.7}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Connection Class Reference}{65}{section.7.7}%
-\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{67}{subsection.7.7.1}%
-\contentsline {subsection}{\numberline {7.7.2}Constructor \& Destructor Documentation}{67}{subsection.7.7.2}%
-\contentsline {subsubsection}{\numberline {7.7.2.1}DiagramConnection()}{67}{subsubsection.7.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.7.2.2}$\sim $DiagramConnection()}{68}{subsubsection.7.7.2.2}%
-\contentsline {subsection}{\numberline {7.7.3}Member Function Documentation}{68}{subsection.7.7.3}%
-\contentsline {subsubsection}{\numberline {7.7.3.1}addResizer()}{68}{subsubsection.7.7.3.1}%
-\contentsline {subsubsection}{\numberline {7.7.3.2}connectComponent()}{69}{subsubsection.7.7.3.2}%
-\contentsline {subsubsection}{\numberline {7.7.3.3}definedZValue()}{69}{subsubsection.7.7.3.3}%
-\contentsline {subsubsection}{\numberline {7.7.3.4}loadFromHash()}{69}{subsubsection.7.7.3.4}%
-\contentsline {subsubsection}{\numberline {7.7.3.5}removeResizer()}{70}{subsubsection.7.7.3.5}%
-\contentsline {subsubsection}{\numberline {7.7.3.6}resize()}{71}{subsubsection.7.7.3.6}%
-\contentsline {subsubsection}{\numberline {7.7.3.7}setResizersVisibility()}{72}{subsubsection.7.7.3.7}%
-\contentsline {subsubsection}{\numberline {7.7.3.8}setShadow()}{72}{subsubsection.7.7.3.8}%
-\contentsline {subsubsection}{\numberline {7.7.3.9}setSpecifications()}{73}{subsubsection.7.7.3.9}%
-\contentsline {subsubsection}{\numberline {7.7.3.10}specificationsForm()}{73}{subsubsection.7.7.3.10}%
-\contentsline {subsubsection}{\numberline {7.7.3.11}toHash()}{74}{subsubsection.7.7.3.11}%
-\contentsline {section}{\numberline {7.8}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element Class Reference}{75}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}Detailed Description}{77}{subsection.7.8.1}%
-\contentsline {subsection}{\numberline {7.8.2}Constructor \& Destructor Documentation}{77}{subsection.7.8.2}%
-\contentsline {subsubsection}{\numberline {7.8.2.1}DiagramElement()}{77}{subsubsection.7.8.2.1}%
-\contentsline {subsubsection}{\numberline {7.8.2.2}$\sim $DiagramElement()}{78}{subsubsection.7.8.2.2}%
-\contentsline {subsection}{\numberline {7.8.3}Member Function Documentation}{78}{subsection.7.8.3}%
-\contentsline {subsubsection}{\numberline {7.8.3.1}canResizeTo()}{78}{subsubsection.7.8.3.1}%
-\contentsline {subsubsection}{\numberline {7.8.3.2}loadFromHash()}{79}{subsubsection.7.8.3.2}%
-\contentsline {subsubsection}{\numberline {7.8.3.3}resize()}{79}{subsubsection.7.8.3.3}%
-\contentsline {subsubsection}{\numberline {7.8.3.4}setResizersVisibility()}{80}{subsubsection.7.8.3.4}%
-\contentsline {subsubsection}{\numberline {7.8.3.5}setShadow()}{80}{subsubsection.7.8.3.5}%
-\contentsline {subsubsection}{\numberline {7.8.3.6}setSpecifications()}{81}{subsubsection.7.8.3.6}%
-\contentsline {subsubsection}{\numberline {7.8.3.7}specificationsForm()}{81}{subsubsection.7.8.3.7}%
-\contentsline {subsubsection}{\numberline {7.8.3.8}toHash()}{82}{subsubsection.7.8.3.8}%
-\contentsline {section}{\numberline {7.9}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{83}{section.7.9}%
+\contentsline {subsection}{\numberline {7.4.2}Constructor \& Destructor Documentation}{39}{subsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.2.1}ConnectableResizer()}{39}{subsubsection.7.4.2.1}%
+\contentsline {subsection}{\numberline {7.4.3}Member Function Documentation}{40}{subsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.3.1}connectResizer()}{40}{subsubsection.7.4.3.1}%
+\contentsline {subsubsection}{\numberline {7.4.3.2}itemChange()}{40}{subsubsection.7.4.3.2}%
+\contentsline {subsubsection}{\numberline {7.4.3.3}loadFromHash()}{41}{subsubsection.7.4.3.3}%
+\contentsline {subsubsection}{\numberline {7.4.3.4}mouseMoveEvent()}{42}{subsubsection.7.4.3.4}%
+\contentsline {subsubsection}{\numberline {7.4.3.5}mouseReleaseEvent()}{43}{subsubsection.7.4.3.5}%
+\contentsline {subsubsection}{\numberline {7.4.3.6}toHash()}{43}{subsubsection.7.4.3.6}%
+\contentsline {subsubsection}{\numberline {7.4.3.7}updateParentPosition}{44}{subsubsection.7.4.3.7}%
+\contentsline {section}{\numberline {7.5}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Connection\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications Class Reference}{45}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{48}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Member Enumeration Documentation}{48}{subsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.2.1}HorizontalPos}{48}{subsubsection.7.5.2.1}%
+\contentsline {subsubsection}{\numberline {7.5.2.2}VerticalPos}{48}{subsubsection.7.5.2.2}%
+\contentsline {subsection}{\numberline {7.5.3}Constructor \& Destructor Documentation}{48}{subsection.7.5.3}%
+\contentsline {subsubsection}{\numberline {7.5.3.1}ConnectionSpecifications()}{48}{subsubsection.7.5.3.1}%
+\contentsline {subsection}{\numberline {7.5.4}Member Function Documentation}{49}{subsection.7.5.4}%
+\contentsline {subsubsection}{\numberline {7.5.4.1}applyFormResults()}{49}{subsubsection.7.5.4.1}%
+\contentsline {subsubsection}{\numberline {7.5.4.2}loadFromHash()}{49}{subsubsection.7.5.4.2}%
+\contentsline {subsubsection}{\numberline {7.5.4.3}toHash()}{50}{subsubsection.7.5.4.3}%
+\contentsline {subsubsection}{\numberline {7.5.4.4}updateSpecificationsPos}{50}{subsubsection.7.5.4.4}%
+\contentsline {section}{\numberline {7.6}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Connection\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications Class Reference}{51}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Detailed Description}{54}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Member Enumeration Documentation}{54}{subsection.7.6.2}%
+\contentsline {subsubsection}{\numberline {7.6.2.1}HorizontalPos}{54}{subsubsection.7.6.2.1}%
+\contentsline {subsubsection}{\numberline {7.6.2.2}VerticalPos}{54}{subsubsection.7.6.2.2}%
+\contentsline {subsection}{\numberline {7.6.3}Constructor \& Destructor Documentation}{54}{subsection.7.6.3}%
+\contentsline {subsubsection}{\numberline {7.6.3.1}ConnectionSpecifications()}{54}{subsubsection.7.6.3.1}%
+\contentsline {subsection}{\numberline {7.6.4}Member Function Documentation}{55}{subsection.7.6.4}%
+\contentsline {subsubsection}{\numberline {7.6.4.1}applyFormResults()}{55}{subsubsection.7.6.4.1}%
+\contentsline {subsubsection}{\numberline {7.6.4.2}loadFromHash()}{56}{subsubsection.7.6.4.2}%
+\contentsline {subsubsection}{\numberline {7.6.4.3}toHash()}{57}{subsubsection.7.6.4.3}%
+\contentsline {subsubsection}{\numberline {7.6.4.4}updateSpecificationsPos}{57}{subsubsection.7.6.4.4}%
+\contentsline {section}{\numberline {7.7}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram Class Reference}{58}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{61}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Member Enumeration Documentation}{62}{subsection.7.7.2}%
+\contentsline {subsubsection}{\numberline {7.7.2.1}EditionMode}{62}{subsubsection.7.7.2.1}%
+\contentsline {subsection}{\numberline {7.7.3}Constructor \& Destructor Documentation}{62}{subsection.7.7.3}%
+\contentsline {subsubsection}{\numberline {7.7.3.1}Diagram()}{62}{subsubsection.7.7.3.1}%
+\contentsline {subsection}{\numberline {7.7.4}Member Function Documentation}{62}{subsection.7.7.4}%
+\contentsline {subsubsection}{\numberline {7.7.4.1}componentByIds()}{62}{subsubsection.7.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.7.4.2}deleteSelectedItems}{63}{subsubsection.7.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.7.4.3}diagramComponentAt()}{64}{subsubsection.7.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.7.4.4}diagramItemAt()}{64}{subsubsection.7.7.4.4}%
+\contentsline {subsubsection}{\numberline {7.7.4.5}itemRequested}{65}{subsubsection.7.7.4.5}%
+\contentsline {subsubsection}{\numberline {7.7.4.6}loadFromHash()}{66}{subsubsection.7.7.4.6}%
+\contentsline {subsubsection}{\numberline {7.7.4.7}mouseMoveEvent()}{66}{subsubsection.7.7.4.7}%
+\contentsline {subsubsection}{\numberline {7.7.4.8}mousePressEvent()}{67}{subsubsection.7.7.4.8}%
+\contentsline {subsubsection}{\numberline {7.7.4.9}moveSelectedItems}{68}{subsubsection.7.7.4.9}%
+\contentsline {subsubsection}{\numberline {7.7.4.10}newDiagramItemId()}{68}{subsubsection.7.7.4.10}%
+\contentsline {subsubsection}{\numberline {7.7.4.11}selectedItemChanged}{68}{subsubsection.7.7.4.11}%
+\contentsline {subsubsection}{\numberline {7.7.4.12}selectNextItem}{69}{subsubsection.7.7.4.12}%
+\contentsline {subsubsection}{\numberline {7.7.4.13}setDraggingResizer()}{69}{subsubsection.7.7.4.13}%
+\contentsline {subsubsection}{\numberline {7.7.4.14}setEditionMode()}{69}{subsubsection.7.7.4.14}%
+\contentsline {subsubsection}{\numberline {7.7.4.15}setSpecifications()}{70}{subsubsection.7.7.4.15}%
+\contentsline {subsubsection}{\numberline {7.7.4.16}toHash()}{70}{subsubsection.7.7.4.16}%
+\contentsline {section}{\numberline {7.8}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram Class Reference}{71}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Detailed Description}{73}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Member Enumeration Documentation}{74}{subsection.7.8.2}%
+\contentsline {subsubsection}{\numberline {7.8.2.1}EditionMode}{74}{subsubsection.7.8.2.1}%
+\contentsline {subsection}{\numberline {7.8.3}Constructor \& Destructor Documentation}{74}{subsection.7.8.3}%
+\contentsline {subsubsection}{\numberline {7.8.3.1}Diagram()}{74}{subsubsection.7.8.3.1}%
+\contentsline {subsection}{\numberline {7.8.4}Member Function Documentation}{74}{subsection.7.8.4}%
+\contentsline {subsubsection}{\numberline {7.8.4.1}componentByIds()}{74}{subsubsection.7.8.4.1}%
+\contentsline {subsubsection}{\numberline {7.8.4.2}deleteSelectedItems}{75}{subsubsection.7.8.4.2}%
+\contentsline {subsubsection}{\numberline {7.8.4.3}diagramComponentAt()}{75}{subsubsection.7.8.4.3}%
+\contentsline {subsubsection}{\numberline {7.8.4.4}diagramItemAt()}{76}{subsubsection.7.8.4.4}%
+\contentsline {subsubsection}{\numberline {7.8.4.5}itemRequested}{76}{subsubsection.7.8.4.5}%
+\contentsline {subsubsection}{\numberline {7.8.4.6}loadFromHash()}{77}{subsubsection.7.8.4.6}%
+\contentsline {subsubsection}{\numberline {7.8.4.7}mouseMoveEvent()}{77}{subsubsection.7.8.4.7}%
+\contentsline {subsubsection}{\numberline {7.8.4.8}mousePressEvent()}{77}{subsubsection.7.8.4.8}%
+\contentsline {subsubsection}{\numberline {7.8.4.9}moveSelectedItems}{78}{subsubsection.7.8.4.9}%
+\contentsline {subsubsection}{\numberline {7.8.4.10}newDiagramItemId()}{78}{subsubsection.7.8.4.10}%
+\contentsline {subsubsection}{\numberline {7.8.4.11}selectedItemChanged}{78}{subsubsection.7.8.4.11}%
+\contentsline {subsubsection}{\numberline {7.8.4.12}selectNextItem}{79}{subsubsection.7.8.4.12}%
+\contentsline {subsubsection}{\numberline {7.8.4.13}setDraggingResizer()}{79}{subsubsection.7.8.4.13}%
+\contentsline {subsubsection}{\numberline {7.8.4.14}setEditionMode()}{79}{subsubsection.7.8.4.14}%
+\contentsline {subsubsection}{\numberline {7.8.4.15}setSpecifications()}{80}{subsubsection.7.8.4.15}%
+\contentsline {subsubsection}{\numberline {7.8.4.16}toHash()}{80}{subsubsection.7.8.4.16}%
+\contentsline {section}{\numberline {7.9}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Component Class Reference}{81}{section.7.9}%
 \contentsline {subsection}{\numberline {7.9.1}Detailed Description}{84}{subsection.7.9.1}%
 \contentsline {subsection}{\numberline {7.9.2}Constructor \& Destructor Documentation}{84}{subsection.7.9.2}%
-\contentsline {subsubsection}{\numberline {7.9.2.1}DiagramItem()}{84}{subsubsection.7.9.2.1}%
-\contentsline {subsection}{\numberline {7.9.3}Member Function Documentation}{85}{subsection.7.9.3}%
-\contentsline {subsubsection}{\numberline {7.9.3.1}centerOffset()}{85}{subsubsection.7.9.3.1}%
-\contentsline {subsubsection}{\numberline {7.9.3.2}componentAt()}{85}{subsubsection.7.9.3.2}%
-\contentsline {subsubsection}{\numberline {7.9.3.3}componentById()}{86}{subsubsection.7.9.3.3}%
+\contentsline {subsubsection}{\numberline {7.9.2.1}DiagramComponent()}{84}{subsubsection.7.9.2.1}%
+\contentsline {subsection}{\numberline {7.9.3}Member Function Documentation}{84}{subsection.7.9.3}%
+\contentsline {subsubsection}{\numberline {7.9.3.1}addResizer()}{84}{subsubsection.7.9.3.1}%
+\contentsline {subsubsection}{\numberline {7.9.3.2}canResizeTo()}{85}{subsubsection.7.9.3.2}%
+\contentsline {subsubsection}{\numberline {7.9.3.3}closestConnectionPoint()}{85}{subsubsection.7.9.3.3}%
 \contentsline {subsubsection}{\numberline {7.9.3.4}componentId()}{86}{subsubsection.7.9.3.4}%
-\contentsline {subsubsection}{\numberline {7.9.3.5}componentTypeMatches()}{87}{subsubsection.7.9.3.5}%
-\contentsline {subsubsection}{\numberline {7.9.3.6}connectComponents()}{87}{subsubsection.7.9.3.6}%
-\contentsline {subsubsection}{\numberline {7.9.3.7}definedZValue()}{88}{subsubsection.7.9.3.7}%
-\contentsline {subsubsection}{\numberline {7.9.3.8}itemChange()}{88}{subsubsection.7.9.3.8}%
-\contentsline {subsubsection}{\numberline {7.9.3.9}itemId()}{89}{subsubsection.7.9.3.9}%
-\contentsline {subsubsection}{\numberline {7.9.3.10}loadFromHash()}{89}{subsubsection.7.9.3.10}%
-\contentsline {subsubsection}{\numberline {7.9.3.11}setLoaded()}{90}{subsubsection.7.9.3.11}%
-\contentsline {subsubsection}{\numberline {7.9.3.12}setResizerEnabled()}{91}{subsubsection.7.9.3.12}%
-\contentsline {subsubsection}{\numberline {7.9.3.13}setShadow()}{91}{subsubsection.7.9.3.13}%
-\contentsline {subsubsection}{\numberline {7.9.3.14}setSpecifications()}{92}{subsubsection.7.9.3.14}%
-\contentsline {subsubsection}{\numberline {7.9.3.15}specificationsForm()}{93}{subsubsection.7.9.3.15}%
-\contentsline {subsubsection}{\numberline {7.9.3.16}toHash()}{93}{subsubsection.7.9.3.16}%
-\contentsline {subsubsection}{\numberline {7.9.3.17}updateGeometry()}{94}{subsubsection.7.9.3.17}%
-\contentsline {section}{\numberline {7.10}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resizer Class Reference}{94}{section.7.10}%
-\contentsline {subsection}{\numberline {7.10.1}Detailed Description}{96}{subsection.7.10.1}%
-\contentsline {subsection}{\numberline {7.10.2}Constructor \& Destructor Documentation}{96}{subsection.7.10.2}%
-\contentsline {subsubsection}{\numberline {7.10.2.1}DiagramResizer()}{96}{subsubsection.7.10.2.1}%
+\contentsline {subsubsection}{\numberline {7.9.3.5}componentResized}{86}{subsubsection.7.9.3.5}%
+\contentsline {subsubsection}{\numberline {7.9.3.6}connectComponent()}{86}{subsubsection.7.9.3.6}%
+\contentsline {subsubsection}{\numberline {7.9.3.7}definedZValue()}{87}{subsubsection.7.9.3.7}%
+\contentsline {subsubsection}{\numberline {7.9.3.8}graphicsItem()}{87}{subsubsection.7.9.3.8}%
+\contentsline {subsubsection}{\numberline {7.9.3.9}groupId()}{88}{subsubsection.7.9.3.9}%
+\contentsline {subsubsection}{\numberline {7.9.3.10}positionChanged}{88}{subsubsection.7.9.3.10}%
+\contentsline {subsubsection}{\numberline {7.9.3.11}removeResizer()}{89}{subsubsection.7.9.3.11}%
+\contentsline {subsubsection}{\numberline {7.9.3.12}resize()}{89}{subsubsection.7.9.3.12}%
+\contentsline {subsubsection}{\numberline {7.9.3.13}setCommentBadgeVisibility()}{90}{subsubsection.7.9.3.13}%
+\contentsline {subsubsection}{\numberline {7.9.3.14}setResizersVisibility()}{90}{subsubsection.7.9.3.14}%
+\contentsline {subsubsection}{\numberline {7.9.3.15}setShadow()}{91}{subsubsection.7.9.3.15}%
+\contentsline {subsubsection}{\numberline {7.9.3.16}setSpecifications()}{91}{subsubsection.7.9.3.16}%
+\contentsline {subsubsection}{\numberline {7.9.3.17}specificationsForm()}{92}{subsubsection.7.9.3.17}%
+\contentsline {subsubsection}{\numberline {7.9.3.18}updateCommentBadgePos()}{92}{subsubsection.7.9.3.18}%
+\contentsline {subsection}{\numberline {7.9.4}Member Data Documentation}{93}{subsection.7.9.4}%
+\contentsline {subsubsection}{\numberline {7.9.4.1}componentGroup}{93}{subsubsection.7.9.4.1}%
+\contentsline {section}{\numberline {7.10}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Component Class Reference}{93}{section.7.10}%
+\contentsline {subsection}{\numberline {7.10.1}Detailed Description}{97}{subsection.7.10.1}%
+\contentsline {subsection}{\numberline {7.10.2}Constructor \& Destructor Documentation}{97}{subsection.7.10.2}%
+\contentsline {subsubsection}{\numberline {7.10.2.1}DiagramComponent()}{97}{subsubsection.7.10.2.1}%
 \contentsline {subsection}{\numberline {7.10.3}Member Function Documentation}{97}{subsection.7.10.3}%
-\contentsline {subsubsection}{\numberline {7.10.3.1}itemChange()}{97}{subsubsection.7.10.3.1}%
-\contentsline {subsubsection}{\numberline {7.10.3.2}mouseMoveEvent()}{98}{subsubsection.7.10.3.2}%
-\contentsline {subsubsection}{\numberline {7.10.3.3}mousePressEvent()}{98}{subsubsection.7.10.3.3}%
-\contentsline {subsubsection}{\numberline {7.10.3.4}mouseReleaseEvent()}{99}{subsubsection.7.10.3.4}%
-\contentsline {subsubsection}{\numberline {7.10.3.5}sceneCenterPos()}{99}{subsubsection.7.10.3.5}%
-\contentsline {subsubsection}{\numberline {7.10.3.6}setSceneCenterPos()}{100}{subsubsection.7.10.3.6}%
-\contentsline {subsubsection}{\numberline {7.10.3.7}updateParentPosition}{101}{subsubsection.7.10.3.7}%
-\contentsline {subsection}{\numberline {7.10.4}Member Data Documentation}{101}{subsection.7.10.4}%
-\contentsline {subsubsection}{\numberline {7.10.4.1}parentComponent}{101}{subsubsection.7.10.4.1}%
-\contentsline {section}{\numberline {7.11}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{102}{section.7.11}%
-\contentsline {subsection}{\numberline {7.11.1}Detailed Description}{103}{subsection.7.11.1}%
-\contentsline {subsection}{\numberline {7.11.2}Constructor \& Destructor Documentation}{103}{subsection.7.11.2}%
-\contentsline {subsubsection}{\numberline {7.11.2.1}DiagramSpecification()}{103}{subsubsection.7.11.2.1}%
-\contentsline {subsection}{\numberline {7.11.3}Member Function Documentation}{104}{subsection.7.11.3}%
-\contentsline {subsubsection}{\numberline {7.11.3.1}applyFormResults()}{104}{subsubsection.7.11.3.1}%
-\contentsline {subsubsection}{\numberline {7.11.3.2}form()}{105}{subsubsection.7.11.3.2}%
-\contentsline {subsubsection}{\numberline {7.11.3.3}itemChange()}{105}{subsubsection.7.11.3.3}%
-\contentsline {subsubsection}{\numberline {7.11.3.4}loadFromHash()}{105}{subsubsection.7.11.3.4}%
-\contentsline {subsubsection}{\numberline {7.11.3.5}movingTranslation()}{106}{subsubsection.7.11.3.5}%
-\contentsline {subsubsection}{\numberline {7.11.3.6}name()}{107}{subsubsection.7.11.3.6}%
-\contentsline {subsubsection}{\numberline {7.11.3.7}toHash()}{107}{subsubsection.7.11.3.7}%
-\contentsline {section}{\numberline {7.12}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Type Class Reference}{108}{section.7.12}%
-\contentsline {subsection}{\numberline {7.12.1}Detailed Description}{109}{subsection.7.12.1}%
-\contentsline {subsection}{\numberline {7.12.2}Member Function Documentation}{109}{subsection.7.12.2}%
-\contentsline {subsubsection}{\numberline {7.12.2.1}diagramItems()}{109}{subsubsection.7.12.2.1}%
-\contentsline {subsubsection}{\numberline {7.12.2.2}loadFromHash()}{110}{subsubsection.7.12.2.2}%
-\contentsline {section}{\numberline {7.13}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Type\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Group Class Reference}{110}{section.7.13}%
-\contentsline {subsection}{\numberline {7.13.1}Detailed Description}{111}{subsection.7.13.1}%
-\contentsline {subsection}{\numberline {7.13.2}Member Function Documentation}{111}{subsection.7.13.2}%
-\contentsline {subsubsection}{\numberline {7.13.2.1}diagramTypes()}{111}{subsubsection.7.13.2.1}%
-\contentsline {subsubsection}{\numberline {7.13.2.2}loadFromHash()}{112}{subsubsection.7.13.2.2}%
-\contentsline {section}{\numberline {7.14}Element\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications Class Reference}{112}{section.7.14}%
-\contentsline {subsection}{\numberline {7.14.1}Detailed Description}{114}{subsection.7.14.1}%
-\contentsline {subsection}{\numberline {7.14.2}Member Enumeration Documentation}{115}{subsection.7.14.2}%
-\contentsline {subsubsection}{\numberline {7.14.2.1}SpecificationPos}{115}{subsubsection.7.14.2.1}%
-\contentsline {subsection}{\numberline {7.14.3}Constructor \& Destructor Documentation}{115}{subsection.7.14.3}%
-\contentsline {subsubsection}{\numberline {7.14.3.1}ElementSpecifications()}{115}{subsubsection.7.14.3.1}%
-\contentsline {subsection}{\numberline {7.14.4}Member Function Documentation}{116}{subsection.7.14.4}%
-\contentsline {subsubsection}{\numberline {7.14.4.1}applyFormResults()}{116}{subsubsection.7.14.4.1}%
-\contentsline {subsubsection}{\numberline {7.14.4.2}loadFromHash()}{116}{subsubsection.7.14.4.2}%
-\contentsline {subsubsection}{\numberline {7.14.4.3}size()}{117}{subsubsection.7.14.4.3}%
-\contentsline {subsubsection}{\numberline {7.14.4.4}sizeChanged}{118}{subsubsection.7.14.4.4}%
-\contentsline {subsubsection}{\numberline {7.14.4.5}toHash()}{119}{subsubsection.7.14.4.5}%
-\contentsline {subsubsection}{\numberline {7.14.4.6}updateSpecificationsPos()}{119}{subsubsection.7.14.4.6}%
-\contentsline {section}{\numberline {7.15}Json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File Class Reference}{120}{section.7.15}%
-\contentsline {subsection}{\numberline {7.15.1}Detailed Description}{120}{subsection.7.15.1}%
-\contentsline {subsection}{\numberline {7.15.2}Constructor \& Destructor Documentation}{121}{subsection.7.15.2}%
-\contentsline {subsubsection}{\numberline {7.15.2.1}JsonFile()}{121}{subsubsection.7.15.2.1}%
-\contentsline {subsection}{\numberline {7.15.3}Member Function Documentation}{121}{subsection.7.15.3}%
-\contentsline {subsubsection}{\numberline {7.15.3.1}hashForKey()}{121}{subsubsection.7.15.3.1}%
-\contentsline {subsubsection}{\numberline {7.15.3.2}hashToText()}{122}{subsubsection.7.15.3.2}%
-\contentsline {subsubsection}{\numberline {7.15.3.3}load()}{122}{subsubsection.7.15.3.3}%
-\contentsline {subsubsection}{\numberline {7.15.3.4}textToHash()}{123}{subsubsection.7.15.3.4}%
-\contentsline {section}{\numberline {7.16}Json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serializable Class Reference}{123}{section.7.16}%
-\contentsline {subsection}{\numberline {7.16.1}Detailed Description}{124}{subsection.7.16.1}%
-\contentsline {subsection}{\numberline {7.16.2}Constructor \& Destructor Documentation}{124}{subsection.7.16.2}%
-\contentsline {subsubsection}{\numberline {7.16.2.1}$\sim $JsonSerializable()}{124}{subsubsection.7.16.2.1}%
-\contentsline {subsection}{\numberline {7.16.3}Member Function Documentation}{125}{subsection.7.16.3}%
-\contentsline {subsubsection}{\numberline {7.16.3.1}filteredHashByKeys()}{125}{subsubsection.7.16.3.1}%
-\contentsline {subsubsection}{\numberline {7.16.3.2}loadFromHash()}{125}{subsubsection.7.16.3.2}%
-\contentsline {subsubsection}{\numberline {7.16.3.3}toHash()}{126}{subsubsection.7.16.3.3}%
-\contentsline {section}{\numberline {7.17}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{126}{section.7.17}%
-\contentsline {subsection}{\numberline {7.17.1}Detailed Description}{128}{subsection.7.17.1}%
-\contentsline {subsection}{\numberline {7.17.2}Constructor \& Destructor Documentation}{128}{subsection.7.17.2}%
-\contentsline {subsubsection}{\numberline {7.17.2.1}ListSpecification()}{128}{subsubsection.7.17.2.1}%
-\contentsline {subsection}{\numberline {7.17.3}Member Function Documentation}{129}{subsection.7.17.3}%
-\contentsline {subsubsection}{\numberline {7.17.3.1}form()}{129}{subsubsection.7.17.3.1}%
-\contentsline {subsubsection}{\numberline {7.17.3.2}loadFromHash()}{129}{subsubsection.7.17.3.2}%
-\contentsline {subsubsection}{\numberline {7.17.3.3}toHash()}{130}{subsubsection.7.17.3.3}%
-\contentsline {section}{\numberline {7.18}Long\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{130}{section.7.18}%
-\contentsline {subsection}{\numberline {7.18.1}Detailed Description}{132}{subsection.7.18.1}%
-\contentsline {subsection}{\numberline {7.18.2}Constructor \& Destructor Documentation}{132}{subsection.7.18.2}%
-\contentsline {subsubsection}{\numberline {7.18.2.1}LongTextSpecification()}{132}{subsubsection.7.18.2.1}%
-\contentsline {subsection}{\numberline {7.18.3}Member Function Documentation}{133}{subsection.7.18.3}%
-\contentsline {subsubsection}{\numberline {7.18.3.1}form()}{133}{subsubsection.7.18.3.1}%
-\contentsline {section}{\numberline {7.19}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{133}{section.7.19}%
-\contentsline {subsection}{\numberline {7.19.1}Detailed Description}{134}{subsection.7.19.1}%
-\contentsline {subsection}{\numberline {7.19.2}Constructor \& Destructor Documentation}{134}{subsection.7.19.2}%
-\contentsline {subsubsection}{\numberline {7.19.2.1}MainWindow()}{134}{subsubsection.7.19.2.1}%
-\contentsline {subsubsection}{\numberline {7.19.2.2}$\sim $MainWindow()}{135}{subsubsection.7.19.2.2}%
-\contentsline {section}{\numberline {7.20}Scrollable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buttons\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selector Class Reference}{136}{section.7.20}%
-\contentsline {subsection}{\numberline {7.20.1}Detailed Description}{137}{subsection.7.20.1}%
-\contentsline {subsection}{\numberline {7.20.2}Constructor \& Destructor Documentation}{137}{subsection.7.20.2}%
-\contentsline {subsubsection}{\numberline {7.20.2.1}ScrollableDataButtonsSelector()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{137}{subsubsection.7.20.2.1}%
-\contentsline {subsubsection}{\numberline {7.20.2.2}ScrollableDataButtonsSelector()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{138}{subsubsection.7.20.2.2}%
-\contentsline {subsection}{\numberline {7.20.3}Member Function Documentation}{138}{subsection.7.20.3}%
-\contentsline {subsubsection}{\numberline {7.20.3.1}addButtons()}{138}{subsubsection.7.20.3.1}%
-\contentsline {subsubsection}{\numberline {7.20.3.2}clear()}{139}{subsubsection.7.20.3.2}%
-\contentsline {subsubsection}{\numberline {7.20.3.3}selectedButtonData()}{139}{subsubsection.7.20.3.3}%
-\contentsline {subsubsection}{\numberline {7.20.3.4}selectionChanged}{140}{subsubsection.7.20.3.4}%
-\contentsline {section}{\numberline {7.21}Selectable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button Class Reference}{141}{section.7.21}%
-\contentsline {subsection}{\numberline {7.21.1}Detailed Description}{142}{subsection.7.21.1}%
-\contentsline {subsection}{\numberline {7.21.2}Constructor \& Destructor Documentation}{142}{subsection.7.21.2}%
-\contentsline {subsubsection}{\numberline {7.21.2.1}SelectableDataButton()}{142}{subsubsection.7.21.2.1}%
-\contentsline {subsection}{\numberline {7.21.3}Member Function Documentation}{143}{subsection.7.21.3}%
-\contentsline {subsubsection}{\numberline {7.21.3.1}data()}{143}{subsubsection.7.21.3.1}%
-\contentsline {subsubsection}{\numberline {7.21.3.2}leftIconButton()}{144}{subsubsection.7.21.3.2}%
-\contentsline {subsubsection}{\numberline {7.21.3.3}loadFromHash()}{144}{subsubsection.7.21.3.3}%
-\contentsline {subsubsection}{\numberline {7.21.3.4}upperIconButton()}{145}{subsubsection.7.21.3.4}%
-\contentsline {subsection}{\numberline {7.21.4}Member Data Documentation}{145}{subsection.7.21.4}%
-\contentsline {subsubsection}{\numberline {7.21.4.1}STYLE\_SHEET}{145}{subsubsection.7.21.4.1}%
-\contentsline {section}{\numberline {7.22}Selectable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{146}{section.7.22}%
-\contentsline {subsection}{\numberline {7.22.1}Detailed Description}{147}{subsection.7.22.1}%
-\contentsline {subsection}{\numberline {7.22.2}Constructor \& Destructor Documentation}{147}{subsection.7.22.2}%
-\contentsline {subsubsection}{\numberline {7.22.2.1}SelectableSpecification()}{147}{subsubsection.7.22.2.1}%
-\contentsline {subsection}{\numberline {7.22.3}Member Function Documentation}{148}{subsection.7.22.3}%
-\contentsline {subsubsection}{\numberline {7.22.3.1}form()}{148}{subsubsection.7.22.3.1}%
-\contentsline {subsubsection}{\numberline {7.22.3.2}loadFromHash()}{149}{subsubsection.7.22.3.2}%
-\contentsline {subsubsection}{\numberline {7.22.3.3}toHash()}{149}{subsubsection.7.22.3.3}%
-\contentsline {section}{\numberline {7.23}Short\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{150}{section.7.23}%
-\contentsline {subsection}{\numberline {7.23.1}Detailed Description}{152}{subsection.7.23.1}%
-\contentsline {subsection}{\numberline {7.23.2}Constructor \& Destructor Documentation}{152}{subsection.7.23.2}%
-\contentsline {subsubsection}{\numberline {7.23.2.1}ShortTextSpecification()}{152}{subsubsection.7.23.2.1}%
-\contentsline {subsection}{\numberline {7.23.3}Member Function Documentation}{153}{subsection.7.23.3}%
-\contentsline {subsubsection}{\numberline {7.23.3.1}form()}{153}{subsubsection.7.23.3.1}%
-\contentsline {section}{\numberline {7.24}Specifications\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Form Class Reference}{153}{section.7.24}%
-\contentsline {subsection}{\numberline {7.24.1}Detailed Description}{154}{subsection.7.24.1}%
-\contentsline {subsection}{\numberline {7.24.2}Constructor \& Destructor Documentation}{154}{subsection.7.24.2}%
-\contentsline {subsubsection}{\numberline {7.24.2.1}SpecificationsForm()}{154}{subsubsection.7.24.2.1}%
-\contentsline {subsection}{\numberline {7.24.3}Member Function Documentation}{155}{subsection.7.24.3}%
-\contentsline {subsubsection}{\numberline {7.24.3.1}appendField()}{155}{subsubsection.7.24.3.1}%
-\contentsline {subsubsection}{\numberline {7.24.3.2}appendForm()}{155}{subsubsection.7.24.3.2}%
-\contentsline {subsubsection}{\numberline {7.24.3.3}fieldCount()}{156}{subsubsection.7.24.3.3}%
-\contentsline {subsubsection}{\numberline {7.24.3.4}fieldResults()}{157}{subsubsection.7.24.3.4}%
-\contentsline {subsubsection}{\numberline {7.24.3.5}formCount()}{158}{subsubsection.7.24.3.5}%
-\contentsline {section}{\numberline {7.25}Specifications\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Group Class Reference}{158}{section.7.25}%
-\contentsline {subsection}{\numberline {7.25.1}Detailed Description}{160}{subsection.7.25.1}%
-\contentsline {subsection}{\numberline {7.25.2}Constructor \& Destructor Documentation}{160}{subsection.7.25.2}%
-\contentsline {subsubsection}{\numberline {7.25.2.1}SpecificationsGroup()}{160}{subsubsection.7.25.2.1}%
-\contentsline {subsubsection}{\numberline {7.25.2.2}$\sim $SpecificationsGroup()}{161}{subsubsection.7.25.2.2}%
-\contentsline {subsection}{\numberline {7.25.3}Member Function Documentation}{161}{subsection.7.25.3}%
-\contentsline {subsubsection}{\numberline {7.25.3.1}applyFormResults()}{161}{subsubsection.7.25.3.1}%
-\contentsline {subsubsection}{\numberline {7.25.3.2}clear()}{162}{subsubsection.7.25.3.2}%
-\contentsline {subsubsection}{\numberline {7.25.3.3}form()}{162}{subsubsection.7.25.3.3}%
-\contentsline {subsubsection}{\numberline {7.25.3.4}loadFromHash()}{163}{subsubsection.7.25.3.4}%
-\contentsline {subsubsection}{\numberline {7.25.3.5}specificationFromTypeName()}{164}{subsubsection.7.25.3.5}%
-\contentsline {subsubsection}{\numberline {7.25.3.6}toHash()}{165}{subsubsection.7.25.3.6}%
-\contentsline {subsubsection}{\numberline {7.25.3.7}typeNameFromSpecification()}{166}{subsubsection.7.25.3.7}%
-\contentsline {subsection}{\numberline {7.25.4}Member Data Documentation}{167}{subsection.7.25.4}%
-\contentsline {subsubsection}{\numberline {7.25.4.1}diagramComponent}{167}{subsubsection.7.25.4.1}%
-\contentsline {section}{\numberline {7.26}Wizard Class Reference}{168}{section.7.26}%
-\contentsline {subsection}{\numberline {7.26.1}Detailed Description}{169}{subsection.7.26.1}%
-\contentsline {subsection}{\numberline {7.26.2}Constructor \& Destructor Documentation}{169}{subsection.7.26.2}%
-\contentsline {subsubsection}{\numberline {7.26.2.1}Wizard()}{169}{subsubsection.7.26.2.1}%
-\contentsline {subsubsection}{\numberline {7.26.2.2}$\sim $Wizard()}{170}{subsubsection.7.26.2.2}%
-\contentsline {subsection}{\numberline {7.26.3}Member Function Documentation}{170}{subsection.7.26.3}%
-\contentsline {subsubsection}{\numberline {7.26.3.1}selectedConfiguration()}{170}{subsubsection.7.26.3.1}%
-\contentsline {chapter}{\numberline {8}File Documentation}{173}{chapter.8}%
-\contentsline {section}{\numberline {8.1}connectableresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{173}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{173}{subsection.8.1.1}%
-\contentsline {section}{\numberline {8.2}connectableresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{174}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{174}{subsection.8.2.1}%
-\contentsline {section}{\numberline {8.3}connectableresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{175}{section.8.3}%
-\contentsline {section}{\numberline {8.4}connectionspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{175}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{176}{subsection.8.4.1}%
-\contentsline {section}{\numberline {8.5}connectionspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{176}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{177}{subsection.8.5.1}%
-\contentsline {section}{\numberline {8.6}connectionspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{177}{section.8.6}%
-\contentsline {section}{\numberline {8.7}diagram.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{178}{section.8.7}%
-\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{179}{subsection.8.7.1}%
-\contentsline {section}{\numberline {8.8}diagram.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{179}{section.8.8}%
-\contentsline {subsection}{\numberline {8.8.1}Detailed Description}{180}{subsection.8.8.1}%
-\contentsline {section}{\numberline {8.9}diagram.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{180}{section.8.9}%
-\contentsline {section}{\numberline {8.10}diagramcomponent.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{181}{section.8.10}%
-\contentsline {subsection}{\numberline {8.10.1}Detailed Description}{181}{subsection.8.10.1}%
-\contentsline {section}{\numberline {8.11}diagramcomponent.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{182}{section.8.11}%
-\contentsline {subsection}{\numberline {8.11.1}Detailed Description}{182}{subsection.8.11.1}%
-\contentsline {section}{\numberline {8.12}diagramcomponent.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{183}{section.8.12}%
-\contentsline {section}{\numberline {8.13}diagramconnection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{184}{section.8.13}%
-\contentsline {subsection}{\numberline {8.13.1}Detailed Description}{184}{subsection.8.13.1}%
-\contentsline {section}{\numberline {8.14}diagramconnection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{184}{section.8.14}%
-\contentsline {subsection}{\numberline {8.14.1}Detailed Description}{185}{subsection.8.14.1}%
-\contentsline {section}{\numberline {8.15}diagramconnection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{186}{section.8.15}%
-\contentsline {section}{\numberline {8.16}diagramelement.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{187}{section.8.16}%
-\contentsline {subsection}{\numberline {8.16.1}Detailed Description}{187}{subsection.8.16.1}%
-\contentsline {section}{\numberline {8.17}diagramelement.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{188}{section.8.17}%
-\contentsline {subsection}{\numberline {8.17.1}Detailed Description}{188}{subsection.8.17.1}%
-\contentsline {section}{\numberline {8.18}diagramelement.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{189}{section.8.18}%
-\contentsline {section}{\numberline {8.19}diagramitem.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{190}{section.8.19}%
-\contentsline {subsection}{\numberline {8.19.1}Detailed Description}{190}{subsection.8.19.1}%
-\contentsline {section}{\numberline {8.20}diagramitem.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{190}{section.8.20}%
-\contentsline {subsection}{\numberline {8.20.1}Detailed Description}{191}{subsection.8.20.1}%
-\contentsline {section}{\numberline {8.21}diagramitem.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{192}{section.8.21}%
-\contentsline {section}{\numberline {8.22}diagramresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{193}{section.8.22}%
-\contentsline {subsection}{\numberline {8.22.1}Detailed Description}{193}{subsection.8.22.1}%
-\contentsline {section}{\numberline {8.23}diagramresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{194}{section.8.23}%
-\contentsline {subsection}{\numberline {8.23.1}Detailed Description}{194}{subsection.8.23.1}%
-\contentsline {section}{\numberline {8.24}diagramresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{195}{section.8.24}%
-\contentsline {section}{\numberline {8.25}diagramspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{195}{section.8.25}%
-\contentsline {subsection}{\numberline {8.25.1}Detailed Description}{196}{subsection.8.25.1}%
-\contentsline {section}{\numberline {8.26}diagramspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{196}{section.8.26}%
-\contentsline {subsection}{\numberline {8.26.1}Detailed Description}{197}{subsection.8.26.1}%
-\contentsline {section}{\numberline {8.27}diagramspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{197}{section.8.27}%
-\contentsline {section}{\numberline {8.28}diagramtype.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{198}{section.8.28}%
-\contentsline {subsection}{\numberline {8.28.1}Detailed Description}{198}{subsection.8.28.1}%
-\contentsline {section}{\numberline {8.29}diagramtype.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{199}{section.8.29}%
-\contentsline {subsection}{\numberline {8.29.1}Detailed Description}{200}{subsection.8.29.1}%
-\contentsline {section}{\numberline {8.30}diagramtype.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{200}{section.8.30}%
-\contentsline {section}{\numberline {8.31}diagramtypegroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{200}{section.8.31}%
-\contentsline {subsection}{\numberline {8.31.1}Detailed Description}{201}{subsection.8.31.1}%
-\contentsline {section}{\numberline {8.32}diagramtypegroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{201}{section.8.32}%
-\contentsline {subsection}{\numberline {8.32.1}Detailed Description}{202}{subsection.8.32.1}%
-\contentsline {section}{\numberline {8.33}diagramtypegroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{203}{section.8.33}%
-\contentsline {section}{\numberline {8.34}elementspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{203}{section.8.34}%
-\contentsline {subsection}{\numberline {8.34.1}Detailed Description}{203}{subsection.8.34.1}%
-\contentsline {section}{\numberline {8.35}elementspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{204}{section.8.35}%
-\contentsline {subsection}{\numberline {8.35.1}Detailed Description}{205}{subsection.8.35.1}%
-\contentsline {section}{\numberline {8.36}elementspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{205}{section.8.36}%
-\contentsline {section}{\numberline {8.37}fixedspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{206}{section.8.37}%
-\contentsline {section}{\numberline {8.38}geometryutils.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{206}{section.8.38}%
-\contentsline {subsection}{\numberline {8.38.1}Detailed Description}{207}{subsection.8.38.1}%
-\contentsline {section}{\numberline {8.39}geometryutils.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{207}{section.8.39}%
-\contentsline {subsection}{\numberline {8.39.1}Detailed Description}{209}{subsection.8.39.1}%
-\contentsline {section}{\numberline {8.40}geometryutils.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{209}{section.8.40}%
-\contentsline {section}{\numberline {8.41}jsonfile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{210}{section.8.41}%
-\contentsline {subsection}{\numberline {8.41.1}Detailed Description}{211}{subsection.8.41.1}%
-\contentsline {section}{\numberline {8.42}jsonfile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{211}{section.8.42}%
-\contentsline {subsection}{\numberline {8.42.1}Detailed Description}{212}{subsection.8.42.1}%
-\contentsline {section}{\numberline {8.43}jsonfile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{212}{section.8.43}%
-\contentsline {section}{\numberline {8.44}jsonserializable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{213}{section.8.44}%
-\contentsline {subsection}{\numberline {8.44.1}Detailed Description}{213}{subsection.8.44.1}%
-\contentsline {section}{\numberline {8.45}jsonserializable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{214}{section.8.45}%
-\contentsline {subsection}{\numberline {8.45.1}Detailed Description}{214}{subsection.8.45.1}%
-\contentsline {section}{\numberline {8.46}jsonserializable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{215}{section.8.46}%
-\contentsline {section}{\numberline {8.47}listspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{215}{section.8.47}%
-\contentsline {subsection}{\numberline {8.47.1}Detailed Description}{215}{subsection.8.47.1}%
-\contentsline {section}{\numberline {8.48}listspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{216}{section.8.48}%
-\contentsline {subsection}{\numberline {8.48.1}Detailed Description}{216}{subsection.8.48.1}%
-\contentsline {section}{\numberline {8.49}listspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{217}{section.8.49}%
-\contentsline {section}{\numberline {8.50}longtextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{217}{section.8.50}%
-\contentsline {subsection}{\numberline {8.50.1}Detailed Description}{218}{subsection.8.50.1}%
-\contentsline {section}{\numberline {8.51}longtextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{218}{section.8.51}%
-\contentsline {section}{\numberline {8.52}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{219}{section.8.52}%
-\contentsline {subsection}{\numberline {8.52.1}Detailed Description}{219}{subsection.8.52.1}%
-\contentsline {section}{\numberline {8.53}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{220}{section.8.53}%
-\contentsline {subsection}{\numberline {8.53.1}Detailed Description}{220}{subsection.8.53.1}%
-\contentsline {section}{\numberline {8.54}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{220}{section.8.54}%
-\contentsline {subsection}{\numberline {8.54.1}Detailed Description}{221}{subsection.8.54.1}%
-\contentsline {section}{\numberline {8.55}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{222}{section.8.55}%
-\contentsline {section}{\numberline {8.56}scrollabledatabuttonsselector.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{223}{section.8.56}%
-\contentsline {subsection}{\numberline {8.56.1}Detailed Description}{223}{subsection.8.56.1}%
-\contentsline {section}{\numberline {8.57}scrollabledatabuttonsselector.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{223}{section.8.57}%
-\contentsline {subsection}{\numberline {8.57.1}Detailed Description}{224}{subsection.8.57.1}%
-\contentsline {section}{\numberline {8.58}scrollabledatabuttonsselector.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{225}{section.8.58}%
-\contentsline {section}{\numberline {8.59}selectabledatabutton.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{225}{section.8.59}%
-\contentsline {subsection}{\numberline {8.59.1}Detailed Description}{226}{subsection.8.59.1}%
-\contentsline {section}{\numberline {8.60}selectabledatabutton.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{226}{section.8.60}%
-\contentsline {subsection}{\numberline {8.60.1}Detailed Description}{227}{subsection.8.60.1}%
-\contentsline {section}{\numberline {8.61}selectabledatabutton.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{227}{section.8.61}%
-\contentsline {section}{\numberline {8.62}selectablespecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{228}{section.8.62}%
-\contentsline {subsection}{\numberline {8.62.1}Detailed Description}{228}{subsection.8.62.1}%
-\contentsline {section}{\numberline {8.63}selectablespecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{229}{section.8.63}%
-\contentsline {subsection}{\numberline {8.63.1}Detailed Description}{229}{subsection.8.63.1}%
-\contentsline {section}{\numberline {8.64}selectablespecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{230}{section.8.64}%
-\contentsline {section}{\numberline {8.65}shorttextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{230}{section.8.65}%
-\contentsline {subsection}{\numberline {8.65.1}Detailed Description}{231}{subsection.8.65.1}%
-\contentsline {section}{\numberline {8.66}shorttextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{231}{section.8.66}%
-\contentsline {subsection}{\numberline {8.66.1}Detailed Description}{232}{subsection.8.66.1}%
-\contentsline {section}{\numberline {8.67}shorttextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{232}{section.8.67}%
-\contentsline {section}{\numberline {8.68}specificationsform.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{232}{section.8.68}%
-\contentsline {subsection}{\numberline {8.68.1}Detailed Description}{233}{subsection.8.68.1}%
-\contentsline {section}{\numberline {8.69}specificationsform.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{233}{section.8.69}%
-\contentsline {subsection}{\numberline {8.69.1}Detailed Description}{234}{subsection.8.69.1}%
-\contentsline {section}{\numberline {8.70}specificationsform.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{234}{section.8.70}%
-\contentsline {section}{\numberline {8.71}specificationsgroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{235}{section.8.71}%
-\contentsline {subsection}{\numberline {8.71.1}Detailed Description}{235}{subsection.8.71.1}%
-\contentsline {section}{\numberline {8.72}specificationsgroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{235}{section.8.72}%
-\contentsline {subsection}{\numberline {8.72.1}Detailed Description}{236}{subsection.8.72.1}%
-\contentsline {section}{\numberline {8.73}specificationsgroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{237}{section.8.73}%
-\contentsline {section}{\numberline {8.74}wizard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{237}{section.8.74}%
-\contentsline {subsection}{\numberline {8.74.1}Detailed Description}{238}{subsection.8.74.1}%
-\contentsline {section}{\numberline {8.75}wizard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{238}{section.8.75}%
-\contentsline {subsection}{\numberline {8.75.1}Detailed Description}{239}{subsection.8.75.1}%
-\contentsline {section}{\numberline {8.76}wizard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{239}{section.8.76}%
-\contentsline {chapter}{Index}{241}{section*.440}%
+\contentsline {subsubsection}{\numberline {7.10.3.1}addResizer()}{97}{subsubsection.7.10.3.1}%
+\contentsline {subsubsection}{\numberline {7.10.3.2}canResizeTo()}{98}{subsubsection.7.10.3.2}%
+\contentsline {subsubsection}{\numberline {7.10.3.3}closestConnectionPoint()}{98}{subsubsection.7.10.3.3}%
+\contentsline {subsubsection}{\numberline {7.10.3.4}componentId()}{99}{subsubsection.7.10.3.4}%
+\contentsline {subsubsection}{\numberline {7.10.3.5}componentResized}{99}{subsubsection.7.10.3.5}%
+\contentsline {subsubsection}{\numberline {7.10.3.6}connectComponent()}{99}{subsubsection.7.10.3.6}%
+\contentsline {subsubsection}{\numberline {7.10.3.7}definedZValue()}{99}{subsubsection.7.10.3.7}%
+\contentsline {subsubsection}{\numberline {7.10.3.8}graphicsItem()}{100}{subsubsection.7.10.3.8}%
+\contentsline {subsubsection}{\numberline {7.10.3.9}groupId()}{100}{subsubsection.7.10.3.9}%
+\contentsline {subsubsection}{\numberline {7.10.3.10}positionChanged}{100}{subsubsection.7.10.3.10}%
+\contentsline {subsubsection}{\numberline {7.10.3.11}removeResizer()}{101}{subsubsection.7.10.3.11}%
+\contentsline {subsubsection}{\numberline {7.10.3.12}resize()}{101}{subsubsection.7.10.3.12}%
+\contentsline {subsubsection}{\numberline {7.10.3.13}setCommentBadgeVisibility()}{101}{subsubsection.7.10.3.13}%
+\contentsline {subsubsection}{\numberline {7.10.3.14}setResizersVisibility()}{102}{subsubsection.7.10.3.14}%
+\contentsline {subsubsection}{\numberline {7.10.3.15}setShadow()}{102}{subsubsection.7.10.3.15}%
+\contentsline {subsubsection}{\numberline {7.10.3.16}setSpecifications()}{102}{subsubsection.7.10.3.16}%
+\contentsline {subsubsection}{\numberline {7.10.3.17}specificationsForm()}{103}{subsubsection.7.10.3.17}%
+\contentsline {subsubsection}{\numberline {7.10.3.18}updateCommentBadgePos()}{103}{subsubsection.7.10.3.18}%
+\contentsline {subsection}{\numberline {7.10.4}Member Data Documentation}{103}{subsection.7.10.4}%
+\contentsline {subsubsection}{\numberline {7.10.4.1}componentGroup}{103}{subsubsection.7.10.4.1}%
+\contentsline {section}{\numberline {7.11}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Connection Class Reference}{104}{section.7.11}%
+\contentsline {subsection}{\numberline {7.11.1}Detailed Description}{107}{subsection.7.11.1}%
+\contentsline {subsection}{\numberline {7.11.2}Constructor \& Destructor Documentation}{107}{subsection.7.11.2}%
+\contentsline {subsubsection}{\numberline {7.11.2.1}DiagramConnection()}{107}{subsubsection.7.11.2.1}%
+\contentsline {subsubsection}{\numberline {7.11.2.2}$\sim $DiagramConnection()}{107}{subsubsection.7.11.2.2}%
+\contentsline {subsection}{\numberline {7.11.3}Member Function Documentation}{108}{subsection.7.11.3}%
+\contentsline {subsubsection}{\numberline {7.11.3.1}addResizer()}{108}{subsubsection.7.11.3.1}%
+\contentsline {subsubsection}{\numberline {7.11.3.2}connectComponent()}{108}{subsubsection.7.11.3.2}%
+\contentsline {subsubsection}{\numberline {7.11.3.3}definedZValue()}{109}{subsubsection.7.11.3.3}%
+\contentsline {subsubsection}{\numberline {7.11.3.4}loadFromHash()}{109}{subsubsection.7.11.3.4}%
+\contentsline {subsubsection}{\numberline {7.11.3.5}removeResizer()}{110}{subsubsection.7.11.3.5}%
+\contentsline {subsubsection}{\numberline {7.11.3.6}resize()}{110}{subsubsection.7.11.3.6}%
+\contentsline {subsubsection}{\numberline {7.11.3.7}setResizersVisibility()}{111}{subsubsection.7.11.3.7}%
+\contentsline {subsubsection}{\numberline {7.11.3.8}setShadow()}{112}{subsubsection.7.11.3.8}%
+\contentsline {subsubsection}{\numberline {7.11.3.9}setSpecifications()}{112}{subsubsection.7.11.3.9}%
+\contentsline {subsubsection}{\numberline {7.11.3.10}specificationsForm()}{112}{subsubsection.7.11.3.10}%
+\contentsline {subsubsection}{\numberline {7.11.3.11}toHash()}{113}{subsubsection.7.11.3.11}%
+\contentsline {section}{\numberline {7.12}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Connection Class Reference}{114}{section.7.12}%
+\contentsline {subsection}{\numberline {7.12.1}Detailed Description}{117}{subsection.7.12.1}%
+\contentsline {subsection}{\numberline {7.12.2}Constructor \& Destructor Documentation}{117}{subsection.7.12.2}%
+\contentsline {subsubsection}{\numberline {7.12.2.1}DiagramConnection()}{117}{subsubsection.7.12.2.1}%
+\contentsline {subsubsection}{\numberline {7.12.2.2}$\sim $DiagramConnection()}{117}{subsubsection.7.12.2.2}%
+\contentsline {subsection}{\numberline {7.12.3}Member Function Documentation}{118}{subsection.7.12.3}%
+\contentsline {subsubsection}{\numberline {7.12.3.1}addResizer()}{118}{subsubsection.7.12.3.1}%
+\contentsline {subsubsection}{\numberline {7.12.3.2}connectComponent()}{118}{subsubsection.7.12.3.2}%
+\contentsline {subsubsection}{\numberline {7.12.3.3}definedZValue()}{118}{subsubsection.7.12.3.3}%
+\contentsline {subsubsection}{\numberline {7.12.3.4}loadFromHash()}{119}{subsubsection.7.12.3.4}%
+\contentsline {subsubsection}{\numberline {7.12.3.5}removeResizer()}{119}{subsubsection.7.12.3.5}%
+\contentsline {subsubsection}{\numberline {7.12.3.6}resize()}{120}{subsubsection.7.12.3.6}%
+\contentsline {subsubsection}{\numberline {7.12.3.7}setResizersVisibility()}{120}{subsubsection.7.12.3.7}%
+\contentsline {subsubsection}{\numberline {7.12.3.8}setShadow()}{120}{subsubsection.7.12.3.8}%
+\contentsline {subsubsection}{\numberline {7.12.3.9}setSpecifications()}{121}{subsubsection.7.12.3.9}%
+\contentsline {subsubsection}{\numberline {7.12.3.10}specificationsForm()}{121}{subsubsection.7.12.3.10}%
+\contentsline {subsubsection}{\numberline {7.12.3.11}toHash()}{121}{subsubsection.7.12.3.11}%
+\contentsline {section}{\numberline {7.13}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element Class Reference}{122}{section.7.13}%
+\contentsline {subsection}{\numberline {7.13.1}Detailed Description}{125}{subsection.7.13.1}%
+\contentsline {subsection}{\numberline {7.13.2}Constructor \& Destructor Documentation}{125}{subsection.7.13.2}%
+\contentsline {subsubsection}{\numberline {7.13.2.1}DiagramElement()}{125}{subsubsection.7.13.2.1}%
+\contentsline {subsubsection}{\numberline {7.13.2.2}$\sim $DiagramElement()}{126}{subsubsection.7.13.2.2}%
+\contentsline {subsection}{\numberline {7.13.3}Member Function Documentation}{126}{subsection.7.13.3}%
+\contentsline {subsubsection}{\numberline {7.13.3.1}canResizeTo()}{126}{subsubsection.7.13.3.1}%
+\contentsline {subsubsection}{\numberline {7.13.3.2}loadFromHash()}{127}{subsubsection.7.13.3.2}%
+\contentsline {subsubsection}{\numberline {7.13.3.3}resize()}{127}{subsubsection.7.13.3.3}%
+\contentsline {subsubsection}{\numberline {7.13.3.4}setResizersVisibility()}{128}{subsubsection.7.13.3.4}%
+\contentsline {subsubsection}{\numberline {7.13.3.5}setShadow()}{128}{subsubsection.7.13.3.5}%
+\contentsline {subsubsection}{\numberline {7.13.3.6}setSpecifications()}{129}{subsubsection.7.13.3.6}%
+\contentsline {subsubsection}{\numberline {7.13.3.7}specificationsForm()}{129}{subsubsection.7.13.3.7}%
+\contentsline {subsubsection}{\numberline {7.13.3.8}toHash()}{130}{subsubsection.7.13.3.8}%
+\contentsline {section}{\numberline {7.14}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element Class Reference}{131}{section.7.14}%
+\contentsline {subsection}{\numberline {7.14.1}Detailed Description}{134}{subsection.7.14.1}%
+\contentsline {subsection}{\numberline {7.14.2}Constructor \& Destructor Documentation}{134}{subsection.7.14.2}%
+\contentsline {subsubsection}{\numberline {7.14.2.1}DiagramElement()}{134}{subsubsection.7.14.2.1}%
+\contentsline {subsubsection}{\numberline {7.14.2.2}$\sim $DiagramElement()}{134}{subsubsection.7.14.2.2}%
+\contentsline {subsection}{\numberline {7.14.3}Member Function Documentation}{135}{subsection.7.14.3}%
+\contentsline {subsubsection}{\numberline {7.14.3.1}canResizeTo()}{135}{subsubsection.7.14.3.1}%
+\contentsline {subsubsection}{\numberline {7.14.3.2}loadFromHash()}{135}{subsubsection.7.14.3.2}%
+\contentsline {subsubsection}{\numberline {7.14.3.3}resize()}{136}{subsubsection.7.14.3.3}%
+\contentsline {subsubsection}{\numberline {7.14.3.4}setResizersVisibility()}{136}{subsubsection.7.14.3.4}%
+\contentsline {subsubsection}{\numberline {7.14.3.5}setShadow()}{136}{subsubsection.7.14.3.5}%
+\contentsline {subsubsection}{\numberline {7.14.3.6}setSpecifications()}{137}{subsubsection.7.14.3.6}%
+\contentsline {subsubsection}{\numberline {7.14.3.7}specificationsForm()}{137}{subsubsection.7.14.3.7}%
+\contentsline {subsubsection}{\numberline {7.14.3.8}toHash()}{137}{subsubsection.7.14.3.8}%
+\contentsline {section}{\numberline {7.15}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{138}{section.7.15}%
+\contentsline {subsection}{\numberline {7.15.1}Detailed Description}{140}{subsection.7.15.1}%
+\contentsline {subsection}{\numberline {7.15.2}Constructor \& Destructor Documentation}{140}{subsection.7.15.2}%
+\contentsline {subsubsection}{\numberline {7.15.2.1}DiagramItem()}{140}{subsubsection.7.15.2.1}%
+\contentsline {subsection}{\numberline {7.15.3}Member Function Documentation}{141}{subsection.7.15.3}%
+\contentsline {subsubsection}{\numberline {7.15.3.1}centerOffset()}{141}{subsubsection.7.15.3.1}%
+\contentsline {subsubsection}{\numberline {7.15.3.2}componentAt()}{141}{subsubsection.7.15.3.2}%
+\contentsline {subsubsection}{\numberline {7.15.3.3}componentById()}{142}{subsubsection.7.15.3.3}%
+\contentsline {subsubsection}{\numberline {7.15.3.4}componentId()}{142}{subsubsection.7.15.3.4}%
+\contentsline {subsubsection}{\numberline {7.15.3.5}componentTypeMatches()}{143}{subsubsection.7.15.3.5}%
+\contentsline {subsubsection}{\numberline {7.15.3.6}connectComponents()}{143}{subsubsection.7.15.3.6}%
+\contentsline {subsubsection}{\numberline {7.15.3.7}definedZValue()}{144}{subsubsection.7.15.3.7}%
+\contentsline {subsubsection}{\numberline {7.15.3.8}itemChange()}{144}{subsubsection.7.15.3.8}%
+\contentsline {subsubsection}{\numberline {7.15.3.9}itemId()}{145}{subsubsection.7.15.3.9}%
+\contentsline {subsubsection}{\numberline {7.15.3.10}loadFromHash()}{145}{subsubsection.7.15.3.10}%
+\contentsline {subsubsection}{\numberline {7.15.3.11}setLoaded()}{146}{subsubsection.7.15.3.11}%
+\contentsline {subsubsection}{\numberline {7.15.3.12}setResizerEnabled()}{147}{subsubsection.7.15.3.12}%
+\contentsline {subsubsection}{\numberline {7.15.3.13}setShadow()}{147}{subsubsection.7.15.3.13}%
+\contentsline {subsubsection}{\numberline {7.15.3.14}setSpecifications()}{148}{subsubsection.7.15.3.14}%
+\contentsline {subsubsection}{\numberline {7.15.3.15}specificationsForm()}{149}{subsubsection.7.15.3.15}%
+\contentsline {subsubsection}{\numberline {7.15.3.16}toHash()}{149}{subsubsection.7.15.3.16}%
+\contentsline {subsubsection}{\numberline {7.15.3.17}updateGeometry()}{150}{subsubsection.7.15.3.17}%
+\contentsline {section}{\numberline {7.16}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item Class Reference}{150}{section.7.16}%
+\contentsline {subsection}{\numberline {7.16.1}Detailed Description}{153}{subsection.7.16.1}%
+\contentsline {subsection}{\numberline {7.16.2}Constructor \& Destructor Documentation}{153}{subsection.7.16.2}%
+\contentsline {subsubsection}{\numberline {7.16.2.1}DiagramItem()}{153}{subsubsection.7.16.2.1}%
+\contentsline {subsection}{\numberline {7.16.3}Member Function Documentation}{154}{subsection.7.16.3}%
+\contentsline {subsubsection}{\numberline {7.16.3.1}centerOffset()}{154}{subsubsection.7.16.3.1}%
+\contentsline {subsubsection}{\numberline {7.16.3.2}componentAt()}{154}{subsubsection.7.16.3.2}%
+\contentsline {subsubsection}{\numberline {7.16.3.3}componentById()}{155}{subsubsection.7.16.3.3}%
+\contentsline {subsubsection}{\numberline {7.16.3.4}componentId()}{155}{subsubsection.7.16.3.4}%
+\contentsline {subsubsection}{\numberline {7.16.3.5}componentTypeMatches()}{156}{subsubsection.7.16.3.5}%
+\contentsline {subsubsection}{\numberline {7.16.3.6}connectComponents()}{156}{subsubsection.7.16.3.6}%
+\contentsline {subsubsection}{\numberline {7.16.3.7}definedZValue()}{156}{subsubsection.7.16.3.7}%
+\contentsline {subsubsection}{\numberline {7.16.3.8}itemChange()}{157}{subsubsection.7.16.3.8}%
+\contentsline {subsubsection}{\numberline {7.16.3.9}itemId()}{157}{subsubsection.7.16.3.9}%
+\contentsline {subsubsection}{\numberline {7.16.3.10}loadFromHash()}{157}{subsubsection.7.16.3.10}%
+\contentsline {subsubsection}{\numberline {7.16.3.11}setLoaded()}{158}{subsubsection.7.16.3.11}%
+\contentsline {subsubsection}{\numberline {7.16.3.12}setResizerEnabled()}{158}{subsubsection.7.16.3.12}%
+\contentsline {subsubsection}{\numberline {7.16.3.13}setShadow()}{159}{subsubsection.7.16.3.13}%
+\contentsline {subsubsection}{\numberline {7.16.3.14}setSpecifications()}{159}{subsubsection.7.16.3.14}%
+\contentsline {subsubsection}{\numberline {7.16.3.15}specificationsForm()}{159}{subsubsection.7.16.3.15}%
+\contentsline {subsubsection}{\numberline {7.16.3.16}toHash()}{160}{subsubsection.7.16.3.16}%
+\contentsline {subsubsection}{\numberline {7.16.3.17}updateGeometry()}{160}{subsubsection.7.16.3.17}%
+\contentsline {section}{\numberline {7.17}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resizer Class Reference}{161}{section.7.17}%
+\contentsline {subsection}{\numberline {7.17.1}Detailed Description}{163}{subsection.7.17.1}%
+\contentsline {subsection}{\numberline {7.17.2}Constructor \& Destructor Documentation}{163}{subsection.7.17.2}%
+\contentsline {subsubsection}{\numberline {7.17.2.1}DiagramResizer()}{163}{subsubsection.7.17.2.1}%
+\contentsline {subsection}{\numberline {7.17.3}Member Function Documentation}{164}{subsection.7.17.3}%
+\contentsline {subsubsection}{\numberline {7.17.3.1}itemChange()}{164}{subsubsection.7.17.3.1}%
+\contentsline {subsubsection}{\numberline {7.17.3.2}mouseMoveEvent()}{165}{subsubsection.7.17.3.2}%
+\contentsline {subsubsection}{\numberline {7.17.3.3}mousePressEvent()}{166}{subsubsection.7.17.3.3}%
+\contentsline {subsubsection}{\numberline {7.17.3.4}mouseReleaseEvent()}{166}{subsubsection.7.17.3.4}%
+\contentsline {subsubsection}{\numberline {7.17.3.5}sceneCenterPos()}{167}{subsubsection.7.17.3.5}%
+\contentsline {subsubsection}{\numberline {7.17.3.6}setSceneCenterPos()}{167}{subsubsection.7.17.3.6}%
+\contentsline {subsubsection}{\numberline {7.17.3.7}updateParentPosition}{168}{subsubsection.7.17.3.7}%
+\contentsline {subsection}{\numberline {7.17.4}Member Data Documentation}{169}{subsection.7.17.4}%
+\contentsline {subsubsection}{\numberline {7.17.4.1}parentComponent}{169}{subsubsection.7.17.4.1}%
+\contentsline {section}{\numberline {7.18}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{169}{section.7.18}%
+\contentsline {subsection}{\numberline {7.18.1}Detailed Description}{171}{subsection.7.18.1}%
+\contentsline {subsection}{\numberline {7.18.2}Constructor \& Destructor Documentation}{171}{subsection.7.18.2}%
+\contentsline {subsubsection}{\numberline {7.18.2.1}DiagramSpecification()}{171}{subsubsection.7.18.2.1}%
+\contentsline {subsection}{\numberline {7.18.3}Member Function Documentation}{172}{subsection.7.18.3}%
+\contentsline {subsubsection}{\numberline {7.18.3.1}applyFormResults()}{172}{subsubsection.7.18.3.1}%
+\contentsline {subsubsection}{\numberline {7.18.3.2}form()}{173}{subsubsection.7.18.3.2}%
+\contentsline {subsubsection}{\numberline {7.18.3.3}itemChange()}{173}{subsubsection.7.18.3.3}%
+\contentsline {subsubsection}{\numberline {7.18.3.4}loadFromHash()}{173}{subsubsection.7.18.3.4}%
+\contentsline {subsubsection}{\numberline {7.18.3.5}movingTranslation()}{174}{subsubsection.7.18.3.5}%
+\contentsline {subsubsection}{\numberline {7.18.3.6}name()}{174}{subsubsection.7.18.3.6}%
+\contentsline {subsubsection}{\numberline {7.18.3.7}toHash()}{175}{subsubsection.7.18.3.7}%
+\contentsline {section}{\numberline {7.19}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Type Class Reference}{176}{section.7.19}%
+\contentsline {subsection}{\numberline {7.19.1}Detailed Description}{178}{subsection.7.19.1}%
+\contentsline {subsection}{\numberline {7.19.2}Member Function Documentation}{178}{subsection.7.19.2}%
+\contentsline {subsubsection}{\numberline {7.19.2.1}diagramItems()}{178}{subsubsection.7.19.2.1}%
+\contentsline {subsubsection}{\numberline {7.19.2.2}loadFromHash()}{178}{subsubsection.7.19.2.2}%
+\contentsline {section}{\numberline {7.20}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Type\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Group Class Reference}{179}{section.7.20}%
+\contentsline {subsection}{\numberline {7.20.1}Detailed Description}{180}{subsection.7.20.1}%
+\contentsline {subsection}{\numberline {7.20.2}Member Function Documentation}{181}{subsection.7.20.2}%
+\contentsline {subsubsection}{\numberline {7.20.2.1}diagramTypes()}{181}{subsubsection.7.20.2.1}%
+\contentsline {subsubsection}{\numberline {7.20.2.2}loadFromHash()}{181}{subsubsection.7.20.2.2}%
+\contentsline {section}{\numberline {7.21}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications Class Reference}{182}{section.7.21}%
+\contentsline {subsection}{\numberline {7.21.1}Detailed Description}{185}{subsection.7.21.1}%
+\contentsline {subsection}{\numberline {7.21.2}Member Enumeration Documentation}{185}{subsection.7.21.2}%
+\contentsline {subsubsection}{\numberline {7.21.2.1}SpecificationPos}{185}{subsubsection.7.21.2.1}%
+\contentsline {subsection}{\numberline {7.21.3}Constructor \& Destructor Documentation}{185}{subsection.7.21.3}%
+\contentsline {subsubsection}{\numberline {7.21.3.1}ElementSpecifications()}{185}{subsubsection.7.21.3.1}%
+\contentsline {subsection}{\numberline {7.21.4}Member Function Documentation}{186}{subsection.7.21.4}%
+\contentsline {subsubsection}{\numberline {7.21.4.1}applyFormResults()}{186}{subsubsection.7.21.4.1}%
+\contentsline {subsubsection}{\numberline {7.21.4.2}loadFromHash()}{186}{subsubsection.7.21.4.2}%
+\contentsline {subsubsection}{\numberline {7.21.4.3}size()}{187}{subsubsection.7.21.4.3}%
+\contentsline {subsubsection}{\numberline {7.21.4.4}sizeChanged}{187}{subsubsection.7.21.4.4}%
+\contentsline {subsubsection}{\numberline {7.21.4.5}toHash()}{188}{subsubsection.7.21.4.5}%
+\contentsline {subsubsection}{\numberline {7.21.4.6}updateSpecificationsPos()}{188}{subsubsection.7.21.4.6}%
+\contentsline {section}{\numberline {7.22}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications Class Reference}{189}{section.7.22}%
+\contentsline {subsection}{\numberline {7.22.1}Detailed Description}{192}{subsection.7.22.1}%
+\contentsline {subsection}{\numberline {7.22.2}Member Enumeration Documentation}{192}{subsection.7.22.2}%
+\contentsline {subsubsection}{\numberline {7.22.2.1}SpecificationPos}{192}{subsubsection.7.22.2.1}%
+\contentsline {subsection}{\numberline {7.22.3}Constructor \& Destructor Documentation}{192}{subsection.7.22.3}%
+\contentsline {subsubsection}{\numberline {7.22.3.1}ElementSpecifications()}{192}{subsubsection.7.22.3.1}%
+\contentsline {subsection}{\numberline {7.22.4}Member Function Documentation}{193}{subsection.7.22.4}%
+\contentsline {subsubsection}{\numberline {7.22.4.1}applyFormResults()}{193}{subsubsection.7.22.4.1}%
+\contentsline {subsubsection}{\numberline {7.22.4.2}loadFromHash()}{193}{subsubsection.7.22.4.2}%
+\contentsline {subsubsection}{\numberline {7.22.4.3}size()}{194}{subsubsection.7.22.4.3}%
+\contentsline {subsubsection}{\numberline {7.22.4.4}sizeChanged}{195}{subsubsection.7.22.4.4}%
+\contentsline {subsubsection}{\numberline {7.22.4.5}toHash()}{196}{subsubsection.7.22.4.5}%
+\contentsline {subsubsection}{\numberline {7.22.4.6}updateSpecificationsPos()}{196}{subsubsection.7.22.4.6}%
+\contentsline {section}{\numberline {7.23}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File Class Reference}{197}{section.7.23}%
+\contentsline {subsection}{\numberline {7.23.1}Detailed Description}{198}{subsection.7.23.1}%
+\contentsline {subsection}{\numberline {7.23.2}Constructor \& Destructor Documentation}{198}{subsection.7.23.2}%
+\contentsline {subsubsection}{\numberline {7.23.2.1}JsonFile()}{198}{subsubsection.7.23.2.1}%
+\contentsline {subsection}{\numberline {7.23.3}Member Function Documentation}{199}{subsection.7.23.3}%
+\contentsline {subsubsection}{\numberline {7.23.3.1}hashForKey()}{199}{subsubsection.7.23.3.1}%
+\contentsline {subsubsection}{\numberline {7.23.3.2}hashToText()}{199}{subsubsection.7.23.3.2}%
+\contentsline {subsubsection}{\numberline {7.23.3.3}load()}{200}{subsubsection.7.23.3.3}%
+\contentsline {subsubsection}{\numberline {7.23.3.4}textToHash()}{200}{subsubsection.7.23.3.4}%
+\contentsline {section}{\numberline {7.24}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serialization::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File Class Reference}{201}{section.7.24}%
+\contentsline {subsection}{\numberline {7.24.1}Detailed Description}{202}{subsection.7.24.1}%
+\contentsline {subsection}{\numberline {7.24.2}Constructor \& Destructor Documentation}{202}{subsection.7.24.2}%
+\contentsline {subsubsection}{\numberline {7.24.2.1}JsonFile()}{202}{subsubsection.7.24.2.1}%
+\contentsline {subsection}{\numberline {7.24.3}Member Function Documentation}{203}{subsection.7.24.3}%
+\contentsline {subsubsection}{\numberline {7.24.3.1}hashForKey()}{203}{subsubsection.7.24.3.1}%
+\contentsline {subsubsection}{\numberline {7.24.3.2}hashToText()}{203}{subsubsection.7.24.3.2}%
+\contentsline {subsubsection}{\numberline {7.24.3.3}load()}{204}{subsubsection.7.24.3.3}%
+\contentsline {subsubsection}{\numberline {7.24.3.4}textToHash()}{204}{subsubsection.7.24.3.4}%
+\contentsline {section}{\numberline {7.25}Json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File Class Reference}{205}{section.7.25}%
+\contentsline {subsection}{\numberline {7.25.1}Detailed Description}{206}{subsection.7.25.1}%
+\contentsline {subsection}{\numberline {7.25.2}Constructor \& Destructor Documentation}{206}{subsection.7.25.2}%
+\contentsline {subsubsection}{\numberline {7.25.2.1}JsonFile()}{206}{subsubsection.7.25.2.1}%
+\contentsline {subsection}{\numberline {7.25.3}Member Function Documentation}{207}{subsection.7.25.3}%
+\contentsline {subsubsection}{\numberline {7.25.3.1}hashForKey()}{207}{subsubsection.7.25.3.1}%
+\contentsline {subsubsection}{\numberline {7.25.3.2}hashToText()}{207}{subsubsection.7.25.3.2}%
+\contentsline {subsubsection}{\numberline {7.25.3.3}load()}{208}{subsubsection.7.25.3.3}%
+\contentsline {subsubsection}{\numberline {7.25.3.4}textToHash()}{208}{subsubsection.7.25.3.4}%
+\contentsline {section}{\numberline {7.26}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serializable Class Reference}{209}{section.7.26}%
+\contentsline {subsection}{\numberline {7.26.1}Detailed Description}{210}{subsection.7.26.1}%
+\contentsline {subsection}{\numberline {7.26.2}Constructor \& Destructor Documentation}{210}{subsection.7.26.2}%
+\contentsline {subsubsection}{\numberline {7.26.2.1}$\sim $JsonSerializable()}{210}{subsubsection.7.26.2.1}%
+\contentsline {subsection}{\numberline {7.26.3}Member Function Documentation}{210}{subsection.7.26.3}%
+\contentsline {subsubsection}{\numberline {7.26.3.1}filteredHashByKeys()}{210}{subsubsection.7.26.3.1}%
+\contentsline {subsubsection}{\numberline {7.26.3.2}loadFromHash()}{211}{subsubsection.7.26.3.2}%
+\contentsline {subsubsection}{\numberline {7.26.3.3}toHash()}{211}{subsubsection.7.26.3.3}%
+\contentsline {section}{\numberline {7.27}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serialization::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serializable Class Reference}{212}{section.7.27}%
+\contentsline {subsection}{\numberline {7.27.1}Detailed Description}{213}{subsection.7.27.1}%
+\contentsline {subsection}{\numberline {7.27.2}Constructor \& Destructor Documentation}{213}{subsection.7.27.2}%
+\contentsline {subsubsection}{\numberline {7.27.2.1}$\sim $JsonSerializable()}{213}{subsubsection.7.27.2.1}%
+\contentsline {subsection}{\numberline {7.27.3}Member Function Documentation}{213}{subsection.7.27.3}%
+\contentsline {subsubsection}{\numberline {7.27.3.1}filteredHashByKeys()}{213}{subsubsection.7.27.3.1}%
+\contentsline {subsubsection}{\numberline {7.27.3.2}loadFromHash()}{214}{subsubsection.7.27.3.2}%
+\contentsline {subsubsection}{\numberline {7.27.3.3}toHash()}{214}{subsubsection.7.27.3.3}%
+\contentsline {section}{\numberline {7.28}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{215}{section.7.28}%
+\contentsline {subsection}{\numberline {7.28.1}Detailed Description}{217}{subsection.7.28.1}%
+\contentsline {subsection}{\numberline {7.28.2}Constructor \& Destructor Documentation}{218}{subsection.7.28.2}%
+\contentsline {subsubsection}{\numberline {7.28.2.1}ListSpecification()}{218}{subsubsection.7.28.2.1}%
+\contentsline {subsection}{\numberline {7.28.3}Member Function Documentation}{218}{subsection.7.28.3}%
+\contentsline {subsubsection}{\numberline {7.28.3.1}form()}{218}{subsubsection.7.28.3.1}%
+\contentsline {subsubsection}{\numberline {7.28.3.2}loadFromHash()}{219}{subsubsection.7.28.3.2}%
+\contentsline {subsubsection}{\numberline {7.28.3.3}toHash()}{219}{subsubsection.7.28.3.3}%
+\contentsline {section}{\numberline {7.29}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Long\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{220}{section.7.29}%
+\contentsline {subsection}{\numberline {7.29.1}Detailed Description}{223}{subsection.7.29.1}%
+\contentsline {subsection}{\numberline {7.29.2}Constructor \& Destructor Documentation}{223}{subsection.7.29.2}%
+\contentsline {subsubsection}{\numberline {7.29.2.1}LongTextSpecification()}{223}{subsubsection.7.29.2.1}%
+\contentsline {subsection}{\numberline {7.29.3}Member Function Documentation}{224}{subsection.7.29.3}%
+\contentsline {subsubsection}{\numberline {7.29.3.1}form()}{224}{subsubsection.7.29.3.1}%
+\contentsline {section}{\numberline {7.30}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{225}{section.7.30}%
+\contentsline {subsection}{\numberline {7.30.1}Detailed Description}{226}{subsection.7.30.1}%
+\contentsline {subsection}{\numberline {7.30.2}Constructor \& Destructor Documentation}{226}{subsection.7.30.2}%
+\contentsline {subsubsection}{\numberline {7.30.2.1}MainWindow()}{226}{subsubsection.7.30.2.1}%
+\contentsline {subsubsection}{\numberline {7.30.2.2}$\sim $MainWindow()}{227}{subsubsection.7.30.2.2}%
+\contentsline {section}{\numberline {7.31}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{228}{section.7.31}%
+\contentsline {subsection}{\numberline {7.31.1}Detailed Description}{229}{subsection.7.31.1}%
+\contentsline {subsection}{\numberline {7.31.2}Constructor \& Destructor Documentation}{229}{subsection.7.31.2}%
+\contentsline {subsubsection}{\numberline {7.31.2.1}MainWindow()}{229}{subsubsection.7.31.2.1}%
+\contentsline {subsubsection}{\numberline {7.31.2.2}$\sim $MainWindow()}{230}{subsubsection.7.31.2.2}%
+\contentsline {section}{\numberline {7.32}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scrollable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buttons\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selector Class Reference}{230}{section.7.32}%
+\contentsline {subsection}{\numberline {7.32.1}Detailed Description}{231}{subsection.7.32.1}%
+\contentsline {subsection}{\numberline {7.32.2}Constructor \& Destructor Documentation}{232}{subsection.7.32.2}%
+\contentsline {subsubsection}{\numberline {7.32.2.1}ScrollableDataButtonsSelector()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{232}{subsubsection.7.32.2.1}%
+\contentsline {subsubsection}{\numberline {7.32.2.2}ScrollableDataButtonsSelector()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{233}{subsubsection.7.32.2.2}%
+\contentsline {subsection}{\numberline {7.32.3}Member Function Documentation}{233}{subsection.7.32.3}%
+\contentsline {subsubsection}{\numberline {7.32.3.1}addButtons()}{233}{subsubsection.7.32.3.1}%
+\contentsline {subsubsection}{\numberline {7.32.3.2}clear()}{234}{subsubsection.7.32.3.2}%
+\contentsline {subsubsection}{\numberline {7.32.3.3}selectedButtonData()}{234}{subsubsection.7.32.3.3}%
+\contentsline {subsubsection}{\numberline {7.32.3.4}selectionChanged}{235}{subsubsection.7.32.3.4}%
+\contentsline {section}{\numberline {7.33}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selectable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button Class Reference}{236}{section.7.33}%
+\contentsline {subsection}{\numberline {7.33.1}Detailed Description}{238}{subsection.7.33.1}%
+\contentsline {subsection}{\numberline {7.33.2}Constructor \& Destructor Documentation}{238}{subsection.7.33.2}%
+\contentsline {subsubsection}{\numberline {7.33.2.1}SelectableDataButton()}{238}{subsubsection.7.33.2.1}%
+\contentsline {subsection}{\numberline {7.33.3}Member Function Documentation}{239}{subsection.7.33.3}%
+\contentsline {subsubsection}{\numberline {7.33.3.1}data()}{239}{subsubsection.7.33.3.1}%
+\contentsline {subsubsection}{\numberline {7.33.3.2}leftIconButton()}{239}{subsubsection.7.33.3.2}%
+\contentsline {subsubsection}{\numberline {7.33.3.3}loadFromHash()}{240}{subsubsection.7.33.3.3}%
+\contentsline {subsubsection}{\numberline {7.33.3.4}upperIconButton()}{240}{subsubsection.7.33.3.4}%
+\contentsline {subsection}{\numberline {7.33.4}Member Data Documentation}{241}{subsection.7.33.4}%
+\contentsline {subsubsection}{\numberline {7.33.4.1}STYLE\_SHEET}{241}{subsubsection.7.33.4.1}%
+\contentsline {section}{\numberline {7.34}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selectable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{241}{section.7.34}%
+\contentsline {subsection}{\numberline {7.34.1}Detailed Description}{244}{subsection.7.34.1}%
+\contentsline {subsection}{\numberline {7.34.2}Constructor \& Destructor Documentation}{245}{subsection.7.34.2}%
+\contentsline {subsubsection}{\numberline {7.34.2.1}SelectableSpecification()}{245}{subsubsection.7.34.2.1}%
+\contentsline {subsection}{\numberline {7.34.3}Member Function Documentation}{245}{subsection.7.34.3}%
+\contentsline {subsubsection}{\numberline {7.34.3.1}form()}{245}{subsubsection.7.34.3.1}%
+\contentsline {subsubsection}{\numberline {7.34.3.2}loadFromHash()}{246}{subsubsection.7.34.3.2}%
+\contentsline {subsubsection}{\numberline {7.34.3.3}toHash()}{246}{subsubsection.7.34.3.3}%
+\contentsline {section}{\numberline {7.35}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Short\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Class Reference}{247}{section.7.35}%
+\contentsline {subsection}{\numberline {7.35.1}Detailed Description}{250}{subsection.7.35.1}%
+\contentsline {subsection}{\numberline {7.35.2}Constructor \& Destructor Documentation}{250}{subsection.7.35.2}%
+\contentsline {subsubsection}{\numberline {7.35.2.1}ShortTextSpecification()}{250}{subsubsection.7.35.2.1}%
+\contentsline {subsection}{\numberline {7.35.3}Member Function Documentation}{251}{subsection.7.35.3}%
+\contentsline {subsubsection}{\numberline {7.35.3.1}form()}{251}{subsubsection.7.35.3.1}%
+\contentsline {section}{\numberline {7.36}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Form Class Reference}{252}{section.7.36}%
+\contentsline {subsection}{\numberline {7.36.1}Detailed Description}{253}{subsection.7.36.1}%
+\contentsline {subsection}{\numberline {7.36.2}Constructor \& Destructor Documentation}{253}{subsection.7.36.2}%
+\contentsline {subsubsection}{\numberline {7.36.2.1}SpecificationsForm()}{253}{subsubsection.7.36.2.1}%
+\contentsline {subsection}{\numberline {7.36.3}Member Function Documentation}{254}{subsection.7.36.3}%
+\contentsline {subsubsection}{\numberline {7.36.3.1}appendField()}{254}{subsubsection.7.36.3.1}%
+\contentsline {subsubsection}{\numberline {7.36.3.2}appendForm()}{254}{subsubsection.7.36.3.2}%
+\contentsline {subsubsection}{\numberline {7.36.3.3}fieldCount()}{254}{subsubsection.7.36.3.3}%
+\contentsline {subsubsection}{\numberline {7.36.3.4}fieldResults()}{255}{subsubsection.7.36.3.4}%
+\contentsline {subsubsection}{\numberline {7.36.3.5}formCount()}{255}{subsubsection.7.36.3.5}%
+\contentsline {section}{\numberline {7.37}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Form Class Reference}{256}{section.7.37}%
+\contentsline {subsection}{\numberline {7.37.1}Detailed Description}{257}{subsection.7.37.1}%
+\contentsline {subsection}{\numberline {7.37.2}Constructor \& Destructor Documentation}{257}{subsection.7.37.2}%
+\contentsline {subsubsection}{\numberline {7.37.2.1}SpecificationsForm()}{257}{subsubsection.7.37.2.1}%
+\contentsline {subsection}{\numberline {7.37.3}Member Function Documentation}{258}{subsection.7.37.3}%
+\contentsline {subsubsection}{\numberline {7.37.3.1}appendField()}{258}{subsubsection.7.37.3.1}%
+\contentsline {subsubsection}{\numberline {7.37.3.2}appendForm()}{259}{subsubsection.7.37.3.2}%
+\contentsline {subsubsection}{\numberline {7.37.3.3}fieldCount()}{259}{subsubsection.7.37.3.3}%
+\contentsline {subsubsection}{\numberline {7.37.3.4}fieldResults()}{260}{subsubsection.7.37.3.4}%
+\contentsline {subsubsection}{\numberline {7.37.3.5}formCount()}{261}{subsubsection.7.37.3.5}%
+\contentsline {section}{\numberline {7.38}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specifications\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Group Class Reference}{261}{section.7.38}%
+\contentsline {subsection}{\numberline {7.38.1}Detailed Description}{264}{subsection.7.38.1}%
+\contentsline {subsection}{\numberline {7.38.2}Constructor \& Destructor Documentation}{264}{subsection.7.38.2}%
+\contentsline {subsubsection}{\numberline {7.38.2.1}SpecificationsGroup()}{264}{subsubsection.7.38.2.1}%
+\contentsline {subsubsection}{\numberline {7.38.2.2}$\sim $SpecificationsGroup()}{265}{subsubsection.7.38.2.2}%
+\contentsline {subsection}{\numberline {7.38.3}Member Function Documentation}{265}{subsection.7.38.3}%
+\contentsline {subsubsection}{\numberline {7.38.3.1}applyFormResults()}{265}{subsubsection.7.38.3.1}%
+\contentsline {subsubsection}{\numberline {7.38.3.2}clear()}{266}{subsubsection.7.38.3.2}%
+\contentsline {subsubsection}{\numberline {7.38.3.3}form()}{267}{subsubsection.7.38.3.3}%
+\contentsline {subsubsection}{\numberline {7.38.3.4}loadFromHash()}{268}{subsubsection.7.38.3.4}%
+\contentsline {subsubsection}{\numberline {7.38.3.5}specificationFromTypeName()}{269}{subsubsection.7.38.3.5}%
+\contentsline {subsubsection}{\numberline {7.38.3.6}toHash()}{270}{subsubsection.7.38.3.6}%
+\contentsline {subsubsection}{\numberline {7.38.3.7}typeNameFromSpecification()}{271}{subsubsection.7.38.3.7}%
+\contentsline {subsection}{\numberline {7.38.4}Member Data Documentation}{271}{subsection.7.38.4}%
+\contentsline {subsubsection}{\numberline {7.38.4.1}diagramComponent}{271}{subsubsection.7.38.4.1}%
+\contentsline {section}{\numberline {7.39}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wizard Class Reference}{272}{section.7.39}%
+\contentsline {subsection}{\numberline {7.39.1}Detailed Description}{274}{subsection.7.39.1}%
+\contentsline {subsection}{\numberline {7.39.2}Constructor \& Destructor Documentation}{274}{subsection.7.39.2}%
+\contentsline {subsubsection}{\numberline {7.39.2.1}Wizard()}{274}{subsubsection.7.39.2.1}%
+\contentsline {subsubsection}{\numberline {7.39.2.2}$\sim $Wizard()}{275}{subsubsection.7.39.2.2}%
+\contentsline {subsection}{\numberline {7.39.3}Member Function Documentation}{275}{subsection.7.39.3}%
+\contentsline {subsubsection}{\numberline {7.39.3.1}selectedConfiguration()}{275}{subsubsection.7.39.3.1}%
+\contentsline {chapter}{\numberline {8}File Documentation}{277}{chapter.8}%
+\contentsline {section}{\numberline {8.1}connectableresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{277}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{277}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}connectableresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{278}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{279}{subsection.8.2.1}%
+\contentsline {section}{\numberline {8.3}connectableresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{279}{section.8.3}%
+\contentsline {section}{\numberline {8.4}connectionspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{280}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{280}{subsection.8.4.1}%
+\contentsline {section}{\numberline {8.5}connectionspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{281}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{282}{subsection.8.5.1}%
+\contentsline {section}{\numberline {8.6}connectionspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{282}{section.8.6}%
+\contentsline {section}{\numberline {8.7}diagram.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{283}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{284}{subsection.8.7.1}%
+\contentsline {section}{\numberline {8.8}diagram.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{284}{section.8.8}%
+\contentsline {subsection}{\numberline {8.8.1}Detailed Description}{285}{subsection.8.8.1}%
+\contentsline {section}{\numberline {8.9}diagram.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{285}{section.8.9}%
+\contentsline {section}{\numberline {8.10}diagramcomponent.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{286}{section.8.10}%
+\contentsline {subsection}{\numberline {8.10.1}Detailed Description}{287}{subsection.8.10.1}%
+\contentsline {section}{\numberline {8.11}diagramcomponent.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{287}{section.8.11}%
+\contentsline {subsection}{\numberline {8.11.1}Detailed Description}{288}{subsection.8.11.1}%
+\contentsline {section}{\numberline {8.12}diagramcomponent.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{288}{section.8.12}%
+\contentsline {section}{\numberline {8.13}diagramconnection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{289}{section.8.13}%
+\contentsline {subsection}{\numberline {8.13.1}Detailed Description}{290}{subsection.8.13.1}%
+\contentsline {section}{\numberline {8.14}diagramconnection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{290}{section.8.14}%
+\contentsline {subsection}{\numberline {8.14.1}Detailed Description}{291}{subsection.8.14.1}%
+\contentsline {section}{\numberline {8.15}diagramconnection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{292}{section.8.15}%
+\contentsline {section}{\numberline {8.16}diagramelement.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{293}{section.8.16}%
+\contentsline {subsection}{\numberline {8.16.1}Detailed Description}{293}{subsection.8.16.1}%
+\contentsline {section}{\numberline {8.17}diagramelement.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{294}{section.8.17}%
+\contentsline {subsection}{\numberline {8.17.1}Detailed Description}{295}{subsection.8.17.1}%
+\contentsline {section}{\numberline {8.18}diagramelement.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{295}{section.8.18}%
+\contentsline {section}{\numberline {8.19}diagramitem.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{296}{section.8.19}%
+\contentsline {subsection}{\numberline {8.19.1}Detailed Description}{297}{subsection.8.19.1}%
+\contentsline {section}{\numberline {8.20}diagramitem.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{297}{section.8.20}%
+\contentsline {subsection}{\numberline {8.20.1}Detailed Description}{298}{subsection.8.20.1}%
+\contentsline {section}{\numberline {8.21}diagramitem.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{298}{section.8.21}%
+\contentsline {section}{\numberline {8.22}diagramresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{299}{section.8.22}%
+\contentsline {subsection}{\numberline {8.22.1}Detailed Description}{300}{subsection.8.22.1}%
+\contentsline {section}{\numberline {8.23}diagramresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{300}{section.8.23}%
+\contentsline {subsection}{\numberline {8.23.1}Detailed Description}{301}{subsection.8.23.1}%
+\contentsline {section}{\numberline {8.24}diagramresizer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{301}{section.8.24}%
+\contentsline {section}{\numberline {8.25}diagramspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{302}{section.8.25}%
+\contentsline {subsection}{\numberline {8.25.1}Detailed Description}{303}{subsection.8.25.1}%
+\contentsline {section}{\numberline {8.26}diagramspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{303}{section.8.26}%
+\contentsline {subsection}{\numberline {8.26.1}Detailed Description}{304}{subsection.8.26.1}%
+\contentsline {section}{\numberline {8.27}diagramspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{304}{section.8.27}%
+\contentsline {section}{\numberline {8.28}diagramtype.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{305}{section.8.28}%
+\contentsline {subsection}{\numberline {8.28.1}Detailed Description}{306}{subsection.8.28.1}%
+\contentsline {section}{\numberline {8.29}diagramtype.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{306}{section.8.29}%
+\contentsline {subsection}{\numberline {8.29.1}Detailed Description}{307}{subsection.8.29.1}%
+\contentsline {section}{\numberline {8.30}diagramtype.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{308}{section.8.30}%
+\contentsline {section}{\numberline {8.31}diagramtypegroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{308}{section.8.31}%
+\contentsline {subsection}{\numberline {8.31.1}Detailed Description}{309}{subsection.8.31.1}%
+\contentsline {section}{\numberline {8.32}diagramtypegroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{309}{section.8.32}%
+\contentsline {subsection}{\numberline {8.32.1}Detailed Description}{310}{subsection.8.32.1}%
+\contentsline {section}{\numberline {8.33}diagramtypegroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{311}{section.8.33}%
+\contentsline {section}{\numberline {8.34}elementspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{311}{section.8.34}%
+\contentsline {subsection}{\numberline {8.34.1}Detailed Description}{312}{subsection.8.34.1}%
+\contentsline {section}{\numberline {8.35}elementspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{312}{section.8.35}%
+\contentsline {subsection}{\numberline {8.35.1}Detailed Description}{313}{subsection.8.35.1}%
+\contentsline {section}{\numberline {8.36}elementspecifications.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{313}{section.8.36}%
+\contentsline {section}{\numberline {8.37}geometryutils.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{314}{section.8.37}%
+\contentsline {subsection}{\numberline {8.37.1}Detailed Description}{315}{subsection.8.37.1}%
+\contentsline {section}{\numberline {8.38}geometryutils.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{316}{section.8.38}%
+\contentsline {subsection}{\numberline {8.38.1}Detailed Description}{317}{subsection.8.38.1}%
+\contentsline {section}{\numberline {8.39}geometryutils.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{318}{section.8.39}%
+\contentsline {section}{\numberline {8.40}jsonfile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{319}{section.8.40}%
+\contentsline {subsection}{\numberline {8.40.1}Detailed Description}{319}{subsection.8.40.1}%
+\contentsline {section}{\numberline {8.41}jsonfile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{320}{section.8.41}%
+\contentsline {subsection}{\numberline {8.41.1}Detailed Description}{321}{subsection.8.41.1}%
+\contentsline {section}{\numberline {8.42}jsonfile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{321}{section.8.42}%
+\contentsline {section}{\numberline {8.43}jsonserializable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{321}{section.8.43}%
+\contentsline {subsection}{\numberline {8.43.1}Detailed Description}{322}{subsection.8.43.1}%
+\contentsline {section}{\numberline {8.44}jsonserializable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{322}{section.8.44}%
+\contentsline {subsection}{\numberline {8.44.1}Detailed Description}{323}{subsection.8.44.1}%
+\contentsline {section}{\numberline {8.45}jsonserializable.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{324}{section.8.45}%
+\contentsline {section}{\numberline {8.46}listspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{324}{section.8.46}%
+\contentsline {subsection}{\numberline {8.46.1}Detailed Description}{325}{subsection.8.46.1}%
+\contentsline {section}{\numberline {8.47}listspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{325}{section.8.47}%
+\contentsline {subsection}{\numberline {8.47.1}Detailed Description}{326}{subsection.8.47.1}%
+\contentsline {section}{\numberline {8.48}listspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{326}{section.8.48}%
+\contentsline {section}{\numberline {8.49}longtextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{327}{section.8.49}%
+\contentsline {subsection}{\numberline {8.49.1}Detailed Description}{328}{subsection.8.49.1}%
+\contentsline {section}{\numberline {8.50}longtextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{328}{section.8.50}%
+\contentsline {section}{\numberline {8.51}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{329}{section.8.51}%
+\contentsline {subsection}{\numberline {8.51.1}Detailed Description}{329}{subsection.8.51.1}%
+\contentsline {section}{\numberline {8.52}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{330}{section.8.52}%
+\contentsline {subsection}{\numberline {8.52.1}Detailed Description}{331}{subsection.8.52.1}%
+\contentsline {section}{\numberline {8.53}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{331}{section.8.53}%
+\contentsline {subsection}{\numberline {8.53.1}Detailed Description}{332}{subsection.8.53.1}%
+\contentsline {section}{\numberline {8.54}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{332}{section.8.54}%
+\contentsline {section}{\numberline {8.55}scrollabledatabuttonsselector.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{333}{section.8.55}%
+\contentsline {subsection}{\numberline {8.55.1}Detailed Description}{334}{subsection.8.55.1}%
+\contentsline {section}{\numberline {8.56}scrollabledatabuttonsselector.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{334}{section.8.56}%
+\contentsline {subsection}{\numberline {8.56.1}Detailed Description}{335}{subsection.8.56.1}%
+\contentsline {section}{\numberline {8.57}scrollabledatabuttonsselector.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{335}{section.8.57}%
+\contentsline {section}{\numberline {8.58}selectabledatabutton.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{336}{section.8.58}%
+\contentsline {subsection}{\numberline {8.58.1}Detailed Description}{337}{subsection.8.58.1}%
+\contentsline {section}{\numberline {8.59}selectabledatabutton.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{337}{section.8.59}%
+\contentsline {subsection}{\numberline {8.59.1}Detailed Description}{338}{subsection.8.59.1}%
+\contentsline {section}{\numberline {8.60}selectabledatabutton.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{338}{section.8.60}%
+\contentsline {section}{\numberline {8.61}selectablespecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{339}{section.8.61}%
+\contentsline {subsection}{\numberline {8.61.1}Detailed Description}{340}{subsection.8.61.1}%
+\contentsline {section}{\numberline {8.62}selectablespecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{340}{section.8.62}%
+\contentsline {subsection}{\numberline {8.62.1}Detailed Description}{341}{subsection.8.62.1}%
+\contentsline {section}{\numberline {8.63}selectablespecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{341}{section.8.63}%
+\contentsline {section}{\numberline {8.64}shorttextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{342}{section.8.64}%
+\contentsline {subsection}{\numberline {8.64.1}Detailed Description}{342}{subsection.8.64.1}%
+\contentsline {section}{\numberline {8.65}shorttextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{343}{section.8.65}%
+\contentsline {subsection}{\numberline {8.65.1}Detailed Description}{344}{subsection.8.65.1}%
+\contentsline {section}{\numberline {8.66}shorttextspecification.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{344}{section.8.66}%
+\contentsline {section}{\numberline {8.67}specificationsform.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{344}{section.8.67}%
+\contentsline {subsection}{\numberline {8.67.1}Detailed Description}{345}{subsection.8.67.1}%
+\contentsline {section}{\numberline {8.68}specificationsform.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{345}{section.8.68}%
+\contentsline {subsection}{\numberline {8.68.1}Detailed Description}{346}{subsection.8.68.1}%
+\contentsline {section}{\numberline {8.69}specificationsform.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{347}{section.8.69}%
+\contentsline {section}{\numberline {8.70}specificationsgroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{347}{section.8.70}%
+\contentsline {subsection}{\numberline {8.70.1}Detailed Description}{348}{subsection.8.70.1}%
+\contentsline {section}{\numberline {8.71}specificationsgroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{348}{section.8.71}%
+\contentsline {subsection}{\numberline {8.71.1}Detailed Description}{350}{subsection.8.71.1}%
+\contentsline {section}{\numberline {8.72}specificationsgroup.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{350}{section.8.72}%
+\contentsline {section}{\numberline {8.73}wizard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{351}{section.8.73}%
+\contentsline {subsection}{\numberline {8.73.1}Detailed Description}{351}{subsection.8.73.1}%
+\contentsline {section}{\numberline {8.74}wizard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{352}{section.8.74}%
+\contentsline {subsection}{\numberline {8.74.1}Detailed Description}{353}{subsection.8.74.1}%
+\contentsline {section}{\numberline {8.75}wizard.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{353}{section.8.75}%
+\contentsline {chapter}{Index}{355}{section*.594}%

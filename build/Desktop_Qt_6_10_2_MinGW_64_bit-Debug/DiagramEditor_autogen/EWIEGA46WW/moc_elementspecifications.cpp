@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN21ElementSpecificationsE_t {};
+struct qt_meta_tag_ZN13DiagramEditor13Specification21ElementSpecificationsE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto ElementSpecifications::qt_create_metaobjectdata<qt_meta_tag_ZN21ElementSpecificationsE_t>()
+template <> constexpr inline auto DiagramEditor::Specification::ElementSpecifications::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor13Specification21ElementSpecificationsE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "ElementSpecifications",
+        "DiagramEditor::Specification::ElementSpecifications",
         "sizeChanged",
         "",
         "QPointF",
@@ -55,20 +55,20 @@ template <> constexpr inline auto ElementSpecifications::qt_create_metaobjectdat
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<ElementSpecifications, qt_meta_tag_ZN21ElementSpecificationsE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<ElementSpecifications, qt_meta_tag_ZN13DiagramEditor13Specification21ElementSpecificationsE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject ElementSpecifications::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Specification::ElementSpecifications::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN21ElementSpecificationsE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN21ElementSpecificationsE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification21ElementSpecificationsE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification21ElementSpecificationsE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN21ElementSpecificationsE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor13Specification21ElementSpecificationsE_t>.metaTypes,
     nullptr
 } };
 
-void ElementSpecifications::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Specification::ElementSpecifications::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<ElementSpecifications *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -83,22 +83,22 @@ void ElementSpecifications::qt_static_metacall(QObject *_o, QMetaObject::Call _c
     }
 }
 
-const QMetaObject *ElementSpecifications::metaObject() const
+const QMetaObject *DiagramEditor::Specification::ElementSpecifications::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *ElementSpecifications::qt_metacast(const char *_clname)
+void *DiagramEditor::Specification::ElementSpecifications::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN21ElementSpecificationsE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor13Specification21ElementSpecificationsE_t>.strings))
         return static_cast<void*>(this);
     if (!strcmp(_clname, "SpecificationsGroup"))
         return static_cast< SpecificationsGroup*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int ElementSpecifications::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Specification::ElementSpecifications::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)
@@ -117,7 +117,7 @@ int ElementSpecifications::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void ElementSpecifications::sizeChanged(const QPointF & _t1)
+void DiagramEditor::Specification::ElementSpecifications::sizeChanged(const QPointF & _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }

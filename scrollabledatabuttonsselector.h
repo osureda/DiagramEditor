@@ -17,6 +17,8 @@ class QGridLayout;
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Gui {
+
 /**
  * @class ScrollableDataButtonsSelector
  * @brief A scrollable widget for selecting a data button.
@@ -110,5 +112,7 @@ class ScrollableDataButtonsSelector : public QScrollArea
          */
         void addButton(const QVariantHash &buttonData);
 };
+
+}
 
 #endif // SCROLLABLEDATABUTTONSSELECTOR_H

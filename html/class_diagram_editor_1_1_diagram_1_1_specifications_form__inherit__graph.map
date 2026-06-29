@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Diagram::SpecificationsForm" name="DiagramEditor::Diagram::SpecificationsForm">
+<area shape="rect" id="Node000001" title="A form for editing diagram item specifications that can contain many diagram component specification ..." alt="" coords="5,123,156,315"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="50,5,112,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,87,83,123,78,122,80,92"/>
+</map>

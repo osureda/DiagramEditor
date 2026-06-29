@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Gui::JsonFile" name="DiagramEditor::Gui::JsonFile">
+<area shape="rect" id="Node000001" title="Helper class for loading a JSON file and performing JSON conversions." alt="" coords="5,123,127,293"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="45,5,87,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,87,69,123,64,123,66,92"/>
+</map>

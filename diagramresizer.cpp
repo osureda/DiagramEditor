@@ -13,6 +13,8 @@
 #include <QGraphicsItem>
 #include <QGraphicsScene>
 
+namespace DiagramEditor::Diagram {
+
 const QColor DiagramResizer::COLOR = Qt::black;
 
 DiagramResizer::DiagramResizer(DiagramComponent *parent)
@@ -80,4 +82,6 @@ void DiagramResizer::updateParentPosition() {
     if (parentItem != nullptr) {
         setPos(parentItem->mapToScene(parentMappedPos));
     }
+}
+
 }

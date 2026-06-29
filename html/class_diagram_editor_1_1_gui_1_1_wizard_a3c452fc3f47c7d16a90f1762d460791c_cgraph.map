@@ -1,0 +1,12 @@
+<map id="DiagramEditor::Gui::Wizard::Wizard" name="DiagramEditor::Gui::Wizard::Wizard">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,138,97"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="30,54,28,45,35,36,50,30,72,28,95,30,110,38,105,40,93,36,71,33,51,35,38,40,34,46,35,54"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector.html#a52c3eab3b384342ce024f599bea38294" title=" " alt="" coords="186,5,393,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,61,173,56,168,58,139,66"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector.html#a46091d84dbe7948d8a1c8a5d95590f37" title=" " alt="" coords="186,88,393,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,86,173,94,168,95,138,91"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector.html#acbab4326bf2d06349d8c367eb3a632bb" title=" " alt="" coords="441,88,648,147"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="393,115,428,117,423,117,394,120"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_gui_1_1_selectable_data_button.html#a75187ef48dea1c1bf52bab493bd1d1e1" title=" " alt="" coords="696,96,886,139"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="649,115,683,117,678,117,649,120"/>
+</map>

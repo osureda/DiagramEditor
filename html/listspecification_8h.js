@@ -1,4 +1,4 @@
 var listspecification_8h =
 [
-    [ "ListSpecification", "class_list_specification.html", "class_list_specification" ]
+    [ "DiagramEditor::Specification::ListSpecification", "class_diagram_editor_1_1_specification_1_1_list_specification.html", "class_diagram_editor_1_1_specification_1_1_list_specification" ]
 ];

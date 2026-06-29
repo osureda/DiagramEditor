@@ -1,0 +1,165 @@
+\doxysection{Diagram\+Editor::\+Diagram::\+Specifications\+Form Class Reference}
+\hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form}{}\label{class_diagram_editor_1_1_diagram_1_1_specifications_form}\index{DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}}
+
+
+A form for editing diagram item specifications that can contain many diagram component specification forms.  
+
+
+
+
+{\ttfamily \+\#include $<$specificationsform.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Diagram::\+Specifications\+Form:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_diagram_editor_1_1_diagram_1_1_specifications_form__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Diagram::\+Specifications\+Form:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_diagram_editor_1_1_diagram_1_1_specifications_form__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}{Specifications\+Form}} ()
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_aca9c16d1bf74900b417f15045e5d4d22}{append\+Form}} (const \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}form)
+\item 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_ae0331c6f314a218aad9b015dcae88052}{append\+Field}} (const QString \&field\+Name, QWidget \texorpdfstring{$\ast$}{*}field\+Widget)
+\item 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a06cbd3b0737bd7999d9b0d00ed0fd05b}{form\+Count}} () const
+\item 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a353adae7aed423833c238daab19bb114}{field\+Count}} () const
+\item 
+QWidget \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a554646f0d0005f5f8fa93b92195544dc}{field\+Results}} (int form\+Index, const QString \&field\+Name) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A form for editing diagram item specifications that can contain many diagram component specification forms. 
+
+\label{class_diagram_editor_1_1_diagram_1_1_specifications_form_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}\index{DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}!SpecificationsForm@{SpecificationsForm}}
+\index{SpecificationsForm@{SpecificationsForm}!DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{SpecificationsForm()}{SpecificationsForm()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_diagram_1_1_specifications_form_a9020883dd7b108647715d81195d870a7} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Form::\+\+Specifications\+Form}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The form is empty. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_editor_1_1_diagram_1_1_specifications_form_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_ae0331c6f314a218aad9b015dcae88052}\index{DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}!appendField@{appendField}}
+\index{appendField@{appendField}!DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{appendField()}{appendField()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_diagram_1_1_specifications_form_ae0331c6f314a218aad9b015dcae88052} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_ae0331c6f314a218aad9b015dcae88052}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Form::\+append\+Field}} (\begin{DoxyParamCaption}\item[{const QString \&}]{field\+Name}{, }\item[{QWidget \texorpdfstring{$\ast$}{*}}]{field\+Widget}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Name} & The name of the field to add. \\
+\hline
+{\em field\+Widget} & The values widget of the field to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A form field named field\+Name and with the values widget field\+Widget has been added to the last form. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_aca9c16d1bf74900b417f15045e5d4d22}\index{DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}!appendForm@{appendForm}}
+\index{appendForm@{appendForm}!DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{appendForm()}{appendForm()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_diagram_1_1_specifications_form_aca9c16d1bf74900b417f15045e5d4d22} 
+void \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf74900b417f15045e5d4d22}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Form::\+append\+Form}} (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_specifications_form_a9020883dd7b108647715d81195d870a7}{Specifications\+Form}} \texorpdfstring{$\ast$}{*}}]{form}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em form} & The specifications form to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The given specifications form has been added. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_a353adae7aed423833c238daab19bb114}\index{DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}!fieldCount@{fieldCount}}
+\index{fieldCount@{fieldCount}!DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{fieldCount()}{fieldCount()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_diagram_1_1_specifications_form_a353adae7aed423833c238daab19bb114} 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a353adae7aed423833c238daab19bb114}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Form::\+field\+Count}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The number of fields that contains the form. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The number of fields that contains the form has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_a554646f0d0005f5f8fa93b92195544dc}\index{DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}!fieldResults@{fieldResults}}
+\index{fieldResults@{fieldResults}!DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{fieldResults()}{fieldResults()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_diagram_1_1_specifications_form_a554646f0d0005f5f8fa93b92195544dc} 
+QWidget \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a554646f0d0005f5f8fa93b92195544dc}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Form::\+field\+Results}} (\begin{DoxyParamCaption}\item[{int}]{form\+Index}{, }\item[{const QString \&}]{field\+Name}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The values widget of the field with the name in the form at the index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Index} & The index of the form of the field we want to obtain \\
+\hline
+{\em field\+Name} & The name of the field we want to obtain. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The values widget of the field named field\+Name in the form at index form\+Index has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_diagram_1_1_specifications_form_a06cbd3b0737bd7999d9b0d00ed0fd05b}\index{DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}!formCount@{formCount}}
+\index{formCount@{formCount}!DiagramEditor::Diagram::SpecificationsForm@{DiagramEditor::Diagram::SpecificationsForm}}
+\doxysubsubsection{\texorpdfstring{formCount()}{formCount()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_diagram_1_1_specifications_form_a06cbd3b0737bd7999d9b0d00ed0fd05b} 
+int \doxymbox{\hyperlink{class_diagram_editor_1_1_specification_1_1_specifications_form_a06cbd3b0737bd7999d9b0d00ed0fd05b}{Diagram\+Editor::\+\+Specification::\+\+Specifications\+Form::\+form\+Count}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The number of forms that contains the form. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The number of forms that contains the form has been returned. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{specificationsform_8h}{specificationsform.\+h}}\item 
+\doxymbox{\hyperlink{specificationsform_8cpp}{specificationsform.\+cpp}}\end{DoxyCompactItemize}

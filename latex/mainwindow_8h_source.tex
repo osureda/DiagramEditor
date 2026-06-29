@@ -11,85 +11,92 @@
 \DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QObject>}}
 \DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QVariant>}}
 \DoxyCodeLine{00015\ }
-\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram}{Diagram}};}
-\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_wizard}{Wizard}};}
-\DoxyCodeLine{00018\ }
-\DoxyCodeLine{00019\ QT\_BEGIN\_NAMESPACE}
-\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }QAbstractButton;}
-\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }QPointF;}
-\DoxyCodeLine{00022\ \textcolor{keyword}{class\ }QWidget;}
-\DoxyCodeLine{00023\ }
-\DoxyCodeLine{00024\ \textcolor{keyword}{namespace\ }Ui\ \{}
-\DoxyCodeLine{00025\ \textcolor{keyword}{class\ }MainWindow;}
-\DoxyCodeLine{00026\ \}}
-\DoxyCodeLine{00027\ QT\_END\_NAMESPACE}
-\DoxyCodeLine{00028\ }
-\DoxyCodeLine{00033\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_main_window_a7c3a1b82e141837b6f3ee009514cbdc6}{MainWindow}}\ :\ \textcolor{keyword}{public}\ QMainWindow}
-\DoxyCodeLine{00034\ \{}
-\DoxyCodeLine{00035\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{00036\ }
-\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_main_window_a919c0ea004db239d32720ecfbfc2b15b}{CANVAS\_SIZE}}\ =\ 2000;}
-\DoxyCodeLine{00040\ }
-\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_main_window_a15053a08531fc762f013707aecd01f1a}{ITEM\_ICON\_SIZE}}\ =\ 25;}
-\DoxyCodeLine{00043\ }
-\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_main_window_aae0d2b9d7c65134f9ce630a6968af0fb}{ITEM\_MOVE\_STEP}}\ =\ 10;}
-\DoxyCodeLine{00046\ }
-\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_main_window_a7c3a1b82e141837b6f3ee009514cbdc6}{MainWindow}}(\textcolor{keyword}{const}\ QVariantHash\ \&diagramGroups,}
-\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ QVariantHash\ \&diagramTypes,}
-\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ QVariantHash\ \&diagramItems,}
-\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
-\DoxyCodeLine{00062\ }
-\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_main_window_a1f7d2c56410fc1bfa135bb907d43313f}{\string~MainWindow}}()\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00068\ }
-\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keyword}{private}\ slots:}
-\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ wizardAccepted();}
-\DoxyCodeLine{00076\ }
-\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ drawItem(\textcolor{keyword}{const}\ QPointF\ \&pos);}
-\DoxyCodeLine{00085\ }
-\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ setEditionMode(\textcolor{keyword}{const}\ QAbstractButton\ *modeButton);}
-\DoxyCodeLine{00092\ }
-\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ showSpecificationsForm(QWidget\ *form);}
-\DoxyCodeLine{00099\ }
-\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ saveSpecificationsForm();}
-\DoxyCodeLine{00105\ }
-\DoxyCodeLine{00110\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ copyJsonToClipboard()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00111\ }
-\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ pasteJsonFromClipboard();}
-\DoxyCodeLine{00117\ }
-\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadJsonFromScene();}
-\DoxyCodeLine{00123\ }
-\DoxyCodeLine{00128\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ saveJsonToScene();}
-\DoxyCodeLine{00129\ }
-\DoxyCodeLine{00134\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyUpPressed();}
-\DoxyCodeLine{00135\ }
-\DoxyCodeLine{00140\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyDownPressed();}
-\DoxyCodeLine{00141\ }
-\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyLeftPressed();}
-\DoxyCodeLine{00147\ }
-\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyRightPressed();}
-\DoxyCodeLine{00153\ }
-\DoxyCodeLine{00160\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyEnterPressed();}
-\DoxyCodeLine{00161\ }
-\DoxyCodeLine{00162\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00163\ \ \ \ \ \ \ \ \ Ui::MainWindow\ *ui;\ }
-\DoxyCodeLine{00164\ }
-\DoxyCodeLine{00165\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_wizard}{Wizard}}\ *wizard;\ }
-\DoxyCodeLine{00166\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram}{Diagram}}\ *diagram;\ }
-\DoxyCodeLine{00167\ }
-\DoxyCodeLine{00168\ \ \ \ \ \ \ \ \ QVariantHash\ allDiagramItems;\ }
+\DoxyCodeLine{00016\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }QAbstractButton;}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }QPointF;}
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }QWidget;}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{namespace\ }Ui\ \{}
+\DoxyCodeLine{00022\ \textcolor{keyword}{class\ }MainWindow;}
+\DoxyCodeLine{00023\ \}}
+\DoxyCodeLine{00024\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_diagram}{DiagramEditor::Diagram}}\ \{}
+\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram}{Diagram}};}
+\DoxyCodeLine{00028\ \}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_gui}{DiagramEditor::Gui}}\ \{}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_wizard}{Wizard}};}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00038\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc1083246039}{MainWindow}}\ :\ \textcolor{keyword}{public}\ QMainWindow}
+\DoxyCodeLine{00039\ \{}
+\DoxyCodeLine{00040\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_main_window_abf889ce90a120e8a4043b3b003a94c3c}{CANVAS\_SIZE}}\ =\ 2000;}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_main_window_aaf7cede577a149b883a3be8a8d7b129c}{ITEM\_ICON\_SIZE}}\ =\ 25;}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_main_window_ac98f5a7f809d432f36e2261ff66a6fe7}{ITEM\_MOVE\_STEP}}\ =\ 10;}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc1083246039}{MainWindow}}(\textcolor{keyword}{const}\ QVariantHash\ \&diagramGroups,}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ QVariantHash\ \&diagramTypes,}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ QVariantHash\ \&diagramItems,}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_main_window_a2a2a0df04dff2dfab49d02e506302a4c}{\string~MainWindow}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ wizardAccepted();}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ drawItem(\textcolor{keyword}{const}\ QPointF\ \&pos);}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ setEditionMode(\textcolor{keyword}{const}\ QAbstractButton\ *modeButton);}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ showSpecificationsForm(QWidget\ *form);}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ saveSpecificationsForm();}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00115\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ copyJsonToClipboard()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00121\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ pasteJsonFromClipboard();}
+\DoxyCodeLine{00122\ }
+\DoxyCodeLine{00127\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadJsonFromScene();}
+\DoxyCodeLine{00128\ }
+\DoxyCodeLine{00133\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ saveJsonToScene();}
+\DoxyCodeLine{00134\ }
+\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyUpPressed();}
+\DoxyCodeLine{00140\ }
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyDownPressed();}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00151\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyLeftPressed();}
+\DoxyCodeLine{00152\ }
+\DoxyCodeLine{00157\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyRightPressed();}
+\DoxyCodeLine{00158\ }
+\DoxyCodeLine{00165\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ keyEnterPressed();}
+\DoxyCodeLine{00166\ }
+\DoxyCodeLine{00167\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00168\ \ \ \ \ \ \ \ \ Ui::MainWindow\ *ui;\ }
 \DoxyCodeLine{00169\ }
-\DoxyCodeLine{00178\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ displayDiagramItems(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_diagram_type_aea3f7eeb179f1adf0a19422f785568be}{DiagramType::DiagramItemsIds}}\ \&requiredDiagramItemsTabs);}
-\DoxyCodeLine{00179\ }
-\DoxyCodeLine{00184\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ connectWindowActions();}
-\DoxyCodeLine{00185\ }
-\DoxyCodeLine{00191\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ connectKeyboardActions();}
-\DoxyCodeLine{00192\ }
-\DoxyCodeLine{00197\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ clearSpecificationsForm();}
-\DoxyCodeLine{00198\ }
-\DoxyCodeLine{00204\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ moveDiagramItems(\textcolor{keyword}{const}\ QPointF\ \&moveStep);}
-\DoxyCodeLine{00205\ \};}
-\DoxyCodeLine{00206\ }
-\DoxyCodeLine{00207\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ MAINWINDOW\_H}}
+\DoxyCodeLine{00170\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_wizard}{Wizard}}\ *wizard;\ }
+\DoxyCodeLine{00171\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_diagram_1_1_diagram}{DiagramEditor::Diagram::Diagram}}\ *diagram;\ }
+\DoxyCodeLine{00172\ }
+\DoxyCodeLine{00173\ \ \ \ \ \ \ \ \ QVariantHash\ allDiagramItems;\ }
+\DoxyCodeLine{00174\ }
+\DoxyCodeLine{00183\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ displayDiagramItems(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_diagram_type_a746178d47d2ccb0901802e591f90f66f}{DiagramType::DiagramItemsIds}}\ \&requiredDiagramItemsTabs);}
+\DoxyCodeLine{00184\ }
+\DoxyCodeLine{00189\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ connectWindowActions();}
+\DoxyCodeLine{00190\ }
+\DoxyCodeLine{00196\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ connectKeyboardActions();}
+\DoxyCodeLine{00197\ }
+\DoxyCodeLine{00202\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ clearSpecificationsForm();}
+\DoxyCodeLine{00203\ }
+\DoxyCodeLine{00209\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ moveDiagramItems(\textcolor{keyword}{const}\ QPointF\ \&moveStep);}
+\DoxyCodeLine{00210\ \};}
+\DoxyCodeLine{00211\ }
+\DoxyCodeLine{00212\ \}}
+\DoxyCodeLine{00213\ }
+\DoxyCodeLine{00214\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ MAINWINDOW\_H}}
 
 \end{DoxyCode}

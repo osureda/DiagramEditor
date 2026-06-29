@@ -17,15 +17,22 @@
 #include <QPointF>
 #include <QVariant>
 
-class ConnectableResizer;
-class ConnectionSpecifications;
-class DiagramItem;
-class SpecificationsForm;
-
 QT_BEGIN_NAMESPACE
 class QGraphicsPolygonItem;
 class QString;
 QT_END_NAMESPACE
+
+namespace DiagramEditor::Specification {
+class ConnectionSpecifications;
+class SpecificationsForm;
+}
+
+namespace DiagramEditor::Diagram {
+
+class ConnectableResizer;
+class DiagramItem;
+using DiagramEditor::Specification::ConnectionSpecifications;
+using DiagramEditor::Specification::SpecificationsForm;
 
 /**
  * @class DiagramConnection
@@ -241,5 +248,7 @@ class DiagramConnection : public QGraphicsPathItem, public DiagramComponent
          */
         QPointF closestConnectionMappedPoint(const QPointF &mappedPoint) const override;
 };
+
+}
 
 #endif // DIAGRAMCONNECTION_H

@@ -1,0 +1,19 @@
+<map id="DiagramEditor::Specification::ElementSpecifications" name="DiagramEditor::Specification::ElementSpecifications">
+<area shape="rect" id="Node000001" title="The specifications of a diagram element." alt="" coords="22,1379,222,1613"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="200,45,259,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,122,160,160,133,205,117,250,109,287,108,373,108,1192,115,1379,110,1379,103,1192,103,373,104,286,111,248,128,203,155,157,191,117"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="224,617,430,980"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="268,114,304,155,319,178,331,203,346,254,358,307,369,415,369,521,361,618,356,617,364,521,364,416,353,308,341,256,326,205,315,181,300,158,270,120"/>
+<area shape="rect" id="Node000006" href="$class_diagram_editor_1_1_diagram_1_1_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="142,204,316,545"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="230,127,232,204,227,204,229,132"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html" title="A group of diagram specifications belonging to a diagram component." alt="" coords="224,1052,422,1329"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,1340,201,1380,196,1377,222,1344"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="334,5,506,155"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="444,166,480,333,495,436,506,550,510,669,504,791,486,912,472,971,455,1029,441,1059,424,1088,419,1085,437,1057,450,1027,467,970,481,911,499,791,504,669,500,550,490,437,475,334,443,172"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="416,167,403,365,375,594,371,618,366,617,370,593,397,364,415,172"/>
+<area shape="poly" id="edge10_Node000006_Node000004" title=" " alt="" coords="363,170,319,241,314,239,365,165"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="325,977,327,1004,326,1036,321,1034,322,1004,324,982"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="214,542,223,593,226,601,220,601,218,594,213,547"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,45,139,115"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="96,125,145,211,140,213,97,130"/>
+</map>

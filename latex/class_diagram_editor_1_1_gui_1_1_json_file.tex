@@ -1,0 +1,157 @@
+\doxysection{Diagram\+Editor::\+Gui::\+Json\+File Class Reference}
+\hypertarget{class_diagram_editor_1_1_gui_1_1_json_file}{}\label{class_diagram_editor_1_1_gui_1_1_json_file}\index{DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}}
+
+
+Helper class for loading a JSON file and performing JSON conversions.  
+
+
+
+
+{\ttfamily \+\#include $<$jsonfile.\+h$>$}
+
+
+
+Inheritance diagram for Diagram\+Editor::\+Gui::\+Json\+File:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{class_diagram_editor_1_1_gui_1_1_json_file__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Diagram\+Editor::\+Gui::\+Json\+File:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{class_diagram_editor_1_1_gui_1_1_json_file__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_file_a0f526e3c7575dce92db79b4ce0455679}{Json\+File}} (const QString \&path)
+\item 
+bool \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_file_a61a419c75c84d2d005c9388bbf79d364}{load}} ()
+\item 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_file_a2c83bcd62e8081c8021c3e7f12787f9a}{hash\+For\+Key}} (const QString \&key) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_file_ace95355ba2721f47e4d6ff65a16f3e9d}{text\+To\+Hash}} (const QString \&text)
+\item 
+static QString \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_file_a2d25ba8bef8d9c953f35242404068f4e}{hash\+To\+Text}} (const QVariant\+Hash \&hash)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Helper class for loading a JSON file and performing JSON conversions. 
+
+\label{class_diagram_editor_1_1_gui_1_1_json_file_doc-constructors}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_file_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_file_a0f526e3c7575dce92db79b4ce0455679}\index{DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}!JsonFile@{JsonFile}}
+\index{JsonFile@{JsonFile}!DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}}
+\doxysubsubsection{\texorpdfstring{JsonFile()}{JsonFile()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_file_a0f526e3c7575dce92db79b4ce0455679} 
+\doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a0f526e3c7575dce92db79b4ce0455679}{Diagram\+Editor::\+\+Serialization::\+\+Json\+File::\+\+Json\+File}} (\begin{DoxyParamCaption}\item[{const QString \&}]{path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path of the JSON file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The JSON file has the given path. 
+\end{DoxyPostcond}
+
+
+\label{class_diagram_editor_1_1_gui_1_1_json_file_doc-func-members}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_file_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_file_a2c83bcd62e8081c8021c3e7f12787f9a}\index{DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}!hashForKey@{hashForKey}}
+\index{hashForKey@{hashForKey}!DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}}
+\doxysubsubsection{\texorpdfstring{hashForKey()}{hashForKey()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_file_a2c83bcd62e8081c8021c3e7f12787f9a} 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a2c83bcd62e8081c8021c3e7f12787f9a}{Diagram\+Editor::\+\+Serialization::\+\+Json\+File::\+hash\+For\+Key}} (\begin{DoxyParamCaption}\item[{const QString \&}]{key}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The hash associated with the key in the JSON root object. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em key} & The key whose hash we want to retrieve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+\doxylink{class_diagram_editor_1_1_serialization_1_1_json_file_a61a419c75c84d2d005c9388bbf79d364}{load()} has returned true. \begin{DoxyVerb}  been returned.
+\end{DoxyVerb}
+ 
+\end{DoxyPrecond}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_file_a2d25ba8bef8d9c953f35242404068f4e}\index{DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}!hashToText@{hashToText}}
+\index{hashToText@{hashToText}!DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}}
+\doxysubsubsection{\texorpdfstring{hashToText()}{hashToText()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_file_a2d25ba8bef8d9c953f35242404068f4e} 
+QString \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a2d25ba8bef8d9c953f35242404068f4e}{Diagram\+Editor::\+\+Serialization::\+\+Json\+File::\+hash\+To\+Text}} (\begin{DoxyParamCaption}\item[{const QVariant\+Hash \&}]{hash}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+The JSON text that represents the hash. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & The hash we want to transform. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The text that represents the given hash has been returned. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_file_a61a419c75c84d2d005c9388bbf79d364}\index{DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}!load@{load}}
+\index{load@{load}!DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_file_a61a419c75c84d2d005c9388bbf79d364} 
+bool \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a61a419c75c84d2d005c9388bbf79d364}{Diagram\+Editor::\+\+Serialization::\+\+Json\+File::\+load}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if the file was opened and loaded correctly; false otherwise. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the function returns true, the JSON file has been opened and its contents have been loaded as a root JSON object. 
+\end{DoxyPostcond}
+\Hypertarget{class_diagram_editor_1_1_gui_1_1_json_file_ace95355ba2721f47e4d6ff65a16f3e9d}\index{DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}!textToHash@{textToHash}}
+\index{textToHash@{textToHash}!DiagramEditor::Gui::JsonFile@{DiagramEditor::Gui::JsonFile}}
+\doxysubsubsection{\texorpdfstring{textToHash()}{textToHash()}}
+{\footnotesize\ttfamily \label{class_diagram_editor_1_1_gui_1_1_json_file_ace95355ba2721f47e4d6ff65a16f3e9d} 
+QVariant\+Hash \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_ace95355ba2721f47e4d6ff65a16f3e9d}{Diagram\+Editor::\+\+Serialization::\+\+Json\+File::\+text\+To\+Hash}} (\begin{DoxyParamCaption}\item[{const QString \&}]{text}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+The generated hash from the JSON text. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The JSON text we want to transform. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+True. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The hash that can be generated from the given JSON text has been returned. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{jsonfile_8h}{jsonfile.\+h}}\item 
+\doxymbox{\hyperlink{jsonfile_8cpp}{jsonfile.\+cpp}}\end{DoxyCompactItemize}

@@ -14,6 +14,8 @@
 #include <QGridLayout>
 #include <QWidget>
 
+namespace DiagramEditor::Gui {
+
 ScrollableDataButtonsSelector::ScrollableDataButtonsSelector(QWidget *parent)
     : ScrollableDataButtonsSelector(1, 0, false, parent)
 {}
@@ -94,4 +96,6 @@ void ScrollableDataButtonsSelector::addButton(const QVariantHash &buttonData) {
     buttons->addButton(newButton, nButtons);
     layout->addWidget(newButtonWidget, nButtons / nColumns, nButtons % nColumns);
     nButtons++;
+}
+
 }

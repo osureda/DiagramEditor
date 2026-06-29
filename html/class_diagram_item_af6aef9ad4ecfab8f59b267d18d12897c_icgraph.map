@@ -1,7 +1,0 @@
-<map id="DiagramItem::definedZValue" name="DiagramItem::definedZValue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="454,5,640,32"/>
-<area shape="rect" id="Node000002" href="$class_diagram_item.html#afd1c80471342f9a4673b0b2ea0ed6534" title=" " alt="" coords="217,5,406,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="435,19,407,21,407,16,441,19"/>
-<area shape="rect" id="Node000003" href="$class_diagram.html#a95932dafe57417fd63d5bf4bcbd26f68" title=" " alt="" coords="5,5,169,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,19,169,21,169,16,204,19"/>
-</map>

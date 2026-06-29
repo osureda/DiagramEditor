@@ -16,6 +16,8 @@
 #include <QPen>
 #include <QRectF>
 
+namespace DiagramEditor::Specification {
+
 const QColor ElementSpecifications::SEPARATOR_PATH_COLOR = Qt::black;
 
 ElementSpecifications::ElementSpecifications(DiagramElement *parent)
@@ -177,4 +179,6 @@ QString ElementSpecifications::stringFromPos(const ElementSpecifications::Specif
         default:
             return "verticalSeparated";
     }
+}
+
 }

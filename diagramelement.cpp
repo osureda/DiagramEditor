@@ -15,6 +15,8 @@
 #include <QPolygonF>
 #include <QString>
 
+namespace DiagramEditor::Diagram {
+
 const QColor DiagramElement::OUTLINE_COLOR = Qt::black;
 
 DiagramElement::DiagramElement(DiagramItem *parent)
@@ -196,4 +198,6 @@ QPointF DiagramElement::closestConnectionMappedPoint(const QPointF &mappedPoint)
     }
 
     return closestPoint;
+}
+
 }

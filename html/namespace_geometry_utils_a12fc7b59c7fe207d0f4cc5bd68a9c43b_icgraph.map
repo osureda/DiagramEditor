@@ -1,5 +1,5 @@
 <map id="GeometryUtils::markerFromString" name="GeometryUtils::markerFromString">
-<area shape="rect" id="Node000001" title=" " alt="" coords="198,5,381,48"/>
-<area shape="rect" id="Node000002" href="$class_diagram_connection.html#ad18fd1041d476a9f6d5aefe373233f6f" title=" " alt="" coords="5,5,150,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,27,150,29,150,24,185,26"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="291,5,474,48"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a25528a84db6428e664bd24fa7cacfaea" title=" " alt="" coords="5,5,243,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,27,243,29,243,24,278,27"/>
 </map>

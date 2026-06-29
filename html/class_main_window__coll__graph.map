@@ -1,5 +1,5 @@
 <map id="MainWindow" name="MainWindow">
-<area shape="rect" id="Node000001" title="The main window of the diagram editor application." alt="" coords="10,80,107,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,112,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,46,61,80,56,79,57,50"/>
+<area shape="rect" id="Node000001" title="The main window of the diagram editor application." alt="" coords="5,123,149,256"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="30,5,125,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,87,80,124,75,123,77,92"/>
 </map>

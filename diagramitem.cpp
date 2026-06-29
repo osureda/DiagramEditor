@@ -18,6 +18,8 @@
 #include <QTextEdit>
 #include <QWidget>
 
+namespace DiagramEditor::Diagram {
+
 DiagramItem::DiagramItem(Diagram *scene)
     : id(scene->newDiagramItemId())
     , loaded(false)
@@ -294,4 +296,6 @@ void DiagramItem::setCommentBadgeVisibility(bool visible) {
     if (!components.isEmpty()) {
         components.first().object->setCommentBadgeVisibility(visible);
     }
+}
+
 }

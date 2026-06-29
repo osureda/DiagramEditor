@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Gui::MainWindow" name="DiagramEditor::Gui::MainWindow">
+<area shape="rect" id="Node000001" title="The main window of the diagram editor application." alt="" coords="5,123,149,272"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="30,5,125,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,87,80,123,75,122,77,92"/>
+</map>

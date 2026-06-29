@@ -18,12 +18,20 @@
 #include <QPointF>
 #include <QVariant>
 
-class DiagramItem;
-class SpecificationsForm;
-
 QT_BEGIN_NAMESPACE
 class QString;
 QT_END_NAMESPACE
+
+namespace DiagramEditor::Specification {
+class ElementSpecifications;
+class SpecificationsForm;
+}
+
+namespace DiagramEditor::Diagram {
+
+class DiagramItem;
+using DiagramEditor::Specification::ElementSpecifications;
+using DiagramEditor::Specification::SpecificationsForm;
 
 /**
  * @class DiagramElement
@@ -181,5 +189,7 @@ class DiagramElement : public DiagramComponent, public QGraphicsPolygonItem
          */
         QPointF closestConnectionMappedPoint(const QPointF &mappedPoint) const override;
 };
+
+}
 
 #endif // DIAGRAMELEMENT_H

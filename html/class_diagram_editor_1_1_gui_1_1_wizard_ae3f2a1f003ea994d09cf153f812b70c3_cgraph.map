@@ -1,0 +1,7 @@
+<map id="DiagramEditor::Gui::Wizard::selectedConfiguration" name="DiagramEditor::Gui::Wizard::selectedConfiguration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,210,81"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_gui_1_1_diagram_type.html#aa6ef6a8541f7b9f6b29af73432fb1476" title=" " alt="" coords="261,5,454,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,44,248,41,242,42,211,49"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_gui_1_1_diagram_type.html#a545eb50ae67982021bba50ebd1e13e25" title=" " alt="" coords="258,72,457,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,71,245,78,240,78,210,76"/>
+</map>

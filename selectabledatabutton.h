@@ -20,11 +20,13 @@ QT_BEGIN_NAMESPACE
 class QWidget;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Gui {
+
 /**
  * @class SelectableDataButton
  * @brief A checkable button with associated data.
  */
-class SelectableDataButton : public QPushButton, public JsonSerializable
+class SelectableDataButton : public QPushButton, public DiagramEditor::Serialization::JsonSerializable
 {
     Q_OBJECT
 
@@ -117,5 +119,7 @@ class SelectableDataButton : public QPushButton, public JsonSerializable
          */
         SelectableDataButton *textButton() const;
 };
+
+}
 
 #endif // SELECTABLEDATABUTTON_H

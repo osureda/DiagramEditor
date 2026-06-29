@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['hashforkey_0',['hashForKey',['../class_json_file.html#af347f04b8475a74a3808fa5e65f3491f',1,'JsonFile']]],
-  ['hashtotext_1',['hashToText',['../class_json_file.html#ac4be58cf076325c9dde18beefaf5639b',1,'JsonFile']]],
-  ['horizontal_5fspacing_2',['HORIZONTAL_SPACING',['../class_connection_specifications.html#a753f75e21faf2a19711c599664a0d599',1,'ConnectionSpecifications']]],
-  ['horizontalpos_3',['HorizontalPos',['../class_connection_specifications.html#aa8d60ae5322d519ec46b424439eaa044',1,'ConnectionSpecifications']]]
+  ['hashforkey_0',['hashForKey',['../class_diagram_editor_1_1_serialization_1_1_json_file.html#a2c83bcd62e8081c8021c3e7f12787f9a',1,'DiagramEditor::Serialization::JsonFile::hashForKey()'],['../class_json_file.html#a2c83bcd62e8081c8021c3e7f12787f9a',1,'JsonFile::hashForKey()'],['../class_diagram_editor_1_1_gui_1_1_json_file.html#a2c83bcd62e8081c8021c3e7f12787f9a',1,'DiagramEditor::Gui::JsonFile::hashForKey()']]],
+  ['hashtotext_1',['hashToText',['../class_diagram_editor_1_1_serialization_1_1_json_file.html#a2d25ba8bef8d9c953f35242404068f4e',1,'DiagramEditor::Serialization::JsonFile::hashToText()'],['../class_json_file.html#a2d25ba8bef8d9c953f35242404068f4e',1,'JsonFile::hashToText()'],['../class_diagram_editor_1_1_gui_1_1_json_file.html#a2d25ba8bef8d9c953f35242404068f4e',1,'DiagramEditor::Gui::JsonFile::hashToText()']]],
+  ['horizontal_5fspacing_2',['HORIZONTAL_SPACING',['../class_diagram_editor_1_1_specification_1_1_connection_specifications.html#a4f30067033b7fa8c0a1587bce87f61e6',1,'DiagramEditor::Specification::ConnectionSpecifications::HORIZONTAL_SPACING'],['../class_diagram_editor_1_1_diagram_1_1_connection_specifications.html#a4f30067033b7fa8c0a1587bce87f61e6',1,'DiagramEditor::Diagram::ConnectionSpecifications::HORIZONTAL_SPACING']]],
+  ['horizontalpos_3',['HorizontalPos',['../class_diagram_editor_1_1_specification_1_1_connection_specifications.html#a49d2472eefb51cb9bcd89e4f311133f8',1,'DiagramEditor::Specification::ConnectionSpecifications::HorizontalPos'],['../class_diagram_editor_1_1_diagram_1_1_connection_specifications.html#a49d2472eefb51cb9bcd89e4f311133f8',1,'DiagramEditor::Diagram::ConnectionSpecifications::HorizontalPos']]]
 ];

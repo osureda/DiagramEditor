@@ -8,6 +8,8 @@
 
 #include <QString>
 
+namespace DiagramEditor::Serialization {
+
 JsonSerializable::~JsonSerializable() {}
 
 void JsonSerializable::loadFromHash(const QVariantHash &) {}
@@ -24,4 +26,6 @@ QVariantHash JsonSerializable::filteredHashByKeys(const QVariantHash &hash, cons
     }
 
     return filteredHash;
+}
+
 }

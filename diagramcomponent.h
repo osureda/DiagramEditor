@@ -13,19 +13,25 @@
 #include <QObject>
 #include <QPointF>
 
-class DiagramItem;
-class SpecificationsForm;
-
 QT_BEGIN_NAMESPACE
 class QGraphicsEllipseItem;
 class QGraphicsItem;
 QT_END_NAMESPACE
 
+namespace DiagramEditor::Specification {
+class SpecificationsForm;
+}
+
+namespace DiagramEditor::Diagram {
+
+class DiagramItem;
+using DiagramEditor::Specification::SpecificationsForm;
+
 /**
  * @class DiagramComponent
  * @brief A diagram component contained by a diagram item.
  */
-class DiagramComponent : public QObject, public JsonSerializable
+class DiagramComponent : public QObject, public DiagramEditor::Serialization::JsonSerializable
 {
     Q_OBJECT
 
@@ -227,5 +233,7 @@ class DiagramComponent : public QObject, public JsonSerializable
          */
         virtual QPointF closestConnectionMappedPoint(const QPointF &mappedPoint) const;
 };
+
+}
 
 #endif // DIAGRAMCOMPONENT_H

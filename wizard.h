@@ -13,8 +13,6 @@
 #include <QVariant>
 #include <QWizard>
 
-class ScrollableDataButtonsSelector;
-
 QT_BEGIN_NAMESPACE
 class QWidget;
 
@@ -22,6 +20,10 @@ namespace Ui {
 class Wizard;
 }
 QT_END_NAMESPACE
+
+namespace DiagramEditor::Gui {
+
+class ScrollableDataButtonsSelector;
 
 /**
  * @class Wizard
@@ -91,5 +93,7 @@ private:
     QVariantHash allDiagramTypes; ///< The data of the diagram types to choose
     ScrollableDataButtonsSelector *diagramTypesSelector; ///< The diagram types selector
 };
+
+}
 
 #endif // WIZARD_H

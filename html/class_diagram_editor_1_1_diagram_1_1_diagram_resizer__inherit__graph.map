@@ -1,0 +1,9 @@
+<map id="DiagramEditor::Diagram::DiagramResizer" name="DiagramEditor::Diagram::DiagramResizer">
+<area shape="rect" id="Node000001" title="An item to resize a diagram component." alt="" coords="15,123,171,443"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html" title="A diagram resizer that can be connected to a diagram component." alt="" coords="15,491,171,725"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="94,455,96,491,91,490,93,460"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,64,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,86,57,123,52,123,46,92"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,5,215,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,92,135,123,129,122,141,86"/>
+</map>

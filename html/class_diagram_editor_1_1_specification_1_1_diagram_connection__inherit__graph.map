@@ -1,0 +1,11 @@
+<map id="DiagramEditor::Specification::DiagramConnection" name="DiagramEditor::Specification::DiagramConnection">
+<area shape="rect" id="Node000001" title="A diagram component represented by a path that connects other components." alt="" coords="63,635,263,1061"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,360,131,429"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,441,121,635,116,635,78,446"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="154,203,360,587"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,599,210,636,205,634,214,604"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="158,45,216,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="198,126,217,203,212,203,198,132"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="240,5,413,155"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="308,167,302,203,297,202,307,172"/>
+</map>

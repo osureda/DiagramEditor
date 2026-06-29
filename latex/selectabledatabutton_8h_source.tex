@@ -18,41 +18,45 @@
 \DoxyCodeLine{00020\ \textcolor{keyword}{class\ }QWidget;}
 \DoxyCodeLine{00021\ QT\_END\_NAMESPACE}
 \DoxyCodeLine{00022\ }
-\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}\ :\ \textcolor{keyword}{public}\ QPushButton,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_json_serializable}{JsonSerializable}}}
-\DoxyCodeLine{00028\ \{}
-\DoxyCodeLine{00029\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{00030\ }
-\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_selectable_data_button_a293438785ae55cad0680c0d7821cd529}{ICON\_TEXT\_SPACING}}\ =\ 2;}
-\DoxyCodeLine{00034\ }
-\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ QString\ \doxymbox{\hyperlink{class_selectable_data_button_a62e6dfb51f2567bdadf5fc813890e516}{STYLE\_SHEET}};}
-\DoxyCodeLine{00037\ }
-\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}(\textcolor{keywordtype}{int}\ iconSize\ =\ 0,\ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
-\DoxyCodeLine{00046\ }
-\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_selectable_data_button_a9d3d5663c7d9c917e11bf8ab7dfd0026}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash)\ \textcolor{keyword}{override};}
-\DoxyCodeLine{00054\ }
-\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_selectable_data_button_a389b4c85bd9877b146952215be10f2ea}{data}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00061\ }
-\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}\ *\doxymbox{\hyperlink{class_selectable_data_button_a05e4cf709119fb88182aa78d22b37a2f}{leftIconButton}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00069\ }
-\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ QPair<QWidget*,\ SelectableDataButton*>\ \doxymbox{\hyperlink{class_selectable_data_button_acc1a45976517d71e9c272088c23279c8}{upperIconButton}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00078\ }
-\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ storedIconSize;\ }
-\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ QIcon\ storedIcon;\ }
-\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ QString\ storedText;\ }
-\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ spacingApplied;\ }
-\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ QVariantHash\ storedData;\ }
-\DoxyCodeLine{00088\ }
-\DoxyCodeLine{00094\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadLeftIconFromVariant(\textcolor{keyword}{const}\ QVariant\ \&variant);}
-\DoxyCodeLine{00095\ }
-\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadTextFromVariants(\textcolor{keyword}{const}\ QVariant\ \&nameVariant,\ \textcolor{keyword}{const}\ QVariant\ \&descriptionVariant);}
-\DoxyCodeLine{00106\ }
-\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ applyIconTextSpacing();}
-\DoxyCodeLine{00112\ }
-\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_selectable_data_button_ad95099453307389177ebc847299533dc}{SelectableDataButton}}\ *textButton()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00119\ \};}
-\DoxyCodeLine{00120\ }
-\DoxyCodeLine{00121\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SELECTABLEDATABUTTON\_H}}
+\DoxyCodeLine{00023\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_gui}{DiagramEditor::Gui}}\ \{}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{SelectableDataButton}}\ :\ \textcolor{keyword}{public}\ QPushButton,\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_serializable}{DiagramEditor::Serialization::JsonSerializable}}}
+\DoxyCodeLine{00030\ \{}
+\DoxyCodeLine{00031\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a550e270ff86a0017e084b5c07a87ac24}{ICON\_TEXT\_SPACING}}\ =\ 2;}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ QString\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_adbd3f9f2202b1037479190bcd72f84fb}{STYLE\_SHEET}};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{SelectableDataButton}}(\textcolor{keywordtype}{int}\ iconSize\ =\ 0,\ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a3de2aa015230f88f2d99a7d7ee6ea2ed}{loadFromHash}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf52bab493bd1d1e1}{data}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{SelectableDataButton}}\ *\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed90444b0e38b80fd32}{leftIconButton}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ QPair<QWidget*,\ SelectableDataButton*>\ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67ccd12fac1cdef9024}{upperIconButton}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ storedIconSize;\ }
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ QIcon\ storedIcon;\ }
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ QString\ storedText;\ }
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ spacingApplied;\ }
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ QVariantHash\ storedData;\ }
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadLeftIconFromVariant(\textcolor{keyword}{const}\ QVariant\ \&variant);}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ loadTextFromVariants(\textcolor{keyword}{const}\ QVariant\ \&nameVariant,\ \textcolor{keyword}{const}\ QVariant\ \&descriptionVariant);}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ applyIconTextSpacing();}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77432a5cbb81b}{SelectableDataButton}}\ *textButton()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00121\ \};}
+\DoxyCodeLine{00122\ }
+\DoxyCodeLine{00123\ \}}
+\DoxyCodeLine{00124\ }
+\DoxyCodeLine{00125\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SELECTABLEDATABUTTON\_H}}
 
 \end{DoxyCode}

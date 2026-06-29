@@ -16,6 +16,8 @@
 
 #include <QDebug>
 
+namespace DiagramEditor::Specification {
+
 SpecificationsGroup::SpecificationsGroup(DiagramComponent *parent)
     : diagramComponent(parent)
 {}
@@ -110,4 +112,6 @@ QString SpecificationsGroup::typeNameFromSpecification(const DiagramSpecificatio
     } else {
         return "shortText";
     }
+}
+
 }

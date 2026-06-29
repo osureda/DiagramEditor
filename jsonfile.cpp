@@ -13,6 +13,8 @@
 #include <QJsonParseError>
 #include <QJsonValue>
 
+namespace DiagramEditor::Serialization {
+
 JsonFile::JsonFile(const QString &fileName)
     : QFile(fileName)
 {}
@@ -75,4 +77,6 @@ bool JsonFile::parseToJsonObject(const QByteArray &json, QJsonObject &jsonObject
 
     jsonObject = document.object();
     return success;
+}
+
 }

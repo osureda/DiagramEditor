@@ -1,7 +1,0 @@
-<map id="Diagram::mouseMoveEvent" name="Diagram::mouseMoveEvent">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,189,57"/>
-<area shape="rect" id="Node000002" href="$class_diagram.html#a61599e31735f69ebb2c0785c024c4248" title=" " alt="" coords="240,5,403,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,31,227,29,222,30,190,36"/>
-<area shape="rect" id="Node000003" href="$class_diagram_item.html#aa5b0376ba80e3fd99a0dde46a748db7f" title=" " alt="" coords="237,56,406,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,52,224,58,219,58,189,57"/>
-</map>

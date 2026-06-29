@@ -1,5 +1,6 @@
 var namespaces_dup =
 [
+    [ "DiagramEditor", "namespace_diagram_editor.html", "namespace_diagram_editor" ],
     [ "GeometryUtils", "namespace_geometry_utils.html", [
       [ "LineMarker", "namespace_geometry_utils.html#a7649d9820e81d33c35b70ab4f839fa09", [
         [ "OpenedArrow", "namespace_geometry_utils.html#a7649d9820e81d33c35b70ab4f839fa09a64683d46fb27d7cfc481f61170d3f7e1", null ],

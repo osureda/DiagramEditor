@@ -13,15 +13,21 @@
 #include <QVariant>
 #include <QVector>
 
+namespace DiagramEditor::Diagram {
 class DiagramComponent;
+}
+
+namespace DiagramEditor::Specification {
+
 class DiagramSpecification;
 class SpecificationsForm;
+using DiagramEditor::Diagram::DiagramComponent;
 
 /**
  * @class SpecificationsGroup
  * @brief A group of diagram specifications belonging to a diagram component.
  */
-class SpecificationsGroup : public JsonSerializable
+class SpecificationsGroup : public DiagramEditor::Serialization::JsonSerializable
 {
     public:
         /**
@@ -103,5 +109,7 @@ class SpecificationsGroup : public JsonSerializable
          */
         static QString typeNameFromSpecification(const DiagramSpecification *specification);
 };
+
+}
 
 #endif // SPECIFICATIONSGROUP_H

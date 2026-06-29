@@ -1,0 +1,9 @@
+<map id="DiagramEditor::Diagram::ElementSpecifications" name="DiagramEditor::Diagram::ElementSpecifications">
+<area shape="rect" id="Node000001" title="The specifications of a diagram element." alt="" coords="11,549,211,784"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,317,64,387"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,398,85,549,80,550,45,403"/>
+<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_specification_1_1_specifications_group.html" title="A group of diagram specifications belonging to a diagram component." alt="" coords="88,203,286,501"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,513,141,550,136,549,146,518"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="100,5,273,155"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="187,167,189,203,184,202,186,172"/>
+</map>

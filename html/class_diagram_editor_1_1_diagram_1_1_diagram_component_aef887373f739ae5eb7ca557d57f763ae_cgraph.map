@@ -1,0 +1,5 @@
+<map id="DiagramEditor::Diagram::DiagramComponent::closestConnectionPoint" name="DiagramEditor::Diagram::DiagramComponent::closestConnectionPoint">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,297,48"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a6c1ef83fc6ae5d38269a954f7fdf1abd" title=" " alt="" coords="345,5,573,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,24,332,27,326,27,297,29"/>
+</map>

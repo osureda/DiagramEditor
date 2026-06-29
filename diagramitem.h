@@ -16,19 +16,25 @@
 #include <QString>
 #include <QVariant>
 
-class Diagram;
-class DiagramComponent;
-class SpecificationsForm;
-
 QT_BEGIN_NAMESPACE
 class QGraphicsItem;
 QT_END_NAMESPACE
+
+namespace DiagramEditor::Specification {
+class SpecificationsForm;
+}
+
+namespace DiagramEditor::Diagram {
+
+class Diagram;
+class DiagramComponent;
+using DiagramEditor::Specification::SpecificationsForm;
 
 /**
  * @class DiagramItem
  * @brief A diagram item that contains and manages diagram components.
  */
-class DiagramItem : public QObject, public QGraphicsItemGroup, public JsonSerializable
+class DiagramItem : public QObject, public QGraphicsItemGroup, public DiagramEditor::Serialization::JsonSerializable
 {
     Q_OBJECT
 
@@ -259,5 +265,7 @@ class DiagramItem : public QObject, public QGraphicsItemGroup, public JsonSerial
          */
         void setCommentBadgeVisibility(bool visible);
 };
+
+}
 
 #endif // DIAGRAMITEM_H

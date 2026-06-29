@@ -14,25 +14,29 @@
 \DoxyCodeLine{00016\ \textcolor{keyword}{class\ }QByteArray;}
 \DoxyCodeLine{00017\ QT\_END\_NAMESPACE}
 \DoxyCodeLine{00018\ }
-\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_json_file_aa7e9052a5ea38e7e4376368f1d40feee}{JsonFile}}\ :\ \textcolor{keyword}{public}\ QFile}
-\DoxyCodeLine{00024\ \{}
-\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_json_file_aa7e9052a5ea38e7e4376368f1d40feee}{JsonFile}}(\textcolor{keyword}{const}\ QString\ \&path);}
-\DoxyCodeLine{00032\ }
-\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_json_file_abbd183414af440c64250860ef342f9f0}{load}}();}
-\DoxyCodeLine{00041\ }
-\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_json_file_af347f04b8475a74a3808fa5e65f3491f}{hashForKey}}(\textcolor{keyword}{const}\ QString\ \&key)\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00050\ }
-\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QVariantHash\ \doxymbox{\hyperlink{class_json_file_abf5a43fecf93ed28674a11ff2a13b985}{textToHash}}(\textcolor{keyword}{const}\ QString\ \&text);}
-\DoxyCodeLine{00059\ }
-\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QString\ \doxymbox{\hyperlink{class_json_file_ac4be58cf076325c9dde18beefaf5639b}{hashToText}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash);}
-\DoxyCodeLine{00067\ }
-\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ QJsonObject\ contents;\ }
-\DoxyCodeLine{00070\ }
-\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ parseToJsonObject(\textcolor{keyword}{const}\ QByteArray\ \&json,\ QJsonObject\ \&jsonObject);}
-\DoxyCodeLine{00081\ \};}
-\DoxyCodeLine{00082\ }
-\DoxyCodeLine{00083\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ JSONFILE\_H}}
+\DoxyCodeLine{00019\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespace_diagram_editor_1_1_serialization}{DiagramEditor::Serialization}}\ \{}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_diagram_editor_1_1_gui_1_1_json_file_a0f526e3c7575dce92db79b4ce0455679}{JsonFile}}\ :\ \textcolor{keyword}{public}\ QFile}
+\DoxyCodeLine{00026\ \{}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a0f526e3c7575dce92db79b4ce0455679}{JsonFile}}(\textcolor{keyword}{const}\ QString\ \&path);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a61a419c75c84d2d005c9388bbf79d364}{load}}();}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ QVariantHash\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a2c83bcd62e8081c8021c3e7f12787f9a}{hashForKey}}(\textcolor{keyword}{const}\ QString\ \&key)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QVariantHash\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_ace95355ba2721f47e4d6ff65a16f3e9d}{textToHash}}(\textcolor{keyword}{const}\ QString\ \&text);}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ QString\ \doxymbox{\hyperlink{class_diagram_editor_1_1_serialization_1_1_json_file_a2d25ba8bef8d9c953f35242404068f4e}{hashToText}}(\textcolor{keyword}{const}\ QVariantHash\ \&hash);}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ QJsonObject\ contents;\ }
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ parseToJsonObject(\textcolor{keyword}{const}\ QByteArray\ \&json,\ QJsonObject\ \&jsonObject);}
+\DoxyCodeLine{00083\ \};}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \}}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ JSONFILE\_H}}
 
 \end{DoxyCode}

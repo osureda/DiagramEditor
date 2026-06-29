@@ -31,14 +31,14 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN14DiagramResizerE_t {};
+struct qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramResizerE_t {};
 } // unnamed namespace
 
-template <> constexpr inline auto DiagramResizer::qt_create_metaobjectdata<qt_meta_tag_ZN14DiagramResizerE_t>()
+template <> constexpr inline auto DiagramEditor::Diagram::DiagramResizer::qt_create_metaobjectdata<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramResizerE_t>()
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "DiagramResizer",
+        "DiagramEditor::Diagram::DiagramResizer",
         "updateParentPosition",
         ""
     };
@@ -51,20 +51,20 @@ template <> constexpr inline auto DiagramResizer::qt_create_metaobjectdata<qt_me
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<DiagramResizer, qt_meta_tag_ZN14DiagramResizerE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+    return QtMocHelpers::metaObjectData<DiagramResizer, qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramResizerE_t>(QMC::MetaObjectFlag{}, qt_stringData,
             qt_methods, qt_properties, qt_enums);
 }
-Q_CONSTINIT const QMetaObject DiagramResizer::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject DiagramEditor::Diagram::DiagramResizer::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN14DiagramResizerE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN14DiagramResizerE_t>.data,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramResizerE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramResizerE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN14DiagramResizerE_t>.metaTypes,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramResizerE_t>.metaTypes,
     nullptr
 } };
 
-void DiagramResizer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void DiagramEditor::Diagram::DiagramResizer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<DiagramResizer *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -76,22 +76,22 @@ void DiagramResizer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     (void)_a;
 }
 
-const QMetaObject *DiagramResizer::metaObject() const
+const QMetaObject *DiagramEditor::Diagram::DiagramResizer::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *DiagramResizer::qt_metacast(const char *_clname)
+void *DiagramEditor::Diagram::DiagramResizer::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN14DiagramResizerE_t>.strings))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13DiagramEditor7Diagram14DiagramResizerE_t>.strings))
         return static_cast<void*>(this);
     if (!strcmp(_clname, "QGraphicsRectItem"))
         return static_cast< QGraphicsRectItem*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int DiagramResizer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int DiagramEditor::Diagram::DiagramResizer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)

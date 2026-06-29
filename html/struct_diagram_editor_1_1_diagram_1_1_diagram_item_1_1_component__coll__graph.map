@@ -1,0 +1,15 @@
+<map id="DiagramEditor::Diagram::DiagramItem::Component" name="DiagramEditor::Diagram::DiagramItem::Component">
+<area shape="rect" id="Node000001" title="The data of a diagram component." alt="" coords="74,1052,243,1180"/>
+<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_component.html" title="A diagram component contained by a diagram item." alt="" coords="56,617,262,980"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,978,161,1036,156,1034,157,982"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,45,64,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="32,127,33,210,36,313,44,429,63,545,83,617,78,618,57,546,39,430,30,314,28,210,32,132"/>
+<area shape="rect" id="Node000005" href="$class_diagram_editor_1_1_diagram_1_1_diagram_item.html" title="A diagram item that contains and manages diagram components." alt="" coords="72,204,246,545"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="54,126,89,204,84,205,55,131"/>
+<area shape="rect" id="Node000004" href="$class_diagram_editor_1_1_serialization_1_1_json_serializable.html" title="Base class for objects that can be loaded from and converted to a QVariantHash." alt="" coords="246,5,418,155"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="335,167,335,259,327,367,310,482,281,594,264,638,259,636,276,593,305,481,321,366,329,259,334,172"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="280,170,248,228,243,226,282,165"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="159,542,161,601,156,600,158,548"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="88,45,222,115"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="156,127,159,204,154,204,155,132"/>
+</map>

@@ -11,6 +11,8 @@
 #include <QString>
 #include <QWidget>
 
+namespace DiagramEditor::Specification {
+
 SelectableSpecification::SelectableSpecification(QGraphicsItem *parent)
     : DiagramSpecification(parent)
 {}
@@ -57,4 +59,6 @@ void SelectableSpecification::updateTextFromForm(const QWidget *fromResults) {
     if (choiceSelector) {
         setPlainText(choiceSelector->currentText());
     }
+}
+
 }
