@@ -1,0 +1,10 @@
+<map id="DiagramEditor::GeometryUtils::makeMarkerPolygon" name="DiagramEditor::GeometryUtils::makeMarkerPolygon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,202,81"/>
+<area shape="rect" id="Node000002" href="$namespace_diagram_editor_1_1_geometry_utils.html#affdf4ac6132ba74d26f11f0f29a680a3" title=" " alt="" coords="250,5,446,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,44,237,42,231,43,203,49"/>
+<area shape="rect" id="Node000004" href="$namespace_diagram_editor_1_1_geometry_utils.html#a9509c81cc80b3b0fdbbf1cc77293d6ce" title=" " alt="" coords="250,72,446,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,71,237,78,231,78,202,76"/>
+<area shape="rect" id="Node000003" href="$namespace_diagram_editor_1_1_geometry_utils.html#af2f44c3a8463fecfc7ff588b80284b39" title=" " alt="" coords="494,39,690,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,37,481,44,476,45,446,43"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="446,77,476,76,481,75,447,83"/>
+</map>

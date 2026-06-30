@@ -32,6 +32,7 @@ namespace DiagramEditor::Diagram {
 class DiagramItem;
 using DiagramEditor::Specification::ElementSpecifications;
 using DiagramEditor::Specification::SpecificationsForm;
+namespace GeometryUtils = DiagramEditor::GeometryUtils;
 
 /**
  * @class DiagramElement

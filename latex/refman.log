@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.29)  30 JUN 2026 00:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.29)  30 JUN 2026 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -859,16 +859,16 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 (refman.aux
 
-LaTeX Warning: Label `namespace_geometry_utils_ab0fdc7dbcf7efa92aaff423e465be91
-b' multiply defined.
+LaTeX Warning: Label `namespace_diagram_editor_1_1_geometry_utils_a2c40a747beb0
+d57e0da1da31d81f4ea0' multiply defined.
 
 
-LaTeX Warning: Label `namespace_geometry_utils_ae5eaaae0d598ef3947efc9ee0a63752
-c' multiply defined.
+LaTeX Warning: Label `namespace_diagram_editor_1_1_geometry_utils_ade0702840c42
+6c488f6ef2018a0ca4e9' multiply defined.
 
 
-LaTeX Warning: Label `namespace_geometry_utils_a50af505bdce4f7ee702b35dace8364e
-7' multiply defined.
+LaTeX Warning: Label `namespace_diagram_editor_1_1_geometry_utils_a61ca0124eced
+a0479152d4f526dc395e' multiply defined.
 
 )
 \openout1 = `refman.aux'.
@@ -1066,22 +1066,13 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 21.
+(Font)              scaled to size 10.79993pt on input line 23.
 ) (namespace_diagram_editor_1_1_diagram.tex
-[13]) (namespace_diagram_editor_1_1_gui.tex
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 22.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.29996pt on input line 22.
-)
-(namespace_diagram_editor_1_1_serialization.tex [14])
-(namespace_diagram_editor_1_1_specification.tex) (namespace_geometry_utils.tex
-[15] [16]
+[13]) (namespace_diagram_editor_1_1_geometry_utils.tex [14] [15]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 191.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 191.
- [17]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 193.
 
@@ -1093,6 +1084,10 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 202.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.99994pt on input line 202.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 202.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 6.29996pt on input line 202.
 
 Underfull \hbox (badness 10000) detected at line 203
 [][][]
@@ -1103,21 +1098,23 @@ Underfull \hbox (badness 10000) detected at line 206
 [][][]
  []
 
- <./namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326_icgraph.pdf>
-<namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326_icgraph.pdf, id=389
-8, 591.20876pt x 138.5175pt>
-File: namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb021693326_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a23bd4cd12ba23ef3bd782fb02169
-3326_icgraph.pdf  used on input line 214.
-(pdftex.def)             Requested size: 350.0pt x 82.0057pt.
-
+ <./namespace_diagram_editor_1_1_geometry_utils_af2f44c3a8463fecfc7ff588b80284b
+39_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_af2f44c3a8463fecfc7ff588b80284b39_
+icgraph.pdf, id=3834, 596.2275pt x 162.6075pt>
+File: namespace_diagram_editor_1_1_geometry_utils_af2f44c3a8463fecfc7ff588b8028
+4b39_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_af2f44c3a8463fecfc7ff588b80284
+b39_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_af2f44c3a8
+463fecfc7ff588b80284b39_icgraph.pdf  used on input line 214.
+(pdftex.def)             Requested size: 350.0pt x 95.45375pt.
+ [16]
 Underfull \hbox (badness 10000) detected at line 223
 [][][]
  []
 
-[18]
+
 Underfull \hbox (badness 10000) detected at line 233
 [][][]
  []
@@ -1127,30 +1124,34 @@ Underfull \hbox (badness 10000) detected at line 236
 [][][]
  []
 
- <./namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_cgraph.pdf>
-<namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_cgraph.pdf, id=3916
-, 412.54124pt x 112.42pt>
-File: namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_cgraph.pdf Gra
-phic file (type pdf)
-<use namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_cgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02c
-fa90_cgraph.pdf  used on input line 244.
+ <./namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a680
+a3_cgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a680a3_
+cgraph.pdf, id=3853, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a6
+80a3_cgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a68
+0a3_cgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_affdf4ac61
+32ba74d26f11f0f29a680a3_cgraph.pdf  used on input line 244.
 (pdftex.def)             Requested size: 350.0pt x 95.37904pt.
- <./namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_icgraph.pdf>
-<namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_icgraph.pdf, id=392
-4, 418.56375pt x 112.42pt>
-File: namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02cfa90_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a3c5638fa923f8d9bcdca29c2a02c
-fa90_icgraph.pdf  used on input line 252.
-(pdftex.def)             Requested size: 350.0pt x 94.0033pt.
-
+ <./namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a680
+a3_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a680a3_
+icgraph.pdf, id=3861, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a6
+80a3_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_affdf4ac6132ba74d26f11f0f29a68
+0a3_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_affdf4ac61
+32ba74d26f11f0f29a680a3_icgraph.pdf  used on input line 252.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+ [17]
 Underfull \hbox (badness 10000) detected at line 261
 [][][]
  []
 
-[19]
+
 Underfull \hbox (badness 10000) detected at line 273
 [][][]
  []
@@ -1165,7 +1166,7 @@ Underfull \hbox (badness 10000) detected at line 285
 [][][]
  []
 
-
+[18]
 Underfull \hbox (badness 10000) detected at line 297
 [][][]
  []
@@ -1175,17 +1176,18 @@ Underfull \hbox (badness 10000) detected at line 300
 [][][]
  []
 
- <./namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4_cgraph.pdf>
-<namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4_cgraph.pdf, id=3943
-, 591.20876pt x 138.5175pt>
-File: namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4_cgraph.pdf Gra
-phic file (type pdf)
-<use namespace_geometry_utils_aa089525ba35da54fd59ce086ac1337a4_cgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_aa089525ba35da54fd59ce086ac13
-37a4_cgraph.pdf  used on input line 308.
-(pdftex.def)             Requested size: 350.0pt x 82.0057pt.
+ <./namespace_diagram_editor_1_1_geometry_utils_aba87b89860ad106ecdbc89e315d21e
+49_cgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_aba87b89860ad106ecdbc89e315d21e49_
+cgraph.pdf, id=3886, 596.2275pt x 162.6075pt>
+File: namespace_diagram_editor_1_1_geometry_utils_aba87b89860ad106ecdbc89e315d2
+1e49_cgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_aba87b89860ad106ecdbc89e315d21
+e49_cgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_aba87b8986
+0ad106ecdbc89e315d21e49_cgraph.pdf  used on input line 308.
+(pdftex.def)             Requested size: 350.0pt x 95.45375pt.
 
-[20]
 Underfull \hbox (badness 10000) detected at line 317
 [][][]
  []
@@ -1200,21 +1202,23 @@ Underfull \hbox (badness 10000) detected at line 332
 [][][]
  []
 
- <./namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca_icgraph.pdf>
-<namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca_icgraph.pdf, id=396
-1, 421.575pt x 162.6075pt>
-File: namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a754e94d5c015ea142f5927e15af8c4ca_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a754e94d5c015ea142f5927e15af8
-c4ca_icgraph.pdf  used on input line 340.
-(pdftex.def)             Requested size: 350.0pt x 135.0014pt.
-
+ <./namespace_diagram_editor_1_1_geometry_utils_a63f2ccd808fb9382166bc779e949ca
+90_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a63f2ccd808fb9382166bc779e949ca90_
+icgraph.pdf, id=3896, 442.65375pt x 162.6075pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a63f2ccd808fb9382166bc779e949
+ca90_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a63f2ccd808fb9382166bc779e949c
+a90_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a63f2ccd80
+8fb9382166bc779e949ca90_icgraph.pdf  used on input line 340.
+(pdftex.def)             Requested size: 350.0pt x 128.5776pt.
+ [19]
 Underfull \hbox (badness 10000) detected at line 349
 [][][]
  []
 
-[21]
+
 Underfull \hbox (badness 10000) detected at line 359
 [][][]
  []
@@ -1224,16 +1228,18 @@ Underfull \hbox (badness 10000) detected at line 362
 [][][]
  []
 
- <./namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad_cgraph.pdf>
-<namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad_cgraph.pdf, id=3978
-, 415.5525pt x 214.8025pt>
-File: namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad_cgraph.pdf Gra
-phic file (type pdf)
-<use namespace_geometry_utils_a3edf721fcc70298838304c457fd543ad_cgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a3edf721fcc70298838304c457fd5
-43ad_cgraph.pdf  used on input line 370.
-(pdftex.def)             Requested size: 350.0pt x 180.9245pt.
-
+ <./namespace_diagram_editor_1_1_geometry_utils_aa734d7e1b5cec63a3bd68c97c8c3cc
+64_cgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_aa734d7e1b5cec63a3bd68c97c8c3cc64_
+cgraph.pdf, id=3915, 412.54124pt x 262.9825pt>
+File: namespace_diagram_editor_1_1_geometry_utils_aa734d7e1b5cec63a3bd68c97c8c3
+cc64_cgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_aa734d7e1b5cec63a3bd68c97c8c3c
+c64_cgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_aa734d7e1b
+5cec63a3bd68c97c8c3cc64_cgraph.pdf  used on input line 370.
+(pdftex.def)             Requested size: 350.0pt x 223.11884pt.
+ [20]
 Underfull \hbox (badness 10000) detected at line 379
 [][][]
  []
@@ -1248,17 +1254,18 @@ Underfull \hbox (badness 10000) detected at line 390
 [][][]
  []
 
- <./namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b_icgraph.pdf>
-<namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b_icgraph.pdf, id=398
-8, 433.62pt x 112.42pt>
-File: namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9c43b_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a12fc7b59c7fe207d0f4cc5bd68a9
-c43b_icgraph.pdf  used on input line 398.
-(pdftex.def)             Requested size: 350.0pt x 90.74577pt.
-
-[22]
+ <./namespace_diagram_editor_1_1_geometry_utils_a65305317e69a0d343cc3d8364fea15
+62_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a65305317e69a0d343cc3d8364fea1562_
+icgraph.pdf, id=3932, 442.65375pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a65305317e69a0d343cc3d8364fea
+1562_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a65305317e69a0d343cc3d8364fea1
+562_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a65305317e
+69a0d343cc3d8364fea1562_icgraph.pdf  used on input line 398.
+(pdftex.def)             Requested size: 350.0pt x 88.89316pt.
+ [21]
 Underfull \hbox (badness 10000) detected at line 407
 [][][]
  []
@@ -1273,17 +1280,18 @@ Underfull \hbox (badness 10000) detected at line 418
 [][][]
  []
 
- <./namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80_icgraph.pdf>
-<namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80_icgraph.pdf, id=400
-6, 619.31375pt x 112.42pt>
-File: namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4da80_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a838cf67d13c94a9efe629bfe27c4
-da80_icgraph.pdf  used on input line 426.
-(pdftex.def)             Requested size: 350.0pt x 63.53629pt.
+ <./namespace_diagram_editor_1_1_geometry_utils_aa43720297a41e8bdb33440bc38c5a6
+45_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_aa43720297a41e8bdb33440bc38c5a645_
+icgraph.pdf, id=3950, 625.33624pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_aa43720297a41e8bdb33440bc38c5
+a645_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_aa43720297a41e8bdb33440bc38c5a
+645_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_aa43720297
+a41e8bdb33440bc38c5a645_icgraph.pdf  used on input line 426.
+(pdftex.def)             Requested size: 350.0pt x 62.92216pt.
 
-[23]
 Underfull \hbox (badness 10000) detected at line 435
 [][][]
  []
@@ -1298,30 +1306,34 @@ Underfull \hbox (badness 10000) detected at line 448
 [][][]
  []
 
- <./namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_cgraph.pdf>
-<namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_cgraph.pdf, id=4022
-, 415.5525pt x 112.42pt>
-File: namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_cgraph.pdf Gra
-phic file (type pdf)
-<use namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_cgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68
-f173_cgraph.pdf  used on input line 456.
-(pdftex.def)             Requested size: 350.0pt x 94.68945pt.
- <./namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_icgraph.pdf>
-<namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_icgraph.pdf, id=403
-0, 421.575pt x 112.42pt>
-File: namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68f173_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_ae13c25d49bec6d93c75ff44cbb68
-f173_icgraph.pdf  used on input line 464.
-(pdftex.def)             Requested size: 350.0pt x 93.3343pt.
+ <./namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77293d6
+ce_cgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77293d6ce_
+cgraph.pdf, id=3958, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77293
+d6ce_cgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77293d
+6ce_cgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a9509c81cc
+80b3b0fdbbf1cc77293d6ce_cgraph.pdf  used on input line 456.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+ [22] <./namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77
+293d6ce_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77293d6ce_
+icgraph.pdf, id=3974, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77293
+d6ce_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a9509c81cc80b3b0fdbbf1cc77293d
+6ce_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a9509c81cc
+80b3b0fdbbf1cc77293d6ce_icgraph.pdf  used on input line 464.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
 
 Underfull \hbox (badness 10000) detected at line 473
 [][][]
  []
 
-[24]
+
 Underfull \hbox (badness 10000) detected at line 481
 [][][]
  []
@@ -1331,16 +1343,18 @@ Underfull \hbox (badness 10000) detected at line 484
 [][][]
  []
 
- <./namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4_icgraph.pdf>
-<namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4_icgraph.pdf, id=404
-8, 415.5525pt x 112.42pt>
-File: namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7efb4_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a67a696e2faca3bcfc004f3d8fdc7
-efb4_icgraph.pdf  used on input line 492.
-(pdftex.def)             Requested size: 350.0pt x 94.68945pt.
-
+ <./namespace_diagram_editor_1_1_geometry_utils_a29bdc86bf30eb343d2120176b379ee
+0e_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a29bdc86bf30eb343d2120176b379ee0e_
+icgraph.pdf, id=3984, 429.605pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a29bdc86bf30eb343d2120176b379
+ee0e_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a29bdc86bf30eb343d2120176b379e
+e0e_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a29bdc86bf
+30eb343d2120176b379ee0e_icgraph.pdf  used on input line 492.
+(pdftex.def)             Requested size: 350.0pt x 91.58975pt.
+ [23]
 Underfull \hbox (badness 10000) detected at line 501
 [][][]
  []
@@ -1355,22 +1369,23 @@ Underfull \hbox (badness 10000) detected at line 512
 [][][]
  []
 
- <./namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13_icgraph.pdf>
-<namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13_icgraph.pdf, id=405
-8, 588.1975pt x 112.42pt>
-File: namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e22e13_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_ab3699ccfcccff3da766a9cc5c7e2
-2e13_icgraph.pdf  used on input line 520.
-(pdftex.def)             Requested size: 350.0pt x 66.895pt.
+ <./namespace_diagram_editor_1_1_geometry_utils_a4ef5a79f830900d00c3803715bdfee
+cc_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a4ef5a79f830900d00c3803715bdfeecc_
+icgraph.pdf, id=4002, 598.235pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a4ef5a79f830900d00c3803715bdf
+eecc_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a4ef5a79f830900d00c3803715bdfe
+ecc_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a4ef5a79f8
+30900d00c3803715bdfeecc_icgraph.pdf  used on input line 520.
+(pdftex.def)             Requested size: 350.0pt x 65.77315pt.
 
-[25]
 Underfull \hbox (badness 10000) detected at line 529
 [][][]
  []
 
-
+[24]
 Underfull \hbox (badness 10000) detected at line 537
 [][][]
  []
@@ -1380,21 +1395,23 @@ Underfull \hbox (badness 10000) detected at line 540
 [][][]
  []
 
- <./namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28_icgraph.pdf>
-<namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28_icgraph.pdf, id=407
-7, 430.60875pt x 162.6075pt>
-File: namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a2efbb61c25261b651aa44903946e7e28_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a2efbb61c25261b651aa44903946e
-7e28_icgraph.pdf  used on input line 548.
-(pdftex.def)             Requested size: 350.0pt x 132.17036pt.
+ <./namespace_diagram_editor_1_1_geometry_utils_a27f63b9ee57bc2b0d52e174f93086b
+90_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a27f63b9ee57bc2b0d52e174f93086b90_
+icgraph.pdf, id=4020, 442.65375pt x 162.6075pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a27f63b9ee57bc2b0d52e174f9308
+6b90_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a27f63b9ee57bc2b0d52e174f93086
+b90_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a27f63b9ee
+57bc2b0d52e174f93086b90_icgraph.pdf  used on input line 548.
+(pdftex.def)             Requested size: 350.0pt x 128.5776pt.
 
 Underfull \hbox (badness 10000) detected at line 557
 [][][]
  []
 
-[26]
+
 Underfull \hbox (badness 10000) detected at line 565
 [][][]
  []
@@ -1404,16 +1421,18 @@ Underfull \hbox (badness 10000) detected at line 568
 [][][]
  []
 
- <./namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19_icgraph.pdf>
-<namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19_icgraph.pdf, id=409
-5, 616.3025pt x 162.6075pt>
-File: namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_abe73989920f4e0aa207e21c32b000e19_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_abe73989920f4e0aa207e21c32b00
-0e19_icgraph.pdf  used on input line 576.
-(pdftex.def)             Requested size: 350.0pt x 92.3473pt.
-
+ <./namespace_diagram_editor_1_1_geometry_utils_a3b11de571e4050f5f76390afbd5f50
+df_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a3b11de571e4050f5f76390afbd5f50df_
+icgraph.pdf, id=4030, 625.33624pt x 162.6075pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a3b11de571e4050f5f76390afbd5f
+50df_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a3b11de571e4050f5f76390afbd5f5
+0df_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a3b11de571
+e4050f5f76390afbd5f50df_icgraph.pdf  used on input line 576.
+(pdftex.def)             Requested size: 350.0pt x 91.01244pt.
+ [25]
 Underfull \hbox (badness 10000) detected at line 585
 [][][]
  []
@@ -1428,17 +1447,18 @@ Underfull \hbox (badness 10000) detected at line 591
 [][][]
  []
 
- <./namespace_geometry_utils_a090df0d8f29cbd283318881f201699be_icgraph.pdf>
-<namespace_geometry_utils_a090df0d8f29cbd283318881f201699be_icgraph.pdf, id=410
-3, 401.5pt x 100.375pt>
-File: namespace_geometry_utils_a090df0d8f29cbd283318881f201699be_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a090df0d8f29cbd283318881f201699be_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a090df0d8f29cbd283318881f2016
-99be_icgraph.pdf  used on input line 599.
-(pdftex.def)             Requested size: 350.0pt x 87.50626pt.
+ <./namespace_diagram_editor_1_1_geometry_utils_a600c89d176155ace30cce7bd70f248
+1b_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a600c89d176155ace30cce7bd70f2481b_
+icgraph.pdf, id=4047, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a600c89d176155ace30cce7bd70f2
+481b_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a600c89d176155ace30cce7bd70f24
+81b_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a600c89d17
+6155ace30cce7bd70f2481b_icgraph.pdf  used on input line 599.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
 
-[27]
 Underfull \hbox (badness 10000) detected at line 608
 [][][]
  []
@@ -1448,20 +1468,22 @@ Underfull \hbox (badness 10000) detected at line 611
 [][][]
  []
 
-
+[26]
 Underfull \hbox (badness 10000) detected at line 614
 [][][]
  []
 
- <./namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f_icgraph.pdf>
-<namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f_icgraph.pdf, id=411
-9, 415.5525pt x 100.375pt>
-File: namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa853f_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a0181f6aaf0d759259c36411ec8aa
-853f_icgraph.pdf  used on input line 622.
-(pdftex.def)             Requested size: 350.0pt x 84.54414pt.
+ <./namespace_diagram_editor_1_1_geometry_utils_a0157886de74c5bb22fc6a9a17191b9
+ca_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a0157886de74c5bb22fc6a9a17191b9ca_
+icgraph.pdf, id=4062, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a0157886de74c5bb22fc6a9a17191
+b9ca_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a0157886de74c5bb22fc6a9a17191b
+9ca_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a0157886de
+74c5bb22fc6a9a17191b9ca_icgraph.pdf  used on input line 622.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
 
 Underfull \hbox (badness 10000) detected at line 631
 [][][]
@@ -1477,17 +1499,18 @@ Underfull \hbox (badness 10000) detected at line 637
 [][][]
  []
 
- <./namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151_icgraph.pdf>
-<namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151_icgraph.pdf, id=412
-7, 401.5pt x 100.375pt>
-File: namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_ac997a0d0b77d22b96d176948bf959151_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_ac997a0d0b77d22b96d176948bf95
-9151_icgraph.pdf  used on input line 645.
-(pdftex.def)             Requested size: 350.0pt x 87.50626pt.
-
-[28]
+ <./namespace_diagram_editor_1_1_geometry_utils_a430b61acf71ec8822ec163b0d3a9c1
+ec_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_a430b61acf71ec8822ec163b0d3a9c1ec_
+icgraph.pdf, id=4070, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_a430b61acf71ec8822ec163b0d3a9
+c1ec_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_a430b61acf71ec8822ec163b0d3a9c
+1ec_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_a430b61acf
+71ec8822ec163b0d3a9c1ec_icgraph.pdf  used on input line 645.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+ [27]
 Underfull \hbox (badness 10000) detected at line 654
 [][][]
  []
@@ -1502,24 +1525,25 @@ Underfull \hbox (badness 10000) detected at line 660
 [][][]
  []
 
- <./namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af_icgraph.pdf>
-<namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af_icgraph.pdf, id=414
-2, 406.51875pt x 100.375pt>
-File: namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af_icgraph.pdf Gr
-aphic file (type pdf)
-<use namespace_geometry_utils_a087ca275d6827f47f0bb57fad6efe4af_icgraph.pdf>
-Package pdftex.def Info: namespace_geometry_utils_a087ca275d6827f47f0bb57fad6ef
-e4af_icgraph.pdf  used on input line 668.
-(pdftex.def)             Requested size: 350.0pt x 86.42342pt.
-)
-[29] [30
-
-]
+ <./namespace_diagram_editor_1_1_geometry_utils_abba5fee7731630ca1a2c6801bb1dd3
+8c_icgraph.pdf>
+<namespace_diagram_editor_1_1_geometry_utils_abba5fee7731630ca1a2c6801bb1dd38c_
+icgraph.pdf, id=4085, 412.54124pt x 112.42pt>
+File: namespace_diagram_editor_1_1_geometry_utils_abba5fee7731630ca1a2c6801bb1d
+d38c_icgraph.pdf Graphic file (type pdf)
+<use namespace_diagram_editor_1_1_geometry_utils_abba5fee7731630ca1a2c6801bb1dd
+38c_icgraph.pdf>
+Package pdftex.def Info: namespace_diagram_editor_1_1_geometry_utils_abba5fee77
+31630ca1a2c6801bb1dd38c_icgraph.pdf  used on input line 668.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+) (namespace_diagram_editor_1_1_gui.tex)
+(namespace_diagram_editor_1_1_serialization.tex [28])
+(namespace_diagram_editor_1_1_specification.tex) [29] [30]
 Chapter 7.
 (struct_diagram_editor_1_1_diagram_1_1_diagram_item_1_1_component.tex <./struct
 _diagram_editor_1_1_diagram_1_1_diagram_item_1_1_component__coll__graph.pdf>
 <struct_diagram_editor_1_1_diagram_1_1_diagram_item_1_1_component__coll__graph.
-pdf, id=4160, 391.4625pt x 964.60374pt>
+pdf, id=4158, 391.4625pt x 964.60374pt>
 File: struct_diagram_editor_1_1_diagram_1_1_diagram_item_1_1_component__coll__g
 raph.pdf Graphic file (type pdf)
 <use struct_diagram_editor_1_1_diagram_1_1_diagram_item_1_1_component__coll__gr
@@ -1528,10 +1552,12 @@ Package pdftex.def Info: struct_diagram_editor_1_1_diagram_1_1_diagram_item_1_1
 _component__coll__graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 223.2136pt x 550.0pt.
 
-[31] [32]) (struct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component.tex <.
-/struct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component__coll__graph.pdf>
+[31
+
+] [32]) (struct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component.tex <./st
+ruct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component__coll__graph.pdf>
 <struct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component__coll__graph.pdf,
- id=4194, 391.4625pt x 964.60374pt>
+ id=4192, 391.4625pt x 964.60374pt>
 File: struct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component__coll__graph
 .pdf Graphic file (type pdf)
 <use struct_diagram_editor_1_1_gui_1_1_diagram_item_1_1_component__coll__graph.
@@ -1542,7 +1568,7 @@ ponent__coll__graph.pdf  used on input line 19.
 [33] [34]) (struct_diagram_editor_1_1_gui_1_1_wizard_1_1_configuration.tex <./s
 truct_diagram_editor_1_1_gui_1_1_wizard_1_1_configuration__coll__graph.pdf>
 <struct_diagram_editor_1_1_gui_1_1_wizard_1_1_configuration__coll__graph.pdf, i
-d=4226, 189.70876pt x 144.54pt>
+d=4224, 189.70876pt x 144.54pt>
 File: struct_diagram_editor_1_1_gui_1_1_wizard_1_1_configuration__coll__graph.p
 df Graphic file (type pdf)
 <use struct_diagram_editor_1_1_gui_1_1_wizard_1_1_configuration__coll__graph.pd
@@ -1554,7 +1580,7 @@ tion__coll__graph.pdf  used on input line 19.
 (class_diagram_editor_1_1_diagram_1_1_connectable_resizer.tex <./class_diagram_
 editor_1_1_diagram_1_1_connectable_resizer__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer__inherit__graph.pdf, 
-id=4247, 353.32pt x 622.325pt>
+id=4245, 353.32pt x 622.325pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer__inherit__graph.
 pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer__inherit__graph.p
@@ -1565,7 +1591,7 @@ er__inherit__graph.pdf  used on input line 19.
  [35] <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer__coll__graph.
 pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer__coll__graph.pdf, id=
-4272, 475.7775pt x 1306.8825pt>
+4270, 475.7775pt x 1306.8825pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer__coll__graph.pdf
  Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer__coll__graph.pdf>
@@ -1587,7 +1613,7 @@ Underfull \hbox (badness 10000) detected at line 131
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a25109e8741ca65a18
 5bbbcba0cd6ff08_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a25109e8741ca65a185bb
-bcba0cd6ff08_cgraph.pdf, id=4392, 600.2425pt x 186.6975pt>
+bcba0cd6ff08_cgraph.pdf, id=4390, 600.2425pt x 186.6975pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a25109e8741ca65a
 185bbbcba0cd6ff08_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a25109e8741ca65a1
@@ -1608,7 +1634,7 @@ Underfull \hbox (badness 10000) detected at line 156
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a0312133bfee6f7244
 6d51b31307252b5_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a0312133bfee6f72446d5
-1b31307252b5_cgraph.pdf, id=4412, 600.2425pt x 202.7575pt>
+1b31307252b5_cgraph.pdf, id=4410, 600.2425pt x 202.7575pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a0312133bfee6f72
 446d51b31307252b5_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a0312133bfee6f724
@@ -1629,7 +1655,7 @@ Underfull \hbox (badness 10000) detected at line 183
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a6771341655d854be5
 745c56cd3211116_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a6771341655d854be5745
-c56cd3211116_cgraph.pdf, id=4420, 389.455pt x 124.465pt>
+c56cd3211116_cgraph.pdf, id=4418, 389.455pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a6771341655d854b
 e5745c56cd3211116_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a6771341655d854be
@@ -1650,7 +1676,7 @@ Underfull \hbox (badness 10000) detected at line 208
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc3920
 c9dd4e78a75dd4c_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc3920c9d
-d4e78a75dd4c_cgraph.pdf, id=4437, 424.58624pt x 124.465pt>
+d4e78a75dd4c_cgraph.pdf, id=4435, 424.58624pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc39
 20c9dd4e78a75dd4c_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc392
@@ -1661,7 +1687,7 @@ er_aa2c21cffb32bc3920c9dd4e78a75dd4c_cgraph.pdf  used on input line 220.
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc3920
 c9dd4e78a75dd4c_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc3920c9d
-d4e78a75dd4c_icgraph.pdf, id=4445, 416.55624pt x 124.465pt>
+d4e78a75dd4c_icgraph.pdf, id=4443, 416.55624pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc39
 20c9dd4e78a75dd4c_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aa2c21cffb32bc392
@@ -1682,7 +1708,7 @@ Underfull \hbox (badness 10000) detected at line 245
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a22028e06fcbc3727a
 d5f9f2df362b83d_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a22028e06fcbc3727ad5f
-9f2df362b83d_cgraph.pdf, id=4462, 415.5525pt x 325.215pt>
+9f2df362b83d_cgraph.pdf, id=4460, 415.5525pt x 325.215pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a22028e06fcbc372
 7ad5f9f2df362b83d_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a22028e06fcbc3727
@@ -1703,7 +1729,7 @@ Underfull \hbox (badness 10000) detected at line 270
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a9f7552c99fed74b9f
 991c68706167213_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a9f7552c99fed74b9f991
-c68706167213_cgraph.pdf, id=4478, 651.43375pt x 202.7575pt>
+c68706167213_cgraph.pdf, id=4476, 651.43375pt x 202.7575pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a9f7552c99fed74b
 9f991c68706167213_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a9f7552c99fed74b9
@@ -1729,7 +1755,7 @@ Underfull \hbox (badness 10000) detected at line 293
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a4bceeb96149b72e52
 3d831bd63357d63_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a4bceeb96149b72e523d8
-31bd63357d63_cgraph.pdf, id=4488, 409.53pt x 124.465pt>
+31bd63357d63_cgraph.pdf, id=4486, 409.53pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a4bceeb96149b72e
 523d831bd63357d63_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_a4bceeb96149b72e5
@@ -1750,7 +1776,7 @@ Underfull \hbox (badness 10000) detected at line 317
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5ff7
 1d07a97984cbda3_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5ff71d0
-7a97984cbda3_cgraph.pdf, id=4506, 424.58624pt x 174.6525pt>
+7a97984cbda3_cgraph.pdf, id=4504, 424.58624pt x 174.6525pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5f
 f71d07a97984cbda3_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5ff
@@ -1761,7 +1787,7 @@ er_aef5e430f5bedb5ff71d07a97984cbda3_cgraph.pdf  used on input line 325.
  <./class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5ff7
 1d07a97984cbda3_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5ff71d0
-7a97984cbda3_icgraph.pdf, id=4514, 359.3425pt x 186.6975pt>
+7a97984cbda3_icgraph.pdf, id=4512, 359.3425pt x 186.6975pt>
 File: class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5f
 f71d07a97984cbda3_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connectable_resizer_aef5e430f5bedb5ff
@@ -1773,7 +1799,7 @@ er_aef5e430f5bedb5ff71d07a97984cbda3_icgraph.pdf  used on input line 333.
 (class_diagram_editor_1_1_diagram_1_1_connection_specifications.tex <./class_di
 agram_editor_1_1_diagram_1_1_connection_specifications__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connection_specifications__inherit__graph
-.pdf, id=4526, 291.0875pt x 634.37pt>
+.pdf, id=4524, 291.0875pt x 634.37pt>
 File: class_diagram_editor_1_1_diagram_1_1_connection_specifications__inherit__
 graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connection_specifications__inherit__g
@@ -1785,7 +1811,7 @@ ications__inherit__graph.pdf  used on input line 19.
 [44] <./class_diagram_editor_1_1_diagram_1_1_connection_specifications__coll__g
 raph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_connection_specifications__coll__graph.pd
-f, id=4550, 457.71pt x 1258.7025pt>
+f, id=4548, 457.71pt x 1258.7025pt>
 File: class_diagram_editor_1_1_diagram_1_1_connection_specifications__coll__gra
 ph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_connection_specifications__coll__grap
@@ -1852,7 +1878,7 @@ Underfull \hbox (badness 10000) detected at line 266
 class_diagram_editor_1_1_specification_1_1_connection_specifications__inherit__
 graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_connection_specifications__inherit_
-_graph.pdf, id=4734, 291.0875pt x 634.37pt>
+_graph.pdf, id=4732, 291.0875pt x 634.37pt>
 File: class_diagram_editor_1_1_specification_1_1_connection_specifications__inh
 erit__graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_connection_specifications__inhe
@@ -1863,7 +1889,7 @@ specifications__inherit__graph.pdf  used on input line 19.
  [50] <./class_diagram_editor_1_1_specification_1_1_connection_specifications__
 coll__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_connection_specifications__coll__gr
-aph.pdf, id=4756, 457.71pt x 1258.7025pt>
+aph.pdf, id=4754, 457.71pt x 1258.7025pt>
 File: class_diagram_editor_1_1_specification_1_1_connection_specifications__col
 l__graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_connection_specifications__coll
@@ -1884,7 +1910,7 @@ Underfull \hbox (badness 10000) detected at line 186
  <./class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d0c
 9e100e9274a248315d50c36c62a_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d0c9e1
-00e9274a248315d50c36c62a_cgraph.pdf, id=4871, 461.725pt x 236.885pt>
+00e9274a248315d50c36c62a_cgraph.pdf, id=4869, 461.725pt x 236.885pt>
 File: class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d
 0c9e100e9274a248315d50c36c62a_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_connection_specifications_a50d0
@@ -1906,7 +1932,7 @@ Underfull \hbox (badness 10000) detected at line 218
  <./class_diagram_editor_1_1_specification_1_1_connection_specifications_a968be
 af2d6a9c079081609fe6d7ba082_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_connection_specifications_a968beaf2
-d6a9c079081609fe6d7ba082_cgraph.pdf, id=4892, 620.3175pt x 186.6975pt>
+d6a9c079081609fe6d7ba082_cgraph.pdf, id=4890, 620.3175pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_connection_specifications_a968
 beaf2d6a9c079081609fe6d7ba082_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_connection_specifications_a968b
@@ -1928,7 +1954,7 @@ Underfull \hbox (badness 10000) detected at line 247
  <./class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4fa
 3742d877dbdcc8e643084504c4f_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4fa374
-2d877dbdcc8e643084504c4f_cgraph.pdf, id=4911, 879.285pt x 281.05pt>
+2d877dbdcc8e643084504c4f_cgraph.pdf, id=4909, 879.285pt x 281.05pt>
 File: class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4
 fa3742d877dbdcc8e643084504c4f_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_connection_specifications_a5f4f
@@ -1955,7 +1981,7 @@ Underfull \hbox (badness 10000) detected at line 274
  <./class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9e
 b3bdbc4ff2ba82a31fc833012bd_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9eb3b
-dbc4ff2ba82a31fc833012bd_cgraph.pdf, id=4929, 625.33624pt x 124.465pt>
+dbc4ff2ba82a31fc833012bd_cgraph.pdf, id=4927, 625.33624pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf
 9eb3bdbc4ff2ba82a31fc833012bd_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_connection_specifications_a6bf9
@@ -1977,7 +2003,7 @@ Underfull \hbox (badness 10000) detected at line 298
  <./class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa278
 71bc6ad65c4113ad5a1749b4ada_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa27871b
-c6ad65c4113ad5a1749b4ada_icgraph.pdf, id=4937, 398.48875pt x 248.93pt>
+c6ad65c4113ad5a1749b4ada_icgraph.pdf, id=4935, 398.48875pt x 248.93pt>
 File: class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa2
 7871bc6ad65c4113ad5a1749b4ada_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_connection_specifications_aaa27
@@ -1989,7 +2015,7 @@ e 306.
  [57])
 (class_diagram_editor_1_1_diagram_1_1_diagram.tex <./class_diagram_editor_1_1_d
 iagram_1_1_diagram__inherit__graph.pdf>
-<class_diagram_editor_1_1_diagram_1_1_diagram__inherit__graph.pdf, id=4955, 311
+<class_diagram_editor_1_1_diagram_1_1_diagram__inherit__graph.pdf, id=4953, 311
 .1625pt x 517.935pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram__inherit__graph.pdf Graphic 
 file (type pdf)
@@ -1998,7 +2024,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram__inherit_
 _graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 310.0pt x 516.00537pt.
  [58] <./class_diagram_editor_1_1_diagram_1_1_diagram__coll__graph.pdf>
-<class_diagram_editor_1_1_diagram_1_1_diagram__coll__graph.pdf, id=4976, 311.16
+<class_diagram_editor_1_1_diagram_1_1_diagram__coll__graph.pdf, id=4974, 311.16
 25pt x 517.935pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram__coll__graph.pdf Graphic fil
 e (type pdf)
@@ -2069,7 +2095,7 @@ Underfull \hbox (badness 10000) detected at line 190
  <./class_diagram_editor_1_1_diagram_1_1_diagram_ab235e6366dbae735fee2fae63a8d9
 87f_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_ab235e6366dbae735fee2fae63a8d987f
-_icgraph.pdf, id=5113, 376.40625pt x 124.465pt>
+_icgraph.pdf, id=5111, 376.40625pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_ab235e6366dbae735fee2fae63a8
 d987f_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_ab235e6366dbae735fee2fae63a8d
@@ -2105,7 +2131,7 @@ Underfull \hbox (badness 10000) detected at line 232
  <./class_diagram_editor_1_1_diagram_1_1_diagram_a11cebed86439cd511d42b9d5e7fcf
 261_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_a11cebed86439cd511d42b9d5e7fcf261
-_icgraph.pdf, id=5132, 397.485pt x 124.465pt>
+_icgraph.pdf, id=5130, 397.485pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_a11cebed86439cd511d42b9d5e7f
 cf261_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_a11cebed86439cd511d42b9d5e7fc
@@ -2131,7 +2157,7 @@ Underfull \hbox (badness 10000) detected at line 260
  <./class_diagram_editor_1_1_diagram_1_1_diagram_a58a1091802e8c741e19ef3c2dc423
 6be_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_a58a1091802e8c741e19ef3c2dc4236be
-_icgraph.pdf, id=5142, 391.4625pt x 162.6075pt>
+_icgraph.pdf, id=5140, 391.4625pt x 162.6075pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_a58a1091802e8c741e19ef3c2dc4
 236be_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_a58a1091802e8c741e19ef3c2dc42
@@ -2152,7 +2178,7 @@ Underfull \hbox (badness 10000) detected at line 285
  <./class_diagram_editor_1_1_diagram_1_1_diagram_a95e637977d541b80b5afe5aa63394
 5fe_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_a95e637977d541b80b5afe5aa633945fe
-_icgraph.pdf, id=5158, 393.47pt x 112.42pt>
+_icgraph.pdf, id=5156, 393.47pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_a95e637977d541b80b5afe5aa633
 945fe_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_a95e637977d541b80b5afe5aa6339
@@ -2173,7 +2199,7 @@ Underfull \hbox (badness 10000) detected at line 310
  <./class_diagram_editor_1_1_diagram_1_1_diagram_ae239779a3c95bc9019c0156eae8aa
 ded_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_ae239779a3c95bc9019c0156eae8aaded
-_cgraph.pdf, id=5176, 576.1525pt x 112.42pt>
+_cgraph.pdf, id=5174, 576.1525pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_ae239779a3c95bc9019c0156eae8
 aaded_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_ae239779a3c95bc9019c0156eae8a
@@ -2194,7 +2220,7 @@ Underfull \hbox (badness 10000) detected at line 339
  <./class_diagram_editor_1_1_diagram_1_1_diagram_a58892f302f15fa871ead9d4d39b39
 b16_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_a58892f302f15fa871ead9d4d39b39b16
-_cgraph.pdf, id=5184, 394.47375pt x 162.6075pt>
+_cgraph.pdf, id=5182, 394.47375pt x 162.6075pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_a58892f302f15fa871ead9d4d39b
 39b16_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_a58892f302f15fa871ead9d4d39b3
@@ -2215,7 +2241,7 @@ Underfull \hbox (badness 10000) detected at line 364
  <./class_diagram_editor_1_1_diagram_1_1_diagram_a6ec137d96e1b6021f1ac586edcb8f
 40c_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_a6ec137d96e1b6021f1ac586edcb8f40c
-_cgraph.pdf, id=5200, 429.605pt x 212.795pt>
+_cgraph.pdf, id=5198, 429.605pt x 212.795pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_a6ec137d96e1b6021f1ac586edcb
 8f40c_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_a6ec137d96e1b6021f1ac586edcb8
@@ -2301,7 +2327,7 @@ Underfull \hbox (badness 10000) detected at line 484
  <./class_diagram_editor_1_1_diagram_1_1_diagram_a8796ee7905e606c8173b488f0a4d4
 129_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_a8796ee7905e606c8173b488f0a4d4129
-_cgraph.pdf, id=5231, 416.55624pt x 112.42pt>
+_cgraph.pdf, id=5229, 416.55624pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_a8796ee7905e606c8173b488f0a4
 d4129_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_a8796ee7905e606c8173b488f0a4d
@@ -2326,7 +2352,7 @@ Underfull \hbox (badness 10000) detected at line 507
 
 ) (class_diagram_editor_1_1_gui_1_1_diagram.tex <./class_diagram_editor_1_1_gui
 _1_1_diagram__inherit__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_diagram__inherit__graph.pdf, id=5245, 311.162
+<class_diagram_editor_1_1_gui_1_1_diagram__inherit__graph.pdf, id=5243, 311.162
 5pt x 517.935pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram__inherit__graph.pdf Graphic file
  (type pdf)
@@ -2335,7 +2361,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_diagram__inherit__gra
 ph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 310.0pt x 516.00537pt.
  [70] <./class_diagram_editor_1_1_gui_1_1_diagram__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_diagram__coll__graph.pdf, id=5267, 311.1625pt
+<class_diagram_editor_1_1_gui_1_1_diagram__coll__graph.pdf, id=5265, 311.1625pt
  x 517.935pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram__coll__graph.pdf Graphic file (t
 ype pdf)
@@ -2576,7 +2602,7 @@ Underfull \hbox (badness 10000) detected at line 443
 ) (class_diagram_editor_1_1_diagram_1_1_diagram_component.tex <./class_diagram_
 editor_1_1_diagram_1_1_diagram_component__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component__inherit__graph.pdf, id
-=5474, 363.3575pt x 875.27pt>
+=5472, 363.3575pt x 875.27pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component__inherit__graph.pd
 f Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component__inherit__graph.pdf
@@ -2587,7 +2613,7 @@ __inherit__graph.pdf  used on input line 19.
  [80] <./class_diagram_editor_1_1_diagram_1_1_diagram_component__coll__graph.pd
 f>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component__coll__graph.pdf, id=54
-87, 391.4625pt x 814.04124pt>
+85, 391.4625pt x 814.04124pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component__coll__graph.pdf G
 raphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component__coll__graph.pdf>
@@ -2658,7 +2684,7 @@ Underfull \hbox (badness 10000) detected at line 203
  <./class_diagram_editor_1_1_diagram_1_1_diagram_component_aef887373f739ae5eb7c
 a557d57f763ae_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component_aef887373f739ae5eb7ca55
-7d57f763ae_cgraph.pdf, id=5617, 507.8975pt x 112.42pt>
+7d57f763ae_cgraph.pdf, id=5615, 507.8975pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component_aef887373f739ae5eb
 7ca557d57f763ae_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component_aef887373f739ae5eb7
@@ -2694,7 +2720,7 @@ Underfull \hbox (badness 10000) detected at line 238
  <./class_diagram_editor_1_1_diagram_1_1_diagram_component_a17f80cc648ec2444076
 bf15755e658ea_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component_a17f80cc648ec2444076bf1
-5755e658ea_icgraph.pdf, id=5636, 638.385pt x 212.795pt>
+5755e658ea_icgraph.pdf, id=5634, 638.385pt x 212.795pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component_a17f80cc648ec24440
 76bf15755e658ea_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component_a17f80cc648ec244407
@@ -2755,7 +2781,7 @@ Underfull \hbox (badness 10000) detected at line 296
  <./class_diagram_editor_1_1_diagram_1_1_diagram_component_a6c1ef83fc6ae5d38269
 a954f7fdf1abd_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component_a6c1ef83fc6ae5d38269a95
-4f7fdf1abd_icgraph.pdf, id=5660, 507.8975pt x 112.42pt>
+4f7fdf1abd_icgraph.pdf, id=5658, 507.8975pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component_a6c1ef83fc6ae5d382
 69a954f7fdf1abd_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component_a6c1ef83fc6ae5d3826
@@ -2791,7 +2817,7 @@ Underfull \hbox (badness 10000) detected at line 331
  <./class_diagram_editor_1_1_diagram_1_1_diagram_component_aba31ad15a7dd0cdf4c8
 d11d6e91c88ed_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component_aba31ad15a7dd0cdf4c8d11
-d6e91c88ed_icgraph.pdf, id=5676, 593.21625pt x 180.675pt>
+d6e91c88ed_icgraph.pdf, id=5674, 593.21625pt x 180.675pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component_aba31ad15a7dd0cdf4
 c8d11d6e91c88ed_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component_aba31ad15a7dd0cdf4c
@@ -2847,7 +2873,7 @@ Underfull \hbox (badness 10000) detected at line 396
  <./class_diagram_editor_1_1_diagram_1_1_diagram_component_a0d7041c6d4aa8e60b17
 343b524f7ef58_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component_a0d7041c6d4aa8e60b17343
-b524f7ef58_cgraph.pdf, id=5702, 475.7775pt x 124.465pt>
+b524f7ef58_cgraph.pdf, id=5700, 475.7775pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component_a0d7041c6d4aa8e60b
 17343b524f7ef58_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component_a0d7041c6d4aa8e60b1
@@ -2888,7 +2914,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--448
  <./class_diagram_editor_1_1_diagram_1_1_diagram_component_a639d408807d2eb9cc6a
 29c4b66329b02_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component_a639d408807d2eb9cc6a29c
-4b66329b02_icgraph.pdf, id=5749, 402.50375pt x 124.465pt>
+4b66329b02_icgraph.pdf, id=5747, 402.50375pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component_a639d408807d2eb9cc
 6a29c4b66329b02_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component_a639d408807d2eb9cc6
@@ -2950,7 +2976,7 @@ Underfull \hbox (badness 10000) detected at line 508
  <./class_diagram_editor_1_1_diagram_1_1_diagram_component_a3068ed800086063a62b
 3631d6c877141_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_component_a3068ed800086063a62b363
-1d6c877141_icgraph.pdf, id=5794, 693.59125pt x 275.0275pt>
+1d6c877141_icgraph.pdf, id=5792, 693.59125pt x 275.0275pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_component_a3068ed800086063a6
 2b3631d6c877141_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_component_a3068ed800086063a62
@@ -2966,7 +2992,7 @@ Underfull \hbox (badness 10000) detected at line 534
 [92]) (class_diagram_editor_1_1_specification_1_1_diagram_component.tex <./clas
 s_diagram_editor_1_1_specification_1_1_diagram_component__inherit__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_component__inherit__graph.p
-df, id=5819, 363.3575pt x 875.27pt>
+df, id=5817, 363.3575pt x 875.27pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_component__inherit__gr
 aph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_component__inherit__gra
@@ -2978,7 +3004,7 @@ ponent__inherit__graph.pdf  used on input line 19.
 [93] <./class_diagram_editor_1_1_specification_1_1_diagram_component__coll__gra
 ph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_component__coll__graph.pdf,
- id=5831, 391.4625pt x 814.04124pt>
+ id=5829, 391.4625pt x 814.04124pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_component__coll__graph
 .pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_component__coll__graph.
@@ -3234,7 +3260,7 @@ Underfull \hbox (badness 10000) detected at line 438
 ) (class_diagram_editor_1_1_diagram_1_1_diagram_connection.tex <./class_diagram
 _editor_1_1_diagram_1_1_diagram_connection__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection__inherit__graph.pdf, i
-d=6025, 387.4475pt x 875.27pt>
+d=6023, 387.4475pt x 875.27pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection__inherit__graph.p
 df Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection__inherit__graph.pd
@@ -3245,7 +3271,7 @@ n__inherit__graph.pdf  used on input line 19.
  [103] <./class_diagram_editor_1_1_diagram_1_1_diagram_connection__coll__graph.
 pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection__coll__graph.pdf, id=6
-046, 481.8pt x 1172.38pt>
+044, 481.8pt x 1172.38pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection__coll__graph.pdf 
 Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection__coll__graph.pdf>
@@ -3291,7 +3317,7 @@ Underfull \hbox (badness 10000) detected at line 192
  <./class_diagram_editor_1_1_diagram_1_1_diagram_connection_a24d0bcc479b958e6df
 a4a2c1a602086f_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection_a24d0bcc479b958e6dfa4a
-2c1a602086f_cgraph.pdf, id=6181, 691.58376pt x 199.74625pt>
+2c1a602086f_cgraph.pdf, id=6179, 691.58376pt x 199.74625pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection_a24d0bcc479b958e6
 dfa4a2c1a602086f_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection_a24d0bcc479b958e6d
@@ -3337,14 +3363,14 @@ Underfull \hbox (badness 10000) detected at line 256
  <./class_diagram_editor_1_1_diagram_1_1_diagram_connection_a25528a84db6428e664
 bd24fa7cacfaea_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection_a25528a84db6428e664bd2
-4fa7cacfaea_cgraph.pdf, id=6202, 665.48625pt x 376.40625pt>
+4fa7cacfaea_cgraph.pdf, id=6200, 666.49pt x 414.54875pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection_a25528a84db6428e6
 64bd24fa7cacfaea_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection_a25528a84db6428e66
 4bd24fa7cacfaea_cgraph.pdf>
 Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_connectio
 n_a25528a84db6428e664bd24fa7cacfaea_cgraph.pdf  used on input line 268.
-(pdftex.def)             Requested size: 350.0pt x 197.96658pt.
+(pdftex.def)             Requested size: 350.0pt x 217.69827pt.
  [109]
 Underfull \hbox (badness 10000) detected at line 277
 [][][]
@@ -3363,7 +3389,7 @@ Underfull \hbox (badness 10000) detected at line 288
  <./class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad1801d0414c9e49498
 7d065e086d729b_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad1801d0414c9e494987d0
-65e086d729b_cgraph.pdf, id=6220, 662.475pt x 186.6975pt>
+65e086d729b_cgraph.pdf, id=6218, 662.475pt x 186.6975pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad1801d0414c9e494
 987d065e086d729b_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad1801d0414c9e4949
@@ -3384,7 +3410,7 @@ Underfull \hbox (badness 10000) detected at line 312
  <./class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d89
 653e467fbfb69a_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d89653
-e467fbfb69a_cgraph.pdf, id=6230, 445.665pt x 186.6975pt>
+e467fbfb69a_cgraph.pdf, id=6228, 445.665pt x 186.6975pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d
 89653e467fbfb69a_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d8
@@ -3395,7 +3421,7 @@ n_a30e6658c3b143e5d89653e467fbfb69a_cgraph.pdf  used on input line 324.
  [110] <./class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b14
 3e5d89653e467fbfb69a_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d89653
-e467fbfb69a_icgraph.pdf, id=6245, 438.63875pt x 212.795pt>
+e467fbfb69a_icgraph.pdf, id=6243, 438.63875pt x 212.795pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d
 89653e467fbfb69a_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection_a30e6658c3b143e5d8
@@ -3472,18 +3498,18 @@ Underfull \hbox (badness 10000) detected at line 431
  <./class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad116
 a8ce703c99e268_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad116a8c
-e703c99e268_cgraph.pdf, id=6281, 404.51125pt x 138.5175pt>
+e703c99e268_cgraph.pdf, id=6279, 410.53375pt x 162.6075pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad1
 16a8ce703c99e268_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad11
 6a8ce703c99e268_cgraph.pdf>
 Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_connectio
 n_ad105cbacebacdad116a8ce703c99e268_cgraph.pdf  used on input line 443.
-(pdftex.def)             Requested size: 350.0pt x 119.85402pt.
+(pdftex.def)             Requested size: 350.0pt x 138.62889pt.
  <./class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad116
 a8ce703c99e268_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad116a8c
-e703c99e268_icgraph.pdf, id=6289, 441.65pt x 112.42pt>
+e703c99e268_icgraph.pdf, id=6287, 441.65pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad1
 16a8ce703c99e268_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_connection_ad105cbacebacdad11
@@ -3495,7 +3521,7 @@ n_ad105cbacebacdad116a8ce703c99e268_icgraph.pdf  used on input line 451.
 (class_diagram_editor_1_1_specification_1_1_diagram_connection.tex <./class_dia
 gram_editor_1_1_specification_1_1_diagram_connection__inherit__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_connection__inherit__graph.
-pdf, id=6301, 387.4475pt x 875.27pt>
+pdf, id=6299, 387.4475pt x 875.27pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_connection__inherit__g
 raph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_connection__inherit__gr
@@ -3507,7 +3533,7 @@ nection__inherit__graph.pdf  used on input line 19.
 [113] <./class_diagram_editor_1_1_specification_1_1_diagram_connection__coll__g
 raph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_connection__coll__graph.pdf
-, id=6323, 481.8pt x 1172.38pt>
+, id=6321, 481.8pt x 1172.38pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_connection__coll__grap
 h.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_connection__coll__graph
@@ -3678,7 +3704,7 @@ Underfull \hbox (badness 10000) detected at line 391
 ) (class_diagram_editor_1_1_diagram_1_1_diagram_element.tex [121] <./class_diag
 ram_editor_1_1_diagram_1_1_diagram_element__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_element__inherit__graph.pdf, id=6
-532, 363.3575pt x 778.91pt>
+530, 363.3575pt x 778.91pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_element__inherit__graph.pdf 
 Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_element__inherit__graph.pdf>
@@ -3686,7 +3712,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_element__
 inherit__graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 256.58289pt x 550.0pt.
  <./class_diagram_editor_1_1_diagram_1_1_diagram_element__coll__graph.pdf>
-<class_diagram_editor_1_1_diagram_1_1_diagram_element__coll__graph.pdf, id=6540
+<class_diagram_editor_1_1_diagram_1_1_diagram_element__coll__graph.pdf, id=6538
 , 401.5pt x 1076.02pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_element__coll__graph.pdf Gra
 phic file (type pdf)
@@ -3707,7 +3733,7 @@ Underfull \hbox (badness 10000) detected at line 146
  <./class_diagram_editor_1_1_diagram_1_1_diagram_element_a02d3d098332dc4f278a3e
 5166bc60725_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_element_a02d3d098332dc4f278a3e516
-6bc60725_cgraph.pdf, id=6654, 412.54124pt x 124.465pt>
+6bc60725_cgraph.pdf, id=6652, 412.54124pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_element_a02d3d098332dc4f278a
 3e5166bc60725_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_element_a02d3d098332dc4f278a3
@@ -3753,14 +3779,14 @@ Underfull \hbox (badness 10000) detected at line 212
  <./class_diagram_editor_1_1_diagram_1_1_diagram_element_ae80718b4ca26a058c1054
 1effc31bb7f_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_element_ae80718b4ca26a058c10541ef
-fc31bb7f_cgraph.pdf, id=6676, 591.20876pt x 263.98625pt>
+fc31bb7f_cgraph.pdf, id=6674, 613.29124pt x 288.07625pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_element_ae80718b4ca26a058c10
 541effc31bb7f_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_element_ae80718b4ca26a058c105
 41effc31bb7f_cgraph.pdf>
 Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_element_a
 e80718b4ca26a058c10541effc31bb7f_cgraph.pdf  used on input line 224.
-(pdftex.def)             Requested size: 350.0pt x 156.28627pt.
+(pdftex.def)             Requested size: 350.0pt x 164.40295pt.
  [126]
 Underfull \hbox (badness 10000) detected at line 233
 [][][]
@@ -3774,7 +3800,7 @@ Underfull \hbox (badness 10000) detected at line 236
  <./class_diagram_editor_1_1_diagram_1_1_diagram_element_a6e2414c45e56e6c578e30
 73a69a00f13_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_element_a6e2414c45e56e6c578e3073a
-69a00f13_cgraph.pdf, id=6692, 431.6125pt x 186.6975pt>
+69a00f13_cgraph.pdf, id=6690, 431.6125pt x 186.6975pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_element_a6e2414c45e56e6c578e
 3073a69a00f13_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_element_a6e2414c45e56e6c578e3
@@ -3851,18 +3877,18 @@ Underfull \hbox (badness 10000) detected at line 347
  <./class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7c7
 c3bcc1d8ba5_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7c7c3b
-cc1d8ba5_cgraph.pdf, id=6735, 388.45125pt x 138.5175pt>
+cc1d8ba5_cgraph.pdf, id=6733, 397.485pt x 162.6075pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7
 c7c3bcc1d8ba5_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7c
 7c3bcc1d8ba5_cgraph.pdf>
 Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_element_a
 dae24f3804f949d5af7c7c3bcc1d8ba5_cgraph.pdf  used on input line 359.
-(pdftex.def)             Requested size: 350.0pt x 124.8083pt.
+(pdftex.def)             Requested size: 350.0pt x 143.18684pt.
  <./class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7c7
 c3bcc1d8ba5_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7c7c3b
-cc1d8ba5_icgraph.pdf, id=6743, 414.54875pt x 112.42pt>
+cc1d8ba5_icgraph.pdf, id=6741, 414.54875pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7
 c7c3bcc1d8ba5_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_element_adae24f3804f949d5af7c
@@ -3874,7 +3900,7 @@ dae24f3804f949d5af7c7c3bcc1d8ba5_icgraph.pdf  used on input line 367.
 (class_diagram_editor_1_1_specification_1_1_diagram_element.tex <./class_diagra
 m_editor_1_1_specification_1_1_diagram_element__inherit__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_element__inherit__graph.pdf
-, id=6755, 363.3575pt x 778.91pt>
+, id=6753, 363.3575pt x 778.91pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_element__inherit__grap
 h.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_element__inherit__graph
@@ -3885,7 +3911,7 @@ ment__inherit__graph.pdf  used on input line 19.
  [130] <./class_diagram_editor_1_1_specification_1_1_diagram_element__coll__gra
 ph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_element__coll__graph.pdf, i
-d=6770, 401.5pt x 1076.02pt>
+d=6768, 401.5pt x 1076.02pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_element__coll__graph.p
 df Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_element__coll__graph.pd
@@ -4016,7 +4042,7 @@ Underfull \hbox (badness 10000) detected at line 323
 
 ) (class_diagram_editor_1_1_diagram_1_1_diagram_item.tex [137] <./class_diagram
 _editor_1_1_diagram_1_1_diagram_item__inherit__graph.pdf>
-<class_diagram_editor_1_1_diagram_1_1_diagram_item__inherit__graph.pdf, id=6951
+<class_diagram_editor_1_1_diagram_1_1_diagram_item__inherit__graph.pdf, id=6949
 , 391.4625pt x 485.815pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item__inherit__graph.pdf Gra
 phic file (type pdf)
@@ -4025,7 +4051,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_item__inh
 erit__graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 350.0pt x 434.38289pt.
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item__coll__graph.pdf>
-<class_diagram_editor_1_1_diagram_1_1_diagram_item__coll__graph.pdf, id=6966, 3
+<class_diagram_editor_1_1_diagram_1_1_diagram_item__coll__graph.pdf, id=6964, 3
 91.4625pt x 485.815pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item__coll__graph.pdf Graphi
 c file (type pdf)
@@ -4121,7 +4147,7 @@ Underfull \hbox (badness 10000) detected at line 216
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a1acee839ac08e499df16efb7
 74a8b001_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a1acee839ac08e499df16efb774a
-8b001_icgraph.pdf, id=7106, 391.4625pt x 124.465pt>
+8b001_icgraph.pdf, id=7104, 391.4625pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a1acee839ac08e499df16ef
 b774a8b001_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a1acee839ac08e499df16efb
@@ -4157,7 +4183,7 @@ Underfull \hbox (badness 10000) detected at line 251
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a17e1999faa60a3a7769ffb6d
 17ac7a41_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a17e1999faa60a3a7769ffb6d17a
-c7a41_icgraph.pdf, id=7121, 576.1525pt x 112.42pt>
+c7a41_icgraph.pdf, id=7119, 576.1525pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a17e1999faa60a3a7769ffb
 6d17ac7a41_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a17e1999faa60a3a7769ffb6
@@ -4193,7 +4219,7 @@ Underfull \hbox (badness 10000) detected at line 293
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a01aeec34faf15083fd844141
 f0813417_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a01aeec34faf15083fd844141f08
-13417_icgraph.pdf, id=7129, 359.3425pt x 112.42pt>
+13417_icgraph.pdf, id=7127, 359.3425pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a01aeec34faf15083fd8441
 41f0813417_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a01aeec34faf15083fd84414
@@ -4214,7 +4240,7 @@ Underfull \hbox (badness 10000) detected at line 318
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560aa4
 9c5acbb2_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560aa49c5
-acbb2_cgraph.pdf, id=7146, 411.5375pt x 112.42pt>
+acbb2_cgraph.pdf, id=7144, 411.5375pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560a
 a49c5acbb2_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560aa
@@ -4225,7 +4251,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d5
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560aa4
 9c5acbb2_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560aa49c5
-acbb2_icgraph.pdf, id=7154, 394.47375pt x 112.42pt>
+acbb2_icgraph.pdf, id=7152, 394.47375pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560a
 a49c5acbb2_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a7d541cbdfd17004162560aa
@@ -4261,7 +4287,7 @@ Underfull \hbox (badness 10000) detected at line 377
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a56b9719d5322b631e1758c19
 c3c85694_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a56b9719d5322b631e1758c19c3c
-85694_icgraph.pdf, id=7178, 429.605pt x 112.42pt>
+85694_icgraph.pdf, id=7176, 429.605pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a56b9719d5322b631e1758c
 19c3c85694_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a56b9719d5322b631e1758c1
@@ -4282,7 +4308,7 @@ Underfull \hbox (badness 10000) detected at line 402
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_af6261ebe6e6c01c8e21109b7
 b84bce51_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_af6261ebe6e6c01c8e21109b7b84
-bce51_icgraph.pdf, id=7186, 394.47375pt x 112.42pt>
+bce51_icgraph.pdf, id=7184, 394.47375pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_af6261ebe6e6c01c8e21109
 b7b84bce51_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_af6261ebe6e6c01c8e21109b
@@ -4303,7 +4329,7 @@ Underfull \hbox (badness 10000) detected at line 427
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a21c19f9a2592ce0d27076cf2
 0995d558_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a21c19f9a2592ce0d27076cf2099
-5d558_icgraph.pdf, id=7204, 416.55624pt x 112.42pt>
+5d558_icgraph.pdf, id=7202, 416.55624pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a21c19f9a2592ce0d27076c
 f20995d558_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a21c19f9a2592ce0d27076cf
@@ -4329,7 +4355,7 @@ Underfull \hbox (badness 10000) detected at line 450
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a2fbe028bc5ec4dbbd848b661
 b5f61a6b_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a2fbe028bc5ec4dbbd848b661b5f
-61a6b_cgraph.pdf, id=7222, 683.55376pt x 212.795pt>
+61a6b_cgraph.pdf, id=7220, 683.55376pt x 212.795pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a2fbe028bc5ec4dbbd848b6
 61b5f61a6b_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a2fbe028bc5ec4dbbd848b66
@@ -4355,7 +4381,7 @@ Underfull \hbox (badness 10000) detected at line 473
  <./class_diagram_editor_1_1_diagram_1_1_diagram_item_a7b5c5363981fd10cc0e9bc3e
 67391adc_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_item_a7b5c5363981fd10cc0e9bc3e673
-91adc_cgraph.pdf, id=7232, 359.3425pt x 112.42pt>
+91adc_cgraph.pdf, id=7230, 359.3425pt x 112.42pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_item_a7b5c5363981fd10cc0e9bc
 3e67391adc_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_item_a7b5c5363981fd10cc0e9bc3
@@ -4375,7 +4401,7 @@ Underfull \hbox (badness 10000) detected at line 497
 
 ) (class_diagram_editor_1_1_gui_1_1_diagram_item.tex <./class_diagram_editor_1_
 1_gui_1_1_diagram_item__inherit__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_diagram_item__inherit__graph.pdf, id=7251, 39
+<class_diagram_editor_1_1_gui_1_1_diagram_item__inherit__graph.pdf, id=7249, 39
 1.4625pt x 485.815pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_item__inherit__graph.pdf Graphic
  file (type pdf)
@@ -4384,7 +4410,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_diagram_item__inherit
 __graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 350.0pt x 434.38289pt.
  [150] <./class_diagram_editor_1_1_gui_1_1_diagram_item__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_diagram_item__coll__graph.pdf, id=7270, 391.4
+<class_diagram_editor_1_1_gui_1_1_diagram_item__coll__graph.pdf, id=7268, 391.4
 625pt x 485.815pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_item__coll__graph.pdf Graphic fi
 le (type pdf)
@@ -4625,7 +4651,7 @@ Underfull \hbox (badness 10000) detected at line 417
 ) (class_diagram_editor_1_1_diagram_1_1_diagram_resizer.tex <./class_diagram_ed
 itor_1_1_diagram_1_1_diagram_resizer__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer__inherit__graph.pdf, id=7
-458, 238.8925pt x 622.325pt>
+456, 238.8925pt x 622.325pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer__inherit__graph.pdf 
 Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer__inherit__graph.pdf>
@@ -4634,7 +4660,7 @@ inherit__graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 211.13005pt x 550.0pt.
  [160] <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer__coll__graph.pdf
 >
-<class_diagram_editor_1_1_diagram_1_1_diagram_resizer__coll__graph.pdf, id=7477
+<class_diagram_editor_1_1_diagram_1_1_diagram_resizer__coll__graph.pdf, id=7475
 , 398.48875pt x 1093.08376pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer__coll__graph.pdf Gra
 phic file (type pdf)
@@ -4655,7 +4681,7 @@ Underfull \hbox (badness 10000) detected at line 99
  <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf117
 bbbc0bda18e_cgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf117bbb
-c0bda18e_cgraph.pdf, id=7529, 442.65375pt x 186.6975pt>
+c0bda18e_cgraph.pdf, id=7527, 442.65375pt x 186.6975pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf1
 17bbbc0bda18e_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf11
@@ -4666,7 +4692,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a
  [163] <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d81
 4cf117bbbc0bda18e_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf117bbb
-c0bda18e_icgraph.pdf, id=7552, 407.5225pt x 124.465pt>
+c0bda18e_icgraph.pdf, id=7550, 407.5225pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf1
 17bbbc0bda18e_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8621746e0fe6d814cf11
@@ -4687,7 +4713,7 @@ Underfull \hbox (badness 10000) detected at line 139
  <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a910204e46bf037230800b
 fbdc838c3ae_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a910204e46bf037230800bfbd
-c838c3ae_icgraph.pdf, id=7560, 389.455pt x 124.465pt>
+c838c3ae_icgraph.pdf, id=7558, 389.455pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a910204e46bf03723080
 0bfbdc838c3ae_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a910204e46bf037230800
@@ -4708,7 +4734,7 @@ Underfull \hbox (badness 10000) detected at line 164
  <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_adc11e9abb4336b662807b
 70a7f7cbe73_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_adc11e9abb4336b662807b70a
-7f7cbe73_icgraph.pdf, id=7577, 415.5525pt x 124.465pt>
+7f7cbe73_icgraph.pdf, id=7575, 415.5525pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_adc11e9abb4336b66280
 7b70a7f7cbe73_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_adc11e9abb4336b662807
@@ -4739,7 +4765,7 @@ Underfull \hbox (badness 10000) detected at line 206
  <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_aafa1a51d4ed774f0542a3
 51e46649675_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_aafa1a51d4ed774f0542a351e
-46649675_icgraph.pdf, id=7593, 427.5975pt x 124.465pt>
+46649675_icgraph.pdf, id=7591, 427.5975pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_aafa1a51d4ed774f0542
 a351e46649675_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_aafa1a51d4ed774f0542a
@@ -4765,7 +4791,7 @@ Underfull \hbox (badness 10000) detected at line 229
  <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_af96f27499e1bb5f9ebc8b
 3aec774999a_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_af96f27499e1bb5f9ebc8b3ae
-c774999a_icgraph.pdf, id=7609, 409.53pt x 186.6975pt>
+c774999a_icgraph.pdf, id=7607, 409.53pt x 186.6975pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_af96f27499e1bb5f9ebc
 8b3aec774999a_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_af96f27499e1bb5f9ebc8
@@ -4786,7 +4812,7 @@ Underfull \hbox (badness 10000) detected at line 254
  <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8bd6ef308de1dab74e0ea
 e0bf1f8fb8d_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8bd6ef308de1dab74e0eae0b
-f1f8fb8d_icgraph.pdf, id=7617, 682.55pt x 296.10625pt>
+f1f8fb8d_icgraph.pdf, id=7615, 682.55pt x 296.10625pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8bd6ef308de1dab74e0
 eae0bf1f8fb8d_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_a8bd6ef308de1dab74e0e
@@ -4813,7 +4839,7 @@ Underfull \hbox (badness 10000) detected at line 274
  <./class_diagram_editor_1_1_diagram_1_1_diagram_resizer_ada3e2063d6bb80cc33f2a
 baa2ddca299_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_diagram_resizer_ada3e2063d6bb80cc33f2abaa
-2ddca299_icgraph.pdf, id=7632, 600.2425pt x 248.93pt>
+2ddca299_icgraph.pdf, id=7630, 600.2425pt x 248.93pt>
 File: class_diagram_editor_1_1_diagram_1_1_diagram_resizer_ada3e2063d6bb80cc33f
 2abaa2ddca299_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_diagram_resizer_ada3e2063d6bb80cc33f2
@@ -4830,7 +4856,7 @@ Underfull \hbox (badness 10000) detected at line 300
 s_diagram_editor_1_1_specification_1_1_diagram_specification__inherit__graph.pd
 f>
 <class_diagram_editor_1_1_specification_1_1_diagram_specification__inherit__gra
-ph.pdf, id=7654, 668.4975pt x 570.13pt>
+ph.pdf, id=7652, 668.4975pt x 570.13pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_specification__inherit
 __graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_specification__inherit_
@@ -4841,7 +4867,7 @@ cification__inherit__graph.pdf  used on input line 19.
  <./class_diagram_editor_1_1_specification_1_1_diagram_specification__coll__gra
 ph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_specification__coll__graph.
-pdf, id=7669, 321.2pt x 421.575pt>
+pdf, id=7667, 321.2pt x 421.575pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_specification__coll__g
 raph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_specification__coll__gr
@@ -4862,7 +4888,7 @@ Underfull \hbox (badness 10000) detected at line 96
  <./class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754c5
 603c800e3859d9cf617a328_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754c5603
-c800e3859d9cf617a328_icgraph.pdf, id=7732, 503.8825pt x 299.1175pt>
+c800e3859d9cf617a328_icgraph.pdf, id=7730, 503.8825pt x 299.1175pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754
 c5603c800e3859d9cf617a328_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_specification_a209e754c
@@ -4929,7 +4955,7 @@ Overfull \hbox (37.6781pt too wide) in paragraph at lines 190--191
  <./class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138a7
 983bae50e3c925a5e662442_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138a7983
-bae50e3c925a5e662442_icgraph.pdf, id=7773, 659.46375pt x 261.97874pt>
+bae50e3c925a5e662442_icgraph.pdf, id=7771, 659.46375pt x 261.97874pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138
 a7983bae50e3c925a5e662442_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_specification_a8505138a
@@ -4997,7 +5023,7 @@ Overfull \hbox (37.6781pt too wide) in paragraph at lines 251--252
  <./class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9c9
 77387ee7818d22b020ee03f_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9c9773
-87ee7818d22b020ee03f_icgraph.pdf, id=7805, 410.53375pt x 174.6525pt>
+87ee7818d22b020ee03f_icgraph.pdf, id=7803, 410.53375pt x 174.6525pt>
 File: class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9
 c977387ee7818d22b020ee03f_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_diagram_specification_a3d184b9c
@@ -5009,7 +5035,7 @@ cification_a3d184b9c977387ee7818d22b020ee03f_icgraph.pdf  used on input line 25
 )
 (class_diagram_editor_1_1_gui_1_1_diagram_type.tex <./class_diagram_editor_1_1_
 gui_1_1_diagram_type__inherit__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_diagram_type__inherit__graph.pdf, id=7817, 21
+<class_diagram_editor_1_1_gui_1_1_diagram_type__inherit__graph.pdf, id=7815, 21
 0.7875pt x 309.155pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_type__inherit__graph.pdf Graphic
  file (type pdf)
@@ -5018,7 +5044,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_diagram_type__inherit
 __graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 210.0pt x 308.00792pt.
  [175] <./class_diagram_editor_1_1_gui_1_1_diagram_type__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_diagram_type__coll__graph.pdf, id=7841, 210.7
+<class_diagram_editor_1_1_gui_1_1_diagram_type__coll__graph.pdf, id=7839, 210.7
 875pt x 309.155pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_type__coll__graph.pdf Graphic fi
 le (type pdf)
@@ -5044,7 +5070,7 @@ Underfull \hbox (badness 10000) detected at line 78
  <./class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432fb
 1476_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432fb147
-6_icgraph.pdf, id=7893, 415.5525pt x 112.42pt>
+6_icgraph.pdf, id=7891, 415.5525pt x 112.42pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432
 fb1476_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_diagram_type_aa6ef6a8541f7b9f6b29af73432f
@@ -5065,7 +5091,7 @@ Underfull \hbox (badness 10000) detected at line 103
  <./class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e1
 3e25_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e13e2
-5_icgraph.pdf, id=7903, 420.57124pt x 112.42pt>
+5_icgraph.pdf, id=7901, 420.57124pt x 112.42pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1
 e13e25_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_diagram_type_a545eb50ae67982021bba50ebd1e
@@ -5077,7 +5103,7 @@ ae67982021bba50ebd1e13e25_icgraph.pdf  used on input line 115.
 (class_diagram_editor_1_1_gui_1_1_diagram_type_group.tex <./class_diagram_edito
 r_1_1_gui_1_1_diagram_type_group__inherit__graph.pdf>
 <class_diagram_editor_1_1_gui_1_1_diagram_type_group__inherit__graph.pdf, id=79
-23, 210.7875pt x 309.155pt>
+21, 210.7875pt x 309.155pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_type_group__inherit__graph.pdf G
 raphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_diagram_type_group__inherit__graph.pdf>
@@ -5085,7 +5111,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_diagram_type_group__i
 nherit__graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 210.0pt x 308.00792pt.
  <./class_diagram_editor_1_1_gui_1_1_diagram_type_group__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_diagram_type_group__coll__graph.pdf, id=7938,
+<class_diagram_editor_1_1_gui_1_1_diagram_type_group__coll__graph.pdf, id=7936,
  210.7875pt x 309.155pt>
 File: class_diagram_editor_1_1_gui_1_1_diagram_type_group__coll__graph.pdf Grap
 hic file (type pdf)
@@ -5121,7 +5147,7 @@ Underfull \hbox (badness 10000) detected at line 89
 ) (class_diagram_editor_1_1_diagram_1_1_element_specifications.tex <./class_dia
 gram_editor_1_1_diagram_1_1_element_specifications__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_element_specifications__inherit__graph.pd
-f, id=7993, 291.0875pt x 666.49pt>
+f, id=7991, 291.0875pt x 666.49pt>
 File: class_diagram_editor_1_1_diagram_1_1_element_specifications__inherit__gra
 ph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_element_specifications__inherit__grap
@@ -5133,7 +5159,7 @@ tions__inherit__graph.pdf  used on input line 19.
 [181] <./class_diagram_editor_1_1_diagram_1_1_element_specifications__coll__gra
 ph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_element_specifications__coll__graph.pdf, 
-id=8014, 457.71pt x 1290.8225pt>
+id=8012, 457.71pt x 1290.8225pt>
 File: class_diagram_editor_1_1_diagram_1_1_element_specifications__coll__graph.
 pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_element_specifications__coll__graph.p
@@ -5199,7 +5225,7 @@ Underfull \hbox (badness 10000) detected at line 253
  <./class_diagram_editor_1_1_diagram_1_1_element_specifications_ae9207a7616f1b9
 032f3d64a76507506b_icgraph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_element_specifications_ae9207a7616f1b9032
-f3d64a76507506b_icgraph.pdf, id=8179, 412.54124pt x 124.465pt>
+f3d64a76507506b_icgraph.pdf, id=8177, 412.54124pt x 124.465pt>
 File: class_diagram_editor_1_1_diagram_1_1_element_specifications_ae9207a7616f1
 b9032f3d64a76507506b_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_element_specifications_ae9207a7616f1b
@@ -5241,7 +5267,7 @@ Underfull \hbox (badness 10000) detected at line 292
 ss_diagram_editor_1_1_specification_1_1_element_specifications__inherit__graph.
 pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications__inherit__gr
-aph.pdf, id=8207, 291.0875pt x 666.49pt>
+aph.pdf, id=8205, 291.0875pt x 666.49pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications__inheri
 t__graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications__inherit
@@ -5252,7 +5278,7 @@ cifications__inherit__graph.pdf  used on input line 19.
  [188] <./class_diagram_editor_1_1_specification_1_1_element_specifications__co
 ll__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications__coll__graph
-.pdf, id=8228, 457.71pt x 1290.8225pt>
+.pdf, id=8226, 457.71pt x 1290.8225pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications__coll__
 graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications__coll__g
@@ -5273,7 +5299,7 @@ Underfull \hbox (badness 10000) detected at line 172
  <./class_diagram_editor_1_1_specification_1_1_element_specifications_ae0de7081
 b74704424f70bdfb90cd7748_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications_ae0de7081b74
-704424f70bdfb90cd7748_cgraph.pdf, id=8342, 461.725pt x 124.465pt>
+704424f70bdfb90cd7748_cgraph.pdf, id=8340, 461.725pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications_ae0de70
 81b74704424f70bdfb90cd7748_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications_ae0de708
@@ -5295,7 +5321,7 @@ Underfull \hbox (badness 10000) detected at line 204
  <./class_diagram_editor_1_1_specification_1_1_element_specifications_a74f8906b
 7452bae9d257f66693549859_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications_a74f8906b745
-2bae9d257f66693549859_cgraph.pdf, id=8365, 620.3175pt x 299.1175pt>
+2bae9d257f66693549859_cgraph.pdf, id=8363, 620.3175pt x 299.1175pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications_a74f890
 6b7452bae9d257f66693549859_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications_a74f8906
@@ -5317,7 +5343,7 @@ Underfull \hbox (badness 10000) detected at line 233
  <./class_diagram_editor_1_1_specification_1_1_element_specifications_a9bf6251e
 b33d2194301110ee36aba599_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications_a9bf6251eb33
-d2194301110ee36aba599_cgraph.pdf, id=8383, 879.285pt x 365.365pt>
+d2194301110ee36aba599_cgraph.pdf, id=8381, 879.285pt x 365.365pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications_a9bf625
 1eb33d2194301110ee36aba599_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications_a9bf6251
@@ -5344,7 +5370,7 @@ Underfull \hbox (badness 10000) detected at line 260
  <./class_diagram_editor_1_1_specification_1_1_element_specifications_a2d22a15a
 f20407ff35d4823ea77d6fd7_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications_a2d22a15af20
-407ff35d4823ea77d6fd7_icgraph.pdf, id=8391, 401.5pt x 186.6975pt>
+407ff35d4823ea77d6fd7_icgraph.pdf, id=8389, 401.5pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications_a2d22a1
 5af20407ff35d4823ea77d6fd7_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications_a2d22a15
@@ -5366,7 +5392,7 @@ Underfull \hbox (badness 10000) detected at line 285
  <./class_diagram_editor_1_1_specification_1_1_element_specifications_ae9207a76
 16f1b9032f3d64a76507506b_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications_ae9207a7616f
-1b9032f3d64a76507506b_icgraph.pdf, id=8406, 398.48875pt x 186.6975pt>
+1b9032f3d64a76507506b_icgraph.pdf, id=8404, 398.48875pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications_ae9207a
 7616f1b9032f3d64a76507506b_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications_ae9207a7
@@ -5399,7 +5425,7 @@ Underfull \hbox (badness 10000) detected at line 308
  <./class_diagram_editor_1_1_specification_1_1_element_specifications_acafeefeb
 2d26403d75b4ab18551eeba0_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications_acafeefeb2d2
-6403d75b4ab18551eeba0_cgraph.pdf, id=8424, 642.4pt x 124.465pt>
+6403d75b4ab18551eeba0_cgraph.pdf, id=8422, 642.4pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications_acafeef
 eb2d26403d75b4ab18551eeba0_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications_acafeefe
@@ -5421,7 +5447,7 @@ Underfull \hbox (badness 10000) detected at line 332
  <./class_diagram_editor_1_1_specification_1_1_element_specifications_a55d5ea12
 5bc26d26ef54903e77dd0381_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_element_specifications_a55d5ea125bc
-26d26ef54903e77dd0381_icgraph.pdf, id=8432, 398.48875pt x 186.6975pt>
+26d26ef54903e77dd0381_icgraph.pdf, id=8430, 398.48875pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_element_specifications_a55d5ea
 125bc26d26ef54903e77dd0381_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_element_specifications_a55d5ea1
@@ -5433,7 +5459,7 @@ cifications_a55d5ea125bc26d26ef54903e77dd0381_icgraph.pdf  used on input line 3
 )
 (class_diagram_editor_1_1_gui_1_1_json_file.tex [196] <./class_diagram_editor_1
 _1_gui_1_1_json_file__inherit__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_json_file__inherit__graph.pdf, id=8451, 171.6
+<class_diagram_editor_1_1_gui_1_1_json_file__inherit__graph.pdf, id=8449, 171.6
 4125pt x 297.11pt>
 File: class_diagram_editor_1_1_gui_1_1_json_file__inherit__graph.pdf Graphic fi
 le (type pdf)
@@ -5442,7 +5468,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_json_file__inherit__g
 raph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 171.0pt x 295.99855pt.
  <./class_diagram_editor_1_1_gui_1_1_json_file__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_json_file__coll__graph.pdf, id=8466, 171.6412
+<class_diagram_editor_1_1_gui_1_1_json_file__coll__graph.pdf, id=8464, 171.6412
 5pt x 297.11pt>
 File: class_diagram_editor_1_1_gui_1_1_json_file__coll__graph.pdf Graphic file 
 (type pdf)
@@ -5518,7 +5544,7 @@ Underfull \hbox (badness 10000) detected at line 149
 ) (class_diagram_editor_1_1_serialization_1_1_json_file.tex <./class_diagram_ed
 itor_1_1_serialization_1_1_json_file__inherit__graph.pdf>
 <class_diagram_editor_1_1_serialization_1_1_json_file__inherit__graph.pdf, id=8
-540, 210.7875pt x 297.11pt>
+538, 210.7875pt x 297.11pt>
 File: class_diagram_editor_1_1_serialization_1_1_json_file__inherit__graph.pdf 
 Graphic file (type pdf)
 <use class_diagram_editor_1_1_serialization_1_1_json_file__inherit__graph.pdf>
@@ -5527,7 +5553,7 @@ inherit__graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 210.0pt x 296.00761pt.
  [200] <./class_diagram_editor_1_1_serialization_1_1_json_file__coll__graph.pdf
 >
-<class_diagram_editor_1_1_serialization_1_1_json_file__coll__graph.pdf, id=8561
+<class_diagram_editor_1_1_serialization_1_1_json_file__coll__graph.pdf, id=8559
 , 210.7875pt x 297.11pt>
 File: class_diagram_editor_1_1_serialization_1_1_json_file__coll__graph.pdf Gra
 phic file (type pdf)
@@ -5601,14 +5627,14 @@ Underfull \hbox (badness 10000) detected at line 149
  []
 
 ) (class_json_file.tex <./class_json_file__inherit__graph.pdf>
-<class_json_file__inherit__graph.pdf, id=8615, 157.58875pt x 285.065pt>
+<class_json_file__inherit__graph.pdf, id=8613, 157.58875pt x 285.065pt>
 File: class_json_file__inherit__graph.pdf Graphic file (type pdf)
 <use class_json_file__inherit__graph.pdf>
 Package pdftex.def Info: class_json_file__inherit__graph.pdf  used on input lin
 e 19.
 (pdftex.def)             Requested size: 157.0pt x 284.016pt.
  [204] <./class_json_file__coll__graph.pdf>
-<class_json_file__coll__graph.pdf, id=8635, 157.58875pt x 285.065pt>
+<class_json_file__coll__graph.pdf, id=8633, 157.58875pt x 285.065pt>
 File: class_json_file__coll__graph.pdf Graphic file (type pdf)
 <use class_json_file__coll__graph.pdf>
 Package pdftex.def Info: class_json_file__coll__graph.pdf  used on input line 2
@@ -5682,7 +5708,7 @@ Underfull \hbox (badness 10000) detected at line 149
 ) (class_diagram_editor_1_1_gui_1_1_json_serializable.tex <./class_diagram_edit
 or_1_1_gui_1_1_json_serializable__inherit__graph.pdf>
 <class_diagram_editor_1_1_gui_1_1_json_serializable__inherit__graph.pdf, id=870
-5, 1654.18pt x 875.27pt>
+3, 1654.18pt x 875.27pt>
 File: class_diagram_editor_1_1_gui_1_1_json_serializable__inherit__graph.pdf Gr
 aphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_json_serializable__inherit__graph.pdf>
@@ -5690,7 +5716,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_json_serializable__in
 herit__graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 350.0pt x 185.18774pt.
  [208] <./class_diagram_editor_1_1_gui_1_1_json_serializable__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_json_serializable__coll__graph.pdf, id=8725, 
+<class_diagram_editor_1_1_gui_1_1_json_serializable__coll__graph.pdf, id=8723, 
 191.71625pt x 192.72pt>
 File: class_diagram_editor_1_1_gui_1_1_json_serializable__coll__graph.pdf Graph
 ic file (type pdf)
@@ -5751,7 +5777,7 @@ Underfull \hbox (badness 10000) detected at line 127
 ) (class_diagram_editor_1_1_serialization_1_1_json_serializable.tex <./class_di
 agram_editor_1_1_serialization_1_1_json_serializable__inherit__graph.pdf>
 <class_diagram_editor_1_1_serialization_1_1_json_serializable__inherit__graph.p
-df, id=8781, 1654.18pt x 875.27pt>
+df, id=8779, 1654.18pt x 875.27pt>
 File: class_diagram_editor_1_1_serialization_1_1_json_serializable__inherit__gr
 aph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_serialization_1_1_json_serializable__inherit__gra
@@ -5763,7 +5789,7 @@ izable__inherit__graph.pdf  used on input line 19.
 [211] <./class_diagram_editor_1_1_serialization_1_1_json_serializable__coll__gr
 aph.pdf>
 <class_diagram_editor_1_1_serialization_1_1_json_serializable__coll__graph.pdf,
- id=8802, 210.7875pt x 192.72pt>
+ id=8800, 210.7875pt x 192.72pt>
 File: class_diagram_editor_1_1_serialization_1_1_json_serializable__coll__graph
 .pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_serialization_1_1_json_serializable__coll__graph.
@@ -5869,7 +5895,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 ) (class_diagram_editor_1_1_specification_1_1_list_specification.tex <./class_d
 iagram_editor_1_1_specification_1_1_list_specification__inherit__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_list_specification__inherit__graph.
-pdf, id=8920, 321.2pt x 570.13pt>
+pdf, id=8918, 321.2pt x 570.13pt>
 File: class_diagram_editor_1_1_specification_1_1_list_specification__inherit__g
 raph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_list_specification__inherit__gr
@@ -5881,7 +5907,7 @@ ication__inherit__graph.pdf  used on input line 19.
 [214] <./class_diagram_editor_1_1_specification_1_1_list_specification__coll__g
 raph.pdf>
 <class_diagram_editor_1_1_specification_1_1_list_specification__coll__graph.pdf
-, id=8941, 321.2pt x 570.13pt>
+, id=8939, 321.2pt x 570.13pt>
 File: class_diagram_editor_1_1_specification_1_1_list_specification__coll__grap
 h.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_list_specification__coll__graph
@@ -5902,7 +5928,7 @@ Underfull \hbox (badness 10000) detected at line 105
  <./class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204d8
 b996ebf4b1a5bc780277_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204d8b99
-6ebf4b1a5bc780277_cgraph.pdf, id=9016, 503.8825pt x 112.42pt>
+6ebf4b1a5bc780277_cgraph.pdf, id=9014, 503.8825pt x 112.42pt>
 File: class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204
 d8b996ebf4b1a5bc780277_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_list_specification_aa4e5588204d
@@ -5938,7 +5964,7 @@ Underfull \hbox (badness 10000) detected at line 154
  <./class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec3
 63657602b184f6372330_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec3636
-57602b184f6372330_cgraph.pdf, id=9036, 466.74374pt x 112.42pt>
+57602b184f6372330_cgraph.pdf, id=9034, 466.74374pt x 112.42pt>
 File: class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43e
 c363657602b184f6372330_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_list_specification_a8a8df1e43ec
@@ -5970,7 +5996,7 @@ Underfull \hbox (badness 10000) detected at line 181
  <./class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a9750
 d731fe56557d78f593c8_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a9750d73
-1fe56557d78f593c8_cgraph.pdf, id=9046, 410.53375pt x 112.42pt>
+1fe56557d78f593c8_cgraph.pdf, id=9044, 410.53375pt x 112.42pt>
 File: class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a97
 50d731fe56557d78f593c8_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_list_specification_aa054823a975
@@ -5983,7 +6009,7 @@ ication_aa054823a9750d731fe56557d78f593c8_cgraph.pdf  used on input line 193.
 s_diagram_editor_1_1_specification_1_1_long_text_specification__inherit__graph.
 pdf>
 <class_diagram_editor_1_1_specification_1_1_long_text_specification__inherit__g
-raph.pdf, id=9065, 321.2pt x 538.01pt>
+raph.pdf, id=9063, 321.2pt x 538.01pt>
 File: class_diagram_editor_1_1_specification_1_1_long_text_specification__inher
 it__graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_long_text_specification__inheri
@@ -5994,7 +6020,7 @@ pecification__inherit__graph.pdf  used on input line 19.
  [220] <./class_diagram_editor_1_1_specification_1_1_long_text_specification__c
 oll__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_long_text_specification__coll__grap
-h.pdf, id=9086, 321.2pt x 538.01pt>
+h.pdf, id=9084, 321.2pt x 538.01pt>
 File: class_diagram_editor_1_1_specification_1_1_long_text_specification__coll_
 _graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_long_text_specification__coll__
@@ -6015,7 +6041,7 @@ Underfull \hbox (badness 10000) detected at line 99
  <./class_diagram_editor_1_1_specification_1_1_long_text_specification_a8126d7d
 810bf669a50a9424402747e70_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_long_text_specification_a8126d7d810
-bf669a50a9424402747e70_cgraph.pdf, id=9148, 472.76625pt x 124.465pt>
+bf669a50a9424402747e70_cgraph.pdf, id=9146, 472.76625pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_long_text_specification_a8126d
 7d810bf669a50a9424402747e70_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_long_text_specification_a8126d7
@@ -6048,7 +6074,7 @@ Underfull \hbox (badness 10000) detected at line 127
 
 ) (class_diagram_editor_1_1_gui_1_1_main_window.tex <./class_diagram_editor_1_1
 _gui_1_1_main_window__inherit__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_main_window__inherit__graph.pdf, id=9172, 188
+<class_diagram_editor_1_1_gui_1_1_main_window__inherit__graph.pdf, id=9170, 188
 .705pt x 281.05pt>
 File: class_diagram_editor_1_1_gui_1_1_main_window__inherit__graph.pdf Graphic 
 file (type pdf)
@@ -6057,7 +6083,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_main_window__inherit_
 _graph.pdf  used on input line 19.
 (pdftex.def)             Requested size: 188.0pt x 279.99861pt.
  [224] <./class_diagram_editor_1_1_gui_1_1_main_window__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_main_window__coll__graph.pdf, id=9194, 188.70
+<class_diagram_editor_1_1_gui_1_1_main_window__coll__graph.pdf, id=9192, 188.70
 5pt x 281.05pt>
 File: class_diagram_editor_1_1_gui_1_1_main_window__coll__graph.pdf Graphic fil
 e (type pdf)
@@ -6078,7 +6104,7 @@ Underfull \hbox (badness 10000) detected at line 79
  <./class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc1083246
 039_cgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc1083246039
-_cgraph.pdf, id=9220, 221.82875pt x 130.4875pt>
+_cgraph.pdf, id=9218, 221.82875pt x 130.4875pt>
 File: class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc10832
 46039_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc108324
@@ -6089,7 +6115,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b55
  [226] <./class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc1
 083246039_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc1083246039
-_icgraph.pdf, id=9241, 221.82875pt x 130.4875pt>
+_icgraph.pdf, id=9239, 221.82875pt x 130.4875pt>
 File: class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc10832
 46039_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_main_window_a5ce33b553f00f804d1badc108324
@@ -6108,14 +6134,14 @@ Underfull \hbox (badness 10000) detected at line 107
  []
 
 ) (class_main_window.tex <./class_main_window__inherit__graph.pdf>
-<class_main_window__inherit__graph.pdf, id=9253, 188.705pt x 269.005pt>
+<class_main_window__inherit__graph.pdf, id=9251, 188.705pt x 269.005pt>
 File: class_main_window__inherit__graph.pdf Graphic file (type pdf)
 <use class_main_window__inherit__graph.pdf>
 Package pdftex.def Info: class_main_window__inherit__graph.pdf  used on input l
 ine 19.
 (pdftex.def)             Requested size: 188.0pt x 267.99867pt.
  [227] <./class_main_window__coll__graph.pdf>
-<class_main_window__coll__graph.pdf, id=9275, 188.705pt x 269.005pt>
+<class_main_window__coll__graph.pdf, id=9273, 188.705pt x 269.005pt>
 File: class_main_window__coll__graph.pdf Graphic file (type pdf)
 <use class_main_window__coll__graph.pdf>
 Package pdftex.def Info: class_main_window__coll__graph.pdf  used on input line
@@ -6145,7 +6171,7 @@ Underfull \hbox (badness 10000) detected at line 91
 ./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__inherit__g
 raph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__inherit__gr
-aph.pdf, id=9323, 238.8925pt x 297.11pt>
+aph.pdf, id=9321, 238.8925pt x 297.11pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__inheri
 t__graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__inherit
@@ -6156,7 +6182,7 @@ ns_selector__inherit__graph.pdf  used on input line 19.
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__coll__gr
 aph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__coll__graph
-.pdf, id=9338, 238.8925pt x 297.11pt>
+.pdf, id=9336, 238.8925pt x 297.11pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__coll__
 graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector__coll__g
@@ -6180,7 +6206,7 @@ Underfull \hbox (badness 10000) detected at line 78
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7e
 d3957758d823482941a7496f_cgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed39
-57758d823482941a7496f_cgraph.pdf, id=9388, 236.885pt x 142.5325pt>
+57758d823482941a7496f_cgraph.pdf, id=9386, 236.885pt x 142.5325pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb
 7ed3957758d823482941a7496f_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7
@@ -6192,7 +6218,7 @@ ns_selector_a0ee2fb7ed3957758d823482941a7496f_cgraph.pdf  used on input line 86
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7e
 d3957758d823482941a7496f_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7ed39
-57758d823482941a7496f_icgraph.pdf, id=9396, 236.885pt x 142.5325pt>
+57758d823482941a7496f_icgraph.pdf, id=9394, 236.885pt x 142.5325pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb
 7ed3957758d823482941a7496f_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a0ee2fb7
@@ -6225,7 +6251,7 @@ Underfull \hbox (badness 10000) detected at line 139
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab3
 b384342ce024f599bea38294_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab3b38
-4342ce024f599bea38294_icgraph.pdf, id=9413, 372.39125pt x 136.51pt>
+4342ce024f599bea38294_icgraph.pdf, id=9411, 372.39125pt x 136.51pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3ea
 b3b384342ce024f599bea38294_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a52c3eab
@@ -6262,7 +6288,7 @@ Underfull \hbox (badness 10000) detected at line 174
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326
 bf2d06349d8c367eb3a632bb_cgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2
-d06349d8c367eb3a632bb_cgraph.pdf, id=9430, 415.5525pt x 124.465pt>
+d06349d8c367eb3a632bb_cgraph.pdf, id=9428, 415.5525pt x 124.465pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab43
 26bf2d06349d8c367eb3a632bb_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab432
@@ -6274,7 +6300,7 @@ ns_selector_acbab4326bf2d06349d8c367eb3a632bb_cgraph.pdf  used on input line 18
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326
 bf2d06349d8c367eb3a632bb_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab4326bf2
-d06349d8c367eb3a632bb_icgraph.pdf, id=9438, 564.1075pt x 136.51pt>
+d06349d8c367eb3a632bb_icgraph.pdf, id=9436, 564.1075pt x 136.51pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab43
 26bf2d06349d8c367eb3a632bb_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_acbab432
@@ -6297,7 +6323,7 @@ Underfull \hbox (badness 10000) detected at line 207
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84
 dbe7948d8a1c8a5d95590f37_cgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe
-7948d8a1c8a5d95590f37_cgraph.pdf, id=9453, 607.26875pt x 124.465pt>
+7948d8a1c8a5d95590f37_cgraph.pdf, id=9451, 607.26875pt x 124.465pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d
 84dbe7948d8a1c8a5d95590f37_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d8
@@ -6309,7 +6335,7 @@ ns_selector_a46091d84dbe7948d8a1c8a5d95590f37_cgraph.pdf  used on input line 21
  <./class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84
 dbe7948d8a1c8a5d95590f37_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d84dbe
-7948d8a1c8a5d95590f37_icgraph.pdf, id=9461, 372.39125pt x 136.51pt>
+7948d8a1c8a5d95590f37_icgraph.pdf, id=9459, 372.39125pt x 136.51pt>
 File: class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d
 84dbe7948d8a1c8a5d95590f37_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_scrollable_data_buttons_selector_a46091d8
@@ -6322,7 +6348,7 @@ ns_selector_a46091d84dbe7948d8a1c8a5d95590f37_icgraph.pdf  used on input line 2
 (class_diagram_editor_1_1_gui_1_1_selectable_data_button.tex <./class_diagram_e
 ditor_1_1_gui_1_1_selectable_data_button__inherit__graph.pdf>
 <class_diagram_editor_1_1_gui_1_1_selectable_data_button__inherit__graph.pdf, i
-d=9473, 295.1025pt x 373.395pt>
+d=9471, 295.1025pt x 373.395pt>
 File: class_diagram_editor_1_1_gui_1_1_selectable_data_button__inherit__graph.p
 df Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_selectable_data_button__inherit__graph.pd
@@ -6333,7 +6359,7 @@ n__inherit__graph.pdf  used on input line 19.
  [235] <./class_diagram_editor_1_1_gui_1_1_selectable_data_button__coll__graph.
 pdf>
 <class_diagram_editor_1_1_gui_1_1_selectable_data_button__coll__graph.pdf, id=9
-497, 295.1025pt x 373.395pt>
+495, 295.1025pt x 373.395pt>
 File: class_diagram_editor_1_1_gui_1_1_selectable_data_button__coll__graph.pdf 
 Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_selectable_data_button__coll__graph.pdf>
@@ -6354,7 +6380,7 @@ Underfull \hbox (badness 10000) detected at line 90
  <./class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016
 c77432a5cbb81b_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e016c77
-432a5cbb81b_icgraph.pdf, id=9559, 352.31625pt x 186.6975pt>
+432a5cbb81b_icgraph.pdf, id=9557, 352.31625pt x 186.6975pt>
 File: class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e0
 16c77432a5cbb81b_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_selectable_data_button_ab5f4debb8d5578e01
@@ -6380,7 +6406,7 @@ Underfull \hbox (badness 10000) detected at line 118
  <./class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf5
 2bab493bd1d1e1_icgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf52ba
-b493bd1d1e1_icgraph.pdf, id=9578, 742.775pt x 136.51pt>
+b493bd1d1e1_icgraph.pdf, id=9576, 742.775pt x 136.51pt>
 File: class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1b
 f52bab493bd1d1e1_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_selectable_data_button_a75187ef48dea1c1bf
@@ -6406,7 +6432,7 @@ Underfull \hbox (badness 10000) detected at line 141
  <./class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed904
 44b0e38b80fd32_cgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed90444b
-0e38b80fd32_cgraph.pdf, id=9588, 352.31625pt x 124.465pt>
+0e38b80fd32_cgraph.pdf, id=9586, 352.31625pt x 124.465pt>
 File: class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed9
 0444b0e38b80fd32_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_selectable_data_button_a2dc770bf91bffed90
@@ -6449,7 +6475,7 @@ Underfull \hbox (badness 10000) detected at line 185
  <./class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67ccd
 12fac1cdef9024_cgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67ccd12f
-ac1cdef9024_cgraph.pdf, id=9607, 352.31625pt x 124.465pt>
+ac1cdef9024_cgraph.pdf, id=9605, 352.31625pt x 124.465pt>
 File: class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67c
 cd12fac1cdef9024_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_selectable_data_button_a89847494dceee67cc
@@ -6462,7 +6488,7 @@ n_a89847494dceee67ccd12fac1cdef9024_cgraph.pdf  used on input line 193.
 ss_diagram_editor_1_1_specification_1_1_selectable_specification__inherit__grap
 h.pdf>
 <class_diagram_editor_1_1_specification_1_1_selectable_specification__inherit__
-graph.pdf, id=9627, 321.2pt x 570.13pt>
+graph.pdf, id=9625, 321.2pt x 570.13pt>
 File: class_diagram_editor_1_1_specification_1_1_selectable_specification__inhe
 rit__graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_selectable_specification__inher
@@ -6473,7 +6499,7 @@ specification__inherit__graph.pdf  used on input line 19.
  [241] <./class_diagram_editor_1_1_specification_1_1_selectable_specification__
 coll__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_selectable_specification__coll__gra
-ph.pdf, id=9647, 321.2pt x 570.13pt>
+ph.pdf, id=9645, 321.2pt x 570.13pt>
 File: class_diagram_editor_1_1_specification_1_1_selectable_specification__coll
 __graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_selectable_specification__coll_
@@ -6494,7 +6520,7 @@ Underfull \hbox (badness 10000) detected at line 99
  <./class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae00a
 54f9c87170a991923f271fbd41_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae00a54f
-9c87170a991923f271fbd41_cgraph.pdf, id=9719, 472.76625pt x 124.465pt>
+9c87170a991923f271fbd41_cgraph.pdf, id=9717, 472.76625pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae0
 0a54f9c87170a991923f271fbd41_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_selectable_specification_a4ae00
@@ -6537,7 +6563,7 @@ Underfull \hbox (badness 10000) detected at line 148
  <./class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c276
 a4e0df571fc7b5bf900e4b11e1_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c276a4e
-0df571fc7b5bf900e4b11e1_cgraph.pdf, id=9739, 442.65375pt x 124.465pt>
+0df571fc7b5bf900e4b11e1_cgraph.pdf, id=9737, 442.65375pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c2
 76a4e0df571fc7b5bf900e4b11e1_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_selectable_specification_a39c27
@@ -6564,7 +6590,7 @@ Underfull \hbox (badness 10000) detected at line 175
  <./class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c2
 f2c4edaf84a7df93d5791edf91_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c2f2c
-4edaf84a7df93d5791edf91_cgraph.pdf, id=9749, 410.53375pt x 124.465pt>
+4edaf84a7df93d5791edf91_cgraph.pdf, id=9747, 410.53375pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000
 c2f2c4edaf84a7df93d5791edf91_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_selectable_specification_a3000c
@@ -6578,7 +6604,7 @@ specification_a3000c2f2c4edaf84a7df93d5791edf91_cgraph.pdf  used on input line
 ss_diagram_editor_1_1_specification_1_1_short_text_specification__inherit__grap
 h.pdf>
 <class_diagram_editor_1_1_specification_1_1_short_text_specification__inherit__
-graph.pdf, id=9768, 321.2pt x 538.01pt>
+graph.pdf, id=9766, 321.2pt x 538.01pt>
 File: class_diagram_editor_1_1_specification_1_1_short_text_specification__inhe
 rit__graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_short_text_specification__inher
@@ -6589,7 +6615,7 @@ specification__inherit__graph.pdf  used on input line 19.
  [247] <./class_diagram_editor_1_1_specification_1_1_short_text_specification__
 coll__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_short_text_specification__coll__gra
-ph.pdf, id=9790, 321.2pt x 538.01pt>
+ph.pdf, id=9788, 321.2pt x 538.01pt>
 File: class_diagram_editor_1_1_specification_1_1_short_text_specification__coll
 __graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_short_text_specification__coll_
@@ -6610,7 +6636,7 @@ Underfull \hbox (badness 10000) detected at line 99
  <./class_diagram_editor_1_1_specification_1_1_short_text_specification_aca03bb
 a94f597718104e3b31fe008c20_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_short_text_specification_aca03bba94
-f597718104e3b31fe008c20_cgraph.pdf, id=9852, 472.76625pt x 124.465pt>
+f597718104e3b31fe008c20_cgraph.pdf, id=9850, 472.76625pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_short_text_specification_aca03
 bba94f597718104e3b31fe008c20_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_short_text_specification_aca03b
@@ -6643,7 +6669,7 @@ Underfull \hbox (badness 10000) detected at line 127
 ) (class_diagram_editor_1_1_diagram_1_1_specifications_form.tex <./class_diagra
 m_editor_1_1_diagram_1_1_specifications_form__inherit__graph.pdf>
 <class_diagram_editor_1_1_diagram_1_1_specifications_form__inherit__graph.pdf, 
-id=9877, 193.72375pt x 313.17pt>
+id=9875, 193.72375pt x 313.17pt>
 File: class_diagram_editor_1_1_diagram_1_1_specifications_form__inherit__graph.
 pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_specifications_form__inherit__graph.p
@@ -6654,7 +6680,7 @@ rm__inherit__graph.pdf  used on input line 19.
  [251] <./class_diagram_editor_1_1_diagram_1_1_specifications_form__coll__graph
 .pdf>
 <class_diagram_editor_1_1_diagram_1_1_specifications_form__coll__graph.pdf, id=
-9899, 193.72375pt x 313.17pt>
+9897, 193.72375pt x 313.17pt>
 File: class_diagram_editor_1_1_diagram_1_1_specifications_form__coll__graph.pdf
  Graphic file (type pdf)
 <use class_diagram_editor_1_1_diagram_1_1_specifications_form__coll__graph.pdf>
@@ -6740,7 +6766,7 @@ Underfull \hbox (badness 10000) detected at line 157
 ) (class_diagram_editor_1_1_specification_1_1_specifications_form.tex <./class_
 diagram_editor_1_1_specification_1_1_specifications_form__inherit__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form__inherit__graph
-.pdf, id=9978, 213.79875pt x 313.17pt>
+.pdf, id=9976, 213.79875pt x 313.17pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form__inherit__
 graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form__inherit__g
@@ -6752,7 +6778,7 @@ ons_form__inherit__graph.pdf  used on input line 19.
 [255] <./class_diagram_editor_1_1_specification_1_1_specifications_form__coll__
 graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form__coll__graph.pd
-f, id=10000, 213.79875pt x 313.17pt>
+f, id=9998, 213.79875pt x 313.17pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form__coll__gra
 ph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form__coll__grap
@@ -6773,7 +6799,7 @@ Underfull \hbox (badness 10000) detected at line 64
  <./class_diagram_editor_1_1_specification_1_1_specifications_form_a9020883dd7b
 108647715d81195d870a7_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form_a9020883dd7b108
-647715d81195d870a7_icgraph.pdf, id=10035, 683.55376pt x 112.42pt>
+647715d81195d870a7_icgraph.pdf, id=10033, 683.55376pt x 112.42pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form_a9020883dd
 7b108647715d81195d870a7_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form_a9020883dd7
@@ -6794,7 +6820,7 @@ Underfull \hbox (badness 10000) detected at line 96
  <./class_diagram_editor_1_1_specification_1_1_specifications_form_ae0331c6f314
 a218aad9b015dcae88052_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form_ae0331c6f314a21
-8aad9b015dcae88052_icgraph.pdf, id=10051, 651.43375pt x 112.42pt>
+8aad9b015dcae88052_icgraph.pdf, id=10049, 651.43375pt x 112.42pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form_ae0331c6f3
 14a218aad9b015dcae88052_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form_ae0331c6f31
@@ -6816,7 +6842,7 @@ Underfull \hbox (badness 10000) detected at line 121
  <./class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf7
 4900b417f15045e5d4d22_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf7490
-0b417f15045e5d4d22_cgraph.pdf, id=10070, 479.7925pt x 212.795pt>
+0b417f15045e5d4d22_cgraph.pdf, id=10068, 479.7925pt x 212.795pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1b
 f74900b417f15045e5d4d22_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf
@@ -6827,7 +6853,7 @@ ons_form_aca9c16d1bf74900b417f15045e5d4d22_cgraph.pdf  used on input line 129.
  <./class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf7
 4900b417f15045e5d4d22_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf7490
-0b417f15045e5d4d22_icgraph.pdf, id=10078, 450.68375pt x 112.42pt>
+0b417f15045e5d4d22_icgraph.pdf, id=10076, 450.68375pt x 112.42pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1b
 f74900b417f15045e5d4d22_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form_aca9c16d1bf
@@ -6854,7 +6880,7 @@ Underfull \hbox (badness 10000) detected at line 152
  <./class_diagram_editor_1_1_specification_1_1_specifications_form_a353adae7aed
 423833c238daab19bb114_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form_a353adae7aed423
-833c238daab19bb114_icgraph.pdf, id=10095, 643.40375pt x 112.42pt>
+833c238daab19bb114_icgraph.pdf, id=10093, 643.40375pt x 112.42pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form_a353adae7a
 ed423833c238daab19bb114_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form_a353adae7ae
@@ -6881,7 +6907,7 @@ Underfull \hbox (badness 10000) detected at line 182
  <./class_diagram_editor_1_1_specification_1_1_specifications_form_a554646f0d00
 05f5f8fa93b92195544dc_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_form_a554646f0d0005f
-5f8fa93b92195544dc_icgraph.pdf, id=10103, 620.3175pt x 186.6975pt>
+5f8fa93b92195544dc_icgraph.pdf, id=10101, 620.3175pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_form_a554646f0d
 0005f5f8fa93b92195544dc_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_form_a554646f0d0
@@ -6908,7 +6934,7 @@ Underfull \hbox (badness 10000) detected at line 205
 ) (class_diagram_editor_1_1_specification_1_1_specifications_group.tex <./class
 _diagram_editor_1_1_specification_1_1_specifications_group__inherit__graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group__inherit__grap
-h.pdf, id=10123, 385.44pt x 666.49pt>
+h.pdf, id=10121, 385.44pt x 666.49pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group__inherit_
 _graph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group__inherit__
@@ -6919,7 +6945,7 @@ ons_group__inherit__graph.pdf  used on input line 19.
 [261] <./class_diagram_editor_1_1_specification_1_1_specifications_group__coll_
 _graph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group__coll__graph.p
-df, id=10142, 391.4625pt x 1077.02374pt>
+df, id=10140, 391.4625pt x 1077.02374pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group__coll__gr
 aph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group__coll__gra
@@ -6940,7 +6966,7 @@ Underfull \hbox (badness 10000) detected at line 103
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_ae74a6f26f7
 3e5a5d9cb5c3b4305e2fdc_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_ae74a6f26f73e5
-a5d9cb5c3b4305e2fdc_icgraph.pdf, id=10214, 461.725pt x 186.6975pt>
+a5d9cb5c3b4305e2fdc_icgraph.pdf, id=10212, 461.725pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_ae74a6f26
 f73e5a5d9cb5c3b4305e2fdc_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_ae74a6f26f
@@ -6977,7 +7003,7 @@ Overfull \hbox (18.04956pt too wide) in paragraph at lines 152--153
 [265] <./class_diagram_editor_1_1_specification_1_1_specifications_group_a617a2
 8f4f5bdeb33e4c78e9f615e75e8_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4f5bde
-b33e4c78e9f615e75e8_cgraph.pdf, id=10256, 442.65375pt x 124.465pt>
+b33e4c78e9f615e75e8_cgraph.pdf, id=10254, 442.65375pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4
 f5bdeb33e4c78e9f615e75e8_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4f
@@ -6989,7 +7015,7 @@ ons_group_a617a28f4f5bdeb33e4c78e9f615e75e8_cgraph.pdf  used on input line 159.
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4f5
 bdeb33e4c78e9f615e75e8_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4f5bde
-b33e4c78e9f615e75e8_icgraph.pdf, id=10264, 419.5675pt x 186.6975pt>
+b33e4c78e9f615e75e8_icgraph.pdf, id=10262, 419.5675pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4
 f5bdeb33e4c78e9f615e75e8_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_a617a28f4f
@@ -7011,7 +7037,7 @@ Underfull \hbox (badness 10000) detected at line 179
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_acc50641678
 ade3dbb7900e403a42e9c6_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_acc50641678ade
-3dbb7900e403a42e9c6_icgraph.pdf, id=10272, 615.29875pt x 186.6975pt>
+3dbb7900e403a42e9c6_icgraph.pdf, id=10270, 615.29875pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_acc506416
 78ade3dbb7900e403a42e9c6_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_acc5064167
@@ -7038,7 +7064,7 @@ Underfull \hbox (badness 10000) detected at line 202
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc04363
 ffa9941fd4c17d3565348e_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc04363ffa
-9941fd4c17d3565348e_cgraph.pdf, id=10289, 221.82875pt x 130.4875pt>
+9941fd4c17d3565348e_cgraph.pdf, id=10287, 221.82875pt x 130.4875pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc043
 63ffa9941fd4c17d3565348e_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc0436
@@ -7050,7 +7076,7 @@ ons_group_af3cfc04363ffa9941fd4c17d3565348e_cgraph.pdf  used on input line 210.
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc04363
 ffa9941fd4c17d3565348e_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc04363ffa
-9941fd4c17d3565348e_icgraph.pdf, id=10297, 221.82875pt x 130.4875pt>
+9941fd4c17d3565348e_icgraph.pdf, id=10295, 221.82875pt x 130.4875pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc043
 63ffa9941fd4c17d3565348e_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_af3cfc0436
@@ -7077,7 +7103,7 @@ Overfull \hbox (18.04956pt too wide) in paragraph at lines 244--245
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd39073
 49b93f7cb16e83bb2b4446_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd3907349b
-93f7cb16e83bb2b4446_cgraph.pdf, id=10322, 702.625pt x 281.05pt>
+93f7cb16e83bb2b4446_cgraph.pdf, id=10320, 702.625pt x 281.05pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd390
 7349b93f7cb16e83bb2b4446_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd3907
@@ -7089,7 +7115,7 @@ ons_group_a859cd3907349b93f7cb16e83bb2b4446_cgraph.pdf  used on input line 251.
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd39073
 49b93f7cb16e83bb2b4446_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd3907349b
-93f7cb16e83bb2b4446_icgraph.pdf, id=10330, 437.635pt x 186.6975pt>
+93f7cb16e83bb2b4446_icgraph.pdf, id=10328, 437.635pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd390
 7349b93f7cb16e83bb2b4446_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_a859cd3907
@@ -7122,7 +7148,7 @@ Underfull \hbox (badness 10000) detected at line 279
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_a66ce711cc7
 369064409a60eb5af6ad9b_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_a66ce711cc7369
-064409a60eb5af6ad9b_icgraph.pdf, id=10348, 645.41125pt x 186.6975pt>
+064409a60eb5af6ad9b_icgraph.pdf, id=10346, 645.41125pt x 186.6975pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_a66ce711c
 c7369064409a60eb5af6ad9b_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_a66ce711cc
@@ -7154,7 +7180,7 @@ Overfull \hbox (18.04956pt too wide) in paragraph at lines 311--312
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447c
 72b67d285fe064d2d117fa_cgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447c72b
-67d285fe064d2d117fa_cgraph.pdf, id=10374, 448.67625pt x 124.465pt>
+67d285fe064d2d117fa_cgraph.pdf, id=10372, 448.67625pt x 124.465pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e44
 7c72b67d285fe064d2d117fa_cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447
@@ -7166,7 +7192,7 @@ ons_group_a484b0e447c72b67d285fe064d2d117fa_cgraph.pdf  used on input line 318.
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447c
 72b67d285fe064d2d117fa_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447c72b
-67d285fe064d2d117fa_icgraph.pdf, id=10382, 621.32124pt x 261.97874pt>
+67d285fe064d2d117fa_icgraph.pdf, id=10380, 621.32124pt x 261.97874pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e44
 7c72b67d285fe064d2d117fa_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_a484b0e447
@@ -7193,7 +7219,7 @@ Underfull \hbox (badness 10000) detected at line 346
  <./class_diagram_editor_1_1_specification_1_1_specifications_group_ae0d21e0ddb
 9b7f98cf2c6431679e3a9e_icgraph.pdf>
 <class_diagram_editor_1_1_specification_1_1_specifications_group_ae0d21e0ddb9b7
-f98cf2c6431679e3a9e_icgraph.pdf, id=10399, 842.14626pt x 261.97874pt>
+f98cf2c6431679e3a9e_icgraph.pdf, id=10397, 842.14626pt x 261.97874pt>
 File: class_diagram_editor_1_1_specification_1_1_specifications_group_ae0d21e0d
 db9b7f98cf2c6431679e3a9e_icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_specification_1_1_specifications_group_ae0d21e0dd
@@ -7209,7 +7235,7 @@ Underfull \hbox (badness 10000) detected at line 372
 
 ) (class_diagram_editor_1_1_gui_1_1_wizard.tex <./class_diagram_editor_1_1_gui_
 1_1_wizard__inherit__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_wizard__inherit__graph.pdf, id=10413, 253.948
+<class_diagram_editor_1_1_gui_1_1_wizard__inherit__graph.pdf, id=10411, 253.948
 75pt x 313.17pt>
 File: class_diagram_editor_1_1_gui_1_1_wizard__inherit__graph.pdf Graphic file 
 (type pdf)
@@ -7218,7 +7244,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_wizard__inherit__grap
 h.pdf  used on input line 19.
 (pdftex.def)             Requested size: 253.0pt x 312.0128pt.
  [271] <./class_diagram_editor_1_1_gui_1_1_wizard__coll__graph.pdf>
-<class_diagram_editor_1_1_gui_1_1_wizard__coll__graph.pdf, id=10437, 253.94875p
+<class_diagram_editor_1_1_gui_1_1_wizard__coll__graph.pdf, id=10435, 253.94875p
 t x 313.17pt>
 File: class_diagram_editor_1_1_gui_1_1_wizard__coll__graph.pdf Graphic file (ty
 pe pdf)
@@ -7239,7 +7265,7 @@ Underfull \hbox (badness 10000) detected at line 87
  <./class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c_c
 graph.pdf>
 <class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c_cgra
-ph.pdf, id=10484, 742.775pt x 186.6975pt>
+ph.pdf, id=10482, 742.775pt x 186.6975pt>
 File: class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c
 _cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c_
@@ -7250,7 +7276,7 @@ d16a90f1762d460791c_cgraph.pdf  used on input line 95.
  <./class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c_i
 cgraph.pdf>
 <class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c_icgr
-aph.pdf, id=10492, 179.67125pt x 130.4875pt>
+aph.pdf, id=10490, 179.67125pt x 130.4875pt>
 File: class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c
 _icgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_wizard_a3c452fc3f47c7d16a90f1762d460791c_
@@ -7286,7 +7312,7 @@ Underfull \hbox (badness 10000) detected at line 135
  <./class_diagram_editor_1_1_gui_1_1_wizard_ae3f2a1f003ea994d09cf153f812b70c3_c
 graph.pdf>
 <class_diagram_editor_1_1_gui_1_1_wizard_ae3f2a1f003ea994d09cf153f812b70c3_cgra
-ph.pdf, id=10511, 420.57124pt x 162.6075pt>
+ph.pdf, id=10509, 420.57124pt x 162.6075pt>
 File: class_diagram_editor_1_1_gui_1_1_wizard_ae3f2a1f003ea994d09cf153f812b70c3
 _cgraph.pdf Graphic file (type pdf)
 <use class_diagram_editor_1_1_gui_1_1_wizard_ae3f2a1f003ea994d09cf153f812b70c3_
@@ -7299,7 +7325,7 @@ Package pdftex.def Info: class_diagram_editor_1_1_gui_1_1_wizard_ae3f2a1f003ea9
 ]
 Chapter 8.
 (connectableresizer_8cpp.tex <./connectableresizer_8cpp__incl.pdf>
-<connectableresizer_8cpp__incl.pdf, id=10534, 971.63pt x 325.215pt>
+<connectableresizer_8cpp__incl.pdf, id=10532, 971.63pt x 325.215pt>
 File: connectableresizer_8cpp__incl.pdf Graphic file (type pdf)
 <use connectableresizer_8cpp__incl.pdf>
 Package pdftex.def Info: connectableresizer_8cpp__incl.pdf  used on input line 
@@ -7316,14 +7342,14 @@ Underfull \hbox (badness 10000) detected at line 37
  []
 
 ) (connectableresizer_8h.tex [277] <./connectableresizer_8h__incl.pdf>
-<connectableresizer_8h__incl.pdf, id=10554, 620.3175pt x 212.795pt>
+<connectableresizer_8h__incl.pdf, id=10552, 620.3175pt x 212.795pt>
 File: connectableresizer_8h__incl.pdf Graphic file (type pdf)
 <use connectableresizer_8h__incl.pdf>
 Package pdftex.def Info: connectableresizer_8h__incl.pdf  used on input line 18
 .
 (pdftex.def)             Requested size: 350.0pt x 120.06378pt.
  <./connectableresizer_8h__dep__incl.pdf>
-<connectableresizer_8h__dep__incl.pdf, id=10562, 333.245pt x 156.585pt>
+<connectableresizer_8h__dep__incl.pdf, id=10560, 333.245pt x 156.585pt>
 File: connectableresizer_8h__dep__incl.pdf Graphic file (type pdf)
 <use connectableresizer_8h__dep__incl.pdf>
 Package pdftex.def Info: connectableresizer_8h__dep__incl.pdf  used on input li
@@ -7341,7 +7367,7 @@ Underfull \hbox (badness 10000) detected at line 49
 
 ) (connectableresizer_8h_source.tex) (connectionspecifications_8cpp.tex
 [279] <./connectionspecifications_8cpp__incl.pdf>
-<connectionspecifications_8cpp__incl.pdf, id=10632, 1275.76625pt x 325.215pt>
+<connectionspecifications_8cpp__incl.pdf, id=10630, 1275.76625pt x 325.215pt>
 File: connectionspecifications_8cpp__incl.pdf Graphic file (type pdf)
 <use connectionspecifications_8cpp__incl.pdf>
 Package pdftex.def Info: connectionspecifications_8cpp__incl.pdf  used on input
@@ -7358,7 +7384,7 @@ Underfull \hbox (badness 10000) detected at line 39
  []
 
 ) (connectionspecifications_8h.tex <./connectionspecifications_8h__incl.pdf>
-<connectionspecifications_8h__incl.pdf, id=10644, 489.83pt x 269.005pt>
+<connectionspecifications_8h__incl.pdf, id=10642, 489.83pt x 269.005pt>
 File: connectionspecifications_8h__incl.pdf Graphic file (type pdf)
 <use connectionspecifications_8h__incl.pdf>
 Package pdftex.def Info: connectionspecifications_8h__incl.pdf  used on input l
@@ -7366,7 +7392,7 @@ ine 20.
 (pdftex.def)             Requested size: 350.0pt x 192.21806pt.
 
 [280] <./connectionspecifications_8h__dep__incl.pdf>
-<connectionspecifications_8h__dep__incl.pdf, id=10659, 357.335pt x 156.585pt>
+<connectionspecifications_8h__dep__incl.pdf, id=10657, 357.335pt x 156.585pt>
 File: connectionspecifications_8h__dep__incl.pdf Graphic file (type pdf)
 <use connectionspecifications_8h__dep__incl.pdf>
 Package pdftex.def Info: connectionspecifications_8h__dep__incl.pdf  used on in
@@ -7384,7 +7410,7 @@ Underfull \hbox (badness 10000) detected at line 55
 
 ) (connectionspecifications_8h_source.tex [282]) (diagram_8cpp.tex <./diagram_8
 cpp__incl.pdf>
-<diagram_8cpp__incl.pdf, id=10749, 1267.73625pt x 269.005pt>
+<diagram_8cpp__incl.pdf, id=10747, 1267.73625pt x 269.005pt>
 File: diagram_8cpp__incl.pdf Graphic file (type pdf)
 <use diagram_8cpp__incl.pdf>
 Package pdftex.def Info: diagram_8cpp__incl.pdf  used on input line 24.
@@ -7400,13 +7426,13 @@ Underfull \hbox (badness 10000) detected at line 42
  []
 
 ) (diagram_8h.tex <./diagram_8h__incl.pdf>
-<diagram_8h__incl.pdf, id=10769, 446.66875pt x 212.795pt>
+<diagram_8h__incl.pdf, id=10767, 446.66875pt x 212.795pt>
 File: diagram_8h__incl.pdf Graphic file (type pdf)
 <use diagram_8h__incl.pdf>
 Package pdftex.def Info: diagram_8h__incl.pdf  used on input line 18.
 (pdftex.def)             Requested size: 350.0pt x 166.7457pt.
  <./diagram_8h__dep__incl.pdf>
-<diagram_8h__dep__incl.pdf, id=10777, 614.295pt x 156.585pt>
+<diagram_8h__dep__incl.pdf, id=10775, 614.295pt x 156.585pt>
 File: diagram_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagram_8h__dep__incl.pdf>
 Package pdftex.def Info: diagram_8h__dep__incl.pdf  used on input line 26.
@@ -7424,7 +7450,7 @@ Underfull \hbox (badness 10000) detected at line 51
 
 ) (diagram_8h_source.tex [285]) (diagramcomponent_8cpp.tex <./diagramcomponent_
 8cpp__incl.pdf>
-<diagramcomponent_8cpp__incl.pdf, id=10885, 909.3975pt x 269.005pt>
+<diagramcomponent_8cpp__incl.pdf, id=10883, 909.3975pt x 269.005pt>
 File: diagramcomponent_8cpp__incl.pdf Graphic file (type pdf)
 <use diagramcomponent_8cpp__incl.pdf>
 Package pdftex.def Info: diagramcomponent_8cpp__incl.pdf  used on input line 19
@@ -7441,13 +7467,13 @@ Underfull \hbox (badness 10000) detected at line 37
  []
 
 ) (diagramcomponent_8h.tex <./diagramcomponent_8h__incl.pdf>
-<diagramcomponent_8h__incl.pdf, id=10901, 401.5pt x 212.795pt>
+<diagramcomponent_8h__incl.pdf, id=10899, 401.5pt x 212.795pt>
 File: diagramcomponent_8h__incl.pdf Graphic file (type pdf)
 <use diagramcomponent_8h__incl.pdf>
 Package pdftex.def Info: diagramcomponent_8h__incl.pdf  used on input line 17.
 (pdftex.def)             Requested size: 350.0pt x 185.51328pt.
  <./diagramcomponent_8h__dep__incl.pdf>
-<diagramcomponent_8h__dep__incl.pdf, id=10909, 950.55125pt x 212.795pt>
+<diagramcomponent_8h__dep__incl.pdf, id=10907, 950.55125pt x 212.795pt>
 File: diagramcomponent_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagramcomponent_8h__dep__incl.pdf>
 Package pdftex.def Info: diagramcomponent_8h__dep__incl.pdf  used on input line
@@ -7465,7 +7491,7 @@ Underfull \hbox (badness 10000) detected at line 52
 
 ) (diagramcomponent_8h_source.tex [288]) (diagramconnection_8cpp.tex <./diagram
 connection_8cpp__incl.pdf>
-<diagramconnection_8cpp__incl.pdf, id=11012, 1709.38625pt x 325.215pt>
+<diagramconnection_8cpp__incl.pdf, id=11010, 1709.38625pt x 325.215pt>
 File: diagramconnection_8cpp__incl.pdf Graphic file (type pdf)
 <use diagramconnection_8cpp__incl.pdf>
 Package pdftex.def Info: diagramconnection_8cpp__incl.pdf  used on input line 2
@@ -7482,14 +7508,14 @@ Underfull \hbox (badness 10000) detected at line 41
  []
 
 ) (diagramconnection_8h.tex <./diagramconnection_8h__incl.pdf>
-<diagramconnection_8h__incl.pdf, id=11029, 718.685pt x 269.005pt>
+<diagramconnection_8h__incl.pdf, id=11027, 718.685pt x 269.005pt>
 File: diagramconnection_8h__incl.pdf Graphic file (type pdf)
 <use diagramconnection_8h__incl.pdf>
 Package pdftex.def Info: diagramconnection_8h__incl.pdf  used on input line 21.
 
 (pdftex.def)             Requested size: 350.0pt x 131.00908pt.
  [290] <./diagramconnection_8h__dep__incl.pdf>
-<diagramconnection_8h__dep__incl.pdf, id=11044, 463.7325pt x 156.585pt>
+<diagramconnection_8h__dep__incl.pdf, id=11042, 463.7325pt x 156.585pt>
 File: diagramconnection_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagramconnection_8h__dep__incl.pdf>
 Package pdftex.def Info: diagramconnection_8h__dep__incl.pdf  used on input lin
@@ -7547,7 +7573,7 @@ Underfull \hbox (badness 10000) detected at line 57
 
 ) (diagramelement_8h_source.tex [295]) (diagramitem_8cpp.tex <./diagramitem_8cp
 p__incl.pdf>
-<diagramitem_8cpp__incl.pdf, id=11274, 1736.4875pt x 381.425pt>
+<diagramitem_8cpp__incl.pdf, id=11276, 1736.4875pt x 381.425pt>
 File: diagramitem_8cpp__incl.pdf Graphic file (type pdf)
 <use diagramitem_8cpp__incl.pdf>
 Package pdftex.def Info: diagramitem_8cpp__incl.pdf  used on input line 24.
@@ -7563,13 +7589,13 @@ Underfull \hbox (badness 10000) detected at line 42
  []
 
 ) (diagramitem_8h.tex <./diagramitem_8h__incl.pdf>
-<diagramitem_8h__incl.pdf, id=11293, 603.25375pt x 212.795pt>
+<diagramitem_8h__incl.pdf, id=11295, 603.25375pt x 212.795pt>
 File: diagramitem_8h__incl.pdf Graphic file (type pdf)
 <use diagramitem_8h__incl.pdf>
 Package pdftex.def Info: diagramitem_8h__incl.pdf  used on input line 20.
 (pdftex.def)             Requested size: 350.0pt x 123.46013pt.
  <./diagramitem_8h__dep__incl.pdf>
-<diagramitem_8h__dep__incl.pdf, id=11301, 890.32625pt x 156.585pt>
+<diagramitem_8h__dep__incl.pdf, id=11303, 890.32625pt x 156.585pt>
 File: diagramitem_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagramitem_8h__dep__incl.pdf>
 Package pdftex.def Info: diagramitem_8h__dep__incl.pdf  used on input line 28.
@@ -7586,7 +7612,7 @@ Underfull \hbox (badness 10000) detected at line 55
 
 ) (diagramitem_8h_source.tex [298]) (diagramresizer_8cpp.tex <./diagramresizer_
 8cpp__incl.pdf>
-<diagramresizer_8cpp__incl.pdf, id=11419, 785.93625pt x 269.005pt>
+<diagramresizer_8cpp__incl.pdf, id=11421, 785.93625pt x 269.005pt>
 File: diagramresizer_8cpp__incl.pdf Graphic file (type pdf)
 <use diagramresizer_8cpp__incl.pdf>
 Package pdftex.def Info: diagramresizer_8cpp__incl.pdf  used on input line 19.
@@ -7602,13 +7628,13 @@ Underfull \hbox (badness 10000) detected at line 37
  []
 
 ) (diagramresizer_8h.tex <./diagramresizer_8h__incl.pdf>
-<diagramresizer_8h__incl.pdf, id=11435, 518.93875pt x 156.585pt>
+<diagramresizer_8h__incl.pdf, id=11437, 518.93875pt x 156.585pt>
 File: diagramresizer_8h__incl.pdf Graphic file (type pdf)
 <use diagramresizer_8h__incl.pdf>
 Package pdftex.def Info: diagramresizer_8h__incl.pdf  used on input line 19.
 (pdftex.def)             Requested size: 350.0pt x 105.61385pt.
  <./diagramresizer_8h__dep__incl.pdf>
-<diagramresizer_8h__dep__incl.pdf, id=11443, 709.65125pt x 212.795pt>
+<diagramresizer_8h__dep__incl.pdf, id=11445, 709.65125pt x 212.795pt>
 File: diagramresizer_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagramresizer_8h__dep__incl.pdf>
 Package pdftex.def Info: diagramresizer_8h__dep__incl.pdf  used on input line 2
@@ -7626,7 +7652,7 @@ Underfull \hbox (badness 10000) detected at line 50
 
 ) (diagramresizer_8h_source.tex [301]) (diagramspecification_8cpp.tex <./diagra
 mspecification_8cpp__incl.pdf>
-<diagramspecification_8cpp__incl.pdf, id=11513, 952.55875pt x 269.005pt>
+<diagramspecification_8cpp__incl.pdf, id=11515, 952.55875pt x 269.005pt>
 File: diagramspecification_8cpp__incl.pdf Graphic file (type pdf)
 <use diagramspecification_8cpp__incl.pdf>
 Package pdftex.def Info: diagramspecification_8cpp__incl.pdf  used on input lin
@@ -7643,14 +7669,14 @@ Underfull \hbox (badness 10000) detected at line 40
  []
 
 ) (diagramspecification_8h.tex <./diagramspecification_8h__incl.pdf>
-<diagramspecification_8h__incl.pdf, id=11531, 595.22375pt x 212.795pt>
+<diagramspecification_8h__incl.pdf, id=11533, 595.22375pt x 212.795pt>
 File: diagramspecification_8h__incl.pdf Graphic file (type pdf)
 <use diagramspecification_8h__incl.pdf>
 Package pdftex.def Info: diagramspecification_8h__incl.pdf  used on input line 
 20.
 (pdftex.def)             Requested size: 350.0pt x 125.12584pt.
  <./diagramspecification_8h__dep__incl.pdf>
-<diagramspecification_8h__dep__incl.pdf, id=11539, 1088.065pt x 212.795pt>
+<diagramspecification_8h__dep__incl.pdf, id=11541, 1088.065pt x 212.795pt>
 File: diagramspecification_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagramspecification_8h__dep__incl.pdf>
 Package pdftex.def Info: diagramspecification_8h__dep__incl.pdf  used on input 
@@ -7668,7 +7694,7 @@ Underfull \hbox (badness 10000) detected at line 51
 
 ) (diagramspecification_8h_source.tex [304]) (diagramtype_8cpp.tex <./diagramty
 pe_8cpp__incl.pdf>
-<diagramtype_8cpp__incl.pdf, id=11598, 344.28625pt x 269.005pt>
+<diagramtype_8cpp__incl.pdf, id=11600, 344.28625pt x 269.005pt>
 File: diagramtype_8cpp__incl.pdf Graphic file (type pdf)
 <use diagramtype_8cpp__incl.pdf>
 Package pdftex.def Info: diagramtype_8cpp__incl.pdf  used on input line 15.
@@ -7684,13 +7710,13 @@ Underfull \hbox (badness 10000) detected at line 33
  []
 
 ) (diagramtype_8h.tex <./diagramtype_8h__incl.pdf>
-<diagramtype_8h__incl.pdf, id=11616, 365.365pt x 212.795pt>
+<diagramtype_8h__incl.pdf, id=11618, 365.365pt x 212.795pt>
 File: diagramtype_8h__incl.pdf Graphic file (type pdf)
 <use diagramtype_8h__incl.pdf>
 Package pdftex.def Info: diagramtype_8h__incl.pdf  used on input line 17.
 (pdftex.def)             Requested size: 350.0pt x 203.8555pt.
  <./diagramtype_8h__dep__incl.pdf>
-<diagramtype_8h__dep__incl.pdf, id=11624, 393.47pt x 212.795pt>
+<diagramtype_8h__dep__incl.pdf, id=11626, 393.47pt x 212.795pt>
 File: diagramtype_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagramtype_8h__dep__incl.pdf>
 Package pdftex.def Info: diagramtype_8h__dep__incl.pdf  used on input line 25.
@@ -7707,7 +7733,7 @@ Underfull \hbox (badness 10000) detected at line 48
 
 ) (diagramtype_8h_source.tex [307]) (diagramtypegroup_8cpp.tex <./diagramtypegr
 oup_8cpp__incl.pdf>
-<diagramtypegroup_8cpp__incl.pdf, id=11674, 241.90375pt x 269.005pt>
+<diagramtypegroup_8cpp__incl.pdf, id=11676, 241.90375pt x 269.005pt>
 File: diagramtypegroup_8cpp__incl.pdf Graphic file (type pdf)
 <use diagramtypegroup_8cpp__incl.pdf>
 Package pdftex.def Info: diagramtypegroup_8cpp__incl.pdf  used on input line 15
@@ -7724,13 +7750,13 @@ Underfull \hbox (badness 10000) detected at line 33
  []
 
 ) (diagramtypegroup_8h.tex <./diagramtypegroup_8h__incl.pdf>
-<diagramtypegroup_8h__incl.pdf, id=11693, 232.87pt x 212.795pt>
+<diagramtypegroup_8h__incl.pdf, id=11695, 232.87pt x 212.795pt>
 File: diagramtypegroup_8h__incl.pdf Graphic file (type pdf)
 <use diagramtypegroup_8h__incl.pdf>
 Package pdftex.def Info: diagramtypegroup_8h__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 232.0pt x 212.00868pt.
  <./diagramtypegroup_8h__dep__incl.pdf>
-<diagramtypegroup_8h__dep__incl.pdf, id=11701, 275.0275pt x 156.585pt>
+<diagramtypegroup_8h__dep__incl.pdf, id=11703, 275.0275pt x 156.585pt>
 File: diagramtypegroup_8h__dep__incl.pdf Graphic file (type pdf)
 <use diagramtypegroup_8h__dep__incl.pdf>
 Package pdftex.def Info: diagramtypegroup_8h__dep__incl.pdf  used on input line
@@ -7748,7 +7774,7 @@ Underfull \hbox (badness 10000) detected at line 46
 
 ) (diagramtypegroup_8h_source.tex [310]) (elementspecifications_8cpp.tex <./ele
 mentspecifications_8cpp__incl.pdf>
-<elementspecifications_8cpp__incl.pdf, id=11744, 1345.025pt x 381.425pt>
+<elementspecifications_8cpp__incl.pdf, id=11746, 1345.025pt x 381.425pt>
 File: elementspecifications_8cpp__incl.pdf Graphic file (type pdf)
 <use elementspecifications_8cpp__incl.pdf>
 Package pdftex.def Info: elementspecifications_8cpp__incl.pdf  used on input li
@@ -7765,14 +7791,14 @@ Underfull \hbox (badness 10000) detected at line 40
  []
 
 ) (elementspecifications_8h.tex <./elementspecifications_8h__incl.pdf>
-<elementspecifications_8h__incl.pdf, id=11764, 558.085pt x 269.005pt>
+<elementspecifications_8h__incl.pdf, id=11766, 558.085pt x 269.005pt>
 File: elementspecifications_8h__incl.pdf Graphic file (type pdf)
 <use elementspecifications_8h__incl.pdf>
 Package pdftex.def Info: elementspecifications_8h__incl.pdf  used on input line
  21.
 (pdftex.def)             Requested size: 350.0pt x 168.71057pt.
  <./elementspecifications_8h__dep__incl.pdf>
-<elementspecifications_8h__dep__incl.pdf, id=11772, 439.6425pt x 212.795pt>
+<elementspecifications_8h__dep__incl.pdf, id=11774, 439.6425pt x 212.795pt>
 File: elementspecifications_8h__dep__incl.pdf Graphic file (type pdf)
 <use elementspecifications_8h__dep__incl.pdf>
 Package pdftex.def Info: elementspecifications_8h__dep__incl.pdf  used on input
@@ -7796,70 +7822,90 @@ File: geometryutils_8cpp__incl.pdf Graphic file (type pdf)
 Package pdftex.def Info: geometryutils_8cpp__incl.pdf  used on input line 20.
 (pdftex.def)             Requested size: 350.0pt x 105.84848pt.
  [314]
-Underfull \hbox (badness 10000) detected at line 70
+Underfull \hbox (badness 1365) in paragraph at lines 47--49
+[]\T1/phv/m/n/10 QPolygonF [] (const [] &shape, const QPointF
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 72
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 73
+Underfull \hbox (badness 10000) detected at line 75
 [][][]
  []
 
-) (geometryutils_8h.tex <./geometryutils_8h__incl.pdf>
-<geometryutils_8h__incl.pdf, id=11933, 410.53375pt x 156.585pt>
+) (geometryutils_8h.tex [315] <./geometryutils_8h__incl.pdf>
+<geometryutils_8h__incl.pdf, id=11939, 410.53375pt x 156.585pt>
 File: geometryutils_8h__incl.pdf Graphic file (type pdf)
 <use geometryutils_8h__incl.pdf>
 Package pdftex.def Info: geometryutils_8h__incl.pdf  used on input line 18.
 (pdftex.def)             Requested size: 350.0pt x 133.49449pt.
- [315] <./geometryutils_8h__dep__incl.pdf>
-<geometryutils_8h__dep__incl.pdf, id=11949, 734.745pt x 212.795pt>
+ <./geometryutils_8h__dep__incl.pdf>
+<geometryutils_8h__dep__incl.pdf, id=11947, 734.745pt x 212.795pt>
 File: geometryutils_8h__dep__incl.pdf Graphic file (type pdf)
 <use geometryutils_8h__dep__incl.pdf>
 Package pdftex.def Info: geometryutils_8h__dep__incl.pdf  used on input line 26
 .
 (pdftex.def)             Requested size: 350.0pt x 101.36765pt.
 
-Underfull \hbox (badness 986) in paragraph at lines 50--54
-[]\T1/phv/m/n/10 enum class [] { [] , [] ,
+Overfull \hbox (81.24438pt too wide) in paragraph at lines 39--42
+[]\T1/phv/m/n/10 enum class [] { [] , []
+ []
+
+
+Overfull \hbox (45.29163pt too wide) in paragraph at lines 43--51
+[] \T1/phv/m/n/10 , [] , []
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 52--56
+[]\T1/phv/m/n/10 enum class [] { [] ,
  []
 
 [316]
-pdfTeX warning (ext4): destination with the same identifier (name{namespace_geo
-metry_utils_ab0fdc7dbcf7efa92aaff423e465be91b}) has been already used, duplicat
-e ignored
+Underfull \hbox (badness 1365) in paragraph at lines 74--76
+[]\T1/phv/m/n/10 QPolygonF [] (const [] &shape, const QPointF
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{namespace_dia
+gram_editor_1_1_geometry_utils_a2c40a747beb0d57e0da1da31\ETC.}) has been alread
+y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.95 ...y_utils_ab0fdc7dbcf7efa92aaff423e465be91b}
-                                                  \label{namespace_geometry_...
+l.97 ...y_utils_a2c40a747beb0d57e0da1da31d81f4ea0}
+                                                  \label{namespace_diagram_e...
 
-pdfTeX warning (ext4): destination with the same identifier (name{namespace_geo
-metry_utils_ae5eaaae0d598ef3947efc9ee0a63752c}) has been already used, duplicat
-e ignored
+pdfTeX warning (ext4): destination with the same identifier (name{namespace_dia
+gram_editor_1_1_geometry_utils_ade0702840c426c488f6ef201\ETC.}) has been alread
+y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 ...y_utils_ae5eaaae0d598ef3947efc9ee0a63752c}
-                                                  \label{namespace_geometry_...
+l.100 ..._utils_ade0702840c426c488f6ef2018a0ca4e9}
+                                                  \label{namespace_diagram_e...
 
-pdfTeX warning (ext4): destination with the same identifier (name{namespace_geo
-metry_utils_a50af505bdce4f7ee702b35dace8364e7}) has been already used, duplicat
-e ignored
+pdfTeX warning (ext4): destination with the same identifier (name{namespace_dia
+gram_editor_1_1_geometry_utils_a61ca0124eceda0479152d4f5\ETC.}) has been alread
+y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 ..._utils_a50af505bdce4f7ee702b35dace8364e7}
-                                                  \label{namespace_geometry_...
+l.103 ..._utils_a61ca0124eceda0479152d4f526dc395e}
+                                                  \label{namespace_diagram_e...
 
-Underfull \hbox (badness 10000) detected at line 109
+Underfull \hbox (badness 10000) detected at line 111
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 112
+Underfull \hbox (badness 10000) detected at line 114
 [][][]
  []
 
 ) (geometryutils_8h_source.tex [317]) (jsonfile_8cpp.tex [318] <./jsonfile_8cpp
 __incl.pdf>
-<jsonfile_8cpp__incl.pdf, id=12149, 783.92876pt x 212.795pt>
+<jsonfile_8cpp__incl.pdf, id=12147, 783.92876pt x 212.795pt>
 File: jsonfile_8cpp__incl.pdf Graphic file (type pdf)
 <use jsonfile_8cpp__incl.pdf>
 Package pdftex.def Info: jsonfile_8cpp__incl.pdf  used on input line 20.
@@ -7875,13 +7921,13 @@ Underfull \hbox (badness 10000) detected at line 38
  []
 
 ) (jsonfile_8h.tex <./jsonfile_8h__incl.pdf>
-<jsonfile_8h__incl.pdf, id=12165, 349.305pt x 156.585pt>
+<jsonfile_8h__incl.pdf, id=12163, 349.305pt x 156.585pt>
 File: jsonfile_8h__incl.pdf Graphic file (type pdf)
 <use jsonfile_8h__incl.pdf>
 Package pdftex.def Info: jsonfile_8h__incl.pdf  used on input line 17.
 (pdftex.def)             Requested size: 348.0pt x 156.00879pt.
  [319] <./jsonfile_8h__dep__incl.pdf>
-<jsonfile_8h__dep__incl.pdf, id=12181, 327.2225pt x 156.585pt>
+<jsonfile_8h__dep__incl.pdf, id=12179, 327.2225pt x 156.585pt>
 File: jsonfile_8h__dep__incl.pdf Graphic file (type pdf)
 <use jsonfile_8h__dep__incl.pdf>
 Package pdftex.def Info: jsonfile_8h__dep__incl.pdf  used on input line 25.
@@ -7898,7 +7944,7 @@ Underfull \hbox (badness 10000) detected at line 48
 
 ) (jsonfile_8h_source.tex) (jsonserializable_8cpp.tex <./jsonserializable_8cpp_
 _incl.pdf>
-<jsonserializable_8cpp__incl.pdf, id=12222, 263.98625pt x 212.795pt>
+<jsonserializable_8cpp__incl.pdf, id=12220, 263.98625pt x 212.795pt>
 File: jsonserializable_8cpp__incl.pdf Graphic file (type pdf)
 <use jsonserializable_8cpp__incl.pdf>
 Package pdftex.def Info: jsonserializable_8cpp__incl.pdf  used on input line 15
@@ -7915,13 +7961,13 @@ Underfull \hbox (badness 10000) detected at line 33
  []
 
 ) (jsonserializable_8h.tex <./jsonserializable_8h__incl.pdf>
-<jsonserializable_8h__incl.pdf, id=12239, 216.81pt x 156.585pt>
+<jsonserializable_8h__incl.pdf, id=12237, 216.81pt x 156.585pt>
 File: jsonserializable_8h__incl.pdf Graphic file (type pdf)
 <use jsonserializable_8h__incl.pdf>
 Package pdftex.def Info: jsonserializable_8h__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 216.0pt x 156.00879pt.
  [322] <./jsonserializable_8h__dep__incl.pdf>
-<jsonserializable_8h__dep__incl.pdf, id=12254, 2529.45pt x 325.215pt>
+<jsonserializable_8h__dep__incl.pdf, id=12252, 2529.45pt x 325.215pt>
 File: jsonserializable_8h__dep__incl.pdf Graphic file (type pdf)
 <use jsonserializable_8h__dep__incl.pdf>
 Package pdftex.def Info: jsonserializable_8h__dep__incl.pdf  used on input line
@@ -7939,7 +7985,7 @@ Underfull \hbox (badness 10000) detected at line 46
 
 ) (jsonserializable_8h_source.tex [323]) (listspecification_8cpp.tex <./listspe
 cification_8cpp__incl.pdf>
-<listspecification_8cpp__incl.pdf, id=12291, 1165.35374pt x 325.215pt>
+<listspecification_8cpp__incl.pdf, id=12289, 1165.35374pt x 325.215pt>
 File: listspecification_8cpp__incl.pdf Graphic file (type pdf)
 <use listspecification_8cpp__incl.pdf>
 Package pdftex.def Info: listspecification_8cpp__incl.pdf  used on input line 2
@@ -7956,14 +8002,14 @@ Underfull \hbox (badness 10000) detected at line 39
  []
 
 ) (listspecification_8h.tex <./listspecification_8h__incl.pdf>
-<listspecification_8h__incl.pdf, id=12311, 630.355pt x 269.005pt>
+<listspecification_8h__incl.pdf, id=12309, 630.355pt x 269.005pt>
 File: listspecification_8h__incl.pdf Graphic file (type pdf)
 <use listspecification_8h__incl.pdf>
 Package pdftex.def Info: listspecification_8h__incl.pdf  used on input line 18.
 
 (pdftex.def)             Requested size: 350.0pt x 149.3652pt.
  <./listspecification_8h__dep__incl.pdf>
-<listspecification_8h__dep__incl.pdf, id=12319, 321.2pt x 156.585pt>
+<listspecification_8h__dep__incl.pdf, id=12317, 321.2pt x 156.585pt>
 File: listspecification_8h__dep__incl.pdf Graphic file (type pdf)
 <use listspecification_8h__dep__incl.pdf>
 Package pdftex.def Info: listspecification_8h__dep__incl.pdf  used on input lin
@@ -7981,14 +8027,14 @@ Underfull \hbox (badness 10000) detected at line 49
 
 ) (listspecification_8h_source.tex [326]) (longtextspecification_8h.tex <./long
 textspecification_8h__incl.pdf>
-<longtextspecification_8h__incl.pdf, id=12368, 614.295pt x 269.005pt>
+<longtextspecification_8h__incl.pdf, id=12366, 614.295pt x 269.005pt>
 File: longtextspecification_8h__incl.pdf Graphic file (type pdf)
 <use longtextspecification_8h__incl.pdf>
 Package pdftex.def Info: longtextspecification_8h__incl.pdf  used on input line
  15.
 (pdftex.def)             Requested size: 350.0pt x 153.26875pt.
  <./longtextspecification_8h__dep__incl.pdf>
-<longtextspecification_8h__dep__incl.pdf, id=12376, 199.74625pt x 156.585pt>
+<longtextspecification_8h__dep__incl.pdf, id=12374, 199.74625pt x 156.585pt>
 File: longtextspecification_8h__dep__incl.pdf Graphic file (type pdf)
 <use longtextspecification_8h__dep__incl.pdf>
 Package pdftex.def Info: longtextspecification_8h__dep__incl.pdf  used on input
@@ -8006,7 +8052,7 @@ Underfull \hbox (badness 10000) detected at line 46
  []
 
 ) (longtextspecification_8h_source.tex) (main_8cpp.tex <./main_8cpp__incl.pdf>
-<main_8cpp__incl.pdf, id=12412, 660.4675pt x 325.215pt>
+<main_8cpp__incl.pdf, id=12410, 660.4675pt x 325.215pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 <use main_8cpp__incl.pdf>
 Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 18.
@@ -8023,7 +8069,7 @@ Underfull \hbox (badness 10000) detected at line 48
  []
 
 ) (mainwindow_8cpp.tex <./mainwindow_8cpp__incl.pdf>
-<mainwindow_8cpp__incl.pdf, id=12432, 2081.7775pt x 325.215pt>
+<mainwindow_8cpp__incl.pdf, id=12430, 2081.7775pt x 325.215pt>
 File: mainwindow_8cpp__incl.pdf Graphic file (type pdf)
 <use mainwindow_8cpp__incl.pdf>
 Package pdftex.def Info: mainwindow_8cpp__incl.pdf  used on input line 32.
@@ -8039,13 +8085,13 @@ Underfull \hbox (badness 10000) detected at line 61
  []
 
 ) (mainwindow_8h.tex <./mainwindow_8h__incl.pdf>
-<mainwindow_8h__incl.pdf, id=12475, 534.99875pt x 269.005pt>
+<mainwindow_8h__incl.pdf, id=12473, 534.99875pt x 269.005pt>
 File: mainwindow_8h__incl.pdf Graphic file (type pdf)
 <use mainwindow_8h__incl.pdf>
 Package pdftex.def Info: mainwindow_8h__incl.pdf  used on input line 17.
 (pdftex.def)             Requested size: 350.0pt x 175.99226pt.
  <./mainwindow_8h__dep__incl.pdf>
-<mainwindow_8h__dep__incl.pdf, id=12483, 242.9075pt x 156.585pt>
+<mainwindow_8h__dep__incl.pdf, id=12481, 242.9075pt x 156.585pt>
 File: mainwindow_8h__dep__incl.pdf Graphic file (type pdf)
 <use mainwindow_8h__dep__incl.pdf>
 Package pdftex.def Info: mainwindow_8h__dep__incl.pdf  used on input line 25.
@@ -8062,7 +8108,7 @@ Underfull \hbox (badness 10000) detected at line 50
 
 ) (mainwindow_8h_source.tex [332]) (scrollabledatabuttonsselector_8cpp.tex <./s
 crollabledatabuttonsselector_8cpp__incl.pdf>
-<scrollabledatabuttonsselector_8cpp__incl.pdf, id=12546, 872.25874pt x 269.005p
+<scrollabledatabuttonsselector_8cpp__incl.pdf, id=12544, 872.25874pt x 269.005p
 t>
 File: scrollabledatabuttonsselector_8cpp__incl.pdf Graphic file (type pdf)
 <use scrollabledatabuttonsselector_8cpp__incl.pdf>
@@ -8081,14 +8127,14 @@ Underfull \hbox (badness 10000) detected at line 38
 
 ) (scrollabledatabuttonsselector_8h.tex <./scrollabledatabuttonsselector_8h__in
 cl.pdf>
-<scrollabledatabuttonsselector_8h__incl.pdf, id=12562, 291.0875pt x 156.585pt>
+<scrollabledatabuttonsselector_8h__incl.pdf, id=12560, 291.0875pt x 156.585pt>
 File: scrollabledatabuttonsselector_8h__incl.pdf Graphic file (type pdf)
 <use scrollabledatabuttonsselector_8h__incl.pdf>
 Package pdftex.def Info: scrollabledatabuttonsselector_8h__incl.pdf  used on in
 put line 16.
 (pdftex.def)             Requested size: 290.0pt x 156.01117pt.
  <./scrollabledatabuttonsselector_8h__dep__incl.pdf>
-<scrollabledatabuttonsselector_8h__dep__incl.pdf, id=12570, 430.60875pt x 156.5
+<scrollabledatabuttonsselector_8h__dep__incl.pdf, id=12568, 430.60875pt x 156.5
 85pt>
 File: scrollabledatabuttonsselector_8h__dep__incl.pdf Graphic file (type pdf)
 <use scrollabledatabuttonsselector_8h__dep__incl.pdf>
@@ -8107,7 +8153,7 @@ Underfull \hbox (badness 10000) detected at line 47
 
 ) (scrollabledatabuttonsselector_8h_source.tex [335])
 (selectabledatabutton_8cpp.tex <./selectabledatabutton_8cpp__incl.pdf>
-<selectabledatabutton_8cpp__incl.pdf, id=12623, 667.49374pt x 269.005pt>
+<selectabledatabutton_8cpp__incl.pdf, id=12621, 667.49374pt x 269.005pt>
 File: selectabledatabutton_8cpp__incl.pdf Graphic file (type pdf)
 <use selectabledatabutton_8cpp__incl.pdf>
 Package pdftex.def Info: selectabledatabutton_8cpp__incl.pdf  used on input lin
@@ -8124,14 +8170,14 @@ Underfull \hbox (badness 10000) detected at line 36
  []
 
 ) (selectabledatabutton_8h.tex <./selectabledatabutton_8h__incl.pdf>
-<selectabledatabutton_8h__incl.pdf, id=12641, 560.0925pt x 212.795pt>
+<selectabledatabutton_8h__incl.pdf, id=12639, 560.0925pt x 212.795pt>
 File: selectabledatabutton_8h__incl.pdf Graphic file (type pdf)
 <use selectabledatabutton_8h__incl.pdf>
 Package pdftex.def Info: selectabledatabutton_8h__incl.pdf  used on input line 
 20.
 (pdftex.def)             Requested size: 350.0pt x 132.9803pt.
  <./selectabledatabutton_8h__dep__incl.pdf>
-<selectabledatabutton_8h__dep__incl.pdf, id=12649, 385.44pt x 156.585pt>
+<selectabledatabutton_8h__dep__incl.pdf, id=12647, 385.44pt x 156.585pt>
 File: selectabledatabutton_8h__dep__incl.pdf Graphic file (type pdf)
 <use selectabledatabutton_8h__dep__incl.pdf>
 Package pdftex.def Info: selectabledatabutton_8h__dep__incl.pdf  used on input 
@@ -8149,7 +8195,7 @@ Underfull \hbox (badness 10000) detected at line 51
 
 ) (selectabledatabutton_8h_source.tex [338]) (selectablespecification_8cpp.tex 
 <./selectablespecification_8cpp__incl.pdf>
-<selectablespecification_8cpp__incl.pdf, id=12708, 891.33pt x 325.215pt>
+<selectablespecification_8cpp__incl.pdf, id=12706, 891.33pt x 325.215pt>
 File: selectablespecification_8cpp__incl.pdf Graphic file (type pdf)
 <use selectablespecification_8cpp__incl.pdf>
 Package pdftex.def Info: selectablespecification_8cpp__incl.pdf  used on input 
@@ -8166,14 +8212,14 @@ Underfull \hbox (badness 10000) detected at line 36
  []
 
 ) (selectablespecification_8h.tex <./selectablespecification_8h__incl.pdf>
-<selectablespecification_8h__incl.pdf, id=12726, 636.3775pt x 269.005pt>
+<selectablespecification_8h__incl.pdf, id=12724, 636.3775pt x 269.005pt>
 File: selectablespecification_8h__incl.pdf Graphic file (type pdf)
 <use selectablespecification_8h__incl.pdf>
 Package pdftex.def Info: selectablespecification_8h__incl.pdf  used on input li
 ne 16.
 (pdftex.def)             Requested size: 350.0pt x 147.9491pt.
  <./selectablespecification_8h__dep__incl.pdf>
-<selectablespecification_8h__dep__incl.pdf, id=12734, 351.3125pt x 156.585pt>
+<selectablespecification_8h__dep__incl.pdf, id=12732, 351.3125pt x 156.585pt>
 File: selectablespecification_8h__dep__incl.pdf Graphic file (type pdf)
 <use selectablespecification_8h__dep__incl.pdf>
 Package pdftex.def Info: selectablespecification_8h__dep__incl.pdf  used on inp
@@ -8191,7 +8237,7 @@ Underfull \hbox (badness 10000) detected at line 47
 
 ) (selectablespecification_8h_source.tex) (shorttextspecification_8cpp.tex
 [341] <./shorttextspecification_8cpp__incl.pdf>
-<shorttextspecification_8cpp__incl.pdf, id=12781, 805.0075pt x 325.215pt>
+<shorttextspecification_8cpp__incl.pdf, id=12779, 805.0075pt x 325.215pt>
 File: shorttextspecification_8cpp__incl.pdf Graphic file (type pdf)
 <use shorttextspecification_8cpp__incl.pdf>
 Package pdftex.def Info: shorttextspecification_8cpp__incl.pdf  used on input l
@@ -8208,7 +8254,7 @@ Underfull \hbox (badness 10000) detected at line 35
  []
 
 ) (shorttextspecification_8h.tex <./shorttextspecification_8h__incl.pdf>
-<shorttextspecification_8h__incl.pdf, id=12793, 614.295pt x 269.005pt>
+<shorttextspecification_8h__incl.pdf, id=12791, 614.295pt x 269.005pt>
 File: shorttextspecification_8h__incl.pdf Graphic file (type pdf)
 <use shorttextspecification_8h__incl.pdf>
 Package pdftex.def Info: shorttextspecification_8h__incl.pdf  used on input lin
@@ -8216,7 +8262,7 @@ e 15.
 (pdftex.def)             Requested size: 350.0pt x 153.26875pt.
 
 [342] <./shorttextspecification_8h__dep__incl.pdf>
-<shorttextspecification_8h__dep__incl.pdf, id=12808, 345.29pt x 156.585pt>
+<shorttextspecification_8h__dep__incl.pdf, id=12806, 345.29pt x 156.585pt>
 File: shorttextspecification_8h__dep__incl.pdf Graphic file (type pdf)
 <use shorttextspecification_8h__dep__incl.pdf>
 Package pdftex.def Info: shorttextspecification_8h__dep__incl.pdf  used on inpu
@@ -8234,7 +8280,7 @@ Underfull \hbox (badness 10000) detected at line 46
 
 ) (shorttextspecification_8h_source.tex) (specificationsform_8cpp.tex <./specif
 icationsform_8cpp__incl.pdf>
-<specificationsform_8cpp__incl.pdf, id=12846, 471.7625pt x 212.795pt>
+<specificationsform_8cpp__incl.pdf, id=12844, 471.7625pt x 212.795pt>
 File: specificationsform_8cpp__incl.pdf Graphic file (type pdf)
 <use specificationsform_8cpp__incl.pdf>
 Package pdftex.def Info: specificationsform_8cpp__incl.pdf  used on input line 
@@ -8251,14 +8297,14 @@ Underfull \hbox (badness 10000) detected at line 35
  []
 
 ) (specificationsform_8h.tex <./specificationsform_8h__incl.pdf>
-<specificationsform_8h__incl.pdf, id=12863, 331.2375pt x 156.585pt>
+<specificationsform_8h__incl.pdf, id=12861, 331.2375pt x 156.585pt>
 File: specificationsform_8h__incl.pdf Graphic file (type pdf)
 <use specificationsform_8h__incl.pdf>
 Package pdftex.def Info: specificationsform_8h__incl.pdf  used on input line 17
 .
 (pdftex.def)             Requested size: 330.0pt x 156.0064pt.
  [345] <./specificationsform_8h__dep__incl.pdf>
-<specificationsform_8h__dep__incl.pdf, id=12878, 1228.59pt x 156.585pt>
+<specificationsform_8h__dep__incl.pdf, id=12876, 1228.59pt x 156.585pt>
 File: specificationsform_8h__dep__incl.pdf Graphic file (type pdf)
 <use specificationsform_8h__dep__incl.pdf>
 Package pdftex.def Info: specificationsform_8h__dep__incl.pdf  used on input li
@@ -8276,7 +8322,7 @@ Underfull \hbox (badness 10000) detected at line 48
 
 ) (specificationsform_8h_source.tex [346]) (specificationsgroup_8cpp.tex <./spe
 cificationsgroup_8cpp__incl.pdf>
-<specificationsgroup_8cpp__incl.pdf, id=12921, 1092.08pt x 325.215pt>
+<specificationsgroup_8cpp__incl.pdf, id=12919, 1092.08pt x 325.215pt>
 File: specificationsgroup_8cpp__incl.pdf Graphic file (type pdf)
 <use specificationsgroup_8cpp__incl.pdf>
 Package pdftex.def Info: specificationsgroup_8cpp__incl.pdf  used on input line
@@ -8293,14 +8339,14 @@ Underfull \hbox (badness 10000) detected at line 40
  []
 
 ) (specificationsgroup_8h.tex <./specificationsgroup_8h__incl.pdf>
-<specificationsgroup_8h__incl.pdf, id=12938, 347.2975pt x 212.795pt>
+<specificationsgroup_8h__incl.pdf, id=12936, 347.2975pt x 212.795pt>
 File: specificationsgroup_8h__incl.pdf Graphic file (type pdf)
 <use specificationsgroup_8h__incl.pdf>
 Package pdftex.def Info: specificationsgroup_8h__incl.pdf  used on input line 1
 7.
 (pdftex.def)             Requested size: 346.0pt x 212.00868pt.
  [348] <./specificationsgroup_8h__dep__incl.pdf>
-<specificationsgroup_8h__dep__incl.pdf, id=12953, 634.37pt x 269.005pt>
+<specificationsgroup_8h__dep__incl.pdf, id=12951, 634.37pt x 269.005pt>
 File: specificationsgroup_8h__dep__incl.pdf Graphic file (type pdf)
 <use specificationsgroup_8h__dep__incl.pdf>
 Package pdftex.def Info: specificationsgroup_8h__dep__incl.pdf  used on input l
@@ -8318,7 +8364,7 @@ Underfull \hbox (badness 10000) detected at line 52
 
 ) (specificationsgroup_8h_source.tex) (wizard_8cpp.tex <./wizard_8cpp__incl.pdf
 >
-<wizard_8cpp__incl.pdf, id=13035, 720.6925pt x 325.215pt>
+<wizard_8cpp__incl.pdf, id=13033, 720.6925pt x 325.215pt>
 File: wizard_8cpp__incl.pdf Graphic file (type pdf)
 <use wizard_8cpp__incl.pdf>
 Package pdftex.def Info: wizard_8cpp__incl.pdf  used on input line 19.
@@ -8334,13 +8380,13 @@ Underfull \hbox (badness 10000) detected at line 37
  []
 
 ) (wizard_8h.tex <./wizard_8h__incl.pdf>
-<wizard_8h__incl.pdf, id=13052, 509.905pt x 269.005pt>
+<wizard_8h__incl.pdf, id=13050, 509.905pt x 269.005pt>
 File: wizard_8h__incl.pdf Graphic file (type pdf)
 <use wizard_8h__incl.pdf>
 Package pdftex.def Info: wizard_8h__incl.pdf  used on input line 17.
 (pdftex.def)             Requested size: 350.0pt x 184.65314pt.
  [351] <./wizard_8h__dep__incl.pdf>
-<wizard_8h__dep__incl.pdf, id=13067, 250.9375pt x 156.585pt>
+<wizard_8h__dep__incl.pdf, id=13065, 250.9375pt x 156.585pt>
 File: wizard_8h__dep__incl.pdf Graphic file (type pdf)
 <use wizard_8h__dep__incl.pdf>
 Package pdftex.def Info: wizard_8h__dep__incl.pdf  used on input line 25.
@@ -8514,77 +8560,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--221
  []
 
 [356] [357]
-Underfull \hbox (badness 10000) in paragraph at lines 437--439
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
 []\T1/phv/m/n/10 DiagramEditor::Gui::ScrollableDataButtonsSelector,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
-[]\T1/phv/m/n/10 DiagramEditor::Specification::ConnectionSpecifications,
- []
-
 [358]
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
-[]\T1/phv/m/n/10 DiagramEditor::Specification::DiagramSpecification,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--547
-[]\T1/phv/m/n/10 DiagramEditor::Specification::ElementSpecifications,
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+[]\T1/phv/m/n/10 DiagramEditor::Specification::ConnectionSpecifications,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 565--567
-[]\T1/phv/m/n/10 DiagramEditor::Specification::LongTextSpecification,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--571
-[]\T1/phv/m/n/10 DiagramEditor::Specification::SelectableSpecification,
+[]\T1/phv/m/n/10 DiagramEditor::Specification::DiagramSpecification,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 575--577
+[]\T1/phv/m/n/10 DiagramEditor::Specification::ElementSpecifications,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
+[]\T1/phv/m/n/10 DiagramEditor::Specification::LongTextSpecification,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--601
+[]\T1/phv/m/n/10 DiagramEditor::Specification::SelectableSpecification,
+ []
+
+[359]
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
 []\T1/phv/m/n/10 DiagramEditor::Specification::ShortTextSpecification,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--604
+Underfull \hbox (badness 10000) in paragraph at lines 632--634
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Specification::DiagramElement,
  []
 
-[359]
-Underfull \hbox (badness 10000) in paragraph at lines 640--642
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Diagram::ElementSpecifications,
  []
 
 
-Overfull \hbox (19.54765pt too wide) in paragraph at lines 649--651
+Overfull \hbox (19.54765pt too wide) in paragraph at lines 679--681
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Specification::ConnectionSpecifications,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--659
+Underfull \hbox (badness 10000) in paragraph at lines 687--689
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Specification::SpecificationsForm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--664
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Specification::SpecificationsForm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--673
+Underfull \hbox (badness 10000) in paragraph at lines 701--703
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Specification::ListSpecification,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--681
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Specification::SpecificationsGroup,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--686
+Underfull \hbox (badness 10000) in paragraph at lines 714--716
 []| \T1/phv/m/n/10 Di-a-gramEd-i-tor::Specification::SpecificationsForm,
  []
 
@@ -8843,17 +8889,17 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 5A89B4B6806D8109E575DC161270D6AC;140195.
+(rerunfilecheck)             Checksum: E6280D9492852944E710BEC4ED173A7E;140270.
 
  ) 
 Here is how much of TeX's memory you used:
  27363 strings out of 467871
- 738715 string characters out of 5418376
- 988290 words of memory out of 5000000
+ 743294 string characters out of 5418376
+ 988436 words of memory out of 5000000
  53246 multiletter control sequences out of 15000+600000
  684319 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,16n,117p,3569b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,16n,117p,3569b,1214s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/osure/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/osure/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi7.pfb><C:/Users/osure/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -8868,7 +8914,7 @@ ata/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/osure/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/osu
 re/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/
 osure/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (382 pages, 8026964 bytes).
+Output written on refman.pdf (382 pages, 8040063 bytes).
 PDF statistics:
  14515 PDF objects out of 15390 (max. 8388607)
  2387 named destinations out of 2487 (max. 500000)

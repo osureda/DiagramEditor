@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['openedarrowhead_0',['openedArrowHead',['../namespace_geometry_utils.html#ae13c25d49bec6d93c75ff44cbb68f173',1,'GeometryUtils']]]
+  ['openedarrowhead_0',['openedArrowHead',['../namespace_diagram_editor_1_1_geometry_utils.html#a9509c81cc80b3b0fdbbf1cc77293d6ce',1,'DiagramEditor::GeometryUtils']]]
 ];

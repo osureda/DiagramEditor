@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['unitarycircle_0',['unitaryCircle',['../namespace_geometry_utils.html#a090df0d8f29cbd283318881f201699be',1,'GeometryUtils']]],
-  ['unitarydiamond_1',['unitaryDiamond',['../namespace_geometry_utils.html#a0181f6aaf0d759259c36411ec8aa853f',1,'GeometryUtils']]],
-  ['unitarypaper_2',['unitaryPaper',['../namespace_geometry_utils.html#ac997a0d0b77d22b96d176948bf959151',1,'GeometryUtils']]],
-  ['unitarysquare_3',['unitarySquare',['../namespace_geometry_utils.html#a087ca275d6827f47f0bb57fad6efe4af',1,'GeometryUtils']]],
+  ['unitarycircle_0',['unitaryCircle',['../namespace_diagram_editor_1_1_geometry_utils.html#a600c89d176155ace30cce7bd70f2481b',1,'DiagramEditor::GeometryUtils']]],
+  ['unitarydiamond_1',['unitaryDiamond',['../namespace_diagram_editor_1_1_geometry_utils.html#a0157886de74c5bb22fc6a9a17191b9ca',1,'DiagramEditor::GeometryUtils']]],
+  ['unitarypaper_2',['unitaryPaper',['../namespace_diagram_editor_1_1_geometry_utils.html#a430b61acf71ec8822ec163b0d3a9c1ec',1,'DiagramEditor::GeometryUtils']]],
+  ['unitarysquare_3',['unitarySquare',['../namespace_diagram_editor_1_1_geometry_utils.html#abba5fee7731630ca1a2c6801bb1dd38c',1,'DiagramEditor::GeometryUtils']]],
   ['updatecommentbadgepos_4',['updateCommentBadgePos',['../class_diagram_editor_1_1_diagram_1_1_diagram_component.html#a3068ed800086063a62b3631d6c877141',1,'DiagramEditor::Diagram::DiagramComponent::updateCommentBadgePos()'],['../class_diagram_editor_1_1_specification_1_1_diagram_component.html#a3068ed800086063a62b3631d6c877141',1,'DiagramEditor::Specification::DiagramComponent::updateCommentBadgePos()']]],
   ['updategeometry_5',['updateGeometry',['../class_diagram_editor_1_1_diagram_1_1_diagram_item.html#a39d500fdaecfb8f4043f7a22989cbe2b',1,'DiagramEditor::Diagram::DiagramItem::updateGeometry()'],['../class_diagram_editor_1_1_gui_1_1_diagram_item.html#a39d500fdaecfb8f4043f7a22989cbe2b',1,'DiagramEditor::Gui::DiagramItem::updateGeometry()']]],
   ['updateparentposition_6',['updateParentPosition',['../class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html#aef5e430f5bedb5ff71d07a97984cbda3',1,'DiagramEditor::Diagram::ConnectableResizer::updateParentPosition()'],['../class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#ada3e2063d6bb80cc33f2abaa2ddca299',1,'DiagramEditor::Diagram::DiagramResizer::updateParentPosition()']]],

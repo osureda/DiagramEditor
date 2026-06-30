@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['linemarker_0',['LineMarker',['../namespace_geometry_utils.html#a7649d9820e81d33c35b70ab4f839fa09',1,'GeometryUtils']]]
+  ['linemarker_0',['LineMarker',['../namespace_diagram_editor_1_1_geometry_utils.html#addcb48e08b840eb6aa3139517a6829ee',1,'DiagramEditor::GeometryUtils']]]
 ];

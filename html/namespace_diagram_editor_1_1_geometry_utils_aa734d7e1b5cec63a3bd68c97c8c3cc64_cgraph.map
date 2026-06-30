@@ -1,0 +1,11 @@
+<map id="DiagramEditor::GeometryUtils::makePolygon" name="DiagramEditor::GeometryUtils::makePolygon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,202,148"/>
+<area shape="rect" id="Node000002" href="$namespace_diagram_editor_1_1_geometry_utils.html#a600c89d176155ace30cce7bd70f2481b" title=" " alt="" coords="250,5,446,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,102,249,58,268,53,263,55,251,62,151,107"/>
+<area shape="rect" id="Node000003" href="$namespace_diagram_editor_1_1_geometry_utils.html#a0157886de74c5bb22fc6a9a17191b9ca" title=" " alt="" coords="250,72,446,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,111,237,108,232,110,203,116"/>
+<area shape="rect" id="Node000004" href="$namespace_diagram_editor_1_1_geometry_utils.html#a430b61acf71ec8822ec163b0d3a9c1ec" title=" " alt="" coords="250,139,446,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,137,237,144,231,145,202,143"/>
+<area shape="rect" id="Node000005" href="$namespace_diagram_editor_1_1_geometry_utils.html#abba5fee7731630ca1a2c6801bb1dd38c" title=" " alt="" coords="250,205,446,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,146,251,191,268,200,263,199,249,196,149,151"/>
+</map>

@@ -17,11 +17,7 @@ class QColor;
 class QLineF;
 QT_END_NAMESPACE
 
-/**
- * @namespace GeometryUtils
- * @brief Contains helper functions and constants for geometry.
- */
-namespace GeometryUtils
+namespace DiagramEditor::GeometryUtils
 {
     /// The value of PI.
     const qreal PI = 3.1416;

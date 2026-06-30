@@ -1,7 +1,0 @@
-<map id="GeometryUtils::markerName" name="GeometryUtils::markerName">
-<area shape="rect" id="Node000001" title=" " alt="" coords="533,13,721,40"/>
-<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#ad105cbacebacdad116a8ce703c99e268" title=" " alt="" coords="291,5,485,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="515,27,485,29,485,24,520,27"/>
-<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a25528a84db6428e664bd24fa7cacfaea" title=" " alt="" coords="5,5,243,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="273,27,243,29,243,24,278,27"/>
-</map>

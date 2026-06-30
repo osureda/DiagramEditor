@@ -22,3 +22,8 @@
  * @namespace DiagramEditor::Serialization
  * @brief Contains the classes used for saving and loading diagrams.
  */
+
+/**
+ * @namespace DiagramEditor::GeometryUtils
+ * @brief Contains helper functions and constants for geometry.
+ */

@@ -1,7 +1,0 @@
-<map id="GeometryUtils::makePen" name="GeometryUtils::makePen">
-<area shape="rect" id="Node000001" title=" " alt="" coords="291,47,459,73"/>
-<area shape="rect" id="Node000002" href="$class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a25528a84db6428e664bd24fa7cacfaea" title=" " alt="" coords="5,5,243,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,47,243,45,243,40,278,46"/>
-<area shape="rect" id="Node000003" href="$class_diagram_editor_1_1_diagram_1_1_diagram_element.html#ae80718b4ca26a058c10541effc31bb7f" title=" " alt="" coords="14,72,234,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,74,234,81,234,76,278,73"/>
-</map>

@@ -125,7 +125,7 @@ QVariant ConnectableResizer::itemChange(GraphicsItemChange change, const QVarian
 void ConnectableResizer::updateParentPosition() {
     if (connectedComponent == nullptr) {
         DiagramResizer::updateParentPosition();
-    } else {
+    } else  {
         setSceneCenterPos(connectedComponent->closestConnectionPoint(parentItem->mapToScene(parentMappedPos) + rect().center()));
         parentComponent->resize();
     }

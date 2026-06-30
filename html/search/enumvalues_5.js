@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['none_0',['None',['../namespace_geometry_utils.html#a3487d3326bf0b14ec5655f9135404010a6adf97f83acf6453d4a6a4b1070f3754',1,'GeometryUtils::None'],['../namespace_geometry_utils.html#a7649d9820e81d33c35b70ab4f839fa09a6adf97f83acf6453d4a6a4b1070f3754',1,'GeometryUtils::None']]]
+  ['none_0',['None',['../namespace_diagram_editor_1_1_geometry_utils.html#ad0127185f7321fc1242155a349ca68d1a6adf97f83acf6453d4a6a4b1070f3754',1,'DiagramEditor::GeometryUtils::None'],['../namespace_diagram_editor_1_1_geometry_utils.html#addcb48e08b840eb6aa3139517a6829eea6adf97f83acf6453d4a6a4b1070f3754',1,'DiagramEditor::GeometryUtils::None']]]
 ];

@@ -1,11 +1,11 @@
 var searchData=
 [
   ['mainwindow_0',['MainWindow',['../class_diagram_editor_1_1_gui_1_1_main_window.html#a5ce33b553f00f804d1badc1083246039',1,'DiagramEditor::Gui::MainWindow::MainWindow()'],['../class_main_window.html#a5ce33b553f00f804d1badc1083246039',1,'MainWindow::MainWindow()']]],
-  ['makemarkerpolygon_1',['makeMarkerPolygon',['../namespace_geometry_utils.html#aa089525ba35da54fd59ce086ac1337a4',1,'GeometryUtils']]],
-  ['makepen_2',['makePen',['../namespace_geometry_utils.html#a754e94d5c015ea142f5927e15af8c4ca',1,'GeometryUtils']]],
-  ['makepolygon_3',['makePolygon',['../namespace_geometry_utils.html#a3edf721fcc70298838304c457fd543ad',1,'GeometryUtils']]],
-  ['markerfromstring_4',['markerFromString',['../namespace_geometry_utils.html#a12fc7b59c7fe207d0f4cc5bd68a9c43b',1,'GeometryUtils']]],
-  ['markername_5',['markerName',['../namespace_geometry_utils.html#a838cf67d13c94a9efe629bfe27c4da80',1,'GeometryUtils']]],
+  ['makemarkerpolygon_1',['makeMarkerPolygon',['../namespace_diagram_editor_1_1_geometry_utils.html#aba87b89860ad106ecdbc89e315d21e49',1,'DiagramEditor::GeometryUtils']]],
+  ['makepen_2',['makePen',['../namespace_diagram_editor_1_1_geometry_utils.html#a63f2ccd808fb9382166bc779e949ca90',1,'DiagramEditor::GeometryUtils']]],
+  ['makepolygon_3',['makePolygon',['../namespace_diagram_editor_1_1_geometry_utils.html#aa734d7e1b5cec63a3bd68c97c8c3cc64',1,'DiagramEditor::GeometryUtils']]],
+  ['markerfromstring_4',['markerFromString',['../namespace_diagram_editor_1_1_geometry_utils.html#a65305317e69a0d343cc3d8364fea1562',1,'DiagramEditor::GeometryUtils']]],
+  ['markername_5',['markerName',['../namespace_diagram_editor_1_1_geometry_utils.html#aa43720297a41e8bdb33440bc38c5a645',1,'DiagramEditor::GeometryUtils']]],
   ['mousemoveevent_6',['mouseMoveEvent',['../class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html#a22028e06fcbc3727ad5f9f2df362b83d',1,'DiagramEditor::Diagram::ConnectableResizer::mouseMoveEvent()'],['../class_diagram_editor_1_1_diagram_1_1_diagram.html#a58892f302f15fa871ead9d4d39b39b16',1,'DiagramEditor::Diagram::Diagram::mouseMoveEvent()'],['../class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#adc11e9abb4336b662807b70a7f7cbe73',1,'DiagramEditor::Diagram::DiagramResizer::mouseMoveEvent()'],['../class_diagram_editor_1_1_gui_1_1_diagram.html#a58892f302f15fa871ead9d4d39b39b16',1,'DiagramEditor::Gui::Diagram::mouseMoveEvent()']]],
   ['mousepressevent_7',['mousePressEvent',['../class_diagram_editor_1_1_diagram_1_1_diagram.html#a6ec137d96e1b6021f1ac586edcb8f40c',1,'DiagramEditor::Diagram::Diagram::mousePressEvent()'],['../class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#a3d3c4b43bff8db21cc7453b3d3654cc2',1,'DiagramEditor::Diagram::DiagramResizer::mousePressEvent()'],['../class_diagram_editor_1_1_gui_1_1_diagram.html#a6ec137d96e1b6021f1ac586edcb8f40c',1,'DiagramEditor::Gui::Diagram::mousePressEvent()']]],
   ['mousereleaseevent_8',['mouseReleaseEvent',['../class_diagram_editor_1_1_diagram_1_1_connectable_resizer.html#a9f7552c99fed74b9f991c68706167213',1,'DiagramEditor::Diagram::ConnectableResizer::mouseReleaseEvent()'],['../class_diagram_editor_1_1_diagram_1_1_diagram_resizer.html#aafa1a51d4ed774f0542a351e46649675',1,'DiagramEditor::Diagram::DiagramResizer::mouseReleaseEvent()']]],

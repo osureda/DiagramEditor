@@ -2,7 +2,7 @@ var searchData=
 [
   ['lefticonbutton_0',['leftIconButton',['../class_diagram_editor_1_1_gui_1_1_selectable_data_button.html#a2dc770bf91bffed90444b0e38b80fd32',1,'DiagramEditor::Gui::SelectableDataButton']]],
   ['line_5fwidth_1',['LINE_WIDTH',['../class_diagram_editor_1_1_diagram_1_1_diagram_connection.html#a8dffd3270f27a60ceccf734cca28b269',1,'DiagramEditor::Diagram::DiagramConnection::LINE_WIDTH'],['../class_diagram_editor_1_1_specification_1_1_diagram_connection.html#a8dffd3270f27a60ceccf734cca28b269',1,'DiagramEditor::Specification::DiagramConnection::LINE_WIDTH']]],
-  ['linemarker_2',['LineMarker',['../namespace_geometry_utils.html#a7649d9820e81d33c35b70ab4f839fa09',1,'GeometryUtils']]],
+  ['linemarker_2',['LineMarker',['../namespace_diagram_editor_1_1_geometry_utils.html#addcb48e08b840eb6aa3139517a6829ee',1,'DiagramEditor::GeometryUtils']]],
   ['listspecification_3',['ListSpecification',['../class_diagram_editor_1_1_specification_1_1_list_specification.html',1,'DiagramEditor::Specification::ListSpecification'],['../class_diagram_editor_1_1_specification_1_1_list_specification.html#aa4e5588204d8b996ebf4b1a5bc780277',1,'DiagramEditor::Specification::ListSpecification::ListSpecification()']]],
   ['listspecification_2ecpp_4',['listspecification.cpp',['../listspecification_8cpp.html',1,'']]],
   ['listspecification_2eh_5',['listspecification.h',['../listspecification_8h.html',1,'']]],

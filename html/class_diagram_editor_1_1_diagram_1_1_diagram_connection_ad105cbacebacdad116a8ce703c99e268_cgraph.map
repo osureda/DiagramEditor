@@ -1,7 +1,7 @@
 <map id="DiagramEditor::Diagram::DiagramConnection::toHash" name="DiagramEditor::Diagram::DiagramConnection::toHash">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,200,65"/>
-<area shape="rect" id="Node000002" href="$namespace_geometry_utils.html#a838cf67d13c94a9efe629bfe27c4da80" title=" " alt="" coords="248,5,436,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,31,235,30,229,31,201,36"/>
-<area shape="rect" id="Node000003" href="$namespace_geometry_utils.html#abe73989920f4e0aa207e21c32b000e19" title=" " alt="" coords="250,56,434,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,52,237,58,232,58,200,57"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,200,81"/>
+<area shape="rect" id="Node000002" href="$namespace_diagram_editor_1_1_geometry_utils.html#aa43720297a41e8bdb33440bc38c5a645" title=" " alt="" coords="248,5,444,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,44,235,42,230,43,201,49"/>
+<area shape="rect" id="Node000003" href="$namespace_diagram_editor_1_1_geometry_utils.html#a3b11de571e4050f5f76390afbd5f50df" title=" " alt="" coords="248,72,444,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,71,235,78,230,78,200,76"/>
 </map>

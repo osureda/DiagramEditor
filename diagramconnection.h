@@ -33,6 +33,7 @@ class ConnectableResizer;
 class DiagramItem;
 using DiagramEditor::Specification::ConnectionSpecifications;
 using DiagramEditor::Specification::SpecificationsForm;
+namespace GeometryUtils = DiagramEditor::GeometryUtils;
 
 /**
  * @class DiagramConnection

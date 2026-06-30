@@ -13,7 +13,7 @@
 #include <QtGlobal>
 #include <QTransform>
 
-namespace GeometryUtils
+namespace DiagramEditor::GeometryUtils
 {
     Stroke strokeFromString(const QString &string) {
         if (string == "dashed") {

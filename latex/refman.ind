@@ -70,7 +70,7 @@
     \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
 		\hyperpage{265}
   \item {arrowHeadVertices}
-    \subitem {GeometryUtils}, \hyperpage{18}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
 
   \indexspace
 
@@ -107,22 +107,22 @@
     \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{141}
     \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{154}
   \item {Circle}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
   \item {clear}
     \subitem {DiagramEditor::Gui::ScrollableDataButtonsSelector}, 
 		\hyperpage{233}
     \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
 		\hyperpage{266}
   \item {ClosedArrow}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{15}
   \item {closedArrowHead}
-    \subitem {GeometryUtils}, \hyperpage{18}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{17}
   \item {closestConnectionPoint}
     \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{85}
     \subitem {DiagramEditor::Specification::DiagramComponent}, 
 		\hyperpage{98}
   \item {closestPointOnSegment}
-    \subitem {GeometryUtils}, \hyperpage{19}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{18}
   \item {componentAt}
     \subitem {DiagramEditor::Diagram::DiagramItem}, \hyperpage{141}
     \subitem {DiagramEditor::Gui::DiagramItem}, \hyperpage{154}
@@ -179,7 +179,7 @@
   \indexspace
 
   \item {Dashed}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
   \item {data}
     \subitem {DiagramEditor::Gui::SelectableDataButton}, 
 		\hyperpage{239}
@@ -368,7 +368,37 @@
     \subitem {fieldResults}, \hyperpage{254}
     \subitem {formCount}, \hyperpage{255}
     \subitem {SpecificationsForm}, \hyperpage{253}
-  \item {DiagramEditor::Gui}, \hyperpage{14}
+  \item {DiagramEditor::GeometryUtils}, \hyperpage{14}
+    \subitem {arrowHeadVertices}, \hyperpage{16}
+    \subitem {Circle}, \hyperpage{16}
+    \subitem {ClosedArrow}, \hyperpage{15}
+    \subitem {closedArrowHead}, \hyperpage{17}
+    \subitem {closestPointOnSegment}, \hyperpage{18}
+    \subitem {Dashed}, \hyperpage{16}
+    \subitem {Diamond}, \hyperpage{16}
+    \subitem {LineMarker}, \hyperpage{15}
+    \subitem {makeMarkerPolygon}, \hyperpage{18}
+    \subitem {makePen}, \hyperpage{19}
+    \subitem {makePolygon}, \hyperpage{20}
+    \subitem {markerFromString}, \hyperpage{21}
+    \subitem {markerName}, \hyperpage{21}
+    \subitem {None}, \hyperpage{15, 16}
+    \subitem {OpenedArrow}, \hyperpage{15}
+    \subitem {openedArrowHead}, \hyperpage{22}
+    \subitem {Paper}, \hyperpage{16}
+    \subitem {PolygonShape}, \hyperpage{15}
+    \subitem {shapeFromString}, \hyperpage{23}
+    \subitem {shapeName}, \hyperpage{24}
+    \subitem {Solid}, \hyperpage{16}
+    \subitem {Square}, \hyperpage{16}
+    \subitem {Stroke}, \hyperpage{16}
+    \subitem {strokeFromString}, \hyperpage{24}
+    \subitem {strokeName}, \hyperpage{25}
+    \subitem {unitaryCircle}, \hyperpage{26}
+    \subitem {unitaryDiamond}, \hyperpage{26}
+    \subitem {unitaryPaper}, \hyperpage{27}
+    \subitem {unitarySquare}, \hyperpage{27}
+  \item {DiagramEditor::Gui}, \hyperpage{28}
   \item {DiagramEditor::Gui::Diagram}, \hyperpage{71}
     \subitem {AddItemMode}, \hyperpage{74}
     \subitem {AddResizerMode}, \hyperpage{74}
@@ -453,7 +483,7 @@
     \subitem {selectedConfiguration}, \hyperpage{275}
     \subitem {Wizard}, \hyperpage{274}
   \item {DiagramEditor::Gui::Wizard::Configuration}, \hyperpage{35}
-  \item {DiagramEditor::Serialization}, \hyperpage{15}
+  \item {DiagramEditor::Serialization}, \hyperpage{29}
   \item {DiagramEditor::Serialization::JsonFile}, \hyperpage{201}
     \subitem {hashForKey}, \hyperpage{203}
     \subitem {hashToText}, \hyperpage{203}
@@ -467,7 +497,7 @@
     \subitem {filteredHashByKeys}, \hyperpage{213}
     \subitem {loadFromHash}, \hyperpage{213}
     \subitem {toHash}, \hyperpage{214}
-  \item {DiagramEditor::Specification}, \hyperpage{15}
+  \item {DiagramEditor::Specification}, \hyperpage{29}
   \item {DiagramEditor::Specification::ConnectionSpecifications}, 
 		\hyperpage{51}
     \subitem {Above}, \hyperpage{54}
@@ -629,7 +659,7 @@
   \item {diagramTypes}
     \subitem {DiagramEditor::Gui::DiagramTypeGroup}, \hyperpage{181}
   \item {Diamond}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
 
   \indexspace
 
@@ -686,36 +716,6 @@
 
   \indexspace
 
-  \item {GeometryUtils}, \hyperpage{16}
-    \subitem {arrowHeadVertices}, \hyperpage{18}
-    \subitem {Circle}, \hyperpage{17}
-    \subitem {ClosedArrow}, \hyperpage{17}
-    \subitem {closedArrowHead}, \hyperpage{18}
-    \subitem {closestPointOnSegment}, \hyperpage{19}
-    \subitem {Dashed}, \hyperpage{17}
-    \subitem {Diamond}, \hyperpage{17}
-    \subitem {LineMarker}, \hyperpage{17}
-    \subitem {makeMarkerPolygon}, \hyperpage{20}
-    \subitem {makePen}, \hyperpage{20}
-    \subitem {makePolygon}, \hyperpage{21}
-    \subitem {markerFromString}, \hyperpage{22}
-    \subitem {markerName}, \hyperpage{23}
-    \subitem {None}, \hyperpage{17}
-    \subitem {OpenedArrow}, \hyperpage{17}
-    \subitem {openedArrowHead}, \hyperpage{23}
-    \subitem {Paper}, \hyperpage{17}
-    \subitem {PolygonShape}, \hyperpage{17}
-    \subitem {shapeFromString}, \hyperpage{24}
-    \subitem {shapeName}, \hyperpage{25}
-    \subitem {Solid}, \hyperpage{17}
-    \subitem {Square}, \hyperpage{17}
-    \subitem {Stroke}, \hyperpage{17}
-    \subitem {strokeFromString}, \hyperpage{26}
-    \subitem {strokeName}, \hyperpage{26}
-    \subitem {unitaryCircle}, \hyperpage{27}
-    \subitem {unitaryDiamond}, \hyperpage{27}
-    \subitem {unitaryPaper}, \hyperpage{28}
-    \subitem {unitarySquare}, \hyperpage{28}
   \item {geometryutils.cpp}, \hyperpage{314}
   \item {geometryutils.h}, \hyperpage{316}
   \item {graphicsItem}
@@ -781,7 +781,7 @@
     \subitem {DiagramEditor::Gui::SelectableDataButton}, 
 		\hyperpage{239}
   \item {LineMarker}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{15}
   \item {ListSpecification}
     \subitem {DiagramEditor::Specification::ListSpecification}, 
 		\hyperpage{218}
@@ -844,15 +844,15 @@
   \item {mainwindow.cpp}, \hyperpage{330}
   \item {mainwindow.h}, \hyperpage{331}
   \item {makeMarkerPolygon}
-    \subitem {GeometryUtils}, \hyperpage{20}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{18}
   \item {makePen}
-    \subitem {GeometryUtils}, \hyperpage{20}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{19}
   \item {makePolygon}
-    \subitem {GeometryUtils}, \hyperpage{21}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{20}
   \item {markerFromString}
-    \subitem {GeometryUtils}, \hyperpage{22}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{21}
   \item {markerName}
-    \subitem {GeometryUtils}, \hyperpage{23}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{21}
   \item {mouseMoveEvent}
     \subitem {DiagramEditor::Diagram::ConnectableResizer}, 
 		\hyperpage{42}
@@ -883,23 +883,23 @@
     \subitem {DiagramEditor::Diagram::Diagram}, \hyperpage{68}
     \subitem {DiagramEditor::Gui::Diagram}, \hyperpage{78}
   \item {None}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{15, 16}
 
   \indexspace
 
   \item {OpenedArrow}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{15}
   \item {openedArrowHead}
-    \subitem {GeometryUtils}, \hyperpage{23}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{22}
 
   \indexspace
 
   \item {Paper}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
   \item {parentComponent}
     \subitem {DiagramEditor::Diagram::DiagramResizer}, \hyperpage{169}
   \item {PolygonShape}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{15}
   \item {positionChanged}
     \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{88}
     \subitem {DiagramEditor::Specification::DiagramComponent}, 
@@ -1024,9 +1024,9 @@
     \subitem {DiagramEditor::Specification::DiagramElement}, 
 		\hyperpage{136}
   \item {shapeFromString}
-    \subitem {GeometryUtils}, \hyperpage{24}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{23}
   \item {shapeName}
-    \subitem {GeometryUtils}, \hyperpage{25}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{24}
   \item {ShortTextSpecification}
     \subitem {DiagramEditor::Specification::ShortTextSpecification}, 
 		\hyperpage{250}
@@ -1043,7 +1043,7 @@
     \subitem {DiagramEditor::Specification::ElementSpecifications}, 
 		\hyperpage{195}
   \item {Solid}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
   \item {specificationFromTypeName}
     \subitem {DiagramEditor::Specification::SpecificationsGroup}, 
 		\hyperpage{269}
@@ -1078,13 +1078,13 @@
   \item {specificationsgroup.cpp}, \hyperpage{347}
   \item {specificationsgroup.h}, \hyperpage{348}
   \item {Square}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
   \item {Stroke}
-    \subitem {GeometryUtils}, \hyperpage{17}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{16}
   \item {strokeFromString}
-    \subitem {GeometryUtils}, \hyperpage{26}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{24}
   \item {strokeName}
-    \subitem {GeometryUtils}, \hyperpage{26}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{25}
   \item {STYLE\_SHEET}
     \subitem {DiagramEditor::Gui::SelectableDataButton}, 
 		\hyperpage{241}
@@ -1140,13 +1140,13 @@
   \indexspace
 
   \item {unitaryCircle}
-    \subitem {GeometryUtils}, \hyperpage{27}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{26}
   \item {unitaryDiamond}
-    \subitem {GeometryUtils}, \hyperpage{27}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{26}
   \item {unitaryPaper}
-    \subitem {GeometryUtils}, \hyperpage{28}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{27}
   \item {unitarySquare}
-    \subitem {GeometryUtils}, \hyperpage{28}
+    \subitem {DiagramEditor::GeometryUtils}, \hyperpage{27}
   \item {updateCommentBadgePos}
     \subitem {DiagramEditor::Diagram::DiagramComponent}, \hyperpage{92}
     \subitem {DiagramEditor::Specification::DiagramComponent}, 

@@ -13,36 +13,36 @@
 \contentsline {subsection}{\numberline {6.1.1}Detailed Description}{13}{subsection.6.1.1}%
 \contentsline {section}{\numberline {6.2}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram Namespace Reference}{13}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Detailed Description}{14}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui Namespace Reference}{14}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Geometry\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils Namespace Reference}{14}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Detailed Description}{15}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serialization Namespace Reference}{15}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{15}{subsection.6.4.1}%
-\contentsline {section}{\numberline {6.5}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Namespace Reference}{15}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{16}{subsection.6.5.1}%
-\contentsline {section}{\numberline {6.6}Geometry\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils Namespace Reference}{16}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{17}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Enumeration Type Documentation}{17}{subsection.6.6.2}%
-\contentsline {subsubsection}{\numberline {6.6.2.1}LineMarker}{17}{subsubsection.6.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.6.2.2}PolygonShape}{17}{subsubsection.6.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.6.2.3}Stroke}{17}{subsubsection.6.6.2.3}%
-\contentsline {subsection}{\numberline {6.6.3}Function Documentation}{18}{subsection.6.6.3}%
-\contentsline {subsubsection}{\numberline {6.6.3.1}arrowHeadVertices()}{18}{subsubsection.6.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.6.3.2}closedArrowHead()}{18}{subsubsection.6.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.6.3.3}closestPointOnSegment()}{19}{subsubsection.6.6.3.3}%
-\contentsline {subsubsection}{\numberline {6.6.3.4}makeMarkerPolygon()}{20}{subsubsection.6.6.3.4}%
-\contentsline {subsubsection}{\numberline {6.6.3.5}makePen()}{21}{subsubsection.6.6.3.5}%
-\contentsline {subsubsection}{\numberline {6.6.3.6}makePolygon()}{21}{subsubsection.6.6.3.6}%
-\contentsline {subsubsection}{\numberline {6.6.3.7}markerFromString()}{22}{subsubsection.6.6.3.7}%
-\contentsline {subsubsection}{\numberline {6.6.3.8}markerName()}{23}{subsubsection.6.6.3.8}%
-\contentsline {subsubsection}{\numberline {6.6.3.9}openedArrowHead()}{24}{subsubsection.6.6.3.9}%
-\contentsline {subsubsection}{\numberline {6.6.3.10}shapeFromString()}{25}{subsubsection.6.6.3.10}%
-\contentsline {subsubsection}{\numberline {6.6.3.11}shapeName()}{25}{subsubsection.6.6.3.11}%
-\contentsline {subsubsection}{\numberline {6.6.3.12}strokeFromString()}{26}{subsubsection.6.6.3.12}%
-\contentsline {subsubsection}{\numberline {6.6.3.13}strokeName()}{27}{subsubsection.6.6.3.13}%
-\contentsline {subsubsection}{\numberline {6.6.3.14}unitaryCircle()}{27}{subsubsection.6.6.3.14}%
-\contentsline {subsubsection}{\numberline {6.6.3.15}unitaryDiamond()}{28}{subsubsection.6.6.3.15}%
-\contentsline {subsubsection}{\numberline {6.6.3.16}unitaryPaper()}{28}{subsubsection.6.6.3.16}%
-\contentsline {subsubsection}{\numberline {6.6.3.17}unitarySquare()}{29}{subsubsection.6.6.3.17}%
+\contentsline {subsection}{\numberline {6.3.2}Enumeration Type Documentation}{15}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}LineMarker}{15}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}PolygonShape}{16}{subsubsection.6.3.2.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.3}Stroke}{16}{subsubsection.6.3.2.3}%
+\contentsline {subsection}{\numberline {6.3.3}Function Documentation}{16}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}arrowHeadVertices()}{16}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}closedArrowHead()}{17}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}closestPointOnSegment()}{18}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}makeMarkerPolygon()}{18}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}makePen()}{19}{subsubsection.6.3.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.3.6}makePolygon()}{20}{subsubsection.6.3.3.6}%
+\contentsline {subsubsection}{\numberline {6.3.3.7}markerFromString()}{21}{subsubsection.6.3.3.7}%
+\contentsline {subsubsection}{\numberline {6.3.3.8}markerName()}{22}{subsubsection.6.3.3.8}%
+\contentsline {subsubsection}{\numberline {6.3.3.9}openedArrowHead()}{22}{subsubsection.6.3.3.9}%
+\contentsline {subsubsection}{\numberline {6.3.3.10}shapeFromString()}{23}{subsubsection.6.3.3.10}%
+\contentsline {subsubsection}{\numberline {6.3.3.11}shapeName()}{24}{subsubsection.6.3.3.11}%
+\contentsline {subsubsection}{\numberline {6.3.3.12}strokeFromString()}{25}{subsubsection.6.3.3.12}%
+\contentsline {subsubsection}{\numberline {6.3.3.13}strokeName()}{25}{subsubsection.6.3.3.13}%
+\contentsline {subsubsection}{\numberline {6.3.3.14}unitaryCircle()}{26}{subsubsection.6.3.3.14}%
+\contentsline {subsubsection}{\numberline {6.3.3.15}unitaryDiamond()}{27}{subsubsection.6.3.3.15}%
+\contentsline {subsubsection}{\numberline {6.3.3.16}unitaryPaper()}{27}{subsubsection.6.3.3.16}%
+\contentsline {subsubsection}{\numberline {6.3.3.17}unitarySquare()}{28}{subsubsection.6.3.3.17}%
+\contentsline {section}{\numberline {6.4}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gui Namespace Reference}{28}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{29}{subsection.6.4.1}%
+\contentsline {section}{\numberline {6.5}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Serialization Namespace Reference}{29}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{29}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Specification Namespace Reference}{29}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{30}{subsection.6.6.1}%
 \contentsline {chapter}{\numberline {7}Class Documentation}{31}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Diagram\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Item::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Component Struct Reference}{31}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}Detailed Description}{33}{subsection.7.1.1}%

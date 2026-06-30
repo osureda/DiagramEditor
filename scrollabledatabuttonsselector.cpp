@@ -55,7 +55,9 @@ void ScrollableDataButtonsSelector::addButtons(const QVariantHash &buttonsData) 
 }
 
 QVariantHash ScrollableDataButtonsSelector::selectedButtonData() const {
-    const SelectableDataButton *button = qobject_cast<SelectableDataButton*>(buttons->checkedButton());
+    SelectableDataButton *button = nButtons > 0
+        ? qobject_cast<SelectableDataButton*>(buttons->checkedButton())
+        : nullptr;
 
     return button == nullptr
         ? QVariantHash{}
