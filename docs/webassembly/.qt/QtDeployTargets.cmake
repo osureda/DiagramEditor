@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_DiagramEditor_FILE C:/Users/osure/Documents/DiagramEditor/build/WebAssembly_Qt_6_11_1_single_threaded-Release/DiagramEditor.js)
+set(__QT_DEPLOY_TARGET_DiagramEditor_TYPE EXECUTABLE)
